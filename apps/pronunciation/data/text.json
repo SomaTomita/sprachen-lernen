@@ -1,0 +1,2268 @@
+{
+  "id": "vorstellung",
+  "title": "Vorstellung — Anna",
+  "title_ja": "自己紹介 — アンナ",
+  "voice": "de-DE-KatjaNeural",
+  "source": "テキスト: 教材 Vorstellung（Anna の自己紹介、全3段落）。発音解説: YouTube 日本独文学会『音読トレーニング』。音声は edge-tts(de-DE-KatjaNeural) 生成。",
+  "note": "第1〜第3段落ともユーザー提供のスクリーンショット原文に一致。数詞は教材どおり数字表記（音声は読み上げ語で生成）。",
+  "glossary": {
+    "mein": "my", "meine": "my", "meinen": "my", "meiner": "my",
+    "name": "name", "ist": "is", "anna": "Anna",
+    "ich": "I", "komme": "come", "aus": "from", "österreich": "Austria",
+    "und": "and", "lebe": "live", "seit": "since / for", "drei": "three",
+    "jahre": "years", "jahren": "years", "in": "in", "deutschland": "Germany",
+    "bin": "am", "fünfzehn": "fifteen", "alt": "old", "habe": "have",
+    "zwei": "two", "geschwister": "siblings", "schwester": "sister",
+    "heißt": "is called", "klara": "Klara", "dreizehn": "thirteen",
+    "bruder": "brother", "michael": "Michael", "achtzehn": "eighteen",
+    "wir": "we", "wohnen": "live", "mit": "with", "unseren": "our",
+    "eltern": "parents", "einem": "a", "haus": "house", "der": "the",
+    "nähe": "vicinity (near)", "von": "of / from", "münchen": "Munich",
+    "mutter": "mother", "köchin": "cook (female)", "vater": "father",
+    "arbeitet": "works", "einer": "a", "bank": "bank",
+    "lese": "read", "gerne": "gladly", "mag": "like", "tiere": "animals",
+    "haben": "have", "einen": "a", "hund": "dog", "katzen": "cats",
+    "im": "in the", "garten": "garden", "teich": "pond",
+    "goldfischen": "goldfish", "gehe": "go", "auch": "also", "die": "the",
+    "schule": "school", "lieblingsfach": "favorite subject",
+    "mathematik": "mathematics", "physik": "physics", "chemie": "chemistry",
+    "nicht": "not", "so": "so",
+    "nach": "after", "oft": "often", "freundinnen": "(female) friends",
+    "park": "park", "spazieren": "to take a walk", "manchmal": "sometimes",
+    "essen": "to eat", "ein": "a / one", "eis": "ice cream",
+    "am": "on (the)", "samstag": "Saturday", "gehen": "go", "ins": "into the",
+    "kino": "cinema", "sonntag": "Sunday", "schlafe": "sleep", "lange": "(for) a long time",
+    "dann": "then", "koche": "cook", "das": "the", "mittagessen": "lunch",
+    "dem": "the", "see": "lake", "lieblingstag": "favorite day"
+  },
+  "rules": [
+    {
+      "id": "v-as-f",
+      "label": "V は無声音 /f/",
+      "detail": "「V」は濁らせない。Vorstellung は「フォアシュテルング」、Vater は「ファータ」、von は「フォン」。",
+      "examples": [
+        "Vater",
+        "von"
+      ]
+    },
+    {
+      "id": "w-as-v",
+      "label": "W は /v/",
+      "detail": "唇を使う「ヴ」。wohnen=「ヴォーネン」、wir、Schwester。",
+      "examples": [
+        "wohnen",
+        "wir"
+      ]
+    },
+    {
+      "id": "s-as-z",
+      "label": "母音前の S は /z/",
+      "detail": "語頭・母音前の s は濁る。seit=「ザイト」、so、lese=「レーゼ」、See。",
+      "examples": [
+        "seit",
+        "lese",
+        "See"
+      ]
+    },
+    {
+      "id": "ss-sharp-s",
+      "label": "ß / ss は鋭い /s/",
+      "detail": "無声のはっきりした s。heißt。",
+      "examples": [
+        "heißt"
+      ]
+    },
+    {
+      "id": "sch-as-sh",
+      "label": "sch は /ʃ/「シュ」",
+      "detail": "sch はまとめて「シュ」。Schule、Schwester、schlafe、Tisch。",
+      "examples": [
+        "Schule",
+        "Schwester"
+      ]
+    },
+    {
+      "id": "final-d-devoiced",
+      "label": "語末 d → /t/",
+      "detail": "語末の d は無声化。und=「ウント」、Hund=「フント」、Deutschland。",
+      "examples": [
+        "und",
+        "Hund"
+      ]
+    },
+    {
+      "id": "final-g-devoiced",
+      "label": "語末 g → /k/",
+      "detail": "語末の g は /k/。Tag=「ターク」、mag=「マク」、Samstag、Sonntag。",
+      "examples": [
+        "mag",
+        "Samstag"
+      ]
+    },
+    {
+      "id": "ei-as-ai",
+      "label": "つづり ei → /ai/",
+      "detail": "「ai（アイ）」と読む。mein、drei、heißt、Eis。",
+      "examples": [
+        "mein",
+        "drei",
+        "Eis"
+      ]
+    },
+    {
+      "id": "eu-as-oy",
+      "label": "つづり eu → /ɔy/",
+      "detail": "「オイ」。Deutschland、Freundinnen、neun。",
+      "examples": [
+        "Deutschland",
+        "Freundinnen"
+      ]
+    },
+    {
+      "id": "au-diphthong",
+      "label": "au は二重母音「ア→オ」",
+      "detail": "「アウ」と切らず滑らせる。aus、Haus、auch。",
+      "examples": [
+        "aus",
+        "Haus",
+        "auch"
+      ]
+    },
+    {
+      "id": "ie-long-i",
+      "label": "つづり ie → 長い /iː/",
+      "detail": "「イー」。Lieblingsfach、Tiere、spazieren、die。",
+      "examples": [
+        "Tiere",
+        "die"
+      ]
+    },
+    {
+      "id": "final-vowel-schwa",
+      "label": "語末 -e/-a はあいまい母音 /ə/",
+      "detail": "軽く曖昧に。Name、Schule、gerne、Anna、Klara、Tiere、Nähe。",
+      "examples": [
+        "Name",
+        "Anna"
+      ]
+    },
+    {
+      "id": "final-er-vocalized",
+      "label": "語末 -er は母音化 /ɐ/",
+      "detail": "「アー」に近く、巻かない。Bruder=「ブルーダ」、Schwester、Vater、Mutter、der。",
+      "examples": [
+        "Bruder",
+        "Mutter"
+      ]
+    },
+    {
+      "id": "final-en-reduced",
+      "label": "語末 -en は弱く飲み込む",
+      "detail": "速いほど曖昧。wohnen、haben、Katzen、Goldfischen、gehen、essen。",
+      "examples": [
+        "wohnen",
+        "essen"
+      ]
+    },
+    {
+      "id": "ich-laut",
+      "label": "ch(e/i/ä/ö/ü・子音後) = /ç/",
+      "detail": "前舌のやわらか摩擦。ich、nicht、München、Chemie、Teich、Köchin。",
+      "examples": [
+        "ich",
+        "München",
+        "Chemie"
+      ]
+    },
+    {
+      "id": "ach-laut",
+      "label": "ch(a/o/u/au後) = /x/",
+      "detail": "のどの奥で息を擦る。Nach、auch、koche、Fach、Lieblingsfach。",
+      "examples": [
+        "Nach",
+        "auch"
+      ]
+    },
+    {
+      "id": "ae-umlaut",
+      "label": "ä は「エー」/ɛ(ː)/",
+      "detail": "ä は ö/ü と違い唇を丸めない開いた「エー」。Nähe=「ネーエ」、Mädchen、März。",
+      "examples": [
+        "Nähe"
+      ]
+    },
+    {
+      "id": "oe-umlaut",
+      "label": "ö = 唇を縦に丸め舌を前へ",
+      "detail": "鏡で口の形を確認。Österreich、Köchin。",
+      "examples": [
+        "Österreich",
+        "Köchin"
+      ]
+    },
+    {
+      "id": "ue-umlaut",
+      "label": "ü = 唇を鋭くすぼめ舌を前へ",
+      "detail": "ö より狭い。fünfzehn、München、für。",
+      "examples": [
+        "fünfzehn",
+        "München"
+      ]
+    },
+    {
+      "id": "z-as-ts",
+      "label": "z = /ts/、zw は母音を挟まない",
+      "detail": "zwei=「ツヴァイ」、Katzen(tz)、zehn。",
+      "examples": [
+        "zwei"
+      ]
+    },
+    {
+      "id": "sp-st-shp",
+      "label": "語頭 sp/st = /ʃp, ʃt/",
+      "detail": "「シュプ/シュト」。spazieren=「シュパツィーレン」。",
+      "examples": [
+        "spazieren"
+      ]
+    },
+    {
+      "id": "ph-as-f",
+      "label": "Ph = /f/",
+      "detail": "Physik=「フュズィーク」。",
+      "examples": [
+        "Physik"
+      ]
+    },
+    {
+      "id": "german-l",
+      "label": "L は舌先を上前歯裏に強く",
+      "detail": "英語の軽い L と別物。Eltern、Schule、Klara、alt。",
+      "examples": [
+        "Eltern",
+        "alt"
+      ]
+    },
+    {
+      "id": "german-r",
+      "label": "R はのど奥の摩擦（口蓋垂）",
+      "detail": "やわらかく。Österreich、gerne、Park、arbeitet。",
+      "examples": [
+        "gerne",
+        "Park"
+      ]
+    },
+    {
+      "id": "accent-first",
+      "label": "アクセントは原則第1音節",
+      "detail": "arbeitet=「アルバイテット」（第1音節）、Vorstellung、Anna。",
+      "examples": [
+        "arbeitet"
+      ]
+    },
+    {
+      "id": "compound-pause",
+      "label": "複合語は境目で軽く区切る",
+      "detail": "Österreich(Öster+reich)、Deutschland、Lieblingsfach、Mittagessen。",
+      "examples": [
+        "Mittagessen",
+        "Lieblingsfach"
+      ]
+    },
+    {
+      "id": "final-m-close-lips",
+      "label": "m は唇を閉じる / n は閉じない",
+      "detail": "im と in を区別。einem、meinen、dem、am。",
+      "examples": [
+        "im",
+        "einem"
+      ]
+    },
+    {
+      "id": "liaison-rhythm",
+      "label": "短語の連続は全体のリズムで繋ぐ",
+      "detail": "1語ずつ強く言わない。mag ich nicht so gerne。",
+      "examples": [
+        "mag",
+        "nicht"
+      ]
+    },
+    {
+      "id": "rhythm-keep-pitch",
+      "label": "途中はピッチを保つ/上げる",
+      "detail": "文の途中（コンマ・コロン）で下げると終わった感じに。続くときは保つ/上げる。文末はきちんと閉じる。",
+      "examples": []
+    },
+    {
+      "id": "sense-group-breath",
+      "label": "意味のまとまりで息継ぎ",
+      "detail": "seit drei Jahren / in Deutschland のように区切る。",
+      "examples": [
+        "seit"
+      ]
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "p1",
+      "sentences": [
+        {
+          "id": "p1-s1",
+          "de": "Mein Name ist Anna.",
+          "ja": "私の名前はアンナです。",
+          "audio": "audio/p1-s1.mp3",
+          "timing": [
+            {
+              "w": "Mein",
+              "s": 0.1,
+              "e": 0.4
+            },
+            {
+              "w": "Name",
+              "s": 0.412,
+              "e": 0.812
+            },
+            {
+              "w": "ist",
+              "s": 0.825,
+              "e": 1.062
+            },
+            {
+              "w": "Anna",
+              "s": 1.075,
+              "e": 1.413
+            }
+          ],
+          "tokens": [
+            {
+              "t": "Mein",
+              "r": [
+                "ei-as-ai"
+              ]
+            },
+            {
+              "t": "Name",
+              "r": [
+                "final-vowel-schwa"
+              ]
+            },
+            {
+              "t": "ist",
+              "r": []
+            },
+            {
+              "t": "Anna.",
+              "word": "Anna",
+              "r": [
+                "accent-first",
+                "final-vowel-schwa"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p1-s2",
+          "de": "Ich komme aus Österreich und lebe seit drei Jahren in Deutschland.",
+          "ja": "私はオーストリア出身で、3年前からドイツに住んでいます。",
+          "audio": "audio/p1-s2.mp3",
+          "timing": [
+            {
+              "w": "Ich",
+              "s": 0.1,
+              "e": 0.275
+            },
+            {
+              "w": "komme",
+              "s": 0.287,
+              "e": 0.575
+            },
+            {
+              "w": "aus",
+              "s": 0.588,
+              "e": 0.812
+            },
+            {
+              "w": "Österreich",
+              "s": 0.825,
+              "e": 1.488
+            },
+            {
+              "w": "und",
+              "s": 1.5,
+              "e": 1.675
+            },
+            {
+              "w": "lebe",
+              "s": 1.688,
+              "e": 1.962
+            },
+            {
+              "w": "seit",
+              "s": 1.975,
+              "e": 2.2
+            },
+            {
+              "w": "drei",
+              "s": 2.212,
+              "e": 2.413
+            },
+            {
+              "w": "Jahren",
+              "s": 2.425,
+              "e": 2.888
+            },
+            {
+              "w": "in",
+              "s": 2.9,
+              "e": 3.013
+            },
+            {
+              "w": "Deutschland",
+              "s": 3.025,
+              "e": 3.775
+            }
+          ],
+          "tokens": [
+            {
+              "t": "Ich",
+              "r": [
+                "ich-laut"
+              ]
+            },
+            {
+              "t": "komme",
+              "r": [
+                "final-vowel-schwa"
+              ]
+            },
+            {
+              "t": "aus",
+              "r": [
+                "au-diphthong"
+              ]
+            },
+            {
+              "t": "Österreich",
+              "r": [
+                "oe-umlaut",
+                "compound-pause",
+                "ei-as-ai",
+                "german-r"
+              ]
+            },
+            {
+              "t": "und",
+              "r": [
+                "final-d-devoiced"
+              ]
+            },
+            {
+              "t": "lebe",
+              "r": [
+                "s-as-z",
+                "final-vowel-schwa"
+              ]
+            },
+            {
+              "t": "seit",
+              "r": [
+                "s-as-z",
+                "ei-as-ai",
+                "sense-group-breath"
+              ]
+            },
+            {
+              "t": "drei",
+              "r": [
+                "ei-as-ai",
+                "german-r"
+              ]
+            },
+            {
+              "t": "Jahren",
+              "r": [
+                "final-en-reduced"
+              ]
+            },
+            {
+              "t": "in",
+              "r": []
+            },
+            {
+              "t": "Deutschland.",
+              "word": "Deutschland",
+              "r": [
+                "eu-as-oy",
+                "final-d-devoiced",
+                "compound-pause"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p1-s3",
+          "de": "Ich bin fünfzehn Jahre alt und habe zwei Geschwister:",
+          "ja": "私は15歳で、きょうだいが2人います。",
+          "audio": "audio/p1-s3.mp3",
+          "timing": [
+            {
+              "w": "Ich",
+              "s": 0.1,
+              "e": 0.3
+            },
+            {
+              "w": "bin",
+              "s": 0.312,
+              "e": 0.5
+            },
+            {
+              "w": "fünfzehn",
+              "s": 0.512,
+              "e": 1.038
+            },
+            {
+              "w": "Jahre",
+              "s": 1.05,
+              "e": 1.4
+            },
+            {
+              "w": "alt",
+              "s": 1.413,
+              "e": 1.725
+            },
+            {
+              "w": "und",
+              "s": 1.738,
+              "e": 1.9
+            },
+            {
+              "w": "habe",
+              "s": 1.913,
+              "e": 2.175
+            },
+            {
+              "w": "zwei",
+              "s": 2.188,
+              "e": 2.45
+            },
+            {
+              "w": "Geschwister",
+              "s": 2.462,
+              "e": 3.15
+            }
+          ],
+          "tokens": [
+            {
+              "t": "Ich",
+              "r": [
+                "ich-laut"
+              ]
+            },
+            {
+              "t": "bin",
+              "r": []
+            },
+            {
+              "t": "15",
+              "word": "fünfzehn",
+              "r": [
+                "ue-umlaut"
+              ]
+            },
+            {
+              "t": "Jahre",
+              "r": [
+                "final-vowel-schwa"
+              ]
+            },
+            {
+              "t": "alt",
+              "r": [
+                "german-l",
+                "final-d-devoiced"
+              ]
+            },
+            {
+              "t": "und",
+              "r": [
+                "final-d-devoiced"
+              ]
+            },
+            {
+              "t": "habe",
+              "r": [
+                "final-vowel-schwa"
+              ]
+            },
+            {
+              "t": "zwei",
+              "r": [
+                "z-as-ts",
+                "ei-as-ai"
+              ]
+            },
+            {
+              "t": "Geschwister:",
+              "word": "Geschwister",
+              "r": [
+                "sch-as-sh",
+                "w-as-v",
+                "final-er-vocalized"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p1-s4",
+          "de": "Meine Schwester heißt Klara und ist dreizehn Jahre alt,",
+          "ja": "妹はクララといって、13歳です。",
+          "audio": "audio/p1-s4.mp3",
+          "timing": [
+            {
+              "w": "Meine",
+              "s": 0.1,
+              "e": 0.475
+            },
+            {
+              "w": "Schwester",
+              "s": 0.487,
+              "e": 0.938
+            },
+            {
+              "w": "heißt",
+              "s": 0.95,
+              "e": 1.262
+            },
+            {
+              "w": "Klara",
+              "s": 1.275,
+              "e": 1.837
+            },
+            {
+              "w": "und",
+              "s": 1.85,
+              "e": 2.05
+            },
+            {
+              "w": "ist",
+              "s": 2.062,
+              "e": 2.225
+            },
+            {
+              "w": "dreizehn",
+              "s": 2.237,
+              "e": 2.763
+            },
+            {
+              "w": "Jahre",
+              "s": 2.775,
+              "e": 3.15
+            },
+            {
+              "w": "alt",
+              "s": 3.163,
+              "e": 3.538
+            }
+          ],
+          "tokens": [
+            {
+              "t": "Meine",
+              "r": [
+                "ei-as-ai",
+                "final-vowel-schwa"
+              ]
+            },
+            {
+              "t": "Schwester",
+              "r": [
+                "sch-as-sh",
+                "w-as-v",
+                "final-er-vocalized"
+              ]
+            },
+            {
+              "t": "heißt",
+              "r": [
+                "ei-as-ai",
+                "ss-sharp-s"
+              ]
+            },
+            {
+              "t": "Klara",
+              "r": [
+                "german-l",
+                "german-r",
+                "final-vowel-schwa"
+              ]
+            },
+            {
+              "t": "und",
+              "r": [
+                "final-d-devoiced"
+              ]
+            },
+            {
+              "t": "ist",
+              "r": []
+            },
+            {
+              "t": "13",
+              "word": "dreizehn",
+              "r": [
+                "ei-as-ai",
+                "german-r"
+              ]
+            },
+            {
+              "t": "Jahre",
+              "r": [
+                "final-vowel-schwa"
+              ]
+            },
+            {
+              "t": "alt,",
+              "word": "alt",
+              "r": [
+                "german-l",
+                "final-d-devoiced"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p1-s5",
+          "de": "mein Bruder Michael ist achtzehn Jahre alt.",
+          "ja": "兄はミヒャエルで、18歳です。",
+          "audio": "audio/p1-s5.mp3",
+          "timing": [
+            {
+              "w": "mein",
+              "s": 0.1,
+              "e": 0.375
+            },
+            {
+              "w": "Bruder",
+              "s": 0.388,
+              "e": 0.725
+            },
+            {
+              "w": "Michael",
+              "s": 0.738,
+              "e": 1.275
+            },
+            {
+              "w": "ist",
+              "s": 1.288,
+              "e": 1.512
+            },
+            {
+              "w": "achtzehn",
+              "s": 1.525,
+              "e": 1.975
+            },
+            {
+              "w": "Jahre",
+              "s": 1.988,
+              "e": 2.388
+            },
+            {
+              "w": "alt",
+              "s": 2.4,
+              "e": 2.825
+            }
+          ],
+          "tokens": [
+            {
+              "t": "mein",
+              "r": [
+                "ei-as-ai"
+              ]
+            },
+            {
+              "t": "Bruder",
+              "r": [
+                "german-r",
+                "final-er-vocalized"
+              ]
+            },
+            {
+              "t": "Michael",
+              "r": [
+                "ich-laut"
+              ]
+            },
+            {
+              "t": "ist",
+              "r": []
+            },
+            {
+              "t": "18",
+              "word": "achtzehn",
+              "r": [
+                "ach-laut"
+              ]
+            },
+            {
+              "t": "Jahre",
+              "r": [
+                "final-vowel-schwa"
+              ]
+            },
+            {
+              "t": "alt.",
+              "word": "alt",
+              "r": [
+                "german-l",
+                "final-d-devoiced"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p1-s6",
+          "de": "Wir wohnen mit unseren Eltern in einem Haus in der Nähe von München.",
+          "ja": "私たちは両親と、ミュンヘン近郊の一軒の家に住んでいます。",
+          "audio": "audio/p1-s6.mp3",
+          "timing": [
+            {
+              "w": "Wir",
+              "s": 0.1,
+              "e": 0.375
+            },
+            {
+              "w": "wohnen",
+              "s": 0.388,
+              "e": 0.775
+            },
+            {
+              "w": "mit",
+              "s": 0.787,
+              "e": 0.963
+            },
+            {
+              "w": "unseren",
+              "s": 0.975,
+              "e": 1.425
+            },
+            {
+              "w": "Eltern",
+              "s": 1.438,
+              "e": 1.887
+            },
+            {
+              "w": "in",
+              "s": 1.9,
+              "e": 2.038
+            },
+            {
+              "w": "einem",
+              "s": 2.05,
+              "e": 2.275
+            },
+            {
+              "w": "Haus",
+              "s": 2.288,
+              "e": 2.638
+            },
+            {
+              "w": "in",
+              "s": 2.65,
+              "e": 2.75
+            },
+            {
+              "w": "der",
+              "s": 2.763,
+              "e": 2.888
+            },
+            {
+              "w": "Nähe",
+              "s": 2.9,
+              "e": 3.188
+            },
+            {
+              "w": "von",
+              "s": 3.2,
+              "e": 3.413
+            },
+            {
+              "w": "München",
+              "s": 3.425,
+              "e": 4.025
+            }
+          ],
+          "tokens": [
+            {
+              "t": "Wir",
+              "r": [
+                "w-as-v",
+                "german-r"
+              ]
+            },
+            {
+              "t": "wohnen",
+              "r": [
+                "w-as-v",
+                "final-en-reduced"
+              ]
+            },
+            {
+              "t": "mit",
+              "r": []
+            },
+            {
+              "t": "unseren",
+              "r": [
+                "s-as-z",
+                "final-en-reduced"
+              ]
+            },
+            {
+              "t": "Eltern",
+              "r": [
+                "german-l",
+                "final-er-vocalized"
+              ]
+            },
+            {
+              "t": "in",
+              "r": []
+            },
+            {
+              "t": "einem",
+              "r": [
+                "ei-as-ai",
+                "final-m-close-lips"
+              ]
+            },
+            {
+              "t": "Haus",
+              "r": [
+                "au-diphthong"
+              ]
+            },
+            {
+              "t": "in",
+              "r": []
+            },
+            {
+              "t": "der",
+              "r": [
+                "final-er-vocalized"
+              ]
+            },
+            {
+              "t": "Nähe",
+              "r": [
+                "ae-umlaut",
+                "final-vowel-schwa"
+              ]
+            },
+            {
+              "t": "von",
+              "r": [
+                "v-as-f"
+              ]
+            },
+            {
+              "t": "München.",
+              "word": "München",
+              "r": [
+                "ue-umlaut",
+                "ich-laut"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p1-s7",
+          "de": "Meine Mutter ist Köchin,",
+          "ja": "母は料理人で、",
+          "audio": "audio/p1-s7.mp3",
+          "timing": [
+            {
+              "w": "Meine",
+              "s": 0.1,
+              "e": 0.463
+            },
+            {
+              "w": "Mutter",
+              "s": 0.475,
+              "e": 0.85
+            },
+            {
+              "w": "ist",
+              "s": 0.863,
+              "e": 1.038
+            },
+            {
+              "w": "Köchin",
+              "s": 1.05,
+              "e": 1.6
+            }
+          ],
+          "tokens": [
+            {
+              "t": "Meine",
+              "r": [
+                "ei-as-ai",
+                "final-vowel-schwa"
+              ]
+            },
+            {
+              "t": "Mutter",
+              "r": [
+                "final-er-vocalized"
+              ]
+            },
+            {
+              "t": "ist",
+              "r": []
+            },
+            {
+              "t": "Köchin,",
+              "word": "Köchin",
+              "r": [
+                "oe-umlaut",
+                "ich-laut"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p1-s8",
+          "de": "mein Vater arbeitet in einer Bank.",
+          "ja": "父は銀行で働いています。",
+          "audio": "audio/p1-s8.mp3",
+          "timing": [
+            {
+              "w": "mein",
+              "s": 0.1,
+              "e": 0.388
+            },
+            {
+              "w": "Vater",
+              "s": 0.4,
+              "e": 0.838
+            },
+            {
+              "w": "arbeitet",
+              "s": 0.85,
+              "e": 1.413
+            },
+            {
+              "w": "in",
+              "s": 1.425,
+              "e": 1.538
+            },
+            {
+              "w": "einer",
+              "s": 1.55,
+              "e": 1.788
+            },
+            {
+              "w": "Bank",
+              "s": 1.8,
+              "e": 2.225
+            }
+          ],
+          "tokens": [
+            {
+              "t": "mein",
+              "r": [
+                "ei-as-ai"
+              ]
+            },
+            {
+              "t": "Vater",
+              "r": [
+                "v-as-f",
+                "final-er-vocalized"
+              ]
+            },
+            {
+              "t": "arbeitet",
+              "r": [
+                "accent-first",
+                "german-r",
+                "ei-as-ai"
+              ]
+            },
+            {
+              "t": "in",
+              "r": []
+            },
+            {
+              "t": "einer",
+              "r": [
+                "ei-as-ai",
+                "final-er-vocalized"
+              ]
+            },
+            {
+              "t": "Bank.",
+              "word": "Bank",
+              "r": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "sentences": [
+        {
+          "id": "p2-s1",
+          "de": "Ich lese gerne und mag Tiere:",
+          "ja": "私は読書が好きで、動物が好きです。",
+          "audio": "audio/p2-s1.mp3",
+          "timing": [
+            {
+              "w": "Ich",
+              "s": 0.1,
+              "e": 0.325
+            },
+            {
+              "w": "lese",
+              "s": 0.338,
+              "e": 0.662
+            },
+            {
+              "w": "gerne",
+              "s": 0.675,
+              "e": 1.05
+            },
+            {
+              "w": "und",
+              "s": 1.062,
+              "e": 1.262
+            },
+            {
+              "w": "mag",
+              "s": 1.275,
+              "e": 1.475
+            },
+            {
+              "w": "Tiere",
+              "s": 1.488,
+              "e": 1.925
+            }
+          ],
+          "tokens": [
+            {
+              "t": "Ich",
+              "r": [
+                "ich-laut"
+              ]
+            },
+            {
+              "t": "lese",
+              "r": [
+                "s-as-z",
+                "final-vowel-schwa"
+              ]
+            },
+            {
+              "t": "gerne",
+              "r": [
+                "german-r",
+                "final-vowel-schwa"
+              ]
+            },
+            {
+              "t": "und",
+              "r": [
+                "final-d-devoiced"
+              ]
+            },
+            {
+              "t": "mag",
+              "r": [
+                "final-g-devoiced"
+              ]
+            },
+            {
+              "t": "Tiere:",
+              "word": "Tiere",
+              "r": [
+                "ie-long-i",
+                "final-vowel-schwa"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p2-s2",
+          "de": "Wir haben einen Hund, zwei Katzen und im Garten einen Teich mit Goldfischen.",
+          "ja": "犬が1匹、猫が2匹いて、庭には金魚のいる池があります。",
+          "audio": "audio/p2-s2.mp3",
+          "timing": [
+            {
+              "w": "Wir",
+              "s": 0.1,
+              "e": 0.325
+            },
+            {
+              "w": "haben",
+              "s": 0.338,
+              "e": 0.637
+            },
+            {
+              "w": "einen",
+              "s": 0.65,
+              "e": 0.887
+            },
+            {
+              "w": "Hund",
+              "s": 0.9,
+              "e": 1.212
+            },
+            {
+              "w": "zwei",
+              "s": 1.4,
+              "e": 1.637
+            },
+            {
+              "w": "Katzen",
+              "s": 1.65,
+              "e": 2.15
+            },
+            {
+              "w": "und",
+              "s": 2.163,
+              "e": 2.375
+            },
+            {
+              "w": "im",
+              "s": 2.388,
+              "e": 2.5
+            },
+            {
+              "w": "Garten",
+              "s": 2.513,
+              "e": 2.925
+            },
+            {
+              "w": "einen",
+              "s": 2.938,
+              "e": 3.175
+            },
+            {
+              "w": "Teich",
+              "s": 3.188,
+              "e": 3.513
+            },
+            {
+              "w": "mit",
+              "s": 3.525,
+              "e": 3.712
+            },
+            {
+              "w": "Goldfischen",
+              "s": 3.725,
+              "e": 4.463
+            }
+          ],
+          "tokens": [
+            {
+              "t": "Wir",
+              "r": [
+                "w-as-v",
+                "german-r"
+              ]
+            },
+            {
+              "t": "haben",
+              "r": [
+                "final-en-reduced"
+              ]
+            },
+            {
+              "t": "einen",
+              "r": [
+                "ei-as-ai",
+                "final-en-reduced"
+              ]
+            },
+            {
+              "t": "Hund,",
+              "word": "Hund",
+              "r": [
+                "final-d-devoiced"
+              ]
+            },
+            {
+              "t": "zwei",
+              "r": [
+                "z-as-ts",
+                "ei-as-ai"
+              ]
+            },
+            {
+              "t": "Katzen",
+              "r": [
+                "z-as-ts",
+                "final-en-reduced"
+              ]
+            },
+            {
+              "t": "und",
+              "r": [
+                "final-d-devoiced"
+              ]
+            },
+            {
+              "t": "im",
+              "r": [
+                "final-m-close-lips"
+              ]
+            },
+            {
+              "t": "Garten",
+              "r": [
+                "german-r",
+                "final-en-reduced"
+              ]
+            },
+            {
+              "t": "einen",
+              "r": [
+                "ei-as-ai",
+                "final-en-reduced"
+              ]
+            },
+            {
+              "t": "Teich",
+              "r": [
+                "ei-as-ai",
+                "ich-laut"
+              ]
+            },
+            {
+              "t": "mit",
+              "r": []
+            },
+            {
+              "t": "Goldfischen.",
+              "word": "Goldfischen",
+              "r": [
+                "german-l",
+                "sch-as-sh",
+                "ich-laut",
+                "final-en-reduced"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p2-s3",
+          "de": "Ich gehe auch gerne in die Schule,",
+          "ja": "学校に行くのも好きで、",
+          "audio": "audio/p2-s3.mp3",
+          "timing": [
+            {
+              "w": "Ich",
+              "s": 0.1,
+              "e": 0.312
+            },
+            {
+              "w": "gehe",
+              "s": 0.325,
+              "e": 0.588
+            },
+            {
+              "w": "auch",
+              "s": 0.6,
+              "e": 0.775
+            },
+            {
+              "w": "gerne",
+              "s": 0.787,
+              "e": 1.163
+            },
+            {
+              "w": "in",
+              "s": 1.175,
+              "e": 1.275
+            },
+            {
+              "w": "die",
+              "s": 1.288,
+              "e": 1.425
+            },
+            {
+              "w": "Schule",
+              "s": 1.438,
+              "e": 1.863
+            }
+          ],
+          "tokens": [
+            {
+              "t": "Ich",
+              "r": [
+                "ich-laut"
+              ]
+            },
+            {
+              "t": "gehe",
+              "r": [
+                "final-vowel-schwa"
+              ]
+            },
+            {
+              "t": "auch",
+              "r": [
+                "au-diphthong",
+                "ach-laut"
+              ]
+            },
+            {
+              "t": "gerne",
+              "r": [
+                "german-r",
+                "final-vowel-schwa"
+              ]
+            },
+            {
+              "t": "in",
+              "r": []
+            },
+            {
+              "t": "die",
+              "r": [
+                "ie-long-i"
+              ]
+            },
+            {
+              "t": "Schule,",
+              "word": "Schule",
+              "r": [
+                "sch-as-sh",
+                "german-l",
+                "final-vowel-schwa"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p2-s4",
+          "de": "mein Lieblingsfach ist Mathematik.",
+          "ja": "私の好きな教科は数学です。",
+          "audio": "audio/p2-s4.mp3",
+          "timing": [
+            {
+              "w": "mein",
+              "s": 0.1,
+              "e": 0.362
+            },
+            {
+              "w": "Lieblingsfach",
+              "s": 0.375,
+              "e": 1.125
+            },
+            {
+              "w": "ist",
+              "s": 1.137,
+              "e": 1.325
+            },
+            {
+              "w": "Mathematik",
+              "s": 1.337,
+              "e": 2.125
+            }
+          ],
+          "tokens": [
+            {
+              "t": "mein",
+              "r": [
+                "ei-as-ai"
+              ]
+            },
+            {
+              "t": "Lieblingsfach",
+              "r": [
+                "ie-long-i",
+                "compound-pause",
+                "ach-laut",
+                "accent-first"
+              ]
+            },
+            {
+              "t": "ist",
+              "r": []
+            },
+            {
+              "t": "Mathematik.",
+              "word": "Mathematik",
+              "r": []
+            }
+          ]
+        },
+        {
+          "id": "p2-s5",
+          "de": "Physik und Chemie mag ich nicht so gerne.",
+          "ja": "物理と化学はあまり好きではありません。",
+          "audio": "audio/p2-s5.mp3",
+          "timing": [
+            {
+              "w": "Physik",
+              "s": 0.1,
+              "e": 0.713
+            },
+            {
+              "w": "und",
+              "s": 0.725,
+              "e": 0.9
+            },
+            {
+              "w": "Chemie",
+              "s": 0.912,
+              "e": 1.175
+            },
+            {
+              "w": "mag",
+              "s": 1.188,
+              "e": 1.425
+            },
+            {
+              "w": "ich",
+              "s": 1.438,
+              "e": 1.562
+            },
+            {
+              "w": "nicht",
+              "s": 1.575,
+              "e": 1.788
+            },
+            {
+              "w": "so",
+              "s": 1.8,
+              "e": 1.913
+            },
+            {
+              "w": "gerne",
+              "s": 1.925,
+              "e": 2.375
+            }
+          ],
+          "tokens": [
+            {
+              "t": "Physik",
+              "r": [
+                "ph-as-f"
+              ]
+            },
+            {
+              "t": "und",
+              "r": [
+                "final-d-devoiced"
+              ]
+            },
+            {
+              "t": "Chemie",
+              "r": [
+                "ich-laut",
+                "ie-long-i"
+              ]
+            },
+            {
+              "t": "mag",
+              "r": [
+                "final-g-devoiced",
+                "liaison-rhythm"
+              ]
+            },
+            {
+              "t": "ich",
+              "r": [
+                "ich-laut",
+                "liaison-rhythm"
+              ]
+            },
+            {
+              "t": "nicht",
+              "r": [
+                "ich-laut",
+                "liaison-rhythm"
+              ]
+            },
+            {
+              "t": "so",
+              "r": [
+                "s-as-z",
+                "liaison-rhythm"
+              ]
+            },
+            {
+              "t": "gerne.",
+              "word": "gerne",
+              "r": [
+                "german-r",
+                "final-vowel-schwa"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "sentences": [
+        {
+          "id": "p3-s1",
+          "de": "Nach der Schule gehe ich oft mit meinen Freundinnen im Park spazieren,",
+          "ja": "放課後はよく友だちと公園を散歩したり、",
+          "audio": "audio/p3-s1.mp3",
+          "timing": [
+            {
+              "w": "Nach",
+              "s": 0.1,
+              "e": 0.362
+            },
+            {
+              "w": "der",
+              "s": 0.375,
+              "e": 0.562
+            },
+            {
+              "w": "Schule",
+              "s": 0.575,
+              "e": 0.988
+            },
+            {
+              "w": "gehe",
+              "s": 1.0,
+              "e": 1.238
+            },
+            {
+              "w": "ich",
+              "s": 1.25,
+              "e": 1.425
+            },
+            {
+              "w": "oft",
+              "s": 1.438,
+              "e": 1.688
+            },
+            {
+              "w": "mit",
+              "s": 1.7,
+              "e": 1.875
+            },
+            {
+              "w": "meinen",
+              "s": 1.887,
+              "e": 2.163
+            },
+            {
+              "w": "Freundinnen",
+              "s": 2.175,
+              "e": 2.812
+            },
+            {
+              "w": "im",
+              "s": 2.825,
+              "e": 2.925
+            },
+            {
+              "w": "Park",
+              "s": 2.938,
+              "e": 3.237
+            },
+            {
+              "w": "spazieren",
+              "s": 3.25,
+              "e": 3.987
+            }
+          ],
+          "tokens": [
+            {
+              "t": "Nach",
+              "r": [
+                "ach-laut"
+              ]
+            },
+            {
+              "t": "der",
+              "r": [
+                "final-er-vocalized"
+              ]
+            },
+            {
+              "t": "Schule",
+              "r": [
+                "sch-as-sh",
+                "german-l",
+                "final-vowel-schwa"
+              ]
+            },
+            {
+              "t": "gehe",
+              "r": [
+                "final-vowel-schwa"
+              ]
+            },
+            {
+              "t": "ich",
+              "r": [
+                "ich-laut"
+              ]
+            },
+            {
+              "t": "oft",
+              "r": []
+            },
+            {
+              "t": "mit",
+              "r": []
+            },
+            {
+              "t": "meinen",
+              "r": [
+                "ei-as-ai",
+                "final-m-close-lips",
+                "final-en-reduced"
+              ]
+            },
+            {
+              "t": "Freundinnen",
+              "r": [
+                "german-r",
+                "eu-as-oy",
+                "final-en-reduced"
+              ]
+            },
+            {
+              "t": "im",
+              "r": [
+                "final-m-close-lips"
+              ]
+            },
+            {
+              "t": "Park",
+              "r": [
+                "german-r"
+              ]
+            },
+            {
+              "t": "spazieren,",
+              "word": "spazieren",
+              "r": [
+                "sp-st-shp",
+                "ie-long-i",
+                "final-en-reduced"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p3-s2",
+          "de": "manchmal essen wir ein Eis.",
+          "ja": "ときどきアイスを食べたりします。",
+          "audio": "audio/p3-s2.mp3",
+          "timing": [
+            {
+              "w": "manchmal",
+              "s": 0.1,
+              "e": 0.588
+            },
+            {
+              "w": "essen",
+              "s": 0.6,
+              "e": 0.85
+            },
+            {
+              "w": "wir",
+              "s": 0.863,
+              "e": 1.025
+            },
+            {
+              "w": "ein",
+              "s": 1.038,
+              "e": 1.25
+            },
+            {
+              "w": "Eis",
+              "s": 1.262,
+              "e": 1.675
+            }
+          ],
+          "tokens": [
+            {
+              "t": "manchmal",
+              "r": [
+                "ach-laut",
+                "german-l"
+              ]
+            },
+            {
+              "t": "essen",
+              "r": [
+                "final-en-reduced"
+              ]
+            },
+            {
+              "t": "wir",
+              "r": [
+                "w-as-v",
+                "german-r"
+              ]
+            },
+            {
+              "t": "ein",
+              "r": [
+                "ei-as-ai"
+              ]
+            },
+            {
+              "t": "Eis.",
+              "word": "Eis",
+              "r": [
+                "ei-as-ai",
+                "s-as-z"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p3-s3",
+          "de": "Am Samstag gehen wir oft ins Kino.",
+          "ja": "土曜日はよく映画館に行きます。",
+          "audio": "audio/p3-s3.mp3",
+          "timing": [
+            {
+              "w": "Am",
+              "s": 0.1,
+              "e": 0.3
+            },
+            {
+              "w": "Samstag",
+              "s": 0.312,
+              "e": 0.863
+            },
+            {
+              "w": "gehen",
+              "s": 0.875,
+              "e": 1.087
+            },
+            {
+              "w": "wir",
+              "s": 1.1,
+              "e": 1.25
+            },
+            {
+              "w": "oft",
+              "s": 1.262,
+              "e": 1.525
+            },
+            {
+              "w": "ins",
+              "s": 1.538,
+              "e": 1.712
+            },
+            {
+              "w": "Kino",
+              "s": 1.725,
+              "e": 2.25
+            }
+          ],
+          "tokens": [
+            {
+              "t": "Am",
+              "r": [
+                "final-m-close-lips"
+              ]
+            },
+            {
+              "t": "Samstag",
+              "r": [
+                "final-g-devoiced",
+                "compound-pause"
+              ]
+            },
+            {
+              "t": "gehen",
+              "r": [
+                "final-en-reduced"
+              ]
+            },
+            {
+              "t": "wir",
+              "r": [
+                "w-as-v",
+                "german-r"
+              ]
+            },
+            {
+              "t": "oft",
+              "r": []
+            },
+            {
+              "t": "ins",
+              "r": []
+            },
+            {
+              "t": "Kino.",
+              "word": "Kino",
+              "r": []
+            }
+          ]
+        },
+        {
+          "id": "p3-s4",
+          "de": "Am Sonntag schlafe ich lange,",
+          "ja": "日曜日は遅くまで寝て、",
+          "audio": "audio/p3-s4.mp3",
+          "timing": [
+            {
+              "w": "Am",
+              "s": 0.1,
+              "e": 0.312
+            },
+            {
+              "w": "Sonntag",
+              "s": 0.325,
+              "e": 0.775
+            },
+            {
+              "w": "schlafe",
+              "s": 0.787,
+              "e": 1.2
+            },
+            {
+              "w": "ich",
+              "s": 1.212,
+              "e": 1.35
+            },
+            {
+              "w": "lange",
+              "s": 1.363,
+              "e": 1.75
+            }
+          ],
+          "tokens": [
+            {
+              "t": "Am",
+              "r": [
+                "final-m-close-lips"
+              ]
+            },
+            {
+              "t": "Sonntag",
+              "r": [
+                "final-g-devoiced",
+                "compound-pause"
+              ]
+            },
+            {
+              "t": "schlafe",
+              "r": [
+                "sch-as-sh",
+                "german-l",
+                "final-vowel-schwa"
+              ]
+            },
+            {
+              "t": "ich",
+              "r": [
+                "ich-laut"
+              ]
+            },
+            {
+              "t": "lange,",
+              "word": "lange",
+              "r": [
+                "final-vowel-schwa"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p3-s5",
+          "de": "dann koche ich mit meiner Mutter das Mittagessen.",
+          "ja": "それから母とお昼ごはんを作ります。",
+          "audio": "audio/p3-s5.mp3",
+          "timing": [
+            {
+              "w": "dann",
+              "s": 0.1,
+              "e": 0.338
+            },
+            {
+              "w": "koche",
+              "s": 0.35,
+              "e": 0.675
+            },
+            {
+              "w": "ich",
+              "s": 0.688,
+              "e": 0.812
+            },
+            {
+              "w": "mit",
+              "s": 0.825,
+              "e": 0.988
+            },
+            {
+              "w": "meiner",
+              "s": 1.0,
+              "e": 1.275
+            },
+            {
+              "w": "Mutter",
+              "s": 1.288,
+              "e": 1.625
+            },
+            {
+              "w": "das",
+              "s": 1.637,
+              "e": 1.837
+            },
+            {
+              "w": "Mittagessen",
+              "s": 1.85,
+              "e": 2.65
+            }
+          ],
+          "tokens": [
+            {
+              "t": "dann",
+              "r": []
+            },
+            {
+              "t": "koche",
+              "r": [
+                "ach-laut",
+                "final-vowel-schwa"
+              ]
+            },
+            {
+              "t": "ich",
+              "r": [
+                "ich-laut"
+              ]
+            },
+            {
+              "t": "mit",
+              "r": []
+            },
+            {
+              "t": "meiner",
+              "r": [
+                "ei-as-ai",
+                "final-er-vocalized"
+              ]
+            },
+            {
+              "t": "Mutter",
+              "r": [
+                "final-er-vocalized"
+              ]
+            },
+            {
+              "t": "das",
+              "r": []
+            },
+            {
+              "t": "Mittagessen.",
+              "word": "Mittagessen",
+              "r": [
+                "compound-pause",
+                "final-g-devoiced",
+                "final-en-reduced"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p3-s6",
+          "de": "Nach dem Essen gehen wir mit dem Hund am See spazieren.",
+          "ja": "食事のあとは犬と湖のそばを散歩します。",
+          "audio": "audio/p3-s6.mp3",
+          "timing": [
+            {
+              "w": "Nach",
+              "s": 0.1,
+              "e": 0.338
+            },
+            {
+              "w": "dem",
+              "s": 0.35,
+              "e": 0.588
+            },
+            {
+              "w": "Essen",
+              "s": 0.6,
+              "e": 0.9
+            },
+            {
+              "w": "gehen",
+              "s": 0.912,
+              "e": 1.2
+            },
+            {
+              "w": "wir",
+              "s": 1.212,
+              "e": 1.35
+            },
+            {
+              "w": "mit",
+              "s": 1.363,
+              "e": 1.512
+            },
+            {
+              "w": "dem",
+              "s": 1.525,
+              "e": 1.663
+            },
+            {
+              "w": "Hund",
+              "s": 1.675,
+              "e": 2.0
+            },
+            {
+              "w": "am",
+              "s": 2.013,
+              "e": 2.15
+            },
+            {
+              "w": "See",
+              "s": 2.163,
+              "e": 2.325
+            },
+            {
+              "w": "spazieren",
+              "s": 2.337,
+              "e": 3.188
+            }
+          ],
+          "tokens": [
+            {
+              "t": "Nach",
+              "r": [
+                "ach-laut"
+              ]
+            },
+            {
+              "t": "dem",
+              "r": [
+                "final-m-close-lips"
+              ]
+            },
+            {
+              "t": "Essen",
+              "r": [
+                "final-en-reduced"
+              ]
+            },
+            {
+              "t": "gehen",
+              "r": [
+                "final-en-reduced"
+              ]
+            },
+            {
+              "t": "wir",
+              "r": [
+                "w-as-v",
+                "german-r"
+              ]
+            },
+            {
+              "t": "mit",
+              "r": []
+            },
+            {
+              "t": "dem",
+              "r": [
+                "final-m-close-lips"
+              ]
+            },
+            {
+              "t": "Hund",
+              "r": [
+                "final-d-devoiced"
+              ]
+            },
+            {
+              "t": "am",
+              "r": [
+                "final-m-close-lips"
+              ]
+            },
+            {
+              "t": "See",
+              "r": [
+                "s-as-z"
+              ]
+            },
+            {
+              "t": "spazieren.",
+              "word": "spazieren",
+              "r": [
+                "sp-st-shp",
+                "ie-long-i",
+                "final-en-reduced"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "p3-s7",
+          "de": "Sonntag ist mein Lieblingstag!",
+          "ja": "日曜日は私のいちばん好きな曜日です！",
+          "audio": "audio/p3-s7.mp3",
+          "timing": [
+            {
+              "w": "Sonntag",
+              "s": 0.1,
+              "e": 0.688
+            },
+            {
+              "w": "ist",
+              "s": 0.7,
+              "e": 0.9
+            },
+            {
+              "w": "mein",
+              "s": 0.912,
+              "e": 1.113
+            },
+            {
+              "w": "Lieblingstag",
+              "s": 1.125,
+              "e": 2.025
+            }
+          ],
+          "tokens": [
+            {
+              "t": "Sonntag",
+              "r": [
+                "final-g-devoiced",
+                "compound-pause"
+              ]
+            },
+            {
+              "t": "ist",
+              "r": []
+            },
+            {
+              "t": "mein",
+              "r": [
+                "ei-as-ai"
+              ]
+            },
+            {
+              "t": "Lieblingstag!",
+              "word": "Lieblingstag",
+              "r": [
+                "ie-long-i",
+                "compound-pause",
+                "final-g-devoiced",
+                "accent-first"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
