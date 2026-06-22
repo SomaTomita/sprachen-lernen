@@ -1,0 +1,736 @@
+/* ============================================================
+   BMW Corporate-Automotive — Deutsch 文法練習 (grammar-exercises)
+   Light canvas, single BMW-blue action color, rectangular (0px),
+   no drop shadows (depth = color contrast), Inter 700/300.
+   Offline: font-family only, no @import / no webfont fetch.
+   Tokens reused from apps/vocabulary so the look matches.
+   ============================================================ */
+
+/* ---- Design tokens (BMW) ---- */
+:root {
+  /* Brand & accent */
+  --primary: #1c69d4;            /* BMW corporate blue — single action color */
+  --primary-active: #0653b6;     /* pressed state */
+
+  /* Surface */
+  --canvas: #ffffff;
+  --surface-soft: #f7f7f7;
+  --surface-card: #fafafa;
+  --surface-strong: #ebebeb;
+  --surface-dark: #1a2129;
+  --on-dark: #ffffff;
+  --on-dark-soft: #bbbbbb;
+
+  /* Hairlines */
+  --hairline: #e6e6e6;
+  --hairline-strong: #cccccc;
+
+  /* Text */
+  --ink: #262626;
+  --body: #3c3c3c;
+  --body-strong: #1a1a1a;
+  --muted: #6b6b6b;
+  --on-primary: #ffffff;
+
+  /* Semantic (color is never the only signal — icon + text carry it) */
+  --success: #15803d;            /* 5.02:1 on white */
+  --success-strong: #166534;     /* ≈5:1 on the #eaf4ee tint — used for text */
+  --success-tint: #eaf4ee;
+  --error: #dc2626;              /* 4.83:1 on white */
+  --error-strong: #b91c1c;       /* 6.47:1 on white — used for text */
+  --error-tint: #fcebeb;
+
+  /* Spacing (8px base) */
+  --space-xxs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-xxl: 48px;
+
+  /* Radius — rectangular everywhere */
+  --r-none: 0px;
+  --r-full: 9999px;
+
+  /* Type families (offline — no webfont fetch) */
+  --font-sans: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* ---- Reset / base ---- */
+* { box-sizing: border-box; }
+
+html, body { max-width: 100%; overflow-x: hidden; }
+
+body {
+  font-family: var(--font-sans);
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  color: var(--body);
+  background-color: var(--canvas);
+  font-size: 16px;
+  line-height: 1.55;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, p { margin: 0; }
+
+.hidden { display: none !important; }
+
+/* Visually hidden but available to assistive tech */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* Skip link — off-screen until focused, then a blue command chip */
+.skip-link {
+  position: absolute;
+  left: var(--space-sm);
+  top: -56px;
+  z-index: 20;
+  padding: var(--space-sm) var(--space-md);
+  background-color: var(--primary);
+  color: var(--on-primary);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: top 0.15s ease;
+}
+.skip-link:focus { top: var(--space-sm); }
+
+/* ---- Layout — centered reading column ---- */
+.app {
+  display: block;
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-lg);
+}
+.app:focus { outline: none; }
+
+/* ============================================================
+   Buttons (rectangular 0px, no shadow)
+   ============================================================ */
+button { font: inherit; cursor: pointer; touch-action: manipulation; }
+
+.button-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  min-height: 48px;
+  padding: 12px var(--space-xl);
+  background-color: var(--primary);
+  color: var(--on-primary);
+  border: none;
+  border-radius: var(--r-none);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  transition: background-color 0.12s ease;
+}
+.button-primary:hover { background-color: var(--primary-active); }
+.button-primary:active { background-color: var(--primary-active); }
+.button-primary:disabled { background-color: var(--muted); cursor: not-allowed; }
+
+.button-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  min-height: 48px;
+  padding: 12px var(--space-xl);
+  background-color: var(--canvas);
+  color: var(--ink);
+  border: 1px solid var(--hairline-strong);
+  border-radius: var(--r-none);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  transition: border-color 0.12s ease, color 0.12s ease;
+}
+.button-secondary:hover { border-color: var(--ink); color: var(--primary); }
+
+/* ------------------------------------------------------------
+   Speaker button (tap to hear the German via Web Speech).
+   Icon-only → the one place a circular shape is allowed (BMW canon):
+   circular, ≥44×44, transparent canvas, ink icon, hairline border.
+   No drop shadow. :focus-visible handled by the global rule.
+   ------------------------------------------------------------ */
+.ex-speak {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0;
+  background-color: var(--canvas);
+  color: var(--ink);
+  border: 1px solid var(--hairline-strong);
+  border-radius: var(--r-full);
+  line-height: 0;
+  transition: border-color 0.12s ease, color 0.12s ease;
+}
+.ex-speak:hover { border-color: var(--primary); color: var(--primary); }
+.ex-speak:active { color: var(--primary-active); border-color: var(--primary-active); }
+
+/* ============================================================
+   Header — nav links, title, lesson switch
+   ============================================================ */
+.ex-head {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-xl);
+  padding-bottom: var(--space-lg);
+  border-bottom: 1px solid var(--hairline);
+}
+.ex-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+.ex-navlink {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  color: var(--primary);
+  text-decoration: none;
+}
+.ex-navlink:hover { color: var(--primary-active); text-decoration: underline; }
+
+.ex-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.15;
+  color: var(--ink);
+  text-wrap: balance;
+}
+.ex-intro {
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--body);
+  max-width: 60ch;
+}
+
+.ex-switch {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-xs);
+  margin-top: var(--space-xs);
+}
+.ex-switch-label {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-right: var(--space-xxs);
+}
+.ex-switch-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0 var(--space-sm);
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--ink);
+  text-decoration: none;
+  border: 1px solid var(--hairline-strong);
+  font-variant-numeric: tabular-nums;
+}
+.ex-switch-link:hover { border-color: var(--ink); color: var(--primary); }
+.ex-switch-link.is-current {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: var(--on-primary);
+}
+
+/* ============================================================
+   Score bar
+   ============================================================ */
+.ex-score {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: var(--surface-dark);
+  color: var(--on-dark);
+  padding: var(--space-sm) var(--space-md);
+  margin-bottom: var(--space-xl);
+}
+.ex-score-text {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ============================================================
+   Picker (no ?lesson)
+   ============================================================ */
+.lesson-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+.lesson-link {
+  display: flex;
+  align-items: center;
+  min-height: 64px;
+  padding: var(--space-lg);
+  background-color: var(--surface-card);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-none);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--ink);
+  text-decoration: none;
+  transition: border-color 0.12s ease, color 0.12s ease;
+}
+.lesson-link:hover { border-color: var(--ink); color: var(--primary); }
+
+/* ============================================================
+   Exercise list + cards
+   ============================================================ */
+.ex-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+.ex {
+  background-color: var(--surface-card);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-none);
+  padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+.ex-num {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.ex-prompt {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.4;
+  color: var(--ink);
+}
+.ex-rule {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--muted);
+  border-left: 3px solid var(--hairline-strong);
+  padding-left: var(--space-sm);
+}
+
+/* Inputs — white, rectangular, hairline; ink border on focus */
+.ex-input,
+.ex-input-wide,
+.ex-textarea {
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--ink);
+  background: var(--canvas);
+  border: 1px solid var(--hairline-strong);
+  border-radius: var(--r-none);
+}
+/* inline blank input (fill) — sits within the prompt sentence */
+.ex-input {
+  display: inline-block;
+  width: 9ch;
+  min-height: 44px;
+  padding: 0 var(--space-xs);
+  margin: 0 var(--space-xxs);
+  vertical-align: baseline;
+}
+.ex-input-wide,
+.ex-textarea {
+  display: block;
+  width: 100%;
+  min-height: 48px;
+  padding: 12px var(--space-md);
+}
+.ex-textarea { line-height: 1.5; resize: vertical; }
+.ex-field { display: block; }
+.ex-input:focus,
+.ex-input-wide:focus,
+.ex-textarea:focus {
+  border-color: var(--ink);
+  box-shadow: inset 0 0 0 1px var(--ink);
+}
+.ex-input:focus:not(:focus-visible),
+.ex-input-wide:focus:not(:focus-visible),
+.ex-textarea:focus:not(:focus-visible) { outline: none; }
+.ex-input:disabled,
+.ex-input-wide:disabled,
+.ex-textarea:disabled {
+  background-color: var(--surface-strong);
+  color: var(--body);
+}
+
+/* Table */
+.ex-table-wrap { width: 100%; overflow-x: auto; }
+.ex-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 15px;
+}
+.ex-table th,
+.ex-table td {
+  border: 1px solid var(--hairline);
+  padding: var(--space-xs) var(--space-sm);
+  text-align: left;
+  vertical-align: middle;
+}
+.ex-table th {
+  font-weight: 700;
+  color: var(--ink);
+  background-color: var(--surface-strong);
+}
+.ex-table td { color: var(--body-strong); font-weight: 300; }
+.ex-table .ex-input { width: 100%; min-width: 7ch; margin: 0; }
+
+/* Choice — fieldset / radio group */
+.ex-choice {
+  border: none;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+.ex-choice legend { padding: 0; }
+/* Row = the option label + its speaker button (speaker is a SIBLING of the
+   <label>, so tapping it never toggles the radio). */
+.ex-option-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+.ex-option {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  min-height: 44px;
+  padding: var(--space-xs) var(--space-sm);
+  background-color: var(--canvas);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-none);
+  cursor: pointer;
+  transition: border-color 0.12s ease;
+}
+.ex-option:hover { border-color: var(--ink); }
+.ex-option input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 auto;
+  accent-color: var(--primary);
+}
+.ex-option-text {
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--body-strong);
+}
+.ex-option:has(input:checked) { border-color: var(--primary); }
+
+/* ============================================================
+   Match — tap-to-place + drag. Square (0px) tokens/slots, hairline
+   borders, blue = picked, success/error WITH icon+text after grading
+   (color is never the only signal). No drop shadows.
+   ============================================================ */
+.ex-match-hint {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+/* aria-live status line: visible (small) so sighted users see placements too. */
+.ex-match-status {
+  font-weight: 300;
+  font-size: 13px;
+  color: var(--muted);
+  min-height: 1.2em;
+}
+
+.ex-match-rows {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+.ex-match-row {
+  display: flex;
+  align-items: stretch;
+  gap: var(--space-sm);
+}
+.ex-match-left {
+  flex: 0 0 9rem;
+  max-width: 45%;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xxs);
+  min-height: 44px;
+  padding: var(--space-xs) var(--space-sm);
+  background-color: var(--surface-strong);
+  border: 1px solid var(--hairline);
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--ink);
+}
+
+/* Drop slot — empty target. Square, dashed hairline until filled. */
+.ex-match-slot {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  min-height: 44px;
+  padding: var(--space-xs) var(--space-sm);
+  background-color: var(--canvas);
+  color: var(--body);
+  border: 1px dashed var(--hairline-strong);
+  border-radius: var(--r-none);
+  font: inherit;
+  text-align: left;
+  transition: border-color 0.12s ease, background-color 0.12s ease;
+}
+.ex-match-slot:hover { border-color: var(--ink); }
+.ex-match-slot.is-dragover {
+  border-style: solid;
+  border-color: var(--primary);
+  background-color: var(--surface-card);
+}
+.ex-match-slot.is-filled {
+  border-style: solid;
+  border-color: var(--hairline-strong);
+  padding: var(--space-xxs) var(--space-xs);
+}
+.ex-match-slot-placeholder {
+  font-weight: 300;
+  font-size: 14px;
+  color: var(--muted);
+}
+.ex-match-slot:disabled { cursor: default; }
+.ex-match-slot.is-correct {
+  border-color: var(--success);
+  background-color: var(--success-tint);
+}
+.ex-match-slot.is-incorrect {
+  border-color: var(--error);
+  background-color: var(--error-tint);
+}
+.ex-match-mark { display: inline-flex; line-height: 0; margin-left: auto; }
+.is-correct .ex-match-mark { color: var(--success-strong); }
+.is-incorrect .ex-match-mark { color: var(--error-strong); }
+
+/* Token bank — wraps; never forces horizontal scroll. */
+.ex-match-bank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  margin-top: var(--space-xs);
+  padding: var(--space-sm);
+  min-height: 56px;
+  background-color: var(--canvas);
+  border: 1px solid var(--hairline);
+}
+
+/* Token — square button. Picked = blue border. */
+.ex-match-token {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xxs);
+  min-height: 44px;
+  padding: var(--space-xs) var(--space-sm);
+  background-color: var(--canvas);
+  color: var(--ink);
+  border: 1px solid var(--hairline-strong);
+  border-radius: var(--r-none);
+  font-weight: 700;
+  font-size: 16px;
+  transition: border-color 0.12s ease, background-color 0.12s ease;
+}
+.ex-match-token:hover { border-color: var(--ink); }
+.ex-match-token.is-picked {
+  border-color: var(--primary);
+  box-shadow: inset 0 0 0 1px var(--primary);
+  background-color: var(--surface-card);
+}
+.ex-match-token.is-dragging { opacity: 0.5; }
+.ex-match-token.is-placed { border-color: var(--hairline-strong); }
+.ex-match-token:disabled { cursor: default; }
+.ex-match-token-text { font-weight: 700; }
+/* Speaker button shrinks slightly inside a token so the row stays 44px. */
+.ex-match-token .ex-speak,
+.ex-match-left .ex-speak {
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
+}
+
+/* Controls row */
+.ex-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-top: var(--space-xs);
+}
+
+/* ============================================================
+   Feedback — aria-live region. Color is never the only signal:
+   an SVG icon + the words 正解 / 不正解 always accompany it.
+   ============================================================ */
+.ex-feedback:empty { display: none; }
+.ex-feedback {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  margin-top: var(--space-xs);
+  padding: var(--space-md);
+  border: 1px solid var(--hairline);
+  border-left-width: 3px;
+  background-color: var(--canvas);
+}
+.ex-feedback.is-ok { border-left-color: var(--success); background-color: var(--success-tint); }
+.ex-feedback.is-ng { border-left-color: var(--error); background-color: var(--error-tint); }
+.ex-feedback.is-model { border-left-color: var(--primary); background-color: var(--canvas); }
+.ex-feedback.is-hint { border-left-color: var(--hairline-strong); }
+
+.ex-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-weight: 700;
+  font-size: 16px;
+}
+.ex-badge-icon { display: inline-flex; line-height: 0; }
+.is-ok .ex-badge { color: var(--success-strong); }
+.is-ng .ex-badge { color: var(--error-strong); }
+
+.ex-answer,
+.ex-model {
+  font-weight: 300;
+  font-size: 15px;
+  color: var(--body-strong);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-xs);
+}
+.ex-answer-label,
+.ex-model-label {
+  font-weight: 700;
+  color: var(--ink);
+}
+.ex-answer-value,
+.ex-model-value { font-weight: 700; color: var(--ink); }
+/* Each correct value renders as its own item with its own speaker button,
+   so multi-blank / multi-cell answers are heard one word at a time. */
+.ex-answer-values {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.ex-answer-item {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xxs);
+}
+
+.ex-explain {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--body);
+}
+
+/* ============================================================
+   Error band
+   ============================================================ */
+.error-band {
+  background-color: var(--surface-card);
+  border: 1px solid var(--hairline);
+  border-left: 3px solid var(--error);
+  padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+.error-band strong { color: var(--ink); font-weight: 700; }
+.error-detail, .error-hint { font-weight: 300; color: var(--body); }
+.error-band code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  background: var(--surface-strong);
+  padding: 1px var(--space-xxs);
+}
+
+/* ============================================================
+   Accessibility — focus ring, reduced motion, responsive
+   ============================================================ */
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Mobile (< 768px) */
+@media (max-width: 767px) {
+  .app { padding: var(--space-lg) var(--space-md); }
+  .ex-title { font-size: 26px; }
+  .ex-prompt { font-size: 16px; }
+  .ex-input { width: 8ch; }
+  .button-primary, .button-secondary { width: 100%; }
+  .ex-switch-link { flex: 0 0 auto; }
+  /* Match: keep left + slot on one line but let the left label shrink;
+     tokens already wrap. No horizontal scroll at 390px. */
+  .ex-match-left { flex-basis: 6.5rem; max-width: 40%; }
+}
