@@ -1,0 +1,206 @@
+{
+  "lesson": "02",
+  "title": "02 動詞の現在人称変化",
+  "doc": "../../#/grammar/verben-praesens",
+  "intro": "規則・不規則・分離動詞の現在人称変化の練習。前半はサクサク選んで対応づけ、後半で書く練習。1問ずつチェックして、その場で答え合わせ。",
+  "exercises": [
+    {
+      "type": "match",
+      "prompt": "不定詞と du の形を組み合わせよう(不規則)",
+      "rule": "母音が変わるのは du と er/sie/es だけ。a→ä / e→i / e→ie。",
+      "pairs": [
+        { "left": "fahren", "right": "du fährst" },
+        { "left": "sprechen", "right": "du sprichst" },
+        { "left": "lesen", "right": "du liest" }
+      ],
+      "explain": "① fahren は a→ä → du fährst。② sprechen は e→i → du sprichst。③ lesen は e→ie かつ語幹 -s → du liest(er と同形)。"
+    },
+    {
+      "type": "match",
+      "prompt": "不定詞と du の形を組み合わせよう(語幹の特例)",
+      "rule": "語幹 -t/-d は e を挟む(arbeitest)。語幹 -s/-ß は s が落ちて -t だけ(heißt/isst)。",
+      "pairs": [
+        { "left": "arbeiten", "right": "du arbeitest" },
+        { "left": "heißen", "right": "du heißt" },
+        { "left": "essen", "right": "du isst" }
+      ],
+      "explain": "① arbeiten は語幹 -t → e を挟んで arbeitest。② heißen は語幹 -ß → s が落ちて heißt(er と同形)。③ essen は e→i かつ語幹 -ss → isst(er と同形)。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "規則変化の du の語尾はどれ?（選んだ瞬間に採点）",
+      "rule": "語尾は e‐st‐t‐en‐t‐en。du は -st。",
+      "options": ["-st", "-t", "-en"],
+      "answer": 0,
+      "explain": "① du は -st。② -t は er/sie/es と ihr。③ -en は wir と sie/Sie(不定詞と同じ)。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "lernen の wir はどれ?（選んだ瞬間に採点）",
+      "rule": "wir と sie/Sie は不定詞と同じ -en。",
+      "options": ["lernen", "lernt", "lernst"],
+      "answer": 0,
+      "explain": "① wir は -en で lernen(不定詞と同じ)。② lernt は er/ihr。③ lernst は du。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "「彼は車でベルリンへ行く」を正しく表すのはどれ?（選んだ瞬間に採点）",
+      "rule": "fahren は a→ä。変わるのは du と er/sie/es だけ。",
+      "options": ["Er fährt nach Berlin.", "Er fahrt nach Berlin.", "Er fährst nach Berlin."],
+      "answer": 0,
+      "explain": "① er は a→ä で fährt。② fahrt(変化なし)は ihr の形で er には不可。③ fährst は du の形。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "ihr の形で正しいのはどれ?（選んだ瞬間に採点）",
+      "rule": "母音が変わるのは du と er/sie/es だけ。ihr は変わらない。",
+      "options": ["Ihr seht einen Film.", "Ihr sieht einen Film.", "Ihr siehst einen Film."],
+      "answer": 0,
+      "explain": "① sehen は e→ie だが、変わるのは du/er だけ。② ihr は seht(母音変化なし)。③ sieht は er の形、siehst は du の形。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "du heißen の正しい形はどれ?（選んだ瞬間に採点）",
+      "rule": "語幹が -ß なら du の -st から s が落ちて -t だけ。",
+      "options": ["du heißt", "du heißst", "du heißen"],
+      "answer": 0,
+      "explain": "① 語幹 -ß なので s が落ちて heißt(er と同形)。② heißst は s の重複で誤り。③ heißen は不定詞・wir/sie の形。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "分離動詞 einkaufen の「私は買い物をする」はどれ?（選んだ瞬間に採点）",
+      "rule": "後ろの動詞だけ活用し、前つづり ein を文末へ。",
+      "options": ["Ich kaufe ein.", "Ich einkaufe.", "Ich kaufe ein nicht."],
+      "answer": 0,
+      "explain": "① kaufe(2番目)＋ ein(文末)。② Ich einkaufe. は前つづりを切り離していない誤り。③ ここでは ein を文末に置くのが基本形。"
+    },
+    {
+      "type": "table",
+      "prompt": "lernen(規則変化)を埋めよう",
+      "rule": "規則語尾は e‐st‐t‐en‐t‐en。wir と sie/Sie は不定詞と同じ -en。",
+      "columns": ["人称", "lernen"],
+      "rows": [
+        { "cells": ["ich", { "accept": ["lerne"] }] },
+        { "cells": ["du", { "accept": ["lernst"] }] },
+        { "cells": ["er/sie/es", { "accept": ["lernt"] }] },
+        { "cells": ["wir", { "accept": ["lernen"] }] },
+        { "cells": ["ihr", { "accept": ["lernt"] }] },
+        { "cells": ["sie/Sie", { "accept": ["lernen"] }] }
+      ],
+      "explain": "① 語尾 e/st/t/en/t/en。② 語幹 lern は変わらない。③ wir=sie/Sie=lernen。"
+    },
+    {
+      "type": "table",
+      "prompt": "arbeiten(語幹が -t)を埋めよう",
+      "rule": "語幹が -t/-d で終わると du・er・ihr で e を挟む。",
+      "columns": ["人称", "arbeiten"],
+      "rows": [
+        { "cells": ["ich", { "accept": ["arbeite"] }] },
+        { "cells": ["du", { "accept": ["arbeitest"] }] },
+        { "cells": ["er/sie/es", { "accept": ["arbeitet"] }] },
+        { "cells": ["wir", { "accept": ["arbeiten"] }] },
+        { "cells": ["ihr", { "accept": ["arbeitet"] }] },
+        { "cells": ["sie/Sie", { "accept": ["arbeiten"] }] }
+      ],
+      "explain": "① 語幹 arbeit は -t で終わる。② du/er/ihr は発音のため e を挟む(arbeitest/arbeitet)。③ baden→du badest, finden→er findet も同じ仲間。"
+    },
+    {
+      "type": "table",
+      "prompt": "heißen(語幹が -ß)を埋めよう",
+      "rule": "語幹が -s/-ß/-z で終わると du の -st から s が落ち、du=er になる。",
+      "columns": ["人称", "heißen"],
+      "rows": [
+        { "cells": ["ich", { "accept": ["heiße", "heisse"] }] },
+        { "cells": ["du", { "accept": ["heißt", "heisst"] }] },
+        { "cells": ["er/sie/es", { "accept": ["heißt", "heisst"] }] },
+        { "cells": ["wir", { "accept": ["heißen", "heissen"] }] },
+        { "cells": ["ihr", { "accept": ["heißt", "heisst"] }] },
+        { "cells": ["sie/Sie", { "accept": ["heißen", "heissen"] }] }
+      ],
+      "explain": "① 語幹 heiß は -ß。② du の -st から s が落ちて heißt(×heißst)、er と同形。③ reisen→du reist, tanzen→du tanzt も同じ仲間。"
+    },
+    {
+      "type": "fill",
+      "prompt": "Er ___ nach Berlin. (fahren)",
+      "rule": "不規則 a→ä は du と er/sie/es だけ。",
+      "blanks": [{ "accept": ["fährt"] }],
+      "explain": "① fahren は a→ä。② 変わるのは du(fährst)/er(fährt) のみ。③ ihr は fahrt(変化なし)。"
+    },
+    {
+      "type": "fill",
+      "prompt": "Du ___ viel. (arbeiten)",
+      "rule": "語幹が -t で終わると du は e を挟んで -est。",
+      "blanks": [{ "accept": ["arbeitest"] }],
+      "explain": "① 語幹 arbeit は -t。② du は -st の前に e を挟む → arbeitest(×arbeitst)。③ er も arbeitet。"
+    },
+    {
+      "type": "fill",
+      "prompt": "Du ___ Anna. (heißen)",
+      "rule": "語幹が -ß なら du の s が落ちて -t だけ。",
+      "blanks": [{ "accept": ["heißt", "heisst"] }],
+      "explain": "① 語幹 heiß は -ß。② du の -st から s が落ち heißt(×heißst)。③ er sie es も heißt と同形。"
+    },
+    {
+      "type": "fill",
+      "prompt": "Wir ___ Deutsch. (sprechen)  /  ___ du Deutsch? (sprechen)",
+      "rule": "e→i は du と er/sie/es だけ。wir は母音が変わらない。",
+      "blanks": [{ "accept": ["sprechen"] }, { "accept": ["Sprichst"] }],
+      "explain": "① wir は不定詞と同じ sprechen(母音変化なし)。② du は e→i で sprichst。③ 疑問文なので Sprichst が文頭・大文字。"
+    },
+    {
+      "type": "fill",
+      "prompt": "___ du gern Bücher? (lesen)  /  Sie(彼女) ___ einen Apfel. (essen)",
+      "rule": "lesen は e→ie + 語幹 -s で du=er(liest)。essen は e→i + 語幹 -ss で du=er(isst)。",
+      "blanks": [{ "accept": ["Liest"] }, { "accept": ["isst"] }],
+      "explain": "① lesen: e→ie かつ語幹 -s → du も liest(er と同形)。文頭なので大文字 Liest。② essen: e→i かつ語幹 -ss → isst。③ どちらも du と er が同じ形になる。"
+    },
+    {
+      "type": "fill",
+      "prompt": "Ich ___ im Supermarkt ___. (einkaufen)",
+      "rule": "分離動詞は後ろの動詞だけ活用し、前つづり ein を文末へ。",
+      "blanks": [{ "accept": ["kaufe"] }, { "accept": ["ein"] }],
+      "explain": "① 活用するのは kaufen の部分(ich→kaufe)。② 前つづり ein は切り離して文末。③ Ich kaufe … ein. の形。"
+    },
+    {
+      "type": "transform",
+      "prompt": "正しく直そう(よくある間違い): Er fahrt nach Hause.",
+      "rule": "fahren は a→ä。er は fährt。",
+      "accept": ["Er fährt nach Hause."],
+      "explain": "① fahren は a→ä の不規則。② er/sie/es は fährt(×fahrt)。③ ihr なら fahrt のままでよい。"
+    },
+    {
+      "type": "transform",
+      "prompt": "正しく直そう(よくある間違い): Wir sprichen Deutsch.",
+      "rule": "wir は不定詞と同じ形。母音は変わらない。",
+      "accept": ["Wir sprechen Deutsch."],
+      "explain": "① 母音が変わるのは du と er/sie/es だけ。② wir は sprechen(×sprichen)。③ 語尾は規則どおり -en。"
+    },
+    {
+      "type": "transform",
+      "prompt": "正しく直そう(よくある間違い): Ich einkaufe heute.",
+      "rule": "分離動詞は前つづりを文末へ。",
+      "accept": ["Ich kaufe heute ein."],
+      "explain": "① 活用するのは kaufen(ich→kaufe)。② 前つづり ein は文末へ。③ Ich kaufe heute ein. が正しい。"
+    },
+    {
+      "type": "free",
+      "prompt": "和訳: 君は本を読みますか?",
+      "rule": "lesen は e→ie。疑問文は動詞が文頭。",
+      "answer": "Liest du ein Buch?",
+      "explain": "① lesen は e→ie かつ語幹 -s → du は liest。② 疑問文なので動詞 Liest が文頭。③ 文末は ?。自己採点。"
+    },
+    {
+      "type": "free",
+      "prompt": "和訳: 彼女は私を手伝います。",
+      "rule": "helfen は e→i。er/sie/es は hilft。",
+      "answer": "Sie hilft mir.",
+      "explain": "① helfen は e→i → sie(彼女)は hilft。② mir は「私を(に)」。③ 平叙文なので動詞は2番目。自己採点。"
+    }
+  ]
+}

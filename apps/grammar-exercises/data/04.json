@@ -1,0 +1,201 @@
+{
+  "lesson": "04",
+  "title": "04 名詞の複数形(Plural)",
+  "doc": "../../#/grammar/nomen-plural",
+  "intro": "名詞の複数形の練習。複数の冠詞は性に関係なくいつでも die。語尾は5パターン(A 無変化±¨ / B -e / C -er / D -(e)n / E -s)。前半はサクサク選んで対応づけ、後半で書く練習。1問ずつチェックして、その場で答え合わせ。",
+  "exercises": [
+    {
+      "type": "match",
+      "prompt": "単数 → 複数を組み合わせよう(基本)",
+      "rule": "複数の冠詞はつねに die。語形は語尾で5パターンに分かれる。",
+      "pairs": [
+        { "left": "das Haus", "right": "die Häuser" },
+        { "left": "der Tisch", "right": "die Tische" },
+        { "left": "die Frau", "right": "die Frauen" },
+        { "left": "das Auto", "right": "die Autos" }
+      ],
+      "explain": "① Haus は C(-er+¨) で Häuser。② Tisch は B(-e) で Tische。③ Frau は D(-en) で Frauen、Auto は外来語で E(-s) の Autos。冠詞はすべて die。"
+    },
+    {
+      "type": "match",
+      "prompt": "単数 → 複数を組み合わせよう(ウムラウト)",
+      "rule": "ウムラウトが付くのは母音が a o u au のときだけ(e i は付かない)。",
+      "pairs": [
+        { "left": "der Apfel", "right": "die Äpfel" },
+        { "left": "das Buch", "right": "die Bücher" },
+        { "left": "der Mann", "right": "die Männer" },
+        { "left": "die Stadt", "right": "die Städte" }
+      ],
+      "explain": "① Apfel は A(¨のみ)で Äpfel。② Buch は C(-er+¨)で Bücher。③ Mann は C(-er+¨)で Männer、Stadt は女性 B(-e+¨)で Städte。a o u au だけが点を取る。"
+    },
+    {
+      "type": "match",
+      "prompt": "語尾 → 複数のなり方を対応づけよう",
+      "rule": "語尾から複数パターンを予測できる。女性 -ung → -en、男性 -ig → -e など。",
+      "pairs": [
+        { "left": "-ung (女性)", "right": "-en" },
+        { "left": "-ig (男性)", "right": "-e" },
+        { "left": "-chen (中性)", "right": "変化なし" },
+        { "left": "-um (中性ラテン系)", "right": "-um を取って -en" }
+      ],
+      "explain": "① -ung → -en(die Zeitung → die Zeitungen)。② -ig → -e(der König → die Könige)。③ -chen → 無変化(das Mädchen → die Mädchen)、-um → -en(das Museum → die Museen)。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "複数形の冠詞はどれ?(選んだ瞬間に採点)",
+      "rule": "複数では性が消える。冠詞は1つだけ。",
+      "options": ["die", "der", "das"],
+      "answer": 0,
+      "explain": "① 複数の冠詞はつねに die。② der/das は単数の男性・中性で、複数では使わない。③ der Mann → die Männer のように、性に関係なく die に合流する。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "das Buch の複数形はどれ?(選んだ瞬間に採点)",
+      "rule": "中性1音節は C(-er)。母音 a o u au はウムラウト。",
+      "options": ["die Bücher", "die Buchs", "die Buche"],
+      "answer": 0,
+      "explain": "① Buch は C パターン → -er、u は ü になり Bücher。② Buchs(-s)は外来語向けの E で不可。③ Buche(-e)は B だが Buch は C。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "das Auto の複数形はどれ?(選んだ瞬間に採点)",
+      "rule": "外来語・母音で終わる語は E(-s)。ウムラウトなし。",
+      "options": ["die Autos", "die Auten", "die Autoen"],
+      "answer": 0,
+      "explain": "① 外来語・-o 終わりは E → Autos。② Auten/Autoen は D(-(e)n)の誤用。③ E パターンは英語と同じ感覚で -s を足すだけ。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "das Mädchen の複数形はどれ?(選んだ瞬間に採点)",
+      "rule": "中性の縮小形 -chen / -lein は A(変化なし)。",
+      "options": ["die Mädchen", "die Mädchens", "die Mädcher"],
+      "answer": 0,
+      "explain": "① -chen は無変化 → die Mädchen(単複同形)。② Mädchens のように -s を付けるのは誤り。③ -chen / -lein はいつも変化なし。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "der Apfel の複数形はどれ?(選んだ瞬間に採点)",
+      "rule": "-el 終わりは A(無変化)。母音 a はウムラウトを取り得る。",
+      "options": ["die Äpfel", "die Apfels", "die Apfeln"],
+      "answer": 0,
+      "explain": "① Apfel は A パターン、語尾はそのまま・a→ä で Äpfel。② Apfels(-s)は外来語向けで不可。③ Apfeln(-n)も誤り。-el 語は語尾を足さない。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "die Zeitung の複数形はどれ?(選んだ瞬間に採点)",
+      "rule": "女性 -ung は D(-en)。女性名詞はウムラウトが付かない。",
+      "options": ["die Zeitungen", "die Zeitunge", "die Zeitungs"],
+      "answer": 0,
+      "explain": "① -ung → -en で Zeitungen。② -e(B)は男性に多く、女性 -ung には合わない。③ -s(E)は外来語向け。女性名詞は D が最頻。"
+    },
+    {
+      "type": "table",
+      "prompt": "5つの複数パターンと代表例を埋めよう",
+      "rule": "A 無変化±¨ / B -e / C -er / D -(e)n / E -s。",
+      "columns": ["パターン", "単数", "複数"],
+      "rows": [
+        { "cells": ["A 無変化", "das Fenster", { "accept": ["die Fenster"] }] },
+        { "cells": ["B -e", "der Tag", { "accept": ["die Tage"] }] },
+        { "cells": ["C -er", "das Kind", { "accept": ["die Kinder"] }] },
+        { "cells": ["D -(e)n", "die Blume", { "accept": ["die Blumen"] }] },
+        { "cells": ["E -s", "das Foto", { "accept": ["die Fotos"] }] }
+      ],
+      "explain": "① A は語尾を足さない(Fenster → Fenster)。② B は -e(Tag → Tage)、C は -er(Kind → Kinder)。③ D は子音終わりに -en(Blume は -e なので -n)、E は外来語に -s(Foto → Fotos)。"
+    },
+    {
+      "type": "table",
+      "prompt": "語尾から複数形を予測しよう(性別語尾 → なり方)",
+      "rule": "語尾 → 複数の作り方が一直線。冠詞はすべて die。",
+      "columns": ["単数", "手がかり", "複数"],
+      "rows": [
+        { "cells": ["der König", "-ig → -e", { "accept": ["die Könige"] }] },
+        { "cells": ["der Polizist", "-ist → -en", { "accept": ["die Polizisten"] }] },
+        { "cells": ["die Information", "-ion → -en", { "accept": ["die Informationen"] }] },
+        { "cells": ["das Museum", "-um → -en", { "accept": ["die Museen"] }] }
+      ],
+      "explain": "① 男性 -ig は B(-e)→ Könige。② 男性 -ist は -en の n変化 → Polizisten。③ 女性 -ion は -en → Informationen、中性ラテン系 -um は um を取って -en → Museen。"
+    },
+    {
+      "type": "table",
+      "prompt": "A1–A2 基本名詞の複数形を埋めよう",
+      "rule": "単数と複数をセットで覚える。冠詞は複数でいつも die。",
+      "columns": ["単数", "複数"],
+      "rows": [
+        { "cells": ["der Stuhl", { "accept": ["die Stühle"] }] },
+        { "cells": ["die Wohnung", { "accept": ["die Wohnungen"] }] },
+        { "cells": ["das Zimmer", { "accept": ["die Zimmer"] }] },
+        { "cells": ["der Mann", { "accept": ["die Männer"] }] }
+      ],
+      "explain": "① Stuhl は B(-e+¨)で Stühle。② Wohnung は女性 -ung → D(-en)で Wohnungen。③ Zimmer は -er 終わりで A(無変化)、Mann は C(-er+¨)で Männer。"
+    },
+    {
+      "type": "fill",
+      "prompt": "das Buch → die ___   (本)",
+      "rule": "中性1音節は C(-er)。u → ü のウムラウト。",
+      "blanks": [{ "accept": ["Bücher"] }],
+      "explain": "① C パターンで -er を足す。② 母音 u はウムラウトで ü → Bücher。③ 採点はウムラウトに厳格(Bucher は不可)。"
+    },
+    {
+      "type": "fill",
+      "prompt": "die Universität → die ___   (大学)",
+      "rule": "女性 -tät は D(-en)。ウムラウトは付かない。",
+      "blanks": [{ "accept": ["Universitäten"] }],
+      "explain": "① -tät → -en で Universitäten。② 女性名詞の D は絶対にウムラウトが付かない。③ 既にある ä はそのまま残す。"
+    },
+    {
+      "type": "fill",
+      "prompt": "das Haus → die ___ (家)  /  der Apfel → die ___ (りんご)",
+      "rule": "Haus は C(-er+¨)、Apfel は A(¨のみ)。au→äu, a→ä。",
+      "blanks": [{ "accept": ["Häuser"] }, { "accept": ["Äpfel"] }],
+      "explain": "① Haus は C → -er、au→äu で Häuser。② Apfel は A → 語尾はそのまま、a→ä で Äpfel。③ どちらもウムラウト必須。"
+    },
+    {
+      "type": "fill",
+      "prompt": "die Frau → die ___ (女性)  /  die Katze → die ___ (猫)",
+      "rule": "女性は D。子音終わりは -en、-e 終わりは -n だけ。",
+      "blanks": [{ "accept": ["Frauen"] }, { "accept": ["Katzen"] }],
+      "explain": "① Frau は子音終わり → -en で Frauen。② Katze は -e 終わり → -n だけで Katzen。③ どちらも女性 D でウムラウトなし。"
+    },
+    {
+      "type": "transform",
+      "prompt": "複数形に直そう(冠詞つき): das Kind",
+      "rule": "中性1音節は C(-er)。Kind の母音 i はウムラウトしない。",
+      "accept": ["die Kinder"],
+      "explain": "① 冠詞は die に。② C パターンで -er → Kinder。③ i はウムラウト不可の母音なので点は付かない。"
+    },
+    {
+      "type": "transform",
+      "prompt": "正しく直そう(よくある間違い): der Kinder",
+      "rule": "複数の冠詞はいつでも die。性は消える。",
+      "accept": ["die Kinder"],
+      "explain": "① 複数では der/das が消えて die に合流。② 語形 Kinder は正しい(C, -er)。③ 直すのは冠詞だけ → die Kinder。"
+    },
+    {
+      "type": "transform",
+      "prompt": "正しく直そう(よくある間違い): die Mädchens",
+      "rule": "-chen は A(無変化)。-s を付けない。",
+      "accept": ["die Mädchen"],
+      "explain": "① 縮小形 -chen は単複同形。② 余分な -s を外す → die Mädchen。③ -s が付くのは外来語(Auto → Autos)など E パターンだけ。"
+    },
+    {
+      "type": "free",
+      "prompt": "和訳: 子どもたち / 本(複数) / 家(複数)  ※冠詞つきで",
+      "rule": "複数の冠詞はすべて die。Kind→C, Buch→C(¨), Haus→C(¨)。",
+      "answer": "die Kinder / die Bücher / die Häuser",
+      "explain": "① Kind → die Kinder(C, -er)。② Buch → die Bücher(C, u→ü)。③ Haus → die Häuser(C, au→äu)。3語とも C パターン。自己採点。"
+    },
+    {
+      "type": "free",
+      "prompt": "分類: 次の語は「単数のみ / 複数のみ / ふつう(複数形あり)」のどれ?  die Eltern, das Geld, die Milch, die Leute, der Hund",
+      "rule": "数えない語は単数のみ。いつも複数の語もある。",
+      "answer": "die Eltern=複数のみ / das Geld=単数のみ / die Milch=単数のみ / die Leute=複数のみ / der Hund=ふつう(die Hunde)",
+      "explain": "① Eltern(両親)・Leute(人々)は複数のみ。② Geld(お金)・Milch(牛乳)は数えないので単数のみ。③ Hund はふつうの名詞で die Hunde(B, -e)。自己採点。"
+    }
+  ]
+}
