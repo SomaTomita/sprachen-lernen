@@ -1,0 +1,4027 @@
+[
+  {
+    "id": "a2-abschliessen",
+    "lemma": "abschließen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-ahnung",
+    "lemma": "Ahnung",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Ahnungen"
+  },
+  {
+    "id": "a2-aktiv",
+    "lemma": "aktiv",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-aktuell",
+    "lemma": "aktuell",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-als",
+    "lemma": "als",
+    "pos": "conjunction",
+    "level": "A2"
+  },
+  {
+    "id": "a2-ampel",
+    "lemma": "Ampel",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Ampeln"
+  },
+  {
+    "id": "a2-aendern",
+    "lemma": "ändern",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-anders",
+    "lemma": "anders",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-angst",
+    "lemma": "Angst",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Ängste"
+  },
+  {
+    "id": "a2-ansehen",
+    "lemma": "ansehen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-anzug",
+    "lemma": "Anzug",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Anzüge"
+  },
+  {
+    "id": "a2-apotheke",
+    "lemma": "Apotheke",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Apotheken"
+  },
+  {
+    "id": "a2-aergern",
+    "lemma": "ärgern",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-artikel",
+    "lemma": "Artikel",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Artikel"
+  },
+  {
+    "id": "a2-auf-jeden-keinen-fall",
+    "lemma": "auf jeden/keinen Fall",
+    "pos": "other",
+    "level": "A2"
+  },
+  {
+    "id": "a2-aufmachen",
+    "lemma": "aufmachen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-aufpassen",
+    "lemma": "aufpassen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-aufraeumen",
+    "lemma": "aufräumen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-aufregend",
+    "lemma": "aufregend",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-ausbildung",
+    "lemma": "Ausbildung",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Ausbildungen"
+  },
+  {
+    "id": "a2-ausgeben",
+    "lemma": "ausgeben",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-ausgehen",
+    "lemma": "ausgehen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-auspacken",
+    "lemma": "auspacken",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-ausruhen",
+    "lemma": "ausruhen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-ausser",
+    "lemma": "außer",
+    "pos": "preposition",
+    "level": "A2"
+  },
+  {
+    "id": "a2-ausserdem",
+    "lemma": "außerdem",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-ausserhalb",
+    "lemma": "außerhalb",
+    "pos": "preposition",
+    "level": "A2"
+  },
+  {
+    "id": "a2-aussprechen",
+    "lemma": "aussprechen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-ausstellung",
+    "lemma": "Ausstellung",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Ausstellungen"
+  },
+  {
+    "id": "a2-austragen",
+    "lemma": "austragen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-babysitter",
+    "lemma": "Babysitter",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Babysitter"
+  },
+  {
+    "id": "a2-backen",
+    "lemma": "backen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-ball",
+    "lemma": "Ball",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Bälle"
+  },
+  {
+    "id": "a2-band",
+    "lemma": "Band",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Bands"
+  },
+  {
+    "id": "a2-basketball",
+    "lemma": "Basketball",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Basketbälle"
+  },
+  {
+    "id": "a2-basteln",
+    "lemma": "basteln",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-bauen",
+    "lemma": "bauen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-baustelle",
+    "lemma": "Baustelle",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Baustellen"
+  },
+  {
+    "id": "a2-beantworten",
+    "lemma": "beantworten",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-bedanken",
+    "lemma": "bedanken",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-beeilen",
+    "lemma": "beeilen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-beenden",
+    "lemma": "beenden",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-begruenden",
+    "lemma": "begründen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-beliebt",
+    "lemma": "beliebt",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-bequem",
+    "lemma": "bequem",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-beraten",
+    "lemma": "beraten",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-berg",
+    "lemma": "Berg",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Berge"
+  },
+  {
+    "id": "a2-berichten",
+    "lemma": "berichten",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-beruehmt",
+    "lemma": "berühmt",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-bescheid",
+    "lemma": "Bescheid",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2"
+  },
+  {
+    "id": "a2-beschreiben",
+    "lemma": "beschreiben",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-beschweren",
+    "lemma": "beschweren",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-besichtigen",
+    "lemma": "besichtigen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-besonders",
+    "lemma": "besonders",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-bestaetigen",
+    "lemma": "bestätigen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-bestehen",
+    "lemma": "bestehen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-besuch",
+    "lemma": "Besuch",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Besuche"
+  },
+  {
+    "id": "a2-bewerben",
+    "lemma": "bewerben",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-bewerbung",
+    "lemma": "Bewerbung",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Bewerbungen"
+  },
+  {
+    "id": "a2-bewoelkt",
+    "lemma": "bewölkt",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-wolke",
+    "lemma": "Wolke",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Wolken"
+  },
+  {
+    "id": "a2-bibliothek",
+    "lemma": "Bibliothek",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Bibliotheken"
+  },
+  {
+    "id": "a2-blatt",
+    "lemma": "Blatt",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Blätter"
+  },
+  {
+    "id": "a2-bloed",
+    "lemma": "blöd",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-blog",
+    "lemma": "Blog",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Blogs"
+  },
+  {
+    "id": "a2-blond",
+    "lemma": "blond",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-bluse",
+    "lemma": "Bluse",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Blusen"
+  },
+  {
+    "id": "a2-bohne",
+    "lemma": "Bohne",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Bohnen"
+  },
+  {
+    "id": "a2-braten",
+    "lemma": "braten",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-brille",
+    "lemma": "Brille",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Brillen"
+  },
+  {
+    "id": "a2-bruecke",
+    "lemma": "Brücke",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Brücken"
+  },
+  {
+    "id": "a2-buchen",
+    "lemma": "buchen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-bunt",
+    "lemma": "bunt",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-buero",
+    "lemma": "Büro",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Büros"
+  },
+  {
+    "id": "a2-cafeteria",
+    "lemma": "Cafeteria",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Cafeterias"
+  },
+  {
+    "id": "a2-chatten",
+    "lemma": "chatten",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-club",
+    "lemma": "Club",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Clubs"
+  },
+  {
+    "id": "a2-comic",
+    "lemma": "Comic",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Comics"
+  },
+  {
+    "id": "a2-creme",
+    "lemma": "Creme",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Cremes"
+  },
+  {
+    "id": "a2-dar",
+    "lemma": "dar",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-dabei-sein",
+    "lemma": "dabei sein",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-dafuer-dagegen-sein",
+    "lemma": "dafür/dagegen sein",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-damals",
+    "lemma": "damals",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-dass",
+    "lemma": "dass",
+    "pos": "conjunction",
+    "level": "A2"
+  },
+  {
+    "id": "a2-datei",
+    "lemma": "Datei",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Dateien"
+  },
+  {
+    "id": "a2-denken",
+    "lemma": "denken",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-deshalb",
+    "lemma": "deshalb",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-deutlich",
+    "lemma": "deutlich",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-dick",
+    "lemma": "dick",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-ding",
+    "lemma": "Ding",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Dinge"
+  },
+  {
+    "id": "a2-direkt",
+    "lemma": "direkt",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-diskutieren",
+    "lemma": "diskutieren",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-doch",
+    "lemma": "doch",
+    "pos": "particle",
+    "level": "A2"
+  },
+  {
+    "id": "a2-dringend",
+    "lemma": "dringend",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-drinnen",
+    "lemma": "drinnen",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-drueben",
+    "lemma": "drüben",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-dumm",
+    "lemma": "dumm",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-dunkel",
+    "lemma": "dunkel",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-duenn",
+    "lemma": "dünn",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-e-book",
+    "lemma": "E-Book",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "E-Books"
+  },
+  {
+    "id": "a2-echt",
+    "lemma": "echt",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-egal",
+    "lemma": "egal",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-ehepartner",
+    "lemma": "Ehepartner",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Ehepartner"
+  },
+  {
+    "id": "a2-eigen",
+    "lemma": "eigen-",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-eigentlich",
+    "lemma": "eigentlich",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-einig",
+    "lemma": "einig-",
+    "pos": "pronoun",
+    "level": "A2"
+  },
+  {
+    "id": "a2-einkaufszentrum",
+    "lemma": "Einkaufszentrum",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Einkaufszentrumen"
+  },
+  {
+    "id": "a2-einpacken",
+    "lemma": "einpacken",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-eintragen",
+    "lemma": "eintragen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-einverstanden-sein",
+    "lemma": "einverstanden sein",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-einzel",
+    "lemma": "einzel-",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-einziehen",
+    "lemma": "einziehen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-eis",
+    "lemma": "Eis",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2"
+  },
+  {
+    "id": "a2-endlich",
+    "lemma": "endlich",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-eng",
+    "lemma": "eng",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-erdgeschoss",
+    "lemma": "Erdgeschoss",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Erdgeschosse"
+  },
+  {
+    "id": "a2-erfahrung",
+    "lemma": "Erfahrung",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Erfahrungen"
+  },
+  {
+    "id": "a2-erinnern",
+    "lemma": "erinnern",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-erkaeltet-sein",
+    "lemma": "erkältet sein",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-erlaubt-sein",
+    "lemma": "erlaubt sein",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-erlaubnis",
+    "lemma": "Erlaubnis",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2"
+  },
+  {
+    "id": "a2-ermaessigung",
+    "lemma": "Ermäßigung",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Ermäßigungen"
+  },
+  {
+    "id": "a2-erreichen",
+    "lemma": "erreichen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-erst",
+    "lemma": "erst",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-etwas",
+    "lemma": "etwas",
+    "pos": "pronoun",
+    "level": "A2"
+  },
+  {
+    "id": "a2-fach",
+    "lemma": "Fach",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Fächer"
+  },
+  {
+    "id": "a2-fahrplan",
+    "lemma": "Fahrplan",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Fahrpläne"
+  },
+  {
+    "id": "a2-fallen",
+    "lemma": "fallen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-fan",
+    "lemma": "Fan",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Fans"
+  },
+  {
+    "id": "a2-fantastisch",
+    "lemma": "fantastisch",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-fast",
+    "lemma": "fast",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-faul",
+    "lemma": "faul",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-fenster",
+    "lemma": "Fenster",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Fenster"
+  },
+  {
+    "id": "a2-ferien",
+    "lemma": "Ferien",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2"
+  },
+  {
+    "id": "a2-fernseher",
+    "lemma": "Fernseher",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Fernseher"
+  },
+  {
+    "id": "a2-fertig-sein",
+    "lemma": "fertig sein",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-fest",
+    "lemma": "Fest",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Feste"
+  },
+  {
+    "id": "a2-festival",
+    "lemma": "Festival",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Festivals"
+  },
+  {
+    "id": "a2-fett",
+    "lemma": "fett",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-fit-sein",
+    "lemma": "fit sein",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-fleissig",
+    "lemma": "fleißig",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-flohmarkt",
+    "lemma": "Flohmarkt",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Flohmärkte"
+  },
+  {
+    "id": "a2-flug",
+    "lemma": "Flug",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Flüge"
+  },
+  {
+    "id": "a2-fluss",
+    "lemma": "Fluss",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Flüsse"
+  },
+  {
+    "id": "a2-fotoapparat",
+    "lemma": "Fotoapparat",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Fotoapparate"
+  },
+  {
+    "id": "a2-fotografieren",
+    "lemma": "fotografieren",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-freiwillig",
+    "lemma": "freiwillig",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-freundlich",
+    "lemma": "freundlich",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-frisch",
+    "lemma": "frisch",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-froh",
+    "lemma": "froh",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-frueh",
+    "lemma": "früh",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-fuehlen",
+    "lemma": "fühlen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-fuehrerschein",
+    "lemma": "Führerschein",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Führerscheine"
+  },
+  {
+    "id": "a2-fundsachen",
+    "lemma": "Fundsachen",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2"
+  },
+  {
+    "id": "a2-furchtbar",
+    "lemma": "furchtbar",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-gabel",
+    "lemma": "Gabel",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Gabeln"
+  },
+  {
+    "id": "a2-ganz",
+    "lemma": "ganz",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-garage",
+    "lemma": "Garage",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Garagen"
+  },
+  {
+    "id": "a2-geehrt",
+    "lemma": "geehrt-",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-gefaehrlich",
+    "lemma": "gefährlich",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-gegenteil",
+    "lemma": "Gegenteil",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Gegenteile"
+  },
+  {
+    "id": "a2-gegenueber",
+    "lemma": "gegenüber",
+    "pos": "preposition",
+    "level": "A2"
+  },
+  {
+    "id": "a2-gehalt",
+    "lemma": "Gehalt",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Gehälter"
+  },
+  {
+    "id": "a2-geldboerse",
+    "lemma": "Geldbörse",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Geldbörsen"
+  },
+  {
+    "id": "a2-genau",
+    "lemma": "genau",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-genug",
+    "lemma": "genug",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-geraet",
+    "lemma": "Gerät",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Geräte"
+  },
+  {
+    "id": "a2-gericht",
+    "lemma": "Gericht",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Gerichte"
+  },
+  {
+    "id": "a2-geschichte",
+    "lemma": "Geschichte",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Geschichten"
+  },
+  {
+    "id": "a2-geschirr",
+    "lemma": "Geschirr",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2"
+  },
+  {
+    "id": "a2-gesicht",
+    "lemma": "Gesicht",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Gesichter"
+  },
+  {
+    "id": "a2-gesund",
+    "lemma": "gesund",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-gesundheit",
+    "lemma": "Gesundheit",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2"
+  },
+  {
+    "id": "a2-gewitter",
+    "lemma": "Gewitter",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Gewitter"
+  },
+  {
+    "id": "a2-gitarre",
+    "lemma": "Gitarre",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Gitarren"
+  },
+  {
+    "id": "a2-grippe",
+    "lemma": "Grippe",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2"
+  },
+  {
+    "id": "a2-gueltig-sein",
+    "lemma": "gültig sein",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-hals",
+    "lemma": "Hals",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Hälse"
+  },
+  {
+    "id": "a2-hamburger",
+    "lemma": "Hamburger",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Hamburger"
+  },
+  {
+    "id": "a2-handtuch",
+    "lemma": "Handtuch",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Handtücher"
+  },
+  {
+    "id": "a2-haengen",
+    "lemma": "hängen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-hart",
+    "lemma": "hart",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-haesslich",
+    "lemma": "hässlich",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-hauptstadt",
+    "lemma": "Hauptstadt",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Hauptstädte"
+  },
+  {
+    "id": "a2-haushalt",
+    "lemma": "Haushalt",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Haushalte"
+  },
+  {
+    "id": "a2-heft",
+    "lemma": "Heft",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Hefte"
+  },
+  {
+    "id": "a2-heiss",
+    "lemma": "heiß",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-heizung",
+    "lemma": "Heizung",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Heizungen"
+  },
+  {
+    "id": "a2-hemd",
+    "lemma": "Hemd",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Hemden"
+  },
+  {
+    "id": "a2-her",
+    "lemma": "her",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-heraus",
+    "lemma": "heraus",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-herein",
+    "lemma": "herein",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-herstellen",
+    "lemma": "herstellen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-herunterladen",
+    "lemma": "herunterladen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-himmel",
+    "lemma": "Himmel",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2"
+  },
+  {
+    "id": "a2-hin",
+    "lemma": "hin",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-hinter",
+    "lemma": "hinter",
+    "pos": "preposition",
+    "level": "A2"
+  },
+  {
+    "id": "a2-hoffen",
+    "lemma": "hoffen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-hoffentlich",
+    "lemma": "hoffentlich",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-homepage",
+    "lemma": "Homepage",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Homepages"
+  },
+  {
+    "id": "a2-hose",
+    "lemma": "Hose",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Hosen"
+  },
+  {
+    "id": "a2-husten",
+    "lemma": "husten",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-idee",
+    "lemma": "Idee",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Ideen"
+  },
+  {
+    "id": "a2-informieren",
+    "lemma": "informieren",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-insel",
+    "lemma": "Insel",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Inseln"
+  },
+  {
+    "id": "a2-instrument",
+    "lemma": "Instrument",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Instrumente"
+  },
+  {
+    "id": "a2-intelligent",
+    "lemma": "intelligent",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-interesse",
+    "lemma": "Interesse",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Interessen"
+  },
+  {
+    "id": "a2-interessieren",
+    "lemma": "interessieren",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-interessant",
+    "lemma": "interessant",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-interview",
+    "lemma": "Interview",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Interviews"
+  },
+  {
+    "id": "a2-jeans",
+    "lemma": "Jeans",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2"
+  },
+  {
+    "id": "a2-jeder",
+    "lemma": "jeder",
+    "pos": "pronoun",
+    "level": "A2"
+  },
+  {
+    "id": "a2-jemand",
+    "lemma": "jemand",
+    "pos": "pronoun",
+    "level": "A2"
+  },
+  {
+    "id": "a2-joggen",
+    "lemma": "joggen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-jugendherberge",
+    "lemma": "Jugendherberge",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Jugendherbergen"
+  },
+  {
+    "id": "a2-kalender",
+    "lemma": "Kalender",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Kalender"
+  },
+  {
+    "id": "a2-kalt",
+    "lemma": "kalt",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-kamera",
+    "lemma": "Kamera",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Kameras"
+  },
+  {
+    "id": "a2-kaese",
+    "lemma": "Käse",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2"
+  },
+  {
+    "id": "a2-katze",
+    "lemma": "Katze",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Katzen"
+  },
+  {
+    "id": "a2-kaufhaus",
+    "lemma": "Kaufhaus",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Kaufhäuser"
+  },
+  {
+    "id": "a2-keller",
+    "lemma": "Keller",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Keller"
+  },
+  {
+    "id": "a2-kenntnisse",
+    "lemma": "Kenntnisse",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2"
+  },
+  {
+    "id": "a2-kette",
+    "lemma": "Kette",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Ketten"
+  },
+  {
+    "id": "a2-kirche",
+    "lemma": "Kirche",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Kirchen"
+  },
+  {
+    "id": "a2-klappen",
+    "lemma": "klappen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-klavier",
+    "lemma": "Klavier",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Klaviere"
+  },
+  {
+    "id": "a2-kleid",
+    "lemma": "Kleid",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Kleider"
+  },
+  {
+    "id": "a2-klug",
+    "lemma": "klug",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-komisch",
+    "lemma": "komisch",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-kontakt",
+    "lemma": "Kontakt",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Kontakte"
+  },
+  {
+    "id": "a2-kontrollieren",
+    "lemma": "kontrollieren",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-konzert",
+    "lemma": "Konzert",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Konzerte"
+  },
+  {
+    "id": "a2-koerper",
+    "lemma": "Körper",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Körper"
+  },
+  {
+    "id": "a2-kosmetik",
+    "lemma": "Kosmetik",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2"
+  },
+  {
+    "id": "a2-kostenlos",
+    "lemma": "kostenlos",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-krankenhaus",
+    "lemma": "Krankenhaus",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Krankenhäuser"
+  },
+  {
+    "id": "a2-krankenkasse",
+    "lemma": "Krankenkasse",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Krankenkassen"
+  },
+  {
+    "id": "a2-krankheit",
+    "lemma": "Krankheit",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Krankheiten"
+  },
+  {
+    "id": "a2-kredit",
+    "lemma": "Kredit",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Kredite"
+  },
+  {
+    "id": "a2-kreuzung",
+    "lemma": "Kreuzung",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Kreuzungen"
+  },
+  {
+    "id": "a2-krimi",
+    "lemma": "Krimi",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Krimis"
+  },
+  {
+    "id": "a2-kuehl",
+    "lemma": "kühl",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-kultur",
+    "lemma": "Kultur",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Kulturen"
+  },
+  {
+    "id": "a2-kuendigen",
+    "lemma": "kündigen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-kunst",
+    "lemma": "Kunst",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Künste"
+  },
+  {
+    "id": "a2-lampe",
+    "lemma": "Lampe",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Lampen"
+  },
+  {
+    "id": "a2-landschaft",
+    "lemma": "Landschaft",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Landschaften"
+  },
+  {
+    "id": "a2-langweilig",
+    "lemma": "langweilig",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-laptop",
+    "lemma": "Laptop",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Laptops"
+  },
+  {
+    "id": "a2-lassen",
+    "lemma": "lassen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-leer",
+    "lemma": "leer",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-leidtun",
+    "lemma": "leidtun",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-leihen",
+    "lemma": "leihen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-liefern",
+    "lemma": "liefern",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-link",
+    "lemma": "Link",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Links"
+  },
+  {
+    "id": "a2-loeffel",
+    "lemma": "Löffel",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Löffel"
+  },
+  {
+    "id": "a2-luege",
+    "lemma": "Lüge",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Lügen"
+  },
+  {
+    "id": "a2-luegen",
+    "lemma": "lügen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-lust",
+    "lemma": "Lust",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2"
+  },
+  {
+    "id": "a2-magen",
+    "lemma": "Magen",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Mägen"
+  },
+  {
+    "id": "a2-mailbox",
+    "lemma": "Mailbox",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Mailboxen"
+  },
+  {
+    "id": "a2-mal",
+    "lemma": "mal",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-mal-2",
+    "lemma": "Mal",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Male"
+  },
+  {
+    "id": "a2-malen",
+    "lemma": "malen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-manch",
+    "lemma": "manch-",
+    "pos": "pronoun",
+    "level": "A2"
+  },
+  {
+    "id": "a2-manchmal",
+    "lemma": "manchmal",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-mannschaft",
+    "lemma": "Mannschaft",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Mannschaften"
+  },
+  {
+    "id": "a2-mantel",
+    "lemma": "Mantel",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Mäntel"
+  },
+  {
+    "id": "a2-markt",
+    "lemma": "Markt",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Märkte"
+  },
+  {
+    "id": "a2-medikament",
+    "lemma": "Medikament",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Medikamente"
+  },
+  {
+    "id": "a2-meinen",
+    "lemma": "meinen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-meinung",
+    "lemma": "Meinung",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Meinungen"
+  },
+  {
+    "id": "a2-meistens",
+    "lemma": "meistens",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-menge",
+    "lemma": "Menge",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Mengen"
+  },
+  {
+    "id": "a2-merken",
+    "lemma": "merken",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-messe",
+    "lemma": "Messe",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Messen"
+  },
+  {
+    "id": "a2-messer",
+    "lemma": "Messer",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Messer"
+  },
+  {
+    "id": "a2-mindestens",
+    "lemma": "mindestens",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-mineralwasser",
+    "lemma": "Mineralwasser",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2"
+  },
+  {
+    "id": "a2-mitarbeiter",
+    "lemma": "Mitarbeiter",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Mitarbeiter"
+  },
+  {
+    "id": "a2-mittagessen",
+    "lemma": "Mittagessen",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Mittagessen"
+  },
+  {
+    "id": "a2-mittel",
+    "lemma": "Mittel",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Mittel"
+  },
+  {
+    "id": "a2-mobiltelefon",
+    "lemma": "Mobiltelefon",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Mobiltelefone"
+  },
+  {
+    "id": "a2-mode",
+    "lemma": "Mode",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Moden"
+  },
+  {
+    "id": "a2-modern",
+    "lemma": "modern",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-motor",
+    "lemma": "Motor",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Motoren"
+  },
+  {
+    "id": "a2-motorroller",
+    "lemma": "Motorroller",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Motorroller"
+  },
+  {
+    "id": "a2-muell",
+    "lemma": "Müll",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2"
+  },
+  {
+    "id": "a2-museum",
+    "lemma": "Museum",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Museen"
+  },
+  {
+    "id": "a2-musik",
+    "lemma": "Musik",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2"
+  },
+  {
+    "id": "a2-muetze",
+    "lemma": "Mütze",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Mützen"
+  },
+  {
+    "id": "a2-nachbar",
+    "lemma": "Nachbar",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Nachbarn"
+  },
+  {
+    "id": "a2-nachricht",
+    "lemma": "Nachricht",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Nachrichten"
+  },
+  {
+    "id": "a2-naechste",
+    "lemma": "nächste",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-naehe",
+    "lemma": "Nähe",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2"
+  },
+  {
+    "id": "a2-nass",
+    "lemma": "nass",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-natur",
+    "lemma": "Natur",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2"
+  },
+  {
+    "id": "a2-natuerlich",
+    "lemma": "natürlich",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-neben",
+    "lemma": "neben",
+    "pos": "preposition",
+    "level": "A2"
+  },
+  {
+    "id": "a2-nebenan",
+    "lemma": "nebenan",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-neblig",
+    "lemma": "neblig",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-nennen",
+    "lemma": "nennen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-nervoes",
+    "lemma": "nervös",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-nett",
+    "lemma": "nett",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-niemand",
+    "lemma": "niemand",
+    "pos": "pronoun",
+    "level": "A2"
+  },
+  {
+    "id": "a2-nirgends",
+    "lemma": "nirgends",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-note",
+    "lemma": "Note",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Noten"
+  },
+  {
+    "id": "a2-notieren",
+    "lemma": "notieren",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-notiz",
+    "lemma": "Notiz",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Notizen"
+  },
+  {
+    "id": "a2-notwendig",
+    "lemma": "notwendig",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-nudel",
+    "lemma": "Nudel",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Nudeln"
+  },
+  {
+    "id": "a2-nuetzlich",
+    "lemma": "nützlich",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-offen",
+    "lemma": "offen",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-ohr",
+    "lemma": "Ohr",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Ohren"
+  },
+  {
+    "id": "a2-online",
+    "lemma": "online",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-orange",
+    "lemma": "Orange",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Orangen"
+  },
+  {
+    "id": "a2-organisieren",
+    "lemma": "organisieren",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-paar",
+    "lemma": "Paar",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Paare"
+  },
+  {
+    "id": "a2-ein-paar",
+    "lemma": "ein paar",
+    "pos": "other",
+    "level": "A2"
+  },
+  {
+    "id": "a2-packen",
+    "lemma": "packen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-paket",
+    "lemma": "Paket",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Pakete"
+  },
+  {
+    "id": "a2-parfuem",
+    "lemma": "Parfüm",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Parfüms"
+  },
+  {
+    "id": "a2-park",
+    "lemma": "Park",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Parks"
+  },
+  {
+    "id": "a2-parken",
+    "lemma": "parken",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-passen",
+    "lemma": "passen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-passieren",
+    "lemma": "passieren",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-passwort",
+    "lemma": "Passwort",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Passwörter"
+  },
+  {
+    "id": "a2-person",
+    "lemma": "Person",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Personen"
+  },
+  {
+    "id": "a2-pferd",
+    "lemma": "Pferd",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Pferde"
+  },
+  {
+    "id": "a2-pflanze",
+    "lemma": "Pflanze",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Pflanzen"
+  },
+  {
+    "id": "a2-pizza",
+    "lemma": "Pizza",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Pizzas"
+  },
+  {
+    "id": "a2-plakat",
+    "lemma": "Plakat",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Plakate"
+  },
+  {
+    "id": "a2-planen",
+    "lemma": "planen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-ploetzlich",
+    "lemma": "plötzlich",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-portion",
+    "lemma": "Portion",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Portionen"
+  },
+  {
+    "id": "a2-poster",
+    "lemma": "Poster",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Poster"
+  },
+  {
+    "id": "a2-postkarte",
+    "lemma": "Postkarte",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Postkarten"
+  },
+  {
+    "id": "a2-praktisch",
+    "lemma": "praktisch",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-preiswert",
+    "lemma": "preiswert",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-privat",
+    "lemma": "privat",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-pro",
+    "lemma": "pro",
+    "pos": "preposition",
+    "level": "A2"
+  },
+  {
+    "id": "a2-probieren",
+    "lemma": "probieren",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-produkt",
+    "lemma": "Produkt",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Produkte"
+  },
+  {
+    "id": "a2-programm",
+    "lemma": "Programm",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Programme"
+  },
+  {
+    "id": "a2-projekt",
+    "lemma": "Projekt",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Projekte"
+  },
+  {
+    "id": "a2-pruefen",
+    "lemma": "prüfen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-pullover",
+    "lemma": "Pullover",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Pullover"
+  },
+  {
+    "id": "a2-putzen",
+    "lemma": "putzen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-qualitaet",
+    "lemma": "Qualität",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Qualitäten"
+  },
+  {
+    "id": "a2-quiz",
+    "lemma": "Quiz",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2"
+  },
+  {
+    "id": "a2-radio",
+    "lemma": "Radio",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Radios"
+  },
+  {
+    "id": "a2-raten",
+    "lemma": "raten",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-rathaus",
+    "lemma": "Rathaus",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Rathäuser"
+  },
+  {
+    "id": "a2-raetsel",
+    "lemma": "Rätsel",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Rätsel"
+  },
+  {
+    "id": "a2-rechnen",
+    "lemma": "rechnen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-recht-haben",
+    "lemma": "recht haben",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-reden",
+    "lemma": "reden",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-reich",
+    "lemma": "reich",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-reifen",
+    "lemma": "Reifen",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Reifen"
+  },
+  {
+    "id": "a2-reihe",
+    "lemma": "Reihe",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Reihen"
+  },
+  {
+    "id": "a2-reinigung",
+    "lemma": "Reinigung",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Reinigungen"
+  },
+  {
+    "id": "a2-reiten",
+    "lemma": "reiten",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-renovieren",
+    "lemma": "renovieren",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-rentner",
+    "lemma": "Rentner",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Rentner"
+  },
+  {
+    "id": "a2-reservieren",
+    "lemma": "reservieren",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-rest",
+    "lemma": "Rest",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Reste"
+  },
+  {
+    "id": "a2-rezept",
+    "lemma": "Rezept",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Rezepte"
+  },
+  {
+    "id": "a2-rind",
+    "lemma": "Rind",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Rinder"
+  },
+  {
+    "id": "a2-ring",
+    "lemma": "Ring",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Ringe"
+  },
+  {
+    "id": "a2-rock",
+    "lemma": "Rock",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Röcke"
+  },
+  {
+    "id": "a2-romantisch",
+    "lemma": "romantisch",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-rose",
+    "lemma": "Rose",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Rosen"
+  },
+  {
+    "id": "a2-ruecken",
+    "lemma": "Rücken",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Rücken"
+  },
+  {
+    "id": "a2-rucksack",
+    "lemma": "Rucksack",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Rucksäcke"
+  },
+  {
+    "id": "a2-rufen",
+    "lemma": "rufen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-ruhe",
+    "lemma": "Ruhe",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2"
+  },
+  {
+    "id": "a2-rund",
+    "lemma": "rund",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-rundgang",
+    "lemma": "Rundgang",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Rundgänge"
+  },
+  {
+    "id": "a2-sache",
+    "lemma": "Sache",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Sachen"
+  },
+  {
+    "id": "a2-sammeln",
+    "lemma": "sammeln",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-sauber",
+    "lemma": "sauber",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-sauer",
+    "lemma": "sauer",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-schade",
+    "lemma": "schade",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-schaedlich",
+    "lemma": "schädlich",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-schaffen",
+    "lemma": "schaffen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-scharf",
+    "lemma": "scharf",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-schenken",
+    "lemma": "schenken",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-schere",
+    "lemma": "Schere",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Scheren"
+  },
+  {
+    "id": "a2-schiff",
+    "lemma": "Schiff",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Schiffe"
+  },
+  {
+    "id": "a2-schimpfen",
+    "lemma": "schimpfen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-schirm",
+    "lemma": "Schirm",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Schirme"
+  },
+  {
+    "id": "a2-schlafzimmer",
+    "lemma": "Schlafzimmer",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Schlafzimmer"
+  },
+  {
+    "id": "a2-schlimm",
+    "lemma": "schlimm",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-schloss",
+    "lemma": "Schloss",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Schlösser"
+  },
+  {
+    "id": "a2-schmerz",
+    "lemma": "Schmerz",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Schmerzen"
+  },
+  {
+    "id": "a2-schmutzig",
+    "lemma": "schmutzig",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-schnee",
+    "lemma": "Schnee",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2"
+  },
+  {
+    "id": "a2-schneiden",
+    "lemma": "schneiden",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-schneien",
+    "lemma": "schneien",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-schokolade",
+    "lemma": "Schokolade",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2"
+  },
+  {
+    "id": "a2-schrecklich",
+    "lemma": "schrecklich",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-schriftlich",
+    "lemma": "schriftlich",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-schwach",
+    "lemma": "schwach",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-schwanger",
+    "lemma": "schwanger",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-schwein",
+    "lemma": "Schwein",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Schweine"
+  },
+  {
+    "id": "a2-schwierig",
+    "lemma": "schwierig",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-seife",
+    "lemma": "Seife",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Seifen"
+  },
+  {
+    "id": "a2-seite",
+    "lemma": "Seite",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Seiten"
+  },
+  {
+    "id": "a2-selbst",
+    "lemma": "selbst",
+    "pos": "pronoun",
+    "level": "A2"
+  },
+  {
+    "id": "a2-sendung",
+    "lemma": "Sendung",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Sendungen"
+  },
+  {
+    "id": "a2-service",
+    "lemma": "Service",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2"
+  },
+  {
+    "id": "a2-setzen",
+    "lemma": "setzen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-sicher",
+    "lemma": "sicher",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-singen",
+    "lemma": "singen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-situation",
+    "lemma": "Situation",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Situationen"
+  },
+  {
+    "id": "a2-ski",
+    "lemma": "Ski",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Skier"
+  },
+  {
+    "id": "a2-sogar",
+    "lemma": "sogar",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-sonnig",
+    "lemma": "sonnig",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-sonst",
+    "lemma": "sonst",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-spannend",
+    "lemma": "spannend",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-sparen",
+    "lemma": "sparen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-spass",
+    "lemma": "Spaß",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2"
+  },
+  {
+    "id": "a2-spazieren-gehen",
+    "lemma": "spazieren gehen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-spaziergang",
+    "lemma": "Spaziergang",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Spaziergänge"
+  },
+  {
+    "id": "a2-speichern",
+    "lemma": "speichern",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-spiel",
+    "lemma": "Spiel",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Spiele"
+  },
+  {
+    "id": "a2-sportlich",
+    "lemma": "sportlich",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-sportplatz",
+    "lemma": "Sportplatz",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Sportplätze"
+  },
+  {
+    "id": "a2-sprechstunde",
+    "lemma": "Sprechstunde",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Sprechstunden"
+  },
+  {
+    "id": "a2-stadtplan",
+    "lemma": "Stadtplan",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Stadtpläne"
+  },
+  {
+    "id": "a2-star",
+    "lemma": "Star",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Stars"
+  },
+  {
+    "id": "a2-stark",
+    "lemma": "stark",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-stattfinden",
+    "lemma": "stattfinden",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-sterben",
+    "lemma": "sterben",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-stiefel",
+    "lemma": "Stiefel",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Stiefel"
+  },
+  {
+    "id": "a2-stift",
+    "lemma": "Stift",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Stifte"
+  },
+  {
+    "id": "a2-stipendium",
+    "lemma": "Stipendium",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Stipendien"
+  },
+  {
+    "id": "a2-stockwerk",
+    "lemma": "Stockwerk",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Stockwerke"
+  },
+  {
+    "id": "a2-stoeren",
+    "lemma": "stören",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-strand",
+    "lemma": "Strand",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Strände"
+  },
+  {
+    "id": "a2-streiten",
+    "lemma": "streiten",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-streng",
+    "lemma": "streng",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-stress",
+    "lemma": "Stress",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2"
+  },
+  {
+    "id": "a2-stressig",
+    "lemma": "stressig",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-stueck",
+    "lemma": "Stück",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Stücke"
+  },
+  {
+    "id": "a2-stuhl",
+    "lemma": "Stuhl",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Stühle"
+  },
+  {
+    "id": "a2-super",
+    "lemma": "super",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-supermarkt",
+    "lemma": "Supermarkt",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Supermärkte"
+  },
+  {
+    "id": "a2-suppe",
+    "lemma": "Suppe",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Suppen"
+  },
+  {
+    "id": "a2-surfen",
+    "lemma": "surfen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-suess",
+    "lemma": "süß",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-suessigkeiten",
+    "lemma": "Süßigkeiten",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2"
+  },
+  {
+    "id": "a2-sympathisch",
+    "lemma": "sympathisch",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-tablet",
+    "lemma": "Tablet",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Tablets"
+  },
+  {
+    "id": "a2-tablette",
+    "lemma": "Tablette",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Tabletten"
+  },
+  {
+    "id": "a2-tafel",
+    "lemma": "Tafel",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Tafeln"
+  },
+  {
+    "id": "a2-taschengeld",
+    "lemma": "Taschengeld",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2"
+  },
+  {
+    "id": "a2-tasse",
+    "lemma": "Tasse",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Tassen"
+  },
+  {
+    "id": "a2-austauschen",
+    "lemma": "austauschen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-team",
+    "lemma": "Team",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Teams"
+  },
+  {
+    "id": "a2-teilen",
+    "lemma": "teilen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-teilnehmen",
+    "lemma": "teilnehmen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-teller",
+    "lemma": "Teller",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Teller"
+  },
+  {
+    "id": "a2-tennis",
+    "lemma": "Tennis",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2"
+  },
+  {
+    "id": "a2-theater",
+    "lemma": "Theater",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Theater"
+  },
+  {
+    "id": "a2-tief",
+    "lemma": "tief",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-tier",
+    "lemma": "Tier",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Tiere"
+  },
+  {
+    "id": "a2-tipp",
+    "lemma": "Tipp",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Tipps"
+  },
+  {
+    "id": "a2-titel",
+    "lemma": "Titel",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Titel"
+  },
+  {
+    "id": "a2-toll",
+    "lemma": "toll",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-topf",
+    "lemma": "Topf",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Töpfe"
+  },
+  {
+    "id": "a2-torte",
+    "lemma": "Torte",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Torten"
+  },
+  {
+    "id": "a2-total",
+    "lemma": "total",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-tour",
+    "lemma": "Tour",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Touren"
+  },
+  {
+    "id": "a2-tourist",
+    "lemma": "Tourist",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Touristen"
+  },
+  {
+    "id": "a2-tragen",
+    "lemma": "tragen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-trainieren",
+    "lemma": "trainieren",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-training",
+    "lemma": "Training",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Trainings"
+  },
+  {
+    "id": "a2-traum",
+    "lemma": "Traum",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Träume"
+  },
+  {
+    "id": "a2-traeumen",
+    "lemma": "träumen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-traurig",
+    "lemma": "traurig",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-trocken",
+    "lemma": "trocken",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-tschues",
+    "lemma": "tschüs",
+    "pos": "interjection",
+    "level": "A2"
+  },
+  {
+    "id": "a2-t-shirt",
+    "lemma": "T-Shirt",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "T-Shirts"
+  },
+  {
+    "id": "a2-tuer",
+    "lemma": "Tür",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Türen"
+  },
+  {
+    "id": "a2-typisch",
+    "lemma": "typisch",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-ueben",
+    "lemma": "üben",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-ueberall",
+    "lemma": "überall",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-uebermorgen",
+    "lemma": "übermorgen",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-uebersetzen",
+    "lemma": "übersetzen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-uebersetzung",
+    "lemma": "Übersetzung",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Übersetzungen"
+  },
+  {
+    "id": "a2-umsteigen",
+    "lemma": "umsteigen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-umzug",
+    "lemma": "Umzug",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Umzüge"
+  },
+  {
+    "id": "a2-unbedingt",
+    "lemma": "unbedingt",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-unfall",
+    "lemma": "Unfall",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Unfälle"
+  },
+  {
+    "id": "a2-universitaet",
+    "lemma": "Universität",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Universitäten"
+  },
+  {
+    "id": "a2-unterhalten",
+    "lemma": "unterhalten",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-unterkunft",
+    "lemma": "Unterkunft",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Unterkünfte"
+  },
+  {
+    "id": "a2-unternehmen",
+    "lemma": "unternehmen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-unterschied",
+    "lemma": "Unterschied",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Unterschiede"
+  },
+  {
+    "id": "a2-untersuchen",
+    "lemma": "untersuchen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-unterwegs-sein",
+    "lemma": "unterwegs sein",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-verabredet-sein",
+    "lemma": "verabredet sein",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-veranstaltung",
+    "lemma": "Veranstaltung",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Veranstaltungen"
+  },
+  {
+    "id": "a2-verbieten",
+    "lemma": "verbieten",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-vereinbaren",
+    "lemma": "vereinbaren",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-vergessen",
+    "lemma": "vergessen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-vergleichen",
+    "lemma": "vergleichen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-verkehr",
+    "lemma": "Verkehr",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2"
+  },
+  {
+    "id": "a2-verkehrsmittel",
+    "lemma": "Verkehrsmittel",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Verkehrsmittel"
+  },
+  {
+    "id": "a2-verletzen",
+    "lemma": "verletzen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-verlieben",
+    "lemma": "verlieben",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-verlieren",
+    "lemma": "verlieren",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-verpassen",
+    "lemma": "verpassen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-verreisen",
+    "lemma": "verreisen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-verschieben",
+    "lemma": "verschieben",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-verschieden",
+    "lemma": "verschieden",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-verspaetung",
+    "lemma": "Verspätung",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Verspätungen"
+  },
+  {
+    "id": "a2-versuchen",
+    "lemma": "versuchen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-vertrag",
+    "lemma": "Vertrag",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Verträge"
+  },
+  {
+    "id": "a2-vogel",
+    "lemma": "Vogel",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Vögel"
+  },
+  {
+    "id": "a2-voll",
+    "lemma": "voll",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-volleyball",
+    "lemma": "Volleyball",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Volleybälle"
+  },
+  {
+    "id": "a2-vorbei",
+    "lemma": "vorbei",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-vorbereiten",
+    "lemma": "vorbereiten",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-vorgestern",
+    "lemma": "vorgestern",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-vorher",
+    "lemma": "vorher",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-vorn",
+    "lemma": "vorn",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-vorschlag",
+    "lemma": "Vorschlag",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Vorschläge"
+  },
+  {
+    "id": "a2-vorsichtig",
+    "lemma": "vorsichtig",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-vorwaerts",
+    "lemma": "vorwärts",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-wach",
+    "lemma": "wach",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-wagen",
+    "lemma": "Wagen",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Wagen"
+  },
+  {
+    "id": "a2-waehlen",
+    "lemma": "wählen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-wahr",
+    "lemma": "wahr",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-wahrscheinlich",
+    "lemma": "wahrscheinlich",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-wald",
+    "lemma": "Wald",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Wälder"
+  },
+  {
+    "id": "a2-warm",
+    "lemma": "warm",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-waesche",
+    "lemma": "Wäsche",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Wäschen"
+  },
+  {
+    "id": "a2-webseite",
+    "lemma": "Webseite",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Webseiten"
+  },
+  {
+    "id": "a2-wechseln",
+    "lemma": "wechseln",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-wecken",
+    "lemma": "wecken",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-weg",
+    "lemma": "weg",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-weg-2",
+    "lemma": "Weg",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Wege"
+  },
+  {
+    "id": "a2-wegen",
+    "lemma": "wegen",
+    "pos": "preposition",
+    "level": "A2"
+  },
+  {
+    "id": "a2-wehtun",
+    "lemma": "wehtun",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-weich",
+    "lemma": "weich",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-weil",
+    "lemma": "weil",
+    "pos": "conjunction",
+    "level": "A2"
+  },
+  {
+    "id": "a2-weinen",
+    "lemma": "weinen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-welcher",
+    "lemma": "welcher",
+    "pos": "pronoun",
+    "level": "A2"
+  },
+  {
+    "id": "a2-wenigstens",
+    "lemma": "wenigstens",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-wenn",
+    "lemma": "wenn",
+    "pos": "conjunction",
+    "level": "A2"
+  },
+  {
+    "id": "a2-werkstatt",
+    "lemma": "Werkstatt",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Werkstätte"
+  },
+  {
+    "id": "a2-wettbewerb",
+    "lemma": "Wettbewerb",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Wettbewerbe"
+  },
+  {
+    "id": "a2-wieder",
+    "lemma": "wieder",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-windig",
+    "lemma": "windig",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-wirklich",
+    "lemma": "wirklich",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-witz",
+    "lemma": "Witz",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Witze"
+  },
+  {
+    "id": "a2-witzig",
+    "lemma": "witzig",
+    "pos": "adjective",
+    "level": "A2"
+  },
+  {
+    "id": "a2-wohnzimmer",
+    "lemma": "Wohnzimmer",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Wohnzimmer"
+  },
+  {
+    "id": "a2-workshop",
+    "lemma": "Workshop",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Workshops"
+  },
+  {
+    "id": "a2-wunsch",
+    "lemma": "Wunsch",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Wünsche"
+  },
+  {
+    "id": "a2-wuenschen",
+    "lemma": "wünschen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-wurst",
+    "lemma": "Wurst",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Würste"
+  },
+  {
+    "id": "a2-zahl",
+    "lemma": "Zahl",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Zahlen"
+  },
+  {
+    "id": "a2-zahn",
+    "lemma": "Zahn",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Zähne"
+  },
+  {
+    "id": "a2-zeichnen",
+    "lemma": "zeichnen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-zeigen",
+    "lemma": "zeigen",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-zeitschrift",
+    "lemma": "Zeitschrift",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Zeitschriften"
+  },
+  {
+    "id": "a2-zelt",
+    "lemma": "Zelt",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Zelte"
+  },
+  {
+    "id": "a2-zentrum",
+    "lemma": "Zentrum",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Zentren"
+  },
+  {
+    "id": "a2-zettel",
+    "lemma": "Zettel",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Zettel"
+  },
+  {
+    "id": "a2-zeugnis",
+    "lemma": "Zeugnis",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Zeugnisse"
+  },
+  {
+    "id": "a2-ziel",
+    "lemma": "Ziel",
+    "pos": "noun",
+    "article": "das",
+    "level": "A2",
+    "plural": "Ziele"
+  },
+  {
+    "id": "a2-zirkus",
+    "lemma": "Zirkus",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Zirkusse"
+  },
+  {
+    "id": "a2-zitrone",
+    "lemma": "Zitrone",
+    "pos": "noun",
+    "article": "die",
+    "level": "A2",
+    "plural": "Zitronen"
+  },
+  {
+    "id": "a2-zoo",
+    "lemma": "Zoo",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2",
+    "plural": "Zoos"
+  },
+  {
+    "id": "a2-zucker",
+    "lemma": "Zucker",
+    "pos": "noun",
+    "article": "der",
+    "level": "A2"
+  },
+  {
+    "id": "a2-zuerst",
+    "lemma": "zuerst",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-zuhoeren",
+    "lemma": "zuhören",
+    "pos": "verb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-zuletzt",
+    "lemma": "zuletzt",
+    "pos": "adverb",
+    "level": "A2"
+  },
+  {
+    "id": "a2-zumachen",
+    "lemma": "zumachen",
+    "pos": "verb",
+    "level": "A2"
+  }
+]
