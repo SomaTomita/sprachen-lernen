@@ -1,0 +1,25 @@
+# EditorConfig — エディタ非依存でコードスタイルを統一する（npm/インストール不要）
+
+# ここはリポジトリ全体の正本（上位探索はここで止める）。
+root = true
+
+# --- 全ファイル共通の既定 ---
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+# --- Python（tools/ の音声生成スクリプト。PEP8 準拠の4スペース） ---
+[*.py]
+indent_size = 4
+
+# --- Markdown（行末の2スペース＝改行の意味を持つため末尾空白を消さない） ---
+[*.md]
+trim_trailing_whitespace = false
+
+# --- 生成データ（words.json 等。巨大なので素性を尊重し既定のまま編集） ---
+[*.json]
+indent_size = 2
