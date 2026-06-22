@@ -1,0 +1,1218 @@
+/* ============================================================
+   BMW Corporate-Automotive — Deutsch A1 vocabulary trainer
+   Light canvas base, navy hero bands, single BMW-blue action color.
+   Rectangular (0px) buttons, no drop shadows; depth = color contrast.
+   Inter 700 display / 300 body. Offline: font-family only, no @import.
+   ============================================================ */
+
+/* ---- Design tokens (BMW) ---- */
+:root {
+  /* Brand & accent */
+  --primary: #1c69d4;            /* BMW corporate blue — the single action color */
+  --primary-active: #0653b6;     /* pressed state */
+
+  /* Surface */
+  --canvas: #ffffff;             /* default page surface */
+  --surface-soft: #f7f7f7;       /* footer / sub-nav bands */
+  --surface-card: #fafafa;       /* light plate behind a card */
+  --surface-strong: #ebebeb;     /* heavier grey divider */
+  --surface-dark: #1a2129;       /* dark navy hero / CTA bands */
+  --surface-dark-elevated: #262e38; /* nested cards on dark hero */
+
+  /* Hairlines */
+  --hairline: #e6e6e6;           /* 1px divider — input/card outline */
+  --hairline-strong: #cccccc;    /* secondary buttons, emphasized borders */
+
+  /* Text */
+  --ink: #262626;                /* display + primary text */
+  --body: #3c3c3c;               /* default running text */
+  --body-strong: #1a1a1a;        /* emphasized / lead text */
+  --muted: #6b6b6b;              /* footer links, breadcrumbs, captions */
+  --muted-soft: #9a9a9a;         /* disabled text, fine print */
+  --on-primary: #ffffff;         /* text on blue button */
+  --on-dark: #ffffff;            /* text on dark hero */
+  --on-dark-soft: #bbbbbb;       /* secondary text on dark bands */
+
+  /* Semantic */
+  --success: #15803d;            /* confirmation — 5.02:1 both as text-on-white and white-on-green */
+  --success-solid: #166534;      /* darker green for pressed solid — white 7.13:1 */
+  --warning: #f59e0b;            /* vivid amber — accent bar only (decorative) */
+  --warning-ink: #b45309;        /* readable amber — icon/number/border on white, 5.02:1 */
+  --warning-solid: #92400e;      /* pressed solid — white 7.09:1 */
+  --error: #dc2626;              /* validation / "忘れた" — 4.83:1 on white */
+  --error-solid: #b91c1c;        /* darker red for pressed solid — white 6.47:1 */
+  /* 9% semantic tints over white for hover (ink label stays 13:1+) */
+  --error-tint: #fcebeb;
+  --warning-tint: #fdf3e6;
+  --success-tint: #eaf4ee;
+
+  /* Spacing (8px base) */
+  --space-xxs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-xxl: 48px;
+  --space-section: 80px;
+
+  /* Radius — binary: rectangular everywhere, circular for icon buttons */
+  --r-none: 0px;
+  --r-full: 9999px;
+
+  /* Type families (offline — no webfont fetch) */
+  --font-sans: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* ---- Reset / base ---- */
+* { box-sizing: border-box; }
+
+html, body { max-width: 100%; overflow-x: hidden; }
+
+body {
+  font-family: var(--font-sans);
+  font-weight: 300;                 /* Light 300 body voice */
+  margin: 0;
+  padding: 0;
+  color: var(--body);
+  background-color: var(--canvas);
+  font-size: 16px;
+  line-height: 1.55;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, p { margin: 0; }
+
+.hidden { display: none !important; }
+
+/* Visually hidden but available to assistive tech (status live region) */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* Skip link — off-screen until focused, then a blue command chip */
+.skip-link {
+  position: absolute;
+  left: var(--space-sm);
+  top: -56px;
+  z-index: 20;
+  padding: var(--space-sm) var(--space-md);
+  background-color: var(--primary);
+  color: var(--on-primary);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: top 0.15s ease;
+}
+.skip-link:focus { top: var(--space-sm); }
+#app:focus { outline: none; }
+
+/* ============================================================
+   top-nav — white sticky bar, 64px, wordmark + nav-link
+   ============================================================ */
+.top-nav {
+  background-color: var(--canvas);
+  border-bottom: 1px solid var(--hairline);
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  padding: 0 var(--space-lg);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* wordmark — heavy 700 display, ink */
+.wordmark {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--ink);
+  text-decoration: none;
+  white-space: nowrap;
+  line-height: 1.1;
+}
+.wordmark:hover { color: var(--primary); }
+
+/* brand cluster — wordmark + level switch sit together on the left */
+.top-nav-brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  min-width: 0;
+}
+
+/* ============================================================
+   level-switch — A1/A2 segmented control (BMW: rectangular,
+   hairline, single blue action color, no shadow)
+   ============================================================ */
+.level-switch {
+  display: inline-flex;
+  border: 1px solid var(--hairline-strong);
+}
+.level-tab {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  color: var(--body);
+  background: var(--canvas);
+  border: none;
+  cursor: pointer;
+  min-height: 44px;
+  min-width: 44px;
+  padding: 0 var(--space-sm);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+/* hairline divider between the two segments */
+.level-tab + .level-tab { border-left: 1px solid var(--hairline-strong); }
+.level-tab:hover { color: var(--primary); }
+.level-tab[aria-selected="true"] {
+  background: var(--primary);
+  color: var(--on-primary);
+}
+.level-tab:focus-visible { outline-offset: -2px; }
+
+/* nav links — neutral weight-400 utility links; active → blue */
+.top-nav nav { display: flex; align-items: center; gap: var(--space-xs); }
+
+/* hamburger toggle — hidden on desktop, shown on mobile */
+.nav-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--ink);
+}
+/* CSS-drawn 3-bar hamburger (no emoji/glyph) */
+.nav-toggle-bars,
+.nav-toggle-bars::before,
+.nav-toggle-bars::after {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: currentColor;
+}
+.nav-toggle-bars { position: relative; }
+.nav-toggle-bars::before,
+.nav-toggle-bars::after {
+  content: "";
+  position: absolute;
+  left: 0;
+}
+.nav-toggle-bars::before { top: -6px; }
+.nav-toggle-bars::after { top: 6px; }
+
+.nav-link {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: var(--body);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  min-height: 44px;
+  min-width: 44px;
+  padding: 0 var(--space-sm);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-link:hover { color: var(--primary); }
+.nav-link[aria-current="page"] { color: var(--primary); font-weight: 700; }
+
+/* progress pill in nav (right side meta) */
+.nav-progress {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: var(--muted);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ============================================================
+   Main / layout — light canvas, centered reading column
+   ============================================================ */
+#app {
+  width: 100%;
+  max-width: 880px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-lg);
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+/* full-bleed hero needs to escape the centered column padding */
+.bleed { width: 100%; margin: 0 auto; }
+
+/* Section eyebrow — uppercase label-style caption above a band */
+.eyebrow {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: var(--space-xs);
+}
+
+/* ============================================================
+   Buttons
+   ============================================================ */
+button { font: inherit; cursor: pointer; touch-action: manipulation; }
+
+/* button-primary — BMW blue, white text, rectangular 0px */
+.button-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  min-height: 48px;
+  padding: 14px var(--space-xl);
+  background-color: var(--primary);
+  color: var(--on-primary);
+  border: none;
+  border-radius: var(--r-none);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  transition: background-color 0.12s ease;
+}
+.button-primary:hover { background-color: var(--primary-active); }
+.button-primary:active { background-color: var(--primary-active); }
+
+/* button-secondary — white bg, ink text, hairline-strong border */
+.button-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  min-height: 48px;
+  padding: 14px var(--space-xl);
+  background-color: var(--canvas);
+  color: var(--ink);
+  border: 1px solid var(--hairline-strong);
+  border-radius: var(--r-none);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  transition: border-color 0.12s ease, color 0.12s ease;
+}
+.button-secondary:hover { border-color: var(--ink); color: var(--primary); }
+
+/* button-secondary-on-dark — transparent, white border, on hero */
+.button-secondary-on-dark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  min-height: 48px;
+  padding: 14px var(--space-xl);
+  background-color: transparent;
+  color: var(--on-dark);
+  border: 1px solid var(--on-dark);
+  border-radius: var(--r-none);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  transition: background-color 0.12s ease, color 0.12s ease;
+}
+.button-secondary-on-dark:hover { background-color: var(--on-dark); color: var(--surface-dark); }
+
+/* button-text-link — UPPERCASE letter-spaced inline link, "LEARN MORE ›" */
+.button-text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xxs);
+  background: transparent;
+  border: none;
+  padding: var(--space-xs) 0;
+  min-height: 44px;
+  color: var(--ink);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.button-text-link:hover { color: var(--primary); }
+.button-text-link .arrow { font-weight: 700; }
+
+/* icon-button — circular ▶ play control. Min 44px hit area. */
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border-radius: var(--r-full);
+  background-color: var(--primary);
+  color: var(--on-primary);
+  border: none;
+  font-size: 16px;
+  line-height: 1;
+  flex: 0 0 auto;
+  transition: background-color 0.12s ease;
+}
+.icon-button:hover { background-color: var(--primary-active); }
+
+/* ============================================================
+   hero-band-dark — navy hero, on-dark text, 80px padding
+   ============================================================ */
+.hero-band-dark {
+  background-color: var(--surface-dark);
+  color: var(--on-dark);
+  padding: var(--space-section) var(--space-lg);
+  text-align: left;
+}
+.hero-inner { max-width: 880px; margin: 0 auto; }
+.hero-eyebrow {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--on-dark-soft);
+  margin-bottom: var(--space-sm);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.05;
+  color: var(--on-dark);
+  margin-bottom: var(--space-md);
+  text-wrap: balance;
+}
+.hero-sub {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.55;
+  color: var(--on-dark-soft);
+  margin-bottom: var(--space-lg);
+  max-width: 52ch;
+}
+.hero-stat-num { font-weight: 700; color: var(--on-dark); }
+.hero-actions { display: flex; flex-wrap: wrap; gap: var(--space-sm); }
+
+/* ============================================================
+   model-card grid (home) — white plate + grey photo plate
+   ============================================================ */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-md);
+}
+.model-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--canvas);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-none);
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+  color: var(--body);
+  transition: border-color 0.12s ease;
+}
+.model-card:hover { border-color: var(--ink); }
+.model-card:hover .model-card-link { color: var(--primary); }
+/* grey "photo" plate stand-in — large glyph on surface-card */
+.model-card-plate {
+  background-color: var(--surface-card);
+  border-bottom: 1px solid var(--hairline);
+  padding: var(--space-xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  line-height: 1;
+  color: var(--ink);
+}
+.model-card-body { padding: var(--space-lg); }
+.model-card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.4;
+  color: var(--ink);
+  margin-bottom: var(--space-xs);
+}
+.model-card-tagline {
+  font-weight: 300;
+  font-size: 14px;
+  color: var(--body);
+  margin-bottom: var(--space-md);
+}
+.model-card-link {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--ink);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xxs);
+}
+
+/* ============================================================
+   FLASHCARD
+   ============================================================ */
+.flashcard-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
+.flashcard-progress {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* The flashcard itself is fully clickable to flip (front state) */
+.flashcard {
+  background-color: var(--surface-dark);
+  color: var(--on-dark);
+  border: none;
+  border-radius: var(--r-none);
+  width: 100%;
+  text-align: center;
+  padding: var(--space-section) var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+}
+.flashcard.is-clickable { cursor: pointer; }
+.flashcard-hint-front {
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  color: var(--on-dark-soft);
+}
+
+/* headword + pronunciation play, centered on the navy card front */
+.headword-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
+
+/* display headword — heavy 700, large */
+.headword {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.05;
+  color: var(--on-dark);
+  word-break: break-word;
+}
+
+/* play button on the dark card front keeps the blue fill but adds a
+   light hairline so it reads as a control against navy */
+.icon-button.on-dark { box-shadow: inset 0 0 0 1px var(--on-dark); }
+
+/* card back — light panel under the navy front */
+.flashcard-back {
+  background-color: var(--canvas);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-none);
+  padding: var(--space-lg);
+  text-align: left;
+}
+
+.card-meaning {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.3;
+  color: var(--ink);
+  margin-bottom: var(--space-xs);
+}
+.card-plural,
+.card-pos {
+  font-weight: 300;
+  font-size: 14px;
+  color: var(--muted);
+  margin-bottom: var(--space-xxs);
+}
+
+/* card actions */
+.card-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+/* ------------------------------------------------------------
+   Rating tiles — 3-up self-assessment control.
+   Meaning is carried by THREE redundant channels (never color-only):
+   semantic accent bar + SVG icon + label + keyboard number.
+   Default label is --ink (15:1); semantic color lives on the accent
+   bar, icon and number. Depth = color, never shadow (BMW).
+   ------------------------------------------------------------ */
+.rate {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-sm);
+  width: 100%;
+}
+.rate-btn {
+  position: relative;
+  flex: 1 1 0;
+  min-width: 0;                       /* allow 3-up shrink on 390px */
+  min-height: 72px;
+  padding: var(--space-md) var(--space-xs) var(--space-sm);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  border-radius: var(--r-none);
+  border: 1px solid var(--hairline);  /* hairline default, semantic on hover */
+  border-top: none;                   /* replaced by the 3px accent bar */
+  background-color: var(--canvas);
+  color: var(--ink);
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+/* 3px semantic accent bar pinned to the top edge */
+.rate-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -1px;                         /* cover the 1px side borders */
+  right: -1px;
+  height: 3px;
+  background-color: var(--rate-accent);
+}
+.rate-icon { color: var(--rate-accent); flex: 0 0 auto; }
+.rate-label {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  line-height: 1;
+}
+/* keyboard number — small kbd chip in the top-right corner */
+.rate-key {
+  position: absolute;
+  top: var(--space-xs);
+  right: var(--space-xs);
+  min-width: 18px;
+  padding: 1px 4px;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 1.4;
+  text-align: center;
+  color: var(--muted);
+  border: 1px solid var(--hairline-strong);
+  border-radius: var(--r-none);
+  background-color: var(--canvas);
+}
+
+/* per-tile semantics: accent bar / icon color, hover tint, pressed solid */
+.rate-forgot { --rate-accent: var(--error);   --rate-tint: var(--error-tint);   --rate-solid: var(--error-solid); }
+.rate-fuzzy  { --rate-accent: var(--warning-ink); --rate-tint: var(--warning-tint); --rate-solid: var(--warning-solid); }
+.rate-good   { --rate-accent: var(--success); --rate-tint: var(--success-tint); --rate-solid: var(--success-solid); }
+
+/* hover: soft semantic tint + semantic border (color only, no transform/shadow) */
+.rate-btn:hover {
+  background-color: var(--rate-tint);
+  border-color: var(--rate-accent);
+}
+/* the fuzzy accent bar reads brighter than its readable icon tone */
+.rate-fuzzy::before { background-color: var(--warning); }
+
+/* :active / pressed: solid semantic fill, white label + icon + number */
+.rate-btn:active {
+  background-color: var(--rate-solid);
+  border-color: var(--rate-solid);
+  color: var(--on-primary);
+}
+.rate-btn:active::before { background-color: var(--on-primary); }
+.rate-btn:active .rate-icon { color: var(--on-primary); }
+.rate-btn:active .rate-key {
+  color: var(--on-primary);
+  border-color: var(--on-primary);
+  background-color: transparent;
+}
+
+.flashcard-keyhint {
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  color: var(--muted);
+  text-align: center;
+}
+.flashcard-keyhint kbd {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 11px;
+  padding: 2px 6px;
+  border: 1px solid var(--hairline-strong);
+  border-radius: var(--r-none);
+  background: var(--surface-card);
+  color: var(--ink);
+}
+
+/* Session complete / empty states */
+.state-panel {
+  background-color: var(--surface-card);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-none);
+  padding: var(--space-xxl) var(--space-lg);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+}
+.state-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.15;
+  color: var(--ink);
+  text-wrap: balance;
+}
+.state-sub { font-weight: 300; font-size: 16px; color: var(--body); }
+
+/* ============================================================
+   Examples + karaoke (FUNCTIONAL — keep .kw / .kw.active behaviour)
+   ============================================================ */
+.examples { margin-top: var(--space-md); display: flex; flex-direction: column; gap: var(--space-sm); }
+.examples-label {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: var(--space-xxs);
+}
+.ex {
+  display: grid;
+  grid-template-columns: 44px 1fr;
+  align-items: start;
+  column-gap: var(--space-md);
+  row-gap: var(--space-xxs);
+  padding: var(--space-md);
+  background-color: var(--surface-card);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-none);
+  text-align: left;
+}
+.ex .icon-button { grid-column: 1; grid-row: 1; }
+.ex .de {
+  font-weight: 300;
+  font-size: 18px;
+  margin: 0;
+  grid-column: 2;
+  grid-row: 1;
+  line-height: 1.5;
+  color: var(--body-strong);
+}
+.ex .tr {
+  color: var(--muted);
+  font-weight: 300;
+  font-size: 14px;
+  margin: 0;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.kw { padding: 0 1px; }
+.kw.active {
+  background: var(--primary);
+  color: var(--on-primary);
+  border-radius: var(--r-none);
+}
+
+/* ============================================================
+   READER
+   ============================================================ */
+.reader { display: flex; flex-direction: column; gap: var(--space-lg); }
+.reader-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
+.reader-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.15;
+  color: var(--ink);
+}
+
+/* text-input — white, rectangular, hairline border, 48px */
+.search-field { display: flex; flex-direction: column; gap: var(--space-xs); }
+.text-input {
+  width: 100%;
+  min-height: 48px;
+  padding: 14px var(--space-md);
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--ink);
+  background: var(--canvas);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-none);
+}
+.text-input::placeholder { color: var(--muted); }
+/* thicken border to ink on focus; suppress only the mouse-focus outline,
+   keeping the :focus-visible ring for keyboard users (handled below) */
+.text-input:focus { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
+.text-input:focus:not(:focus-visible) { outline: none; }
+.search-count {
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* reading list — every word inline (meaning + all examples), no click-to-expand */
+.reading-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: var(--space-md); }
+/* 786-card list: skip rendering off-screen cards (non-behavioral perf win) */
+.reading-card {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 220px;
+  background-color: var(--surface-card);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-none);
+  padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+.reading-card-head { display: flex; flex-direction: column; gap: var(--space-xxs); }
+.reading-title-row { display: flex; align-items: center; gap: var(--space-sm); }
+.reading-headword {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  color: var(--ink);
+  word-break: break-word;
+}
+.reading-meta {
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: var(--muted);
+}
+.reading-meanings { display: flex; flex-direction: column; gap: var(--space-xxs); }
+.reading-meaning {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--body-strong);
+}
+.reading-meaning .ja { font-weight: 700; color: var(--ink); }
+.reading-meaning .en { color: var(--muted); }
+
+/* empty-state row inside the list */
+.reading-empty-row { padding: 0; }
+.word-empty {
+  padding: var(--space-lg) var(--space-md);
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--body);
+  background-color: var(--surface-card);
+  border: 1px solid var(--hairline);
+  text-align: center;
+}
+
+/* ============================================================
+   FOOTER — soft-grey footer band, micro copy
+   ============================================================ */
+.footer {
+  flex: 0 0 auto;
+  background-color: var(--surface-soft);
+  color: var(--body);
+  padding: var(--space-xxl) var(--space-lg);
+  border-top: 1px solid var(--hairline);
+}
+.footer-inner {
+  max-width: 880px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+.footer-wordmark {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+.footer-copy { font-weight: 300; font-size: 14px; color: var(--muted); }
+
+/* error band */
+.error-band {
+  background-color: var(--surface-card);
+  border: 1px solid var(--hairline);
+  border-left: 3px solid var(--error);
+  padding: var(--space-lg);
+}
+.error-band code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  background: var(--surface-strong);
+  padding: 1px var(--space-xxs);
+}
+
+/* ============================================================
+   PROGRESS DASHBOARD
+   BMW idiom: white canvas, hairlines, 0px corners, NO shadows,
+   BMW-blue depth ramp, Inter 700/300. Colour is never the only
+   signal — every bar/cell carries a number + title/aria.
+   ============================================================ */
+
+/* BMW-blue depth ramp for bars/cells (light → BMW blue). Tints over white. */
+:root {
+  --blue-1: #dbe7f8;   /* lightest */
+  --blue-2: #aecbf0;
+  --blue-3: #6f9fe3;
+  --blue-4: #3f7ddb;
+  --blue-5: var(--primary); /* #1c69d4 — full BMW blue */
+}
+
+/* ---- 到達度 band ---- */
+.achv-band {
+  background-color: var(--surface-card);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-none);
+  padding: var(--space-xl) var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+.achv-headline { display: flex; flex-direction: column; gap: var(--space-xxs); }
+.achv-rate {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.05;
+  color: var(--primary);
+  font-variant-numeric: tabular-nums;
+}
+.achv-rate-label {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.achv-rate-sub { font-weight: 300; font-size: 16px; color: var(--body); }
+
+/* spec-cell row: value over uppercase label, hairline-separated */
+.spec-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-lg);
+  margin: 0;
+  border-top: 1px solid var(--hairline);
+  padding-top: var(--space-lg);
+}
+.spec-cell { display: flex; flex-direction: column; gap: var(--space-xxs); }
+.spec-cell + .spec-cell { border-left: 1px solid var(--hairline); padding-left: var(--space-lg); }
+.spec-label {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.spec-value {
+  margin: 0;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.15;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+.spec-sub { margin: 0; font-weight: 300; font-size: 14px; color: var(--muted); }
+
+/* ---- 箱分布 ---- */
+.box-chart {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-none);
+  padding: var(--space-lg);
+  background-color: var(--canvas);
+}
+.box-row {
+  display: grid;
+  grid-template-columns: 64px 1fr 48px;
+  align-items: center;
+  gap: var(--space-md);
+}
+.box-label {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  color: var(--body);
+}
+.box-track {
+  height: 18px;
+  background-color: var(--surface-strong);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-none);
+  overflow: hidden;
+}
+.box-fill {
+  display: block;
+  height: 100%;
+  border-radius: var(--r-none);
+  transition: width 0.2s ease;
+}
+/* box depth ramp: box1 (just started) lightest → box5 (mastered) full blue */
+.box-fill-1 { background-color: var(--blue-1); }
+.box-fill-2 { background-color: var(--blue-2); }
+.box-fill-3 { background-color: var(--blue-3); }
+.box-fill-4 { background-color: var(--blue-4); }
+.box-fill-5 { background-color: var(--blue-5); }
+.box-fill-unseen { background-color: var(--surface-strong); border-right: 1px solid var(--hairline-strong); }
+.box-value {
+  font-weight: 700;
+  font-size: 14px;
+  text-align: right;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- 今日 + ストリーク (2-col) ---- */
+.dash-2col {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--space-md);
+}
+.dash-2col > section { display: flex; flex-direction: column; }
+.today-card,
+.streak-card {
+  background-color: var(--surface-card);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-none);
+  padding: var(--space-lg);
+  flex: 1;
+}
+.today-figure { font-variant-numeric: tabular-nums; margin-bottom: var(--space-sm); }
+.today-done { font-weight: 700; font-size: 48px; line-height: 1.1; color: var(--ink); }
+.today-goal { font-weight: 300; font-size: 24px; color: var(--muted); }
+.progress-track {
+  height: 12px;
+  background-color: var(--surface-strong);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-none);
+  overflow: hidden;
+  margin-bottom: var(--space-sm);
+}
+.progress-fill {
+  height: 100%;
+  background-color: var(--primary);
+  border-radius: var(--r-none);
+  transition: width 0.2s ease;
+}
+.today-meta { font-weight: 300; font-size: 14px; color: var(--muted); }
+.streak-card {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xxs);
+}
+.streak-num {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1;
+  color: var(--primary);
+  font-variant-numeric: tabular-nums;
+}
+.streak-label {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ---- 履歴 contribution graph ---- */
+.contrib-graph {
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  gap: 4px;
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-none);
+  padding: var(--space-md);
+  background-color: var(--canvas);
+  margin-bottom: var(--space-md);
+}
+.contrib-cell {
+  aspect-ratio: 1 / 1;
+  border-radius: var(--r-none);
+  background-color: var(--canvas);
+}
+/* level 0 = hairline outline; 1..4 climb the BMW-blue ramp */
+.contrib-l0 { background-color: var(--canvas); border: 1px solid var(--hairline); }
+.contrib-l1 { background-color: var(--blue-1); }
+.contrib-l2 { background-color: var(--blue-2); }
+.contrib-l3 { background-color: var(--blue-4); }
+.contrib-l4 { background-color: var(--blue-5); }
+
+.recent-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.recent-row {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-md);
+  padding: var(--space-sm) 0;
+  border-bottom: 1px solid var(--hairline);
+}
+.recent-row:last-child { border-bottom: none; }
+.recent-date { font-weight: 700; font-size: 14px; color: var(--ink); }
+.recent-counts { font-weight: 300; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+/* ---- 設定 ---- */
+.setting-card {
+  background-color: var(--surface-card);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-none);
+  padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+.setting-label { font-weight: 700; font-size: 14px; color: var(--ink); }
+.setting-control { display: flex; align-items: center; gap: var(--space-sm); }
+.goal-input {
+  width: 120px;
+  min-height: 48px;
+  padding: 14px var(--space-md);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--ink);
+  background: var(--canvas);
+  border: 1px solid var(--hairline);
+  border-radius: var(--r-none);
+  font-variant-numeric: tabular-nums;
+}
+.goal-input:focus { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
+.goal-input:focus:not(:focus-visible) { outline: none; }
+.setting-unit { font-weight: 300; font-size: 14px; color: var(--muted); }
+.setting-hint { font-weight: 300; font-size: 13px; color: var(--muted); }
+
+/* ============================================================
+   Accessibility — focus ring, reduced motion, responsive
+   ============================================================ */
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+/* On the dark hero, the blue ring needs a light halo to stay visible */
+.flashcard:focus-visible,
+.button-secondary-on-dark:focus-visible {
+  outline-color: var(--on-dark);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    /* NB: karaoke .kw.active sync is JS-driven (rAF), preserved intentionally */
+  }
+}
+
+/* Tablet (<= 1024px): hero h1 narrows */
+@media (max-width: 1024px) {
+  .hero-title, .headword { font-size: 52px; }
+}
+
+/* Mobile (< 768px): single column, smaller hero, stacked footer */
+@media (max-width: 767px) {
+  #app { padding: var(--space-lg) var(--space-md); gap: var(--space-lg); }
+  .top-nav { padding: 0 var(--space-md); }
+  .top-nav-brand { gap: var(--space-sm); }
+  .wordmark { font-size: 16px; letter-spacing: 1px; }
+  .level-tab { min-width: 40px; padding: 0 var(--space-xs); }
+
+  /* collapsed nav: hamburger toggles a dropdown panel */
+  .nav-toggle { display: inline-flex; }
+  .top-nav nav {
+    display: none;
+    position: absolute;
+    top: 64px;
+    right: 0;
+    left: 0;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    background: var(--canvas);
+    border-bottom: 1px solid var(--hairline);
+    padding: var(--space-xs) 0;
+  }
+  .top-nav nav.is-open { display: flex; }
+  .top-nav nav .nav-link,
+  .top-nav nav .nav-progress {
+    width: 100%;
+    justify-content: flex-start;
+    padding: 0 var(--space-md);
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+  }
+
+  .hero-band-dark { padding: var(--space-xxl) var(--space-md); }
+  .hero-title, .headword { font-size: 40px; }
+  .hero-sub { font-size: 16px; }
+  .flashcard { padding: var(--space-xxl) var(--space-md); }
+  .card-grid { grid-template-columns: 1fr; }
+  /* keep rating tiles 3-up; shrink gap + padding so they fit 390px */
+  .rate { gap: var(--space-xs); }
+  .rate-btn { padding: var(--space-md) 2px var(--space-xs); }
+  .rate-label { font-size: 14px; }
+  .rate-key { top: 4px; right: 4px; }
+  .word-row-gloss { white-space: normal; }
+  .reader-title, .state-title, .detail-headword { font-size: 26px; }
+
+  /* dashboard: stack 2-col blocks, narrow display figures */
+  .dash-2col { grid-template-columns: 1fr; }
+  .achv-rate, .streak-num { font-size: 48px; }
+  .today-done { font-size: 40px; }
+  /* spec cells: stack and drop the left divider so nothing overflows */
+  .spec-row { grid-template-columns: 1fr; gap: var(--space-md); }
+  .spec-cell + .spec-cell { border-left: none; padding-left: 0; border-top: 1px solid var(--hairline); padding-top: var(--space-md); }
+  /* contribution graph keeps 14 columns but cells shrink to fit 390px */
+  .contrib-graph { gap: 3px; padding: var(--space-sm); }
+}
