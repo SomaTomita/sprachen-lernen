@@ -1,0 +1,53 @@
+# ─────────────────────────────────────────────
+#  Deutsch モノレポ root .gitignore
+#  ここは全体共通の「どの階層でも無視する」パターンの単一の正本。
+#  各アプリ固有の無視（例: tools/sources, tools/batches, data/*/parts）だけを
+#  apps/<app>/.gitignore に置く（gitignore は階層的に併用される）。
+#  ※ data/*/audio・words.json はアプリの成果物なので追跡する（無視しない）。
+# ─────────────────────────────────────────────
+
+# --- 秘密情報（最優先・絶対にコミットしない／全階層） ---
+.env
+.env.*
+*.local
+*.pem
+*.key
+*.p12
+secrets.*
+credentials.*
+.netrc
+
+# --- 依存・実行環境（再構築可／全階層） ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- ログ・一時・生成物 ---
+*.log
+*.tmp
+*.bak
+*.orig
+*.tsbuildinfo
+
+# --- OS / エディタ ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.code-workspace
