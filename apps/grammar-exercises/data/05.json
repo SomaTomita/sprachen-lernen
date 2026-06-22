@@ -1,0 +1,203 @@
+{
+  "lesson": "05",
+  "title": "05 名詞の格変化(4格)",
+  "doc": "../../#/grammar/nomen-kasus",
+  "intro": "4つの格(1〜4格)と定冠詞の格変化の練習。まず格→冠詞・格→働きをサクサク対応づけ／選択 → 中盤で冠詞の格変化(空欄・表)、終盤で語尾変化(2格 -(e)s・複数3格 -n)と助詞のワナ(helfen/treffen)。1問ずつチェックして、その場で答え合わせ。",
+  "exercises": [
+    {
+      "type": "match",
+      "prompt": "格と男性名詞の定冠詞を組み合わせよう(der Mann で考える)",
+      "rule": "男性は 1格 der / 2格 des / 3格 dem / 4格 den。男性だけ4格で der→den と動く。",
+      "pairs": [
+        { "left": "1格 Nominativ", "right": "der" },
+        { "left": "3格 Dativ", "right": "dem" },
+        { "left": "4格 Akkusativ", "right": "den" }
+      ],
+      "explain": "① 1格(主語)=der。② 3格(に)=dem。③ 4格(を)=den。男性は4格で der→den と変わるのがポイント。2格は des(+名詞に -es)。"
+    },
+    {
+      "type": "match",
+      "prompt": "格と「働き／日本語の目安」を組み合わせよう",
+      "rule": "1格=主語(が)/ 2格=所有(の)/ 3格=間接目的語(に)/ 4格=直接目的語(を)。",
+      "pairs": [
+        { "left": "1格 Nominativ", "right": "主語(〜が)" },
+        { "left": "2格 Genitiv", "right": "所有(〜の)" },
+        { "left": "3格 Dativ", "right": "間接目的語(〜に)" },
+        { "left": "4格 Akkusativ", "right": "直接目的語(〜を)" }
+      ],
+      "explain": "① 1格=主語(wer/was)。② 2格=所有(wessen)。③ 3格=相手・受け手(wem)。④ 4格=動作の対象(wen/was)。ただし「が・の・に・を」は入口の目安で、最終的には動詞・前置詞が格を決める。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "Ich benutze ___ Computer.(私はコンピューターを使う / der Computer)正しい冠詞は?（選んだ瞬間に採点）",
+      "rule": "「〜を」=4格の直接目的語。男性は der→den。",
+      "options": ["den", "der", "dem"],
+      "answer": 0,
+      "explain": "① benutzen の対象=4格・男性なので der→den。② der は1格(主語)の形。③ dem は3格の形。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "Der Bleistift liegt auf dem Tisch.(鉛筆は机の上にある)下線部 Der Bleistift は何格?（選んだ瞬間に採点）",
+      "rule": "文の主語(〜が)は1格 Nominativ。",
+      "options": ["1格(Nominativ)", "3格(Dativ)", "4格(Akkusativ)"],
+      "answer": 0,
+      "explain": "① 「鉛筆が」=文の主語なので1格。② 3格は相手・受け手(dem Tisch がこの文の3格)。③ 4格は動作の対象。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "Ich danke ___ Lehrer.(私は先生に感謝する / der Lehrer)正しい冠詞は?（選んだ瞬間に採点）",
+      "rule": "danken は3格をとる動詞。男性3格は dem。",
+      "options": ["dem", "den", "der"],
+      "answer": 0,
+      "explain": "① danken は3格 → 男性3格は dem。② den は4格(を)の形。③ der は1格(主語)の形。日本語の「に」だけで決めず、動詞 danken=3格で確定する。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "Ich treffe den Lehrer.(私は先生に会う)下線部 den Lehrer は何格?（選んだ瞬間に採点）",
+      "rule": "treffen は4格をとる動詞。男性4格は den。",
+      "options": ["4格(Akkusativ)", "3格(Dativ)", "1格(Nominativ)"],
+      "answer": 0,
+      "explain": "① treffen は4格(他動詞)→ den は男性4格。② 日本語は「に」だが3格ではない。③ 動詞が格を決める典型例(treffen=4格)。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "Ich brauche ___ Adresse.(私は住所が必要だ / die Adresse)正しい冠詞は?（選んだ瞬間に採点）",
+      "rule": "女性は1格と4格が同形(die)。4格でも形は変わらない。",
+      "options": ["die", "den", "der"],
+      "answer": 0,
+      "explain": "① brauchen の対象=4格だが、女性は1格=4格で die のまま。② den は男性4格の形。③ der は女性なら2格・3格の形(ここは4格)。4格で変わるのは男性だけ。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "Wir gehen durch ___ Park.(私たちは公園を通る / der Park)正しい冠詞は?（選んだ瞬間に採点）",
+      "rule": "前置詞 durch はいつも4格。男性4格は den。",
+      "options": ["den", "dem", "der"],
+      "answer": 0,
+      "explain": "① durch はいつも4格 → 男性4格は den。② dem は3格(mit/aus などが取る形)。③ der は1格。前置詞が格を決める例。"
+    },
+    {
+      "type": "choice",
+      "prompt": "das Buch gehört ___ Frau.(その本はその女性のものだ / die Frau)正しい冠詞は?",
+      "rule": "gehören は3格をとる動詞。女性3格は der。",
+      "options": ["der", "die", "den"],
+      "answer": 0,
+      "explain": "① gehören は3格 → 女性3格は der。② die は女性の1格・4格。③ den は男性4格・複数3格の形。女性は2格・3格がどちらも der。"
+    },
+    {
+      "type": "fill",
+      "prompt": "冠詞を格変化させよう: Die Mutter kauft ___ Apfel.(母はりんごを買う / der Apfel)",
+      "rule": "kaufen の対象=4格。男性は der→den。",
+      "blanks": [{ "accept": ["den"] }],
+      "explain": "① 「りんごを」=4格・男性 → der→den。② 女性・中性・複数なら1格と同形のまま。③ den Apfel が正解。"
+    },
+    {
+      "type": "fill",
+      "prompt": "冠詞を格変化させよう: Der Erwachsene hilft ___ Kind.(大人は子どもを助ける / das Kind)",
+      "rule": "helfen は3格をとる(日本語は「を」でも3格)。中性3格は dem。",
+      "blanks": [{ "accept": ["dem"] }],
+      "explain": "① helfen は3格 → 中性3格は dem。② 日本語「を」に引きずられない。③ 2格・3格は男性=中性で des/dem。dem Kind が正解。"
+    },
+    {
+      "type": "fill",
+      "prompt": "冠詞を格変化させよう: Ich fahre mit ___ Bus.(私はバスで行く / der Bus)",
+      "rule": "前置詞 mit はいつも3格。男性3格は dem。",
+      "blanks": [{ "accept": ["dem"] }],
+      "explain": "① mit はいつも3格 → 男性3格は dem。② 会話では mit dem→… のように融合形にもなる。③ dem Bus が正解。"
+    },
+    {
+      "type": "fill",
+      "prompt": "冠詞を格変化させよう(複数): Die Mutter kauft ___ Äpfel.(母はりんご(複数)を買う / die Äpfel)",
+      "rule": "複数は1格と4格が同形(die)。複数に性はない。",
+      "blanks": [{ "accept": ["die"] }],
+      "explain": "① 複数4格は1格と同じ die。② der は複数2格・3格の冠詞(3格は名詞に -n)。③ die Äpfel が正解。"
+    },
+    {
+      "type": "table",
+      "prompt": "定冠詞の格変化表を埋めよう(縦=格、横=性・複数)",
+      "rule": "男性だけ4格で der→den。女性・中性・複数は1格=4格。2格・3格は男性=中性(des/dem)。",
+      "columns": ["格", "男性", "女性", "中性", "複数"],
+      "rows": [
+        { "cells": ["1格(が)", { "accept": ["der"] }, "die", "das", "die"] },
+        { "cells": ["2格(の)", "des", { "accept": ["der"] }, "des", "der"] },
+        { "cells": ["3格(に)", "dem", "der", { "accept": ["dem"] }, { "accept": ["den"] }] },
+        { "cells": ["4格(を)", { "accept": ["den"] }, "die", "das", "die"] }
+      ],
+      "explain": "① 男性: der/des/dem/den。② 女性: die/der/der/die、複数: die/der/den/die(違うのは3格だけ)。③ 中性: das/des/dem/das(1格=4格)。複数3格は冠詞 den。"
+    },
+    {
+      "type": "table",
+      "prompt": "男性名詞 der Mann の格変化(冠詞＋名詞)を埋めよう",
+      "rule": "男性2格は冠詞 des＋名詞に -es、4格は冠詞 den(名詞は変わらない)。",
+      "columns": ["格", "冠詞", "名詞(Mann)"],
+      "rows": [
+        { "cells": ["1格", "der", "Mann"] },
+        { "cells": ["2格", { "accept": ["des"] }, { "accept": ["Mannes"] }] },
+        { "cells": ["3格", { "accept": ["dem"] }, "Mann"] },
+        { "cells": ["4格", { "accept": ["den"] }, "Mann"] }
+      ],
+      "explain": "① 男性2格は des Mannes(1音節なので -es)。② 3格は dem Mann、4格は den Mann。③ 名詞のおしりが動くのは2格だけ(2格 -(e)s)。複数3格の -n と並ぶ「名詞自体が変わる2か所」。"
+    },
+    {
+      "type": "fill",
+      "prompt": "2格(所有)で語尾も直そう: das ist das Auto ___ Mann___.(これは男性の車だ / der Mann)",
+      "rule": "2格は『B + A(2格)』の語順。男性2格は des＋名詞に -es(1音節)。",
+      "blanks": [{ "accept": ["des"] }, { "accept": ["es"] }],
+      "explain": "① 男性2格の冠詞は des。② Mann は1音節 → 名詞に -es(des Mannes)。③ 語順は das Auto des Mannes(車—男性の)。会話では von dem (vom) Mann も可。"
+    },
+    {
+      "type": "fill",
+      "prompt": "複数3格は名詞に -n: Ich spiele mit ___ Kinder___.(子どもたちと遊ぶ / die Kinder)",
+      "rule": "複数3格は冠詞 den＋名詞に -n。",
+      "blanks": [{ "accept": ["den"] }, { "accept": ["n"] }],
+      "explain": "① 複数3格の冠詞は den。② 名詞に -n を付けて Kindern。③ mit den Kindern が正解(-s 複数の語は例外で -n を付けない)。"
+    },
+    {
+      "type": "transform",
+      "prompt": "3格(複数)に直そう(名詞の語尾に注意): mit die Leute →(人々と)",
+      "rule": "複数3格は冠詞 die→den、名詞に -n。",
+      "accept": ["mit den Leuten"],
+      "explain": "① 複数3格の冠詞は den。② 名詞に -n → Leuten。③ mit den Leuten。複数3格は『den＋-n』がセット。"
+    },
+    {
+      "type": "transform",
+      "prompt": "3格(複数)に直そう(-s 複数のワナ): mit die Autos →(車(複数)で)",
+      "rule": "複数3格は普通 -n だが、-s で終わる複数形はそのまま。",
+      "accept": ["mit den Autos"],
+      "explain": "① 冠詞は den(複数3格)。② Autos は -s 複数 → -n を付けない(×Auton)。③ mit den Autos が正解。外来語の -s 複数は例外。"
+    },
+    {
+      "type": "transform",
+      "prompt": "正しく直そう(助詞のワナ): Ich helfe den Mann.(私はその男性を手伝う / der Mann)",
+      "rule": "helfen は3格。日本語「を」に引きずられて4格(den)にしない。",
+      "accept": ["Ich helfe dem Mann."],
+      "explain": "① helfen は3格をとる → 男性3格は dem。② 日本語が「を」でも den ではなく dem。③ Ich helfe dem Mann. が正解。"
+    },
+    {
+      "type": "transform",
+      "prompt": "正しく直そう(助詞のワナ): Ich treffe dem Lehrer.(私は先生に会う / der Lehrer)",
+      "rule": "treffen は4格。日本語「に」に引きずられて3格(dem)にしない。",
+      "accept": ["Ich treffe den Lehrer."],
+      "explain": "① treffen は4格をとる → 男性4格は den。② 日本語が「に」でも dem ではなく den。③ Ich treffe den Lehrer. が正解。"
+    },
+    {
+      "type": "free",
+      "prompt": "和訳: このバッグはあなた(=その女性)のものだ。(gehören / die Frau)",
+      "rule": "gehören は3格をとる。女性3格は der。",
+      "answer": "Die Tasche gehört der Frau.",
+      "explain": "① gehören は3格 → 女性3格は der。② 「〜のものだ」は所有でも、文法上は gehören＋3格。③ Die Tasche gehört der Frau. 自動採点せず模範解答で自己採点。"
+    },
+    {
+      "type": "free",
+      "prompt": "和訳: 私はその男性を助ける。(helfen / der Mann)",
+      "rule": "helfen は3格。男性3格は dem。",
+      "answer": "Ich helfe dem Mann.",
+      "explain": "① helfen は3格をとる(日本語は「を」)。② 男性3格は dem。③ Ich helfe dem Mann. 自己採点。"
+    }
+  ]
+}

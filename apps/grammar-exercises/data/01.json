@@ -1,0 +1,198 @@
+{
+  "lesson": "01",
+  "title": "01 人称代名詞と sein",
+  "doc": "../../#/grammar/personalpronomen",
+  "intro": "人称代名詞 × sein の練習。前半はサクサク選んで対応づけ、後半で書く練習。1問ずつチェックして、その場で答え合わせ。",
+  "exercises": [
+    {
+      "type": "match",
+      "prompt": "人称代名詞と sein を組み合わせよう",
+      "rule": "sein: bin / bist / ist / sind / seid / sind。",
+      "pairs": [
+        { "left": "ich", "right": "bin" },
+        { "left": "du", "right": "bist" },
+        { "left": "wir", "right": "sind" }
+      ],
+      "explain": "① ich→bin ② du→bist ③ wir→sind。wir/sie(彼ら)/Sie(敬称) はすべて sind。"
+    },
+    {
+      "type": "match",
+      "prompt": "残りの人称も sein と組み合わせよう",
+      "rule": "er/sie/es→ist、ihr→seid、sie(彼ら)→sind。",
+      "pairs": [
+        { "left": "er", "right": "ist" },
+        { "left": "ihr", "right": "seid" },
+        { "left": "sie (彼ら)", "right": "sind" }
+      ],
+      "explain": "① er(3人称単数)→ist ② ihr→seid(sind と混同注意) ③ sie(彼ら・複数)→sind。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "「君は」にあたる人称代名詞はどれ?（選んだ瞬間に採点）",
+      "rule": "2人称単数（親称）は du。動詞は bist。",
+      "options": ["du", "ich", "ihr"],
+      "answer": 0,
+      "explain": "① 「君は」＝du（2人称単数の親称）。② ich は「私は」。③ ihr は「君たちは」（複数）。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "ich の sein はどれ?（選んだ瞬間に採点）",
+      "rule": "ich → bin。",
+      "options": ["bin", "bist", "ist"],
+      "answer": 0,
+      "explain": "① ich は bin。② bist は du の形。③ ist は er/sie/es の形。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "ihr の sein はどれ?（選んだ瞬間に採点）",
+      "rule": "ihr → seid。sind ではない。",
+      "options": ["seid", "sind", "bist"],
+      "answer": 0,
+      "explain": "① ihr 専用の形は seid。② sind は wir/sie(彼ら)/Sie の形。③ bist は du の形。よくある間違い: ihr sind → ihr seid。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "敬称「あなた」を正しく書いているのはどれ?（選んだ瞬間に採点）",
+      "rule": "敬称 Sie はつねに語頭が大文字。動詞は sind。",
+      "options": ["Sie sind", "sie sind", "Sie ist"],
+      "answer": 0,
+      "explain": "① 敬称 Sie は大文字＋sind。② 小文字の sie sind は「彼らは」。③ Sie ist は形が合わない(敬称は sind)。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "「私の本」を正しく表しているのはどれ?（選んだ瞬間に採点）",
+      "rule": "ここで習う人称代名詞は「主語(〜は)」専用。「私の」は別の形。",
+      "options": ["mein Buch", "ich Buch", "mich Buch"],
+      "answer": 0,
+      "explain": "① 「私の」は所有冠詞 mein(後の回)。② ich は主語「私は」専用で「私の」にはならない。③ 人称代名詞は所有・目的語の形ではない。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "下線部の sie が「彼女は」になるのはどれ?（選んだ瞬間に採点）",
+      "rule": "sie は動詞で見分ける: ist→彼女 / sind→彼ら・あなた。",
+      "options": ["Sie ist nett.", "Sie sind nett.", "Sind sie Studenten?"],
+      "answer": 0,
+      "explain": "① ist は3人称単数 → 彼女。② sind は彼ら/敬称で未確定。③ 複数名詞 Studenten があれば彼ら。"
+    },
+    {
+      "type": "choice",
+      "prompt": "「彼らは学生ですか?」にあたるのはどれ?",
+      "rule": "彼ら(複数)は sind。Ja/Nein疑問文は動詞が文頭。小文字 sie=彼ら。",
+      "options": ["Sind sie Studenten?", "Ist sie Studentin?", "Seid ihr Studenten?"],
+      "answer": 0,
+      "explain": "① 複数の彼らは sind。② sie は小文字=彼ら。③ Ist sie Studentin? は「彼女は学生?」、Seid ihr…? は「君たちは…?」。"
+    },
+    {
+      "type": "table",
+      "prompt": "sein の活用を埋めよう",
+      "rule": "sein は不規則。sind は wir / sie(彼ら) / Sie(敬称) で共通。",
+      "columns": ["人称", "sein"],
+      "rows": [
+        { "cells": ["ich", { "accept": ["bin"] }] },
+        { "cells": ["du", { "accept": ["bist"] }] },
+        { "cells": ["er/sie/es", { "accept": ["ist"] }] },
+        { "cells": ["wir", { "accept": ["sind"] }] },
+        { "cells": ["ihr", { "accept": ["seid"] }] },
+        { "cells": ["sie/Sie", { "accept": ["sind"] }] }
+      ],
+      "explain": "① bin/bist/ist/sind/seid/sind。② wir・sie(彼ら)・Sie はすべて sind。③ ihr だけ seid(sind と混同注意)。"
+    },
+    {
+      "type": "table",
+      "prompt": "人称代名詞(主語の形)を埋めよう。意味と sein の形がヒント。",
+      "rule": "単数3つ(ich/du/er・sie・es)・複数3つ(wir/ihr/sie)の計6つ。敬称 Sie は大文字。",
+      "columns": ["意味", "人称代名詞", "+ sein"],
+      "rows": [
+        { "cells": ["私は", { "accept": ["ich"] }, "bin"] },
+        { "cells": ["君は", { "accept": ["du"] }, "bist"] },
+        { "cells": ["私たちは", { "accept": ["wir"] }, "sind"] },
+        { "cells": ["君たちは", { "accept": ["ihr"] }, "seid"] },
+        { "cells": ["彼らは", { "accept": ["sie"] }, "sind"] }
+      ],
+      "explain": "① ich/du/er-sie-es が単数、wir/ihr/sie が複数。② bin→ich, bist→du, seid→ihr のように形で主語が決まる。③ 敬称 Sie はいつも大文字(ここでは出題外)。"
+    },
+    {
+      "type": "fill",
+      "prompt": "___ ___ Student?   (君は学生?)",
+      "rule": "Ja/Nein疑問文は〈動詞 → 主語〉の語順。",
+      "blanks": [{ "accept": ["Bist"] }, { "accept": ["du"] }],
+      "explain": "① 疑問文は動詞 bist が文頭。② du 専用形は bist(×ist/×bin)。③ 文頭なので大文字 Bist。"
+    },
+    {
+      "type": "fill",
+      "prompt": "___ ___ Anna.   (私はアンナです)",
+      "rule": "平叙文は〈主語 → 動詞〉。動詞は2番目。",
+      "blanks": [{ "accept": ["Ich"] }, { "accept": ["bin"] }],
+      "explain": "① ich の sein は bin(×ist)。② 文頭の Ich は大文字、文中なら ich は小文字。③ 名前 Anna も大文字。"
+    },
+    {
+      "type": "fill",
+      "prompt": "___ ___ freundlich.   (彼女は親しみやすい)",
+      "rule": "ist(単数)が続けば「彼女は」。sie + ist で確定。",
+      "blanks": [{ "accept": ["Sie", "sie"] }, { "accept": ["ist"] }],
+      "explain": "① ist は3人称単数 → 「彼女は」。② sie + ist なので「彼ら(sind)」ではない。③ 文頭なので Sie と書くが、ここでは小文字の sie(彼女)の意味。"
+    },
+    {
+      "type": "fill",
+      "prompt": "___ alt bist du?   (君は何歳?)",
+      "rule": "W-Frageは〈疑問詞 → 動詞 → 主語〉。「何歳?」は wie alt。",
+      "blanks": [{ "accept": ["Wie"] }],
+      "explain": "① 「どのくらい年を取っている?」=wie alt。② 疑問詞 Wie が1番目、動詞 bist が2番目。③ 文頭なので大文字 Wie。"
+    },
+    {
+      "type": "fill",
+      "prompt": "疑問詞を入れよう: ___ ist das?   (これは何?) / ___ bist du?   (君は誰?)",
+      "rule": "was=何 / wer=誰。どの W-Frage も語順は〈疑問詞 → 動詞 → 主語〉。",
+      "blanks": [{ "accept": ["Was"] }, { "accept": ["Wer"] }],
+      "explain": "① was=何、wer=誰。② Was ist das? / Wer bist du? いずれも動詞が2番目。③ 文頭なので大文字。"
+    },
+    {
+      "type": "transform",
+      "prompt": "Ja/Nein疑問文に: Du bist Student.",
+      "rule": "平叙文(動詞2番目)→疑問文は動詞を文頭へ。",
+      "accept": ["Bist du Student?"],
+      "explain": "① 動詞 bist を文頭へ。② 主語 du が続く。③ 文末は ? 。"
+    },
+    {
+      "type": "transform",
+      "prompt": "Ja/Nein疑問文に: Ihr seid Lehrer.",
+      "rule": "動詞を文頭に出すだけ。ihr の形は seid のまま。",
+      "accept": ["Seid ihr Lehrer?"],
+      "explain": "① 動詞 seid を文頭へ。② ihr 専用形は seid(×sind)。③ 文末は ?。"
+    },
+    {
+      "type": "transform",
+      "prompt": "正しく直そう(よくある間違い): Wo du bist?",
+      "rule": "疑問詞のあとは動詞(動詞は2番目)。Wo → 動詞 → 主語。",
+      "accept": ["Wo bist du?"],
+      "explain": "① W-Frage は〈疑問詞 → 動詞 → 主語〉。② Wo(1番目)・bist(2番目)・du(3番目)。③ du の形は bist。"
+    },
+    {
+      "type": "transform",
+      "prompt": "正しく直そう(よくある間違い): du ist nett.",
+      "rule": "du 専用の形は bist。文頭は大文字。",
+      "accept": ["Du bist nett."],
+      "explain": "① du の sein は bist(×ist)。② 文頭の Du は大文字。③ 平叙文なので動詞は2番目。"
+    },
+    {
+      "type": "free",
+      "prompt": "和訳: 私はアンナです。",
+      "rule": "名乗りは〈主語 + sein + 名前〉。",
+      "answer": "Ich bin Anna.",
+      "explain": "① ich の sein は bin。② 名前 Anna は大文字。自動採点せず模範解答で自己採点。"
+    },
+    {
+      "type": "free",
+      "prompt": "和訳: 君たちはどこにいる?",
+      "rule": "「どこ?」は Wo。複数の相手は ihr → 動詞は seid。",
+      "answer": "Wo seid ihr?",
+      "explain": "① Wo(疑問詞)→ seid(動詞)→ ihr(主語)。② ihr 専用形は seid。③ 文末は ?。自己採点。"
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "lesson": "03",
+  "title": "03 名詞の性(der/die/das)",
+  "intro": "名詞の性(der/die/das)の練習。前半は冠詞・語尾・意味カテゴリーをサクサク選んで対応づけ、後半で書く練習。冠詞つきで覚えるのがコツ。1問ずつチェックして、その場で答え合わせ。",
+  "doc": "../../#/grammar/nomen-genus",
+  "exercises": [
+    {
+      "type": "match",
+      "prompt": "名詞と定冠詞(der/die/das)を組み合わせよう",
+      "rule": "名詞は必ず冠詞とセットで覚える。Mann=男性, Frau=女性, Pferd=中性。",
+      "pairs": [
+        { "left": "Mann (男性)", "right": "der" },
+        { "left": "Frau (女性)", "right": "die" },
+        { "left": "Pferd (馬)", "right": "das" }
+      ],
+      "explain": "① der Mann(生物的に男性の人)→男性。② die Frau(生物的に女性の人)→女性。③ das Pferd(馬)→中性。意味のグループと性は一致しないので1語ずつ冠詞つきで覚える。"
+    },
+    {
+      "type": "match",
+      "prompt": "同じ「食器」でも性はバラバラ。冠詞を組み合わせよう",
+      "rule": "Löffel(スプーン)=男性, Gabel(フォーク)=女性, Messer(ナイフ)=中性。",
+      "pairs": [
+        { "left": "Löffel (スプーン)", "right": "der" },
+        { "left": "Gabel (フォーク)", "right": "die" },
+        { "left": "Messer (ナイフ)", "right": "das" }
+      ],
+      "explain": "① der Löffel ② die Gabel ③ das Messer。同じカテゴリーでも性は3つに分かれる有名な例。だから「カテゴリーで覚える」ではなく「単語ごとに冠詞つきで覚える」。"
+    },
+    {
+      "type": "match",
+      "prompt": "語尾と性(der/die/das)を組み合わせよう",
+      "rule": "-ung→女性, -chen→中性, -ig→男性。語尾は意味より強い手がかり。",
+      "pairs": [
+        { "left": "-ung (Wohnung)", "right": "die" },
+        { "left": "-chen (Mädchen)", "right": "das" },
+        { "left": "-ig (Honig)", "right": "der" }
+      ],
+      "explain": "① -ung は女性(die Wohnung)。② -chen は縮小形で中性(das Mädchen、意味より語尾が優先)。③ -ig は男性(der Honig)。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "Universität の定冠詞はどれ?（選んだ瞬間に採点）",
+      "rule": "語尾 -tät は女性。",
+      "options": ["die", "der", "das"],
+      "answer": 0,
+      "explain": "① -tät → 女性 → die Universität。② der は男性。③ das は中性。Realität・Qualität も同じく die。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "Museum の定冠詞はどれ?（選んだ瞬間に採点）",
+      "rule": "ラテン語系の語尾 -um は中性。",
+      "options": ["das", "der", "die"],
+      "answer": 0,
+      "explain": "① ラテン系 -um → 中性 → das Museum。② der は男性。③ die は女性。Datum・Studium・Zentrum も das。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "Schmetterling(蝶)の定冠詞はどれ?（選んだ瞬間に採点）",
+      "rule": "語尾 -ling は男性。",
+      "options": ["der", "die", "das"],
+      "answer": 0,
+      "explain": "① -ling → 男性 → der Schmetterling。② die は女性。③ das は中性。Lehrling も der。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "曜日「Montag(月曜日)」の定冠詞はどれ?（選んだ瞬間に採点）",
+      "rule": "曜日は全部男性。",
+      "options": ["der", "die", "das"],
+      "answer": 0,
+      "explain": "① 曜日は全部男性 → der Montag。② die は女性。③ das は中性。月曜〜日曜はすべて der。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "Mädchen(女の子)の定冠詞はどれ?（選んだ瞬間に採点）",
+      "rule": "意味は女性でも、語尾 -chen が勝って中性。",
+      "options": ["das", "die", "der"],
+      "answer": 0,
+      "explain": "① 縮小形 -chen は語尾が勝って中性 → das Mädchen。② 意味が女性でも die にはならない。③ 「意味<語尾」の代表例。Brötchen・Hähnchen も das。"
+    },
+    {
+      "type": "choice",
+      "prompt": "次のうち「中性 das」になるのはどれ?",
+      "rule": "酒は男性が多いが、ビールだけ例外で中性。",
+      "options": ["Bier", "Wein", "Whisky"],
+      "answer": 0,
+      "explain": "① das Bier だけ中性の例外。② der Wein(酒→男性)。③ der Whisky(酒→男性)。「酒は男性」だが Bier は例外。"
+    },
+    {
+      "type": "choice",
+      "prompt": "次のうち「男性 der」になるのはどれ?",
+      "rule": "ラテン系 -um は中性だが、-aum はゲルマン系で男性。",
+      "options": ["Baum", "Datum", "Museum"],
+      "answer": 0,
+      "explain": "① der Baum(木)は -aum(ゲルマン系)で男性。② das Datum、③ das Museum はラテン系 -um で中性。形が似ているが別物(Raum・Traum も男性)。"
+    },
+    {
+      "type": "table",
+      "prompt": "語尾→性の早見表を埋めよう(der/die/das)",
+      "rule": "語尾は意味より強い手がかり。-er(人・道具)は男性、-heit/-keit は女性。",
+      "columns": ["語尾", "性(冠詞)"],
+      "rows": [
+        { "cells": ["-ung (Wohnung)", { "accept": ["die"] }] },
+        { "cells": ["-heit (Gesundheit)", { "accept": ["die"] }] },
+        { "cells": ["-keit (Möglichkeit)", { "accept": ["die"] }] },
+        { "cells": ["-er (Drucker)", { "accept": ["der"] }] },
+        { "cells": ["-chen (Brötchen)", { "accept": ["das"] }] },
+        { "cells": ["-ment (Dokument)", { "accept": ["das"] }] }
+      ],
+      "explain": "① -ung/-heit/-keit は女性(die)。② -er(人・道具)は男性(der Drucker)。③ -chen は中性、-ment も中性(das Dokument、例外 der Moment)。"
+    },
+    {
+      "type": "table",
+      "prompt": "意味カテゴリー→性の早見表を埋めよう(der/die/das)",
+      "rule": "曜日・季節・方角=男性、果物=女性、物質・国=中性が多い。",
+      "columns": ["代表名詞(意味)", "性(冠詞)"],
+      "rows": [
+        { "cells": ["Sommer (季節:夏)", { "accept": ["der"] }] },
+        { "cells": ["Norden (方角:北)", { "accept": ["der"] }] },
+        { "cells": ["Banane (果物:バナナ)", { "accept": ["die"] }] },
+        { "cells": ["Gold (物質:金)", { "accept": ["das"] }] }
+      ],
+      "explain": "① 季節・方角は男性(der Sommer / der Norden)。② 多くの果物は女性(die Banane、例外 der Apfel)。③ 物質・金属は中性(das Gold)。"
+    },
+    {
+      "type": "fill",
+      "prompt": "___ Honig (はちみつ)  /  ___ Erinnerung (思い出)",
+      "rule": "-ig は男性、-ung は女性。",
+      "blanks": [{ "accept": ["der"] }, { "accept": ["die"] }],
+      "explain": "① -ig → 男性 → der Honig。② -ung → 女性 → die Erinnerung。語尾で当たりをつけられる代表例。"
+    },
+    {
+      "type": "fill",
+      "prompt": "___ Freundschaft (友情)  /  ___ Optimismus (楽観主義)",
+      "rule": "-schaft は女性、-ismus は男性。",
+      "blanks": [{ "accept": ["die"] }, { "accept": ["der"] }],
+      "explain": "① -schaft → 女性 → die Freundschaft。② -ismus → 男性 → der Optimismus(Realismus も der)。"
+    },
+    {
+      "type": "fill",
+      "prompt": "___ Wein (ワイン)  /  ___ Banane (バナナ)  /  ___ Norden (北)",
+      "rule": "酒=男性、果物=女性、方角=男性(意味カテゴリー)。",
+      "blanks": [{ "accept": ["der"] }, { "accept": ["die"] }, { "accept": ["der"] }],
+      "explain": "① 酒 → 男性 → der Wein。② 果物 → 女性 → die Banane。③ 方角 → 男性 → der Norden。意味のグループで当たりをつける。"
+    },
+    {
+      "type": "fill",
+      "prompt": "___ Lehrer (男性教師)  /  ___ Lehrerin (女性教師)",
+      "rule": "職業の男性形は der、-in が付くと必ず女性で die。",
+      "blanks": [{ "accept": ["der"] }, { "accept": ["die"] }],
+      "explain": "① 男性が就く職業 → der Lehrer。② 男性形 + -in は必ず女性 → die Lehrerin。-in が付けば例外なく女性。"
+    },
+    {
+      "type": "fill",
+      "prompt": "例外を入れよう: ___ Apfel (りんご)  /  ___ Nacht (夜中)  /  ___ Auto (車そのもの)",
+      "rule": "Apfel は果物だが男性、Nacht は時間帯だが女性、Auto は中性。",
+      "blanks": [{ "accept": ["der"] }, { "accept": ["die"] }, { "accept": ["das"] }],
+      "explain": "① der Apfel(果物は女性が多いが例外で男性、Pfirsich も der)。② die Nacht(時間帯は男性が多いが例外で女性)。③ das Auto(車のブランドは der だが車そのものは中性)。"
+    },
+    {
+      "type": "transform",
+      "prompt": "正しく直そう(よくある間違い): die Mädchen",
+      "rule": "-chen は語尾が勝って中性。意味が女性でも das。",
+      "accept": ["das Mädchen"],
+      "explain": "① 縮小形 -chen は中性 → das Mädchen。② 「女の子=女性だから die」は誤り。③ 語尾が意味に勝つ代表例。"
+    },
+    {
+      "type": "transform",
+      "prompt": "正しく直そう(よくある間違い): das Baum",
+      "rule": "-aum はゲルマン系で男性。ラテン系 -um(中性)ではない。",
+      "accept": ["der Baum"],
+      "explain": "① der Baum(木)。② ラテン系 -um(Datum/Museum=中性)ではなく -aum(ゲルマン系)。③ Raum・Traum も同じく男性。"
+    },
+    {
+      "type": "transform",
+      "prompt": "正しく直そう(よくある間違い): das Kuchen",
+      "rule": "Kuchen は縮小形 -chen ではない。ただの単語で男性。",
+      "accept": ["der Kuchen"],
+      "explain": "① der Kuchen(ケーキ)。② -chen の見た目に惑わされない。Kuchen は縮小形ではない。③ 縮小形の das Mädchen とは別物。"
+    },
+    {
+      "type": "free",
+      "prompt": "冠詞つきで言ってみよう(独語で): 父",
+      "rule": "生物的に男性の人 → der。",
+      "answer": "der Vater",
+      "explain": "① 生物的に男性の人 → 男性 → der Vater。② Mann・Bruder・Sohn も der。自己採点。"
+    },
+    {
+      "type": "free",
+      "prompt": "冠詞つきで言ってみよう(独語で): 母",
+      "rule": "生物的に女性の人 → die。",
+      "answer": "die Mutter",
+      "explain": "① 生物的に女性の人 → 女性 → die Mutter。② -er だが Mutter は女性の例外でもある(Butter も die)。自己採点。"
+    }
+  ]
+}
