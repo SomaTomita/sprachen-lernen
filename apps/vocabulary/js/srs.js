@@ -7,7 +7,9 @@ export function review(card, rating, today) {
     let box;
     let timesGood = card.timesGood;
     if (rating === 'good') {
-        box = Math.min(card.box + 1, MAX_BOX);
+        // 初回提示(timesSeen===0)は「一発で覚えた」を認めず box1 据え置き＝間隔1日＝翌日再提示。
+        // 2回目以降の good で通常どおり間隔を伸ばす(box+1)。box5(習得)到達には複数回の good が要る。
+        box = card.timesSeen === 0 ? 1 : Math.min(card.box + 1, MAX_BOX);
         timesGood += 1;
     }
     else if (rating === 'fuzzy') {
@@ -44,18 +46,4 @@ export function shuffle(array, rng = Math.random) {
         a[j] = tmp;
     }
     return a;
-}
-/**
- * Build a study session:
- *   (a) due cards: every card whose interval has elapsed (unchanged due logic),
- *   (b) new cards: a RANDOM sample of up to `newPerDay` never-seen cards,
- *   (c) the final queue is SHUFFLED so order is not alphabetical/seed order.
- * `rng` is injectable (default Math.random) for deterministic tests.
- * Due-judging (isDue) and box transitions are untouched.
- */
-export function selectSession(cards, today, newPerDay, rng = Math.random) {
-    const due = cards.filter(c => isDue(c, today));
-    const fresh = cards.filter(c => c.timesSeen === 0);
-    const freshSample = shuffle(fresh, rng).slice(0, newPerDay);
-    return shuffle([...due, ...freshSample], rng);
 }

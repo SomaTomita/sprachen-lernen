@@ -1,7 +1,7 @@
 // tests/srs.test.js
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { newCard, review, isDue, selectSession, shuffle, BOX_INTERVALS, MAX_BOX } from '../js/srs.js';
+import { newCard, review, isDue, shuffle, BOX_INTERVALS, MAX_BOX } from '../js/srs.js';
 
 // Deterministic rng: cycles through a fixed sequence of floats in [0,1).
 // Makes shuffle / sampling reproducible so order and membership can be asserted.
@@ -23,6 +23,22 @@ test('good は box を +1 し due を伸ばす', () => {
   assert.equal(r.dueDay, 10 + BOX_INTERVALS[3]);
   assert.equal(r.timesSeen, 2);
   assert.equal(r.timesGood, 2);
+});
+
+test('初回提示(timesSeen 0)の good は graduation しない（box1・間隔1日のまま翌日再提示）', () => {
+  const c = newCard('x'); // box1, timesSeen 0
+  const r = review(c, 'good', 10);
+  assert.equal(r.box, 1);                        // 「一発で覚えた」は認めない＝箱は上がらない
+  assert.equal(r.dueDay, 10 + BOX_INTERVALS[1]); // 間隔1＝翌日に再提示
+  assert.equal(r.timesSeen, 1);
+  assert.equal(r.timesGood, 1);                  // good 自体は記録される
+});
+
+test('2回目以降の good は通常どおり box+1', () => {
+  const c = { id: 'x', box: 1, dueDay: 11, lastReviewedDay: 10, timesSeen: 1, timesGood: 1 };
+  const r = review(c, 'good', 11);
+  assert.equal(r.box, 2);
+  assert.equal(r.dueDay, 11 + BOX_INTERVALS[2]);
 });
 
 test('good は MAX_BOX を超えない', () => {
@@ -82,42 +98,128 @@ test('shuffle は固定rngで決定論的な順序になる', () => {
   assert.deepEqual(out2, out);
 });
 
-test('selectSession は due 全件 + 新規(上限) をメンバーとして含む', () => {
-  const cards = [
-    { id: 'due1', box: 1, dueDay: 3, timesSeen: 1, timesGood: 0 },
-    { id: 'due2', box: 2, dueDay: 5, timesSeen: 2, timesGood: 1 },
-    { id: 'notdue', box: 2, dueDay: 99, timesSeen: 1, timesGood: 1 },
-    { id: 'new1', box: 1, dueDay: 0, timesSeen: 0, timesGood: 0 },
-    { id: 'new2', box: 1, dueDay: 0, timesSeen: 0, timesGood: 0 },
-    { id: 'new3', box: 1, dueDay: 0, timesSeen: 0, timesGood: 0 },
-    { id: 'new4', box: 1, dueDay: 0, timesSeen: 0, timesGood: 0 },
-  ];
-  // 固定rng（常に 0）で決定論化。order に依らずメンバーシップ/件数を検証。
-  const ids = selectSession(cards, 5, 2, seqRng([0])).map(c => c.id);
-  // due は全件（2件）含まれる
-  assert.ok(ids.includes('due1'));
-  assert.ok(ids.includes('due2'));
-  // notdue は含まれない
-  assert.ok(!ids.includes('notdue'));
-  // 新規は newPerDay=2 件だけ（4件中2件サンプル）
-  const newCount = ids.filter(id => id.startsWith('new')).length;
-  assert.equal(newCount, 2);
-  // 合計 = due全件(2) + 新規上限(2) = 4
-  assert.equal(ids.length, 4);
+// ---- 初回提示ゲートの境界 ----
+
+test('初回 fuzzy（timesSeen 0）は box1 のまま、dueDay = today+1', () => {
+  const c = newCard('x'); // box1, timesSeen 0
+  const r = review(c, 'fuzzy', 10);
+  assert.equal(r.box, 1);
+  assert.equal(r.dueDay, 10 + BOX_INTERVALS[1]); // 1日後
+  assert.equal(r.timesSeen, 1);
+  assert.equal(r.timesGood, 0); // good は記録されない
 });
 
-test('selectSession は固定rngで決定論的な出題順になる', () => {
-  const cards = [
-    { id: 'due1', box: 1, dueDay: 3, timesSeen: 1, timesGood: 0 },
-    { id: 'due2', box: 2, dueDay: 5, timesSeen: 2, timesGood: 1 },
-    { id: 'new1', box: 1, dueDay: 0, timesSeen: 0, timesGood: 0 },
-    { id: 'new2', box: 1, dueDay: 0, timesSeen: 0, timesGood: 0 },
-    { id: 'new3', box: 1, dueDay: 0, timesSeen: 0, timesGood: 0 },
-  ];
-  const run1 = selectSession(cards, 5, 2, seqRng([0.5, 0.2, 0.8, 0.1])).map(c => c.id);
-  const run2 = selectSession(cards, 5, 2, seqRng([0.5, 0.2, 0.8, 0.1])).map(c => c.id);
-  // 同じシードなら完全に同一順序で再現する（決定論）
-  assert.deepEqual(run1, run2);
-  // due 全件は順序に関わらず必ず含まれる
-  assert.ok(run1.includes('due1') && run1.includes('due2'));
+test('初回 forgot（timesSeen 0）は box1 のまま、dueDay = today+1', () => {
+  const c = newCard('x'); // box1, timesSeen 0
+  const r = review(c, 'forgot', 10);
+  assert.equal(r.box, 1);
+  assert.equal(r.dueDay, 10 + BOX_INTERVALS[1]); // 1日後
+  assert.equal(r.timesSeen, 1);
+  assert.equal(r.timesGood, 0);
 });
+
+test('box5 かつ timesSeen>0 の good は box5 のまま（MAX_BOX 頭打ち）、dueDay=today+16', () => {
+  const c = { id: 'x', box: MAX_BOX, dueDay: 0, lastReviewedDay: null, timesSeen: 5, timesGood: 5 };
+  const r = review(c, 'good', 20);
+  assert.equal(r.box, MAX_BOX);
+  assert.equal(r.dueDay, 20 + BOX_INTERVALS[MAX_BOX]); // 16日後
+  assert.equal(r.timesGood, 6); // good は記録される
+});
+
+test('lastReviewedDay は review の today になる', () => {
+  const c = newCard('x');
+  const r = review(c, 'good', 42);
+  assert.equal(r.lastReviewedDay, 42);
+});
+
+test('fuzzy は timesGood を加算しない', () => {
+  const c = { id: 'x', box: 3, dueDay: 0, lastReviewedDay: null, timesSeen: 3, timesGood: 2 };
+  const r = review(c, 'fuzzy', 7);
+  assert.equal(r.timesGood, 2);
+});
+
+test('forgot は timesGood を加算しない', () => {
+  const c = { id: 'x', box: 3, dueDay: 0, lastReviewedDay: null, timesSeen: 3, timesGood: 2 };
+  const r = review(c, 'forgot', 7);
+  assert.equal(r.timesGood, 2);
+});
+
+test('初回 good → 2回目 good の連続性: box1→box2 への遷移', () => {
+  // 初回 good は box1 据え置き（timesSeen 0→1）
+  const c0 = newCard('x'); // box1, timesSeen 0
+  const c1 = review(c0, 'good', 10);
+  assert.equal(c1.box, 1);
+  assert.equal(c1.timesSeen, 1);
+  assert.equal(c1.timesGood, 1);
+
+  // 翌日再提示（dueDay=11）で good → box2
+  const c2 = review(c1, 'good', 11);
+  assert.equal(c2.box, 2);
+  assert.equal(c2.dueDay, 11 + BOX_INTERVALS[2]); // 13日
+  assert.equal(c2.timesSeen, 2);
+  assert.equal(c2.timesGood, 2);
+});
+
+// ---- 複数日シミュレーション（統合）----
+
+test('新カードを毎日 good したときの箱推移: 1(初回据置)→2→3→4→5 で頭打ち', () => {
+  // day0: 初回提示 good → box1, dueDay=1
+  // day1: good → box2, dueDay=3
+  // day3: good → box3, dueDay=7
+  // day7: good → box4, dueDay=15
+  // day15: good → box5, dueDay=31
+  // day31: good → box5（頭打ち）, dueDay=47
+  const c0 = newCard('sim');
+
+  const r1 = review(c0, 'good', 0); // 初回
+  assert.equal(r1.box, 1);
+  assert.equal(r1.dueDay, 0 + BOX_INTERVALS[1]); // 1
+
+  const r2 = review(r1, 'good', r1.dueDay); // day1
+  assert.equal(r2.box, 2);
+  assert.equal(r2.dueDay, r1.dueDay + BOX_INTERVALS[2]); // 1+2=3
+
+  const r3 = review(r2, 'good', r2.dueDay); // day3
+  assert.equal(r3.box, 3);
+  assert.equal(r3.dueDay, r2.dueDay + BOX_INTERVALS[3]); // 3+4=7
+
+  const r4 = review(r3, 'good', r3.dueDay); // day7
+  assert.equal(r4.box, 4);
+  assert.equal(r4.dueDay, r3.dueDay + BOX_INTERVALS[4]); // 7+8=15
+
+  const r5 = review(r4, 'good', r4.dueDay); // day15
+  assert.equal(r5.box, 5);
+  assert.equal(r5.dueDay, r4.dueDay + BOX_INTERVALS[5]); // 15+16=31
+
+  const r6 = review(r5, 'good', r5.dueDay); // day31: MAX_BOX 頭打ち
+  assert.equal(r6.box, 5);
+  assert.equal(r6.dueDay, r5.dueDay + BOX_INTERVALS[5]); // 31+16=47
+});
+
+test('forgot で box1 に戻り、再び good で箱が伸びる（回復シミュレーション）', () => {
+  // box3 で forgot → box1 に戻る
+  const c = { id: 'sim', box: 3, dueDay: 7, lastReviewedDay: 3, timesSeen: 3, timesGood: 3 };
+  const afterForgot = review(c, 'forgot', 7);
+  assert.equal(afterForgot.box, 1);
+  assert.equal(afterForgot.dueDay, 7 + BOX_INTERVALS[1]);
+
+  // 翌日 good → box2（timesSeen>0 なのでゲートは通過）
+  const afterRecover = review(afterForgot, 'good', afterForgot.dueDay);
+  assert.equal(afterRecover.box, 2);
+
+  // さらに good → box3
+  const afterGrow = review(afterRecover, 'good', afterRecover.dueDay);
+  assert.equal(afterGrow.box, 3);
+});
+
+test('fuzzy を繰り返しても同じ箱に留まる（全 box で検証）', () => {
+  for (let box = 1; box <= MAX_BOX; box++) {
+    const c = { id: `x${box}`, box, dueDay: 0, lastReviewedDay: null, timesSeen: box, timesGood: box - 1 };
+    const r = review(c, 'fuzzy', 100);
+    assert.equal(r.box, box, `box${box} の fuzzy で箱が変わってはいけない`);
+    assert.equal(r.dueDay, 100 + BOX_INTERVALS[box]);
+  }
+});
+
+// セッション選定（due全件＋新規）の責務は js/session.js へ移管。
+// 選定の検証は tests/session.test.js を参照。
