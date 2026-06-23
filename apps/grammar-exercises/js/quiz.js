@@ -13,7 +13,12 @@ const ICON_SPEAKER = `<svg viewBox="0 0 16 16" aria-hidden="true" width="18" hei
 function speakButton(text) {
   const btn = el("button", { type: "button", class: "ex-speak", "aria-label": `「${text}」を発音` });
   btn.innerHTML = ICON_SPEAKER;
-  btn.addEventListener("click", () => speak(text));
+  btn.addEventListener("click", (e) => {
+    // スピーカーはトークン<button>等の内側に入りうる。click を親へ伝播させると
+    // 配置済みトークンが vacateSlot で外れる／bank トークンが pickUp される（#19）。
+    e.stopPropagation();
+    speak(text);
+  });
   return btn;
 }
 
