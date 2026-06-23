@@ -2,7 +2,7 @@
 import { loadWords, indexById } from './data.js';
 import { loadState, saveState, dayNumber, setDailyGoal, setLevel, LEVELS } from './storage.js';
 import { newCard } from './srs.js';
-import { buildSession, dueCount, newToIntroduce } from './session.js';
+import { planSession, MIN_NEW_PER_DAY } from './session.js';
 import { renderReader } from './reader.js';
 import { renderFlashcards } from './flashcard.js';
 import { renderDashboard } from './dashboard.js';
@@ -64,9 +64,9 @@ function go(view) {
 }
 function renderNav() {
     const today = dayNumber();
-    const session = buildSession(levelCards(), today, state.settings.dailyGoal);
+    const planned = planSession(levelCards(), today, state.settings.dailyGoal).total;
     nav.innerHTML = `
-      <span class="nav-progress" aria-label="本日の学習件数">本日 ${session.length} 件</span>
+      <span class="nav-progress" aria-label="本日の学習件数">本日 ${planned} 件</span>
       <button type="button" id="navHome" class="nav-link"${currentView === 'home' ? ' aria-current="page"' : ''}>ホーム</button>
       <button type="button" id="navDash" class="nav-link"${currentView === 'dashboard' ? ' aria-current="page"' : ''}>進捗</button>
       <button type="button" id="navFlash" class="nav-link"${currentView === 'flashcard' ? ' aria-current="page"' : ''}>フラッシュカード</button>
@@ -81,15 +81,14 @@ function renderHome() {
     const cards = levelCards();
     const level = state.settings.level;
     const goal = state.settings.dailyGoal;
-    const due = dueCount(cards, today);
-    const newCount = newToIntroduce(cards, today, goal);
-    const planned = due + newCount;
+    const plan = planSession(cards, today, goal);
+    const planned = plan.total;
     app.innerHTML = `
     <section class="hero-band-dark bleed" aria-labelledby="hero-title">
       <div class="hero-inner">
         <p class="hero-eyebrow">本日の学習 · 目標 ${goal} 語</p>
         <h1 class="hero-title" id="hero-title"><span class="hero-stat-num">${planned}</span> 語</h1>
-        <p class="hero-sub">復習 ${due} 語・新規 ${newCount} 語。目標 ${goal} 語に対して due を全件＋不足分を新規で補充します。ランダムな順序で出題。1日数分の積み重ねで ${level} 語彙を定着させましょう。</p>
+        <p class="hero-sub">復習 ${plan.reviewCount} 語・新規 ${plan.newCount} 語（目標 ${goal} 語）。期日到来 ${plan.dueAvail} 件は古い順に出題し、新規は毎日最低 ${MIN_NEW_PER_DAY} 語を確保します。ランダムな順序で出題。1日数分の積み重ねで ${level} 語彙を定着させましょう。</p>
         <div class="hero-actions">
           <button type="button" id="toFlash" class="button-primary">フラッシュカードを始める</button>
           <button type="button" id="toProgress" class="button-secondary-on-dark">進捗を見る</button>

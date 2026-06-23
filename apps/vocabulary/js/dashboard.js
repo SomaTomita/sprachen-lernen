@@ -16,7 +16,7 @@ import {
     currentStreak,
 } from './stats.js';
 import { dayKey, dayNumber, GOAL_MIN, GOAL_MAX } from './storage.js';
-import { dueCount, newToIntroduce } from './session.js';
+import { planSession } from './session.js';
 
 const HISTORY_DAYS = 84; // ~12 weeks of contribution cells
 const RECENT_DAYS = 7;   // detailed "date: new n · review m" list
@@ -68,8 +68,7 @@ export function renderDashboard(app, ctx) {
     const done = todayCount(state.history, todayKey);
     const streak = currentStreak(state.history, todayKey);
     const srsDay = dayNumber(today);
-    const due = dueCount(cards, srsDay);
-    const newLeft = newToIntroduce(cards, srsDay, goal);
+    const plan = planSession(cards, srsDay, goal);
 
     // ---- box distribution bars (max = largest bucket incl. unseen) ----
     const boxMax = Math.max(1, dist.unseen, ...Array.from({ length: MAX_BOX }, (_, i) => dist[i + 1]));
@@ -150,7 +149,7 @@ export function renderDashboard(app, ctx) {
           <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="${goal}" aria-valuenow="${done}" aria-label="本日の学習: 目標${goal}件中${done}件">
             <div class="progress-fill" style="width:${todayPct}%"></div>
           </div>
-          <p class="today-meta">復習期日 ${due} 語・残り新規 ${newLeft} 語</p>
+          <p class="today-meta">本日 復習 ${plan.reviewCount} 語・新規 ${plan.newCount} 語（期日到来 ${plan.dueAvail} 件）</p>
         </div>
       </section>
       <section aria-labelledby="dash-streak">
