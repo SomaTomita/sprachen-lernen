@@ -25,20 +25,20 @@ test('good は box を +1 し due を伸ばす', () => {
   assert.equal(r.timesGood, 2);
 });
 
-test('初回提示(timesSeen 0)の good は graduation しない（box1・間隔1日のまま翌日再提示）', () => {
+test('初回提示(timesSeen 0)の good は箱2へ昇格し +2日（fuzzy の翌日より出づらく）', () => {
   const c = newCard('x'); // box1, timesSeen 0
   const r = review(c, 'good', 10);
-  assert.equal(r.box, 1);                        // 「一発で覚えた」は認めない＝箱は上がらない
-  assert.equal(r.dueDay, 10 + BOX_INTERVALS[1]); // 間隔1＝翌日に再提示
+  assert.equal(r.box, 2);                        // 初回 good でも箱は +1（昇格を許容）
+  assert.equal(r.dueDay, 10 + BOX_INTERVALS[2]); // 間隔2＝翌日には出ない
   assert.equal(r.timesSeen, 1);
-  assert.equal(r.timesGood, 1);                  // good 自体は記録される
+  assert.equal(r.timesGood, 1);
 });
 
-test('2回目以降の good は通常どおり box+1', () => {
-  const c = { id: 'x', box: 1, dueDay: 11, lastReviewedDay: 10, timesSeen: 1, timesGood: 1 };
-  const r = review(c, 'good', 11);
-  assert.equal(r.box, 2);
-  assert.equal(r.dueDay, 11 + BOX_INTERVALS[2]);
+test('2回目以降の good も box+1（box2→box3）', () => {
+  const c = { id: 'x', box: 2, dueDay: 12, lastReviewedDay: 10, timesSeen: 1, timesGood: 1 };
+  const r = review(c, 'good', 12);
+  assert.equal(r.box, 3);
+  assert.equal(r.dueDay, 12 + BOX_INTERVALS[3]);
 });
 
 test('good は MAX_BOX を超えない', () => {
@@ -144,56 +144,52 @@ test('forgot は timesGood を加算しない', () => {
   assert.equal(r.timesGood, 2);
 });
 
-test('初回 good → 2回目 good の連続性: box1→box2 への遷移', () => {
-  // 初回 good は box1 据え置き（timesSeen 0→1）
+test('初回 good → 2回目 good の連続性: box2→box3 への遷移', () => {
+  // 初回 good で box2（timesSeen 0→1, dueDay=+2）
   const c0 = newCard('x'); // box1, timesSeen 0
   const c1 = review(c0, 'good', 10);
-  assert.equal(c1.box, 1);
+  assert.equal(c1.box, 2);
+  assert.equal(c1.dueDay, 10 + BOX_INTERVALS[2]); // 12日
   assert.equal(c1.timesSeen, 1);
   assert.equal(c1.timesGood, 1);
 
-  // 翌日再提示（dueDay=11）で good → box2
-  const c2 = review(c1, 'good', 11);
-  assert.equal(c2.box, 2);
-  assert.equal(c2.dueDay, 11 + BOX_INTERVALS[2]); // 13日
+  // 期日(dueDay=12)に good → box3
+  const c2 = review(c1, 'good', c1.dueDay);
+  assert.equal(c2.box, 3);
+  assert.equal(c2.dueDay, c1.dueDay + BOX_INTERVALS[3]); // 12+4=16
   assert.equal(c2.timesSeen, 2);
   assert.equal(c2.timesGood, 2);
 });
 
 // ---- 複数日シミュレーション（統合）----
 
-test('新カードを毎日 good したときの箱推移: 1(初回据置)→2→3→4→5 で頭打ち', () => {
-  // day0: 初回提示 good → box1, dueDay=1
-  // day1: good → box2, dueDay=3
-  // day3: good → box3, dueDay=7
-  // day7: good → box4, dueDay=15
-  // day15: good → box5, dueDay=31
-  // day31: good → box5（頭打ち）, dueDay=47
+test('新カードを毎日 good したときの箱推移: 2→3→4→5 で頭打ち（初回goodで箱2へ）', () => {
+  // day0: 初回 good → box2, dueDay=2
+  // day2: good → box3, dueDay=6
+  // day6: good → box4, dueDay=14
+  // day14: good → box5, dueDay=30
+  // day30: good → box5（頭打ち）, dueDay=46
   const c0 = newCard('sim');
 
-  const r1 = review(c0, 'good', 0); // 初回
-  assert.equal(r1.box, 1);
-  assert.equal(r1.dueDay, 0 + BOX_INTERVALS[1]); // 1
+  const r1 = review(c0, 'good', 0); // 初回 → box2
+  assert.equal(r1.box, 2);
+  assert.equal(r1.dueDay, 0 + BOX_INTERVALS[2]); // 2
 
-  const r2 = review(r1, 'good', r1.dueDay); // day1
-  assert.equal(r2.box, 2);
-  assert.equal(r2.dueDay, r1.dueDay + BOX_INTERVALS[2]); // 1+2=3
+  const r2 = review(r1, 'good', r1.dueDay); // day2 → box3
+  assert.equal(r2.box, 3);
+  assert.equal(r2.dueDay, r1.dueDay + BOX_INTERVALS[3]); // 2+4=6
 
-  const r3 = review(r2, 'good', r2.dueDay); // day3
-  assert.equal(r3.box, 3);
-  assert.equal(r3.dueDay, r2.dueDay + BOX_INTERVALS[3]); // 3+4=7
+  const r3 = review(r2, 'good', r2.dueDay); // day6 → box4
+  assert.equal(r3.box, 4);
+  assert.equal(r3.dueDay, r2.dueDay + BOX_INTERVALS[4]); // 6+8=14
 
-  const r4 = review(r3, 'good', r3.dueDay); // day7
-  assert.equal(r4.box, 4);
-  assert.equal(r4.dueDay, r3.dueDay + BOX_INTERVALS[4]); // 7+8=15
+  const r4 = review(r3, 'good', r3.dueDay); // day14 → box5
+  assert.equal(r4.box, 5);
+  assert.equal(r4.dueDay, r3.dueDay + BOX_INTERVALS[5]); // 14+16=30
 
-  const r5 = review(r4, 'good', r4.dueDay); // day15
+  const r5 = review(r4, 'good', r4.dueDay); // day30: MAX_BOX 頭打ち
   assert.equal(r5.box, 5);
-  assert.equal(r5.dueDay, r4.dueDay + BOX_INTERVALS[5]); // 15+16=31
-
-  const r6 = review(r5, 'good', r5.dueDay); // day31: MAX_BOX 頭打ち
-  assert.equal(r6.box, 5);
-  assert.equal(r6.dueDay, r5.dueDay + BOX_INTERVALS[5]); // 31+16=47
+  assert.equal(r5.dueDay, r4.dueDay + BOX_INTERVALS[5]); // 30+16=46
 });
 
 test('forgot で box1 に戻り、再び good で箱が伸びる（回復シミュレーション）', () => {
@@ -203,7 +199,7 @@ test('forgot で box1 に戻り、再び good で箱が伸びる（回復シミ�
   assert.equal(afterForgot.box, 1);
   assert.equal(afterForgot.dueDay, 7 + BOX_INTERVALS[1]);
 
-  // 翌日 good → box2（timesSeen>0 なのでゲートは通過）
+  // 翌日 good → box2（box+1）
   const afterRecover = review(afterForgot, 'good', afterForgot.dueDay);
   assert.equal(afterRecover.box, 2);
 
