@@ -58,3 +58,8 @@ planSession(cards, today, dailyGoal, minNew = MIN_NEW_PER_DAY)
 - 箱の間隔（1/2/4/8/16）・dueDay 計算・fuzzy/forgot 挙動は不変。
 - localStorage スキーマ不変＝マイグレーション不要。
 - データ（words.json/音声）不変。
+
+## 追記（follow-up, #16 再対応）
+本plan「3.（srs.js）初回提示の good を graduation させない」は撤回した。初回 good と fuzzy が横並びで
+「覚えた」を選ぶ利点が無かったため、初回 good も箱2へ昇格（+2日）に変更（fuzzy=翌日 より出づらく）。
+詳細は `docs/plans/2026-06-24-first-good-reward.md`。session.js の minNew ポリシーは不変。

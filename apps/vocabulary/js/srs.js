@@ -7,9 +7,8 @@ export function review(card, rating, today) {
     let box;
     let timesGood = card.timesGood;
     if (rating === 'good') {
-        // 初回提示(timesSeen===0)は「一発で覚えた」を認めず box1 据え置き＝間隔1日＝翌日再提示。
-        // 2回目以降の good で通常どおり間隔を伸ばす(box+1)。box5(習得)到達には複数回の good が要る。
-        box = card.timesSeen === 0 ? 1 : Math.min(card.box + 1, MAX_BOX);
+        // good は箱を +1（初回でも箱2へ昇格＝間隔2日。fuzzy/forgot の翌日より「出づらく」なる）。
+        box = Math.min(card.box + 1, MAX_BOX);
         timesGood += 1;
     }
     else if (rating === 'fuzzy') {
