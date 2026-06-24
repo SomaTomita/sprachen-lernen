@@ -89,6 +89,11 @@ export const SECTIONS = [
             title: "05 名詞の格変化(4格)と定冠詞",
             path: "content/grammar/05-nomen-kasus.md",
           },
+          {
+            slug: "artikel",
+            title: "06 定冠詞と不定冠詞",
+            path: "content/grammar/06-artikel.md",
+          },
         ],
       },
     ],
@@ -165,7 +170,7 @@ export const SECTIONS = [
     kind: "app",
     href: "apps/grammar-exercises/",
     tagline:
-      "文法レッスン(01・02)の練習問題。穴埋め・表埋め・選択・書き換えを即時採点＋解説。",
+      "文法レッスン(01〜06)の練習問題。穴埋め・表埋め・選択・書き換えを即時採点＋解説。",
   },
 ];
 
