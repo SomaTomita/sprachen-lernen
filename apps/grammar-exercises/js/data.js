@@ -11,4 +11,5 @@ export const LESSONS = [
   { id: "03", title: "03 名詞の性(der/die/das)" },
   { id: "04", title: "04 名詞の複数形(Plural)" },
   { id: "05", title: "05 名詞の格変化(4格)" },
+  { id: "06", title: "06 定冠詞と不定冠詞" },
 ];

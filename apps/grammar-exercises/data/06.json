@@ -1,0 +1,181 @@
+{
+  "lesson": "06",
+  "title": "06 定冠詞と不定冠詞",
+  "doc": "../../#/grammar/artikel",
+  "intro": "定冠詞(der/die/das=その・特定)と不定冠詞(ein/eine=ある一つの・不特定)の使い分け。まず意味と ein- の格変化をサクサク対応づけ／選択 → 中盤で恋人 die・友達の一人 eine・職業の無冠詞、ein- の格変化(空欄・表)、終盤で初出→再言及・無冠詞化・否定 kein・和訳。1問ずつチェックして、その場で答え合わせ。",
+  "exercises": [
+    {
+      "type": "match",
+      "prompt": "冠詞と意味を組み合わせよう",
+      "rule": "定冠詞=特定「その」、不定冠詞=不特定「ある一つの」。不定冠詞に複数形は無い。",
+      "pairs": [
+        { "left": "定冠詞 der/die/das", "right": "その(特定)" },
+        { "left": "不定冠詞 ein/eine", "right": "ある一つの(不特定)" },
+        { "left": "不定冠詞の複数形", "right": "なし(無冠詞にする)" }
+      ],
+      "explain": "① 定冠詞=聞き手がどれか分かる「その」。② 不定冠詞=初登場/どれでもいい「ある一つの」、数の1。③ 不定冠詞に複数は無く、「いくつかの〜」は無冠詞にする。"
+    },
+    {
+      "type": "match",
+      "prompt": "格と男性の不定冠詞を組み合わせよう(ein Mann で考える)",
+      "rule": "男性は 1格 ein / 2格 eines / 3格 einem / 4格 einen。男性1格だけ語尾ゼロの ein。",
+      "pairs": [
+        { "left": "1格 (が)", "right": "ein" },
+        { "left": "3格 (に)", "right": "einem" },
+        { "left": "4格 (を)", "right": "einen" }
+      ],
+      "explain": "① 1格=ein(語尾ゼロ)。② 3格=einem。③ 4格=einen。2格は eines(+名詞に -es)。定冠詞 der/dem/den と同じ語尾を真似ればよい。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "Da kommt ___ Mann.(あそこに(ある)男が来る/初めて話に出す)正しい冠詞は?（選んだ瞬間に採点）",
+      "rule": "初めて出す名詞は不特定 → 不定冠詞。男性1格は ein。",
+      "options": ["ein", "der", "den"],
+      "answer": 0,
+      "explain": "① 初登場=不特定 → 不定冠詞 ein。② der は特定済み(2回目)の形。③ den は4格。初出は ein、再言及で der。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "___ Buch ist von Haruki Murakami.(その本は村上春樹の作だ)正しい冠詞は?（選んだ瞬間に採点）",
+      "rule": "特定の本について話している → 定冠詞。中性1格は das。",
+      "options": ["Das", "Ein", "Eines"],
+      "answer": 0,
+      "explain": "① その本=特定で話題にしている → 定冠詞 das。② Ein は初登場/不特定のとき。③ Eines は2格(の)の形。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "___ Erde ist rund.(地球は丸い)正しい冠詞は?（選んだ瞬間に採点）",
+      "rule": "世界に一つしかないものは定冠詞。Erde は女性。",
+      "options": ["Die", "Eine", "Der"],
+      "answer": 0,
+      "explain": "① 地球=世界に一つ → 定冠詞。② Eine は不特定なので不可(地球は一つだけ)。③ Erde は女性 → der ではなく die。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "Hier liegt ___ Buch.(ここに本がある=存在を示す)正しい冠詞は?（選んだ瞬間に採点）",
+      "rule": "「(何かが)そこにある」と存在を言うだけなら不定冠詞。",
+      "options": ["ein", "das", "den"],
+      "answer": 0,
+      "explain": "① 本の題名は問題でなく「本が1冊ある」が要点 → ein。② das なら「その(特定の)本」。③ den は4格(ここは主語=1格)。"
+    },
+    {
+      "type": "choice",
+      "prompt": "Julia ist ___ Freundin von Leon.(ユリアはレオンの恋人だ)正しい冠詞は?",
+      "rule": "恋人=ただ一人=特定 → 定冠詞。",
+      "options": ["die", "eine", "der"],
+      "answer": 0,
+      "explain": "① 恋人は世界にその人ただ一人 → die Freundin。② eine Freundin だと「友達の一人」の意味になる。③ Freundin は女性 → 1格は die(der は2/3格)。"
+    },
+    {
+      "type": "choice",
+      "prompt": "Anna ist ___ Freundin von Kevin.(アンナはケビンの友達の一人だ)正しい冠詞は?",
+      "rule": "大勢のうちの一人(カテゴリの一員)→ 不定冠詞。",
+      "options": ["eine", "die", "einer"],
+      "answer": 0,
+      "explain": "① 友達の一人 → eine Freundin。② die Freundin なら「恋人」になってしまう。③ einer は2格/3格の形(ここは1格 eine)。"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich bin ___ Lehrer.(私は教師だ)正しいのは?",
+      "rule": "職業・国籍・言語は無冠詞(ドイツ語)。",
+      "options": ["(冠詞なし)", "ein", "der"],
+      "answer": 0,
+      "explain": "① 職業は無冠詞 → Ich bin Lehrer. ② 英語の a につられて ein を入れない。③ der だと「その教師」と特定の意味になる。"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ Eis ist kalt.(氷は冷たい=一般常識)正しい冠詞は?",
+      "rule": "だれもが分かる一般常識は定冠詞。Eis は中性。",
+      "options": ["Das", "Ein", "Der"],
+      "answer": 0,
+      "explain": "① 一般常識 → 定冠詞。② Ein だと「ある氷」。③ Eis は中性 → das(der は男性)。"
+    },
+    {
+      "type": "fill",
+      "prompt": "不定冠詞を格変化させよう: Ich sehe ___ Mann.(私は(ある)男性を見る / ein Mann)",
+      "rule": "sehen の対象=4格。男性4格は einen。",
+      "blanks": [{ "accept": ["einen"] }],
+      "explain": "① 4格・男性 → der→den と同じ要領で ein→einen。② 1格なら ein のまま。③ einen Mann が正解。"
+    },
+    {
+      "type": "fill",
+      "prompt": "不定冠詞を格変化させよう: Ich helfe ___ Frau.(私は(ある)女性を手伝う / eine Frau)",
+      "rule": "helfen は3格をとる。女性3格は einer。",
+      "blanks": [{ "accept": ["einer"] }],
+      "explain": "① helfen は3格 → 女性3格は einer(定冠詞 der と同じ語尾)。② 日本語が「を」でも3格。③ einer Frau が正解。"
+    },
+    {
+      "type": "fill",
+      "prompt": "不定冠詞を格変化させよう: Ich kaufe ___ Buch.(私は(ある)本を買う / ein Buch)",
+      "rule": "kaufen の対象=4格。中性は1格=4格でむき出しの ein。",
+      "blanks": [{ "accept": ["ein"] }],
+      "explain": "① 中性4格=1格と同じ ein(語尾ゼロ)。② 男性なら einen になる。③ ein Buch が正解。"
+    },
+    {
+      "type": "fill",
+      "prompt": "初出は不定・再言及は定: ___ Mann kommt. ___ Mann ist alt.(ある男が来る。その男は年配だ / der Mann)",
+      "rule": "1回目=不定 ein、2回目=定 der。",
+      "blanks": [{ "accept": ["Ein"] }, { "accept": ["Der"] }],
+      "explain": "① 初登場 → 不特定 → Ein Mann。② 2回目 → 特定済み → Der Mann。③ 英語の A man… The man… と同じ流れ。"
+    },
+    {
+      "type": "table",
+      "prompt": "不定冠詞 ein- の格変化表を埋めよう(縦=格、横=性)",
+      "rule": "ein- は定冠詞 der- と同じ語尾。男性1格・中性1格・中性4格だけ語尾ゼロの ein。",
+      "columns": ["格", "男性(Mann)", "女性(Frau)", "中性(Kind)"],
+      "rows": [
+        { "cells": ["1格(が)", { "accept": ["ein"] }, "eine", "ein"] },
+        { "cells": ["2格(の)", "eines", { "accept": ["einer"] }, "eines"] },
+        { "cells": ["3格(に)", "einem", "einer", { "accept": ["einem"] }] },
+        { "cells": ["4格(を)", { "accept": ["einen"] }, "eine", { "accept": ["ein"] }] }
+      ],
+      "explain": "① 男性: ein/eines/einem/einen。② 女性: eine/einer/einer/eine。③ 中性: ein/eines/einem/ein(1格=4格でむき出しの ein)。不定冠詞に複数形は無い。"
+    },
+    {
+      "type": "transform",
+      "prompt": "正しく直そう(職業は無冠詞): Ich bin ein Student.(私は大学生だ)",
+      "rule": "職業・国籍・言語は冠詞を付けない。",
+      "accept": ["Ich bin Student."],
+      "explain": "① 職業は無冠詞 → Ich bin Student. ② 英語 a student につられて ein を入れない。③ 国籍・言語も同様(Ich bin Japaner. / Ich lerne Deutsch.)。"
+    },
+    {
+      "type": "transform",
+      "prompt": "正しく直そう(不可算は無冠詞): Ich esse einen Reis.(私は米を食べる)",
+      "rule": "数えないもの(米・水・粉)は無冠詞。",
+      "accept": ["Ich esse Reis."],
+      "explain": "① Reis は不可算 → 無冠詞。② einen は不要。③ Ich esse Reis. 飲み物・粉も同様(Ich trinke Wasser. / Ich kaufe Mehl.)。"
+    },
+    {
+      "type": "transform",
+      "prompt": "否定文に直そう(不定冠詞の否定): Ich habe einen Bruder. →(兄はいない)",
+      "rule": "ein- の否定は kein-。変化は ein- と同じ。",
+      "accept": ["Ich habe keinen Bruder."],
+      "explain": "① ein の否定は kein。② 変化は ein- と同じ → 男性4格は keinen。③ Ich habe keinen Bruder. 複数なら keine(Ich habe keine Geschwister.)。"
+    },
+    {
+      "type": "free",
+      "prompt": "和訳: これは(ある)駅です。(Bahnhof は男性・駅の名前は重要でない)",
+      "rule": "名前が問題でなく「駅だ」と種類を言う → 不定冠詞。",
+      "answer": "Das ist ein Bahnhof.",
+      "explain": "① 「(どれかの)駅だ」=不特定 → ein。② 固有名で特定するなら der(Das ist der Hauptbahnhof.)。③ Das ist ein Bahnhof. 自動採点せず模範解答で自己採点。"
+    },
+    {
+      "type": "free",
+      "prompt": "和訳: いつか彼女(恋人)が欲しい。(möchten / irgendwann / Freundin)",
+      "rule": "まだ誰か決まっていない → 不特定 → 不定冠詞。",
+      "answer": "Ich möchte irgendwann eine Freundin.",
+      "explain": "① 相手未定 → 不定冠詞 eine。② die Freundin だと「特定の恋人」になる。③ Ich möchte irgendwann eine Freundin. 自己採点。"
+    },
+    {
+      "type": "free",
+      "prompt": "和訳: 地球は丸い。",
+      "rule": "世界に一つ → 定冠詞。Erde は女性。",
+      "answer": "Die Erde ist rund.",
+      "explain": "① 地球=世界に一つ → 定冠詞 die。② Erde は女性名詞。③ Die Erde ist rund. 自己採点。"
+    }
+  ]
+}
