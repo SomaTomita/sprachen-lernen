@@ -1,0 +1,187 @@
+{
+  "lesson": "07",
+  "title": "07 冠詞類(所有・指示・疑問・数量)",
+  "doc": "../../#/grammar/artikelwoerter",
+  "intro": "所有(mein…)・指示(dieser)・疑問(welcher / was für ein)・数量(jeder/alle/kein…)の冠詞類。まず人称→所有冠詞・冠詞類→種類をサクサク対応づけ／選択 → 中盤で der型・ein型の格変化(空欄・表)、終盤で強調 dieser・否定 kein・和訳。1問ずつチェックして、その場で答え合わせ。",
+  "exercises": [
+    {
+      "type": "match",
+      "prompt": "人称と所有冠詞を組み合わせよう",
+      "rule": "所有冠詞は人称代名詞に対応:ich→mein / du→dein / er→sein / wir→unser / ihr→euer。",
+      "pairs": [
+        { "left": "ich(私)", "right": "mein" },
+        { "left": "du(君)", "right": "dein" },
+        { "left": "er(彼)", "right": "sein" },
+        { "left": "wir(私たち)", "right": "unser" },
+        { "left": "ihr(君たち)", "right": "euer" }
+      ],
+      "explain": "① ich→mein, du→dein, er/es→sein。② sie(彼女)とsie(彼ら)はどちらも ihr、敬称 Sie は Ihr。③ wir→unser, ihr(君たち)→euer。語尾は ein- と同じ変化(+複数形あり)。"
+    },
+    {
+      "type": "match",
+      "prompt": "冠詞類とその種類を組み合わせよう",
+      "rule": "mein=所有 / dieser=指示 / welcher=疑問 / jeder=数量。",
+      "pairs": [
+        { "left": "mein", "right": "所有冠詞(〜の)" },
+        { "left": "dieser", "right": "指示冠詞(この)" },
+        { "left": "welcher", "right": "疑問冠詞(どの)" },
+        { "left": "jeder", "right": "数量冠詞(各〜)" }
+      ],
+      "explain": "① mein=所有(誰の)。② dieser=指示(この・あの)。③ welcher=疑問(どの)。④ jeder=数量(各・量)。dieser/welcher/jeder は der型、mein は ein型。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "Ich sehe ___ Vater.(私は父を見る / mein Vater・4格)正しい形は?（選んだ瞬間に採点)",
+      "rule": "所有冠詞は ein型。男性4格は einen と同じ語尾 → meinen。",
+      "options": ["meinen", "mein", "meinem"],
+      "answer": 0,
+      "explain": "① 4格・男性 → ein→einen と同じで mein→meinen。② mein は1格(語尾ゼロ)。③ meinem は3格。meinen Vater が正解。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "Ich möchte ___ Auto.(この車が欲しい / das Auto・中性4格)正しい形は?（選んだ瞬間に採点)",
+      "rule": "指示 dieser は der型。中性は1格=4格で dieses。",
+      "options": ["dieses", "diesen", "dieser"],
+      "answer": 0,
+      "explain": "① 中性4格=1格と同じ dieses(das と同型)。② diesen は男性4格。③ dieser は男性1格。dieses Auto が正解。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "「近くのもの」を指す指示冠詞はどちら?（選んだ瞬間に採点)",
+      "rule": "ドイツ語の指示は2段階:近い=dieser / 遠い=jener。",
+      "options": ["dieser(この)", "jener(あの)", "solcher(そのような)"],
+      "answer": 0,
+      "explain": "① 近い=dieser(この)。② 遠い=jener(あの・やや文章語)。③ solcher は「そのような」。日本語の3段階(これ/それ/あれ)と違い独語は2段階。"
+    },
+    {
+      "type": "choice",
+      "instant": true,
+      "prompt": "メニューの中から「どのワインにする?」: ___ Wein möchtest du?（選んだ瞬間に採点)",
+      "rule": "特定の集合から選ぶ「どの」は welcher(der型)。男性4格は welchen。",
+      "options": ["Welchen", "Was für einen", "Welche"],
+      "answer": 0,
+      "explain": "① メニュー=特定の集合 → welcher。男性4格は welchen。② was für ein は「どんな種類?」(不特定)。③ Welche は女性/複数の形。"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ Kind ist einzigartig.(どの子どももみな唯一無二だ)正しい形は?",
+      "rule": "jeder(各〜)は単数のみ・der型。中性は jedes。",
+      "options": ["Jedes", "Jeder", "Alle"],
+      "answer": 0,
+      "explain": "① 中性 Kind → jedes(der型・das と同型)。② Jeder は男性1格。③ Alle は複数(jeder の複数版)。Jedes Kind が正解。"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ Menschen sterben.(すべての人は死ぬ)正しい形は?",
+      "rule": "「すべての」=複数は alle(der型・複数)。jeder は単数専用。",
+      "options": ["Alle", "Jede", "Jedes"],
+      "answer": 0,
+      "explain": "① 複数「すべての」→ alle(die と同じ複数語尾)。② Jede/Jedes は jeder の単数形。③ 複数では jeder→alle に切り替える。Alle Menschen が正解。"
+    },
+    {
+      "type": "choice",
+      "prompt": "感嘆: ___ wunderbare Hochzeit!(なんて素敵な結婚式!)正しい形は?",
+      "rule": "「なんて〜!」の感嘆は was für ein-。Hochzeit は女性 → eine。",
+      "options": ["Was für eine", "Welche", "Was für ein"],
+      "answer": 0,
+      "explain": "① 感嘆の「なんて〜!」は was für ein-。② 女性 Hochzeit → eine。③ was für ein は男性/中性用。Was für eine wunderbare Hochzeit! が正解。"
+    },
+    {
+      "type": "fill",
+      "prompt": "所有冠詞を3格(複数)に: Ich schenke ___ Eltern ein Buch.(両親に本を贈る / meine Eltern)",
+      "rule": "複数3格は冠詞に -n。所有冠詞も同じ(meine→meinen)。",
+      "blanks": [{ "accept": ["meinen"] }],
+      "explain": "① 複数3格 → 定冠詞 den と同じく所有も -n → meinen。② Eltern は既に -n で終わるので名詞はそのまま。③ meinen Eltern が正解。"
+    },
+    {
+      "type": "fill",
+      "prompt": "所有冠詞を2格に(語尾も): Das Auto ___ Vater___ ist cool.(私の父の車 / mein Vater)",
+      "rule": "男性2格は ein型で eines と同じ → meines、名詞に -s。",
+      "blanks": [{ "accept": ["meines"] }, { "accept": ["s"] }],
+      "explain": "① 男性2格は meines(eines と同型)。② 名詞 Vater に -s → Vaters。③ das Auto meines Vaters(車—父の)。会話では von meinem Vater も可。"
+    },
+    {
+      "type": "fill",
+      "prompt": "euer の語尾変化に注意: Wo ist ___ Mutter?(君たちのお母さんはどこ? / euer・女性1格)",
+      "rule": "euer は語尾が付くと e が落ちる。女性1格は eure。",
+      "blanks": [{ "accept": ["eure"] }],
+      "explain": "① 女性1格は -e → euer+e。② ただし euer は e が落ちて eure(×euere)。③ eure Mutter が正解。unser は落ちない(unsere Mutter)。"
+    },
+    {
+      "type": "fill",
+      "prompt": "指示冠詞で「今年」: ___ Jahr fahre ich Ski.(今年スキーに行く / das Jahr・中性)",
+      "rule": "正確な「今この〜」は dieser。中性 Jahr は dieses。",
+      "blanks": [{ "accept": ["Dieses", "dieses"] }],
+      "explain": "① 「今年」= dieses Jahr(der だと『その年』で曖昧)。② 中性なので dieses。③ 時間表現:diese Woche(今週)/ an diesem Tag(この日)。"
+    },
+    {
+      "type": "table",
+      "prompt": "所有冠詞 mein- の格変化表を埋めよう(冠詞の形・縦=格、横=性/複数)",
+      "rule": "mein- は ein型。男性1格・中性1格・中性4格だけ語尾ゼロ mein。複数形あり。",
+      "columns": ["格", "男(Vater)", "女(Mutter)", "中(Kind)", "複(Eltern)"],
+      "rows": [
+        { "cells": ["1格(が)", { "accept": ["mein"] }, "meine", "mein", "meine"] },
+        { "cells": ["2格(の)", "meines", { "accept": ["meiner"] }, "meines", "meiner"] },
+        { "cells": ["3格(に)", "meinem", "meiner", { "accept": ["meinem"] }, { "accept": ["meinen"] }] },
+        { "cells": ["4格(を)", { "accept": ["meinen"] }, "meine", "mein", "meine"] }
+      ],
+      "explain": "① 男性: mein/meines/meinem/meinen。② 女性: meine/meiner/meiner/meine。③ 中性: mein/meines/meinem/mein(1格=4格でゼロ)。複数: meine/meiner/meinen/meine。語尾は ein-+複数。"
+    },
+    {
+      "type": "table",
+      "prompt": "指示冠詞 dieser(der型)の1格・4格を埋めよう",
+      "rule": "dieser は定冠詞 der と同じ語尾。男性4格 diesen、中性は1格=4格 dieses。",
+      "columns": ["格", "男性", "女性", "中性", "複数"],
+      "rows": [
+        { "cells": ["1格(が)", { "accept": ["dieser"] }, "diese", "dieses", "diese"] },
+        { "cells": ["4格(を)", { "accept": ["diesen"] }, "diese", { "accept": ["dieses"] }, "diese"] }
+      ],
+      "explain": "① 1格: dieser/diese/dieses/diese(der/die/das/die と同型)。② 4格で動くのは男性 dieser→diesen だけ。③ welcher・jeder も同じ der型。"
+    },
+    {
+      "type": "transform",
+      "prompt": "強調して「この本の中で」に: in dem Buch →（私が書いたこの本、と強調）",
+      "rule": "指示・強調は dieser。3格中性は diesem。",
+      "accept": ["in diesem Buch"],
+      "explain": "① 強調は定冠詞より dieser。② 前置詞 in＋場所=3格、中性3格は diesem。③ in diesem Buch が正解。"
+    },
+    {
+      "type": "transform",
+      "prompt": "否定文に直そう(所有/不定の否定 kein): Ich habe einen Hund. →(犬を飼っていない)",
+      "rule": "ein の否定は kein(ein型・複数 keine あり)。男性4格は keinen。",
+      "accept": ["Ich habe keinen Hund."],
+      "explain": "① ein→kein。② 男性4格 → keinen(einen と同型)。③ Ich habe keinen Hund. 複数なら keine(keine Geschwister)。"
+    },
+    {
+      "type": "transform",
+      "prompt": "複数「すべての」に直そう: jedes Kind →（すべての子どもたち）",
+      "rule": "jeder は単数専用。複数は alle に切り替える。",
+      "accept": ["alle Kinder"],
+      "explain": "① jeder(各)は単数のみ。② 複数「すべての」は alle。③ 名詞も複数 Kinder に → alle Kinder。"
+    },
+    {
+      "type": "free",
+      "prompt": "和訳: 私の父の車は本当にかっこいい。(2格 / mein Vater / Auto)",
+      "rule": "「父の」は2格 meines Vaters、または von meinem Vater。",
+      "answer": "Das Auto meines Vaters ist echt cool.",
+      "explain": "① 男性2格 meines Vaters(語順は『車—父の』)。② 会話では Das Auto von meinem Vater ist echt cool. も可。③ 自己採点。"
+    },
+    {
+      "type": "free",
+      "prompt": "和訳: どんな車が欲しい?(種類を問う・不特定 / was für ein / wollen)",
+      "rule": "種類を問う「どんな」は was für ein-。中性 Auto → ein。",
+      "answer": "Was für ein Auto willst du?",
+      "explain": "① 不特定の種類 → was für ein。② Auto は中性 → ein(4格でも中性は ein)。③ Was für ein Auto willst du? 特定の集合からなら Welches Auto willst du?"
+    },
+    {
+      "type": "free",
+      "prompt": "和訳: どの子どももみな唯一無二だ。(jeder / einzigartig)",
+      "rule": "「どの〜も(各)」は jeder(単数・der型)。中性 Kind → jedes。",
+      "answer": "Jedes Kind ist einzigartig.",
+      "explain": "① 各〜=jeder、中性は jedes。② 単数で受けるので動詞は ist。③ Jedes Kind ist einzigartig. 自己採点。"
+    }
+  ]
+}
