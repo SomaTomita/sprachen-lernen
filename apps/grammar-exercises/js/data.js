@@ -12,4 +12,5 @@ export const LESSONS = [
   { id: "04", title: "04 名詞の複数形(Plural)" },
   { id: "05", title: "05 名詞の格変化(4格)" },
   { id: "06", title: "06 定冠詞と不定冠詞" },
+  { id: "07", title: "07 冠詞類(所有・指示・疑問・数量)" },
 ];

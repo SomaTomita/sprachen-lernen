@@ -94,6 +94,11 @@ export const SECTIONS = [
             title: "06 定冠詞と不定冠詞",
             path: "content/grammar/06-artikel.md",
           },
+          {
+            slug: "artikelwoerter",
+            title: "07 冠詞類(所有・指示・疑問・数量)",
+            path: "content/grammar/07-artikelwoerter.md",
+          },
         ],
       },
     ],
@@ -170,7 +175,7 @@ export const SECTIONS = [
     kind: "app",
     href: "apps/grammar-exercises/",
     tagline:
-      "文法レッスン(01〜06)の練習問題。穴埋め・表埋め・選択・書き換えを即時採点＋解説。",
+      "文法レッスン(01〜07)の練習問題。穴埋め・表埋め・選択・書き換えを即時採点＋解説。",
   },
 ];
 
