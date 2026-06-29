@@ -2,7 +2,7 @@ const KEY = 'deutsch-vocab-v1';
 
 export const GOAL_MIN = 10;
 export const GOAL_MAX = 100;
-export const GOAL_DEFAULT = 20;
+export const GOAL_DEFAULT = 30;
 
 export const LEVELS = ['A1', 'A2'];
 export const LEVEL_DEFAULT = 'A1';
