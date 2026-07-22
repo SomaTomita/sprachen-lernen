@@ -10,10 +10,10 @@ export function renderReader(app, words, level = 'A1') {
         <p class="search-count" id="search-count" role="status" aria-live="polite"></p>
       </div>
       <div class="search-field">
-        <label for="filter" class="visually-hidden">単語を検索（独語 / 意味 / 例文）</label>
+        <label for="filter" class="visually-hidden">単語を検索（蘭語 / 意味 / 例文）</label>
         <input id="filter" class="text-input" type="search" name="q" inputmode="search"
           autocomplete="off" spellcheck="false"
-          placeholder="検索（独語 / 日本語 / 英語 / 例文）…" aria-controls="reading-list" />
+          placeholder="検索（蘭語 / 日本語 / 英語 / 例文）…" aria-controls="reading-list" />
       </div>
       <ul id="reading-list" class="reading-list" aria-label="単語一覧"></ul>
     </section>`;
@@ -86,7 +86,7 @@ export function renderReader(app, words, level = 'A1') {
             btn.type = 'button';
             btn.textContent = '▶';
             btn.className = 'icon-button button-play';
-            btn.setAttribute('aria-label', `例文を再生: ${e.de}`);
+            btn.setAttribute('aria-label', `例文を再生: ${e.nl}`);
             const spans = renderSentence(de, e);
             registerPlayButton(btn, () => playKaraoke(level, e, spans));
             row.append(btn, de, tr);
@@ -123,7 +123,7 @@ export function renderReader(app, words, level = 'A1') {
             return true;
         if (w.meanings.some(m => m.ja.includes(q) || m.en.toLowerCase().includes(q)))
             return true;
-        return w.examples.some(e => e.de.toLowerCase().includes(q)
+        return w.examples.some(e => e.nl.toLowerCase().includes(q)
             || e.ja.includes(q)
             || e.en.toLowerCase().includes(q));
     }
