@@ -140,12 +140,12 @@ function renderLevelSwitch() {
         btn.addEventListener('click', () => switchLevel(btn.dataset.level));
     });
 }
-/** Reflect the active level in the wordmarks (DEUTSCH A1 / DEUTSCH A2). */
+/** Reflect the active level in the wordmarks (NEDERLANDS A1 / NEDERLANDS A2). */
 function renderWordmarks() {
     const level = state.settings.level;
-    if (wordmark) wordmark.textContent = `DEUTSCH ${level}`;
-    if (footerWordmark) footerWordmark.textContent = `DEUTSCH ${level}`;
-    document.title = `Deutsch ${level} 単語`;
+    if (wordmark) wordmark.textContent = `NEDERLANDS ${level}`;
+    if (footerWordmark) footerWordmark.textContent = `NEDERLANDS ${level}`;
+    document.title = `Nederlands ${level} 単語`;
 }
 /**
  * Switch to another level: persist the choice, load that level's words (with

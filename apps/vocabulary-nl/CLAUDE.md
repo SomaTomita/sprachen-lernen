@@ -1,19 +1,21 @@
-# Deutsch 単語アプリ (Goethe A1/A2)
+# Nederlands 単語アプリ (オランダ語 A1/A2)
 
-オフラインのドイツ語単語学習アプリ。忘却曲線(Leitner)＋ネイティブ音声(カラオケ)＋進捗トラッキング。素の HTML/CSS/JS、ビルド不要。
+オフラインのオランダ語単語学習アプリ。忘却曲線(Leitner)＋ネイティブ音声(カラオケ)＋進捗トラッキング。素の HTML/CSS/JS、ビルド不要。ドイツ語版 `../vocabulary/` の複製で、UX は同等。**独語アプリ (`apps/vocabulary/`) には触れない。**
 
 ## よく使うコマンド
-リポジトリ直下で実行（コードもコマンドも相対パス＝フォルダ移動可）。
-- 起動: 親 `deutsch/` の `./serve.sh` → `http://localhost:8000/apps/vocabulary/`（この単語アプリ単体は `apps/vocabulary/` 直下で `python3 -m http.server 8000` → `http://localhost:8000/`）。`file://` 直開きは不可（ES Modules/fetch のためサーバ必須）。以降のテスト/検証/音声生成コマンドは `apps/vocabulary/` 直下で実行
-- テスト: `node --test`（`js/srs.js`・`js/stats.js` の純関数。現在30件）
-- データ検証: `node tools/validate_data.mjs A1`（A2 も同様）
-- 例文音声生成: `tools/.venv/bin/python tools/tts_generate.py A1`（MP3＋単語タイミング）
-- 見出し語音声生成: `tools/.venv/bin/python tools/tts_lemma.py A1`
+- 起動: ルート `study-deutsch/` の `./serve.sh` → `http://localhost:8000/apps/vocabulary-nl/`（この単語アプリ単体は `apps/vocabulary-nl/` 直下で `python3 -m http.server 8000` → `http://localhost:8000/`）。`file://` 直開きは不可（ES Modules/fetch のためサーバ必須）。以降のテスト/検証/音声生成コマンドは `apps/vocabulary-nl/` 直下で実行。
+- テスト: `node --test`（`srs`・`stats`・`slug`・`build_seed`・`allowlist` の純関数）。
+- データ検証: `node tools/validate_data.mjs A1`（A2 も同様。音声生成前は `--no-audio` を付けて audio/timing 必須を緩める）。
+- 語彙スパイラル検証: `tools/.venv/bin/python tools/check_vocab.py A1`（A1→A1 語彙のみ、A2→A1∪A2 語彙のみ。spaCy `nl_core_news_sm`・venv・検証時のみ）。
+- 例文音声生成: `tools/.venv/bin/python tools/tts_generate.py A1`（MP3＋単語タイミング）。
+- 見出し語音声生成: `tools/.venv/bin/python tools/tts_lemma.py A1`。
 
 ## スタックと制約
-- **素の HTML/CSS/JS（ES Modules）。ビルド無し・フレームワーク無し・localStorage・DB無し。** TypeScript は使わない（過去に導入→素JSへ戻した。再導入しない）。
+- **素の HTML/CSS/JS（ES Modules）。ビルド無し・フレームワーク無し・localStorage・DB無し。** TypeScript は使わない（独語版で過去に導入→素JSへ戻した。再導入しない）。
 - オフライン動作。**外部CDN/Webフォントを読み込まない**（Inter/Arial＋system フォールバック）。
-- 音声は edge-tts で**事前生成**。実行時は同梱MP3を再生、欠落時 Web Speech フォールバック。
+- 音声は edge-tts で**事前生成**（`nl-NL-ColetteNeural`。男性版 `nl-NL-MaartenNeural`）。実行時は同梱MP3を再生、欠落時 Web Speech フォールバック（`nl-NL`）。
+- 例文の語彙スパイラル検証にのみ spaCy `nl_core_news_sm`（Python venv・検証時のみ／アプリ非同梱）。
+- 文法・語彙の天井は Taalprofielen（Nederlandse Taalunie）準拠（独語版が Goethe Prüfungsziele に依拠するのと同様）。
 - デザイン: BMW corporate-automotive（正本は**リポジトリ直下** `../../docs/design/bmw-corporate-automotive.md`＝全アプリ共通）。白canvas / BMW blue `#1c69d4` / 0px矩形 / Inter 700・300 / **ドロップシャドウ禁止** / 暖色＝道標のみ。
 - アクセシビリティ(Web Interface Guidelines): コントラスト4.5:1 / `:focus-visible` / タッチ44px / aria / `prefers-reduced-motion` / **emojiをアイコンにしない** / 横スクロール無し。
 
@@ -23,27 +25,31 @@ index.html              エントリ
 css/styles.css          BMWトークン＋レイアウト
 js/                     srs, storage, data, audio, reader, flashcard, session, stats, dashboard, main
 data/A1, data/A2        words.json ＋ audio/*.mp3 ＋ audio/lemma/*.mp3
-tools/                  edge-tts生成・検証スクリプト, .venv, sentence_pipeline.md
-docs/plans            実装計画・変更ログ（デザイン正本は ../../docs/design/）
-tests/                  srs.test.js, stats.test.js
+tools/                  edge-tts生成・スキーマ検証・語彙スパイラル検証, .venv, sentence_pipeline.md
+docs/plans              実装計画・変更ログ（デザイン正本は ../../docs/design/）
+tests/                  srs.test.js, stats.test.js, slug.test.js, build_seed.test.js, allowlist.test.js
 ```
 
 ## データモデル（words.json 1件）
 ```json
-{ "id":"a1-haus", "lemma":"Haus", "pos":"noun", "article":"das", "plural":"Häuser",
-  "level":"A1", "lemmaAudio":"audio/lemma/a1-haus.mp3",
+{ "id":"a1-huis", "lemma":"huis", "pos":"noun", "article":"het", "plural":"huizen",
+  "level":"A1", "lemmaAudio":"audio/lemma/a1-huis.mp3",
   "meanings":[{"ja":"家","en":"house"}],
-  "examples":[{"de":"Das Haus ist groß.","ja":"その家は大きい。","en":"The house is big.",
-    "audio":"audio/a1-haus-1.mp3","timing":[{"w":"Das","s":0.0,"e":0.32}]}] }
+  "examples":[{"nl":"Het huis is groot.","ja":"その家は大きい。","en":"The house is big.",
+    "audio":"audio/a1-huis-1.mp3","timing":[{"w":"Het","s":0.0,"e":0.30}]}] }
 ```
-- `id` = `a1-`/`a2-` + lemma の小文字ASCII化（ä→ae, ö→oe, ü→ue, ß→ss）。名詞は `article` 必須。例文音声 `audio/<id>-<n>.mp3`、見出し語 `audio/lemma/<id>.mp3`。
+- **独語版との構造差は 1 点のみ:** 例文の文フィールドが `de` ではなく **`nl`**。
+- `id` = `a1-`/`a2-` + `slug(lemma)`。スラッグは **Unicode NFD で結合記号を除去**（`café→cafe` / `één→een` / `coördinatie→coordinatie`）→ 小文字化 → `a-z0-9` 以外を `-` に → 連続 `-` を畳む → 端 `-` 除去。**独語の `ä→ae` 展開は使わない。**
+- 名詞は `article`（**`de` か `het`**）必須。名詞以外は `article` を持たない。`plural` は任意。
+- 例文音声 `audio/<id>-<n>.mp3`、見出し語 `audio/lemma/<id>.mp3`。
 
-## localStorage（キー `deutsch-vocab-v1`）
+## localStorage（キー `nederlands-vocab-v1`）
 ```json
 { "cards": { "<id>": { "box":1, "dueDay":0, "lastReviewedDay":null, "timesSeen":0, "timesGood":0 } },
-  "settings": { "level":"A1", "dailyGoal":20 },
+  "settings": { "level":"A1", "dailyGoal":30 },
   "history": { "YYYY-MM-DD": { "new":0, "review":0 } } }
 ```
+- 独語アプリの `deutsch-vocab-v1` と**衝突させない**（別名前空間）。
 - 構造変更時は読み込み時に既定値で補完（マイグレーション）。更新は `js/srs.js` の純関数でイミュータブルに。
 
 ## SRS / 進捗
@@ -51,8 +57,9 @@ tests/                  srs.test.js, stats.test.js
 - セッション = 期日が来た復習を全部＋目標到達まで新規を補充（新規 = `max(0, dailyGoal − due数)`）。
 - 到達度（見出し=習得率 箱5/総数、＋加重カバレッジ・学習開始率）・箱分布・日次履歴・1日の目標（10–100、新規＋復習の合計）。
 
-## 例文の文法・語彙制約
-- A1/A2 各レベルの**天井を超えない**（`tools/sentence_pipeline.md`）。LLM生成 →**独立した検証パス**で担保。A2 例文は A1 語彙も使用可（累計）。
+## 例文の文法・語彙制約（スパイラルラーニング）
+- A1/A2 各レベルの**天井を超えない**（`tools/sentence_pipeline.md`）。LLM生成 →**独立した検証パス**で担保。
+- **語彙スパイラル**: A1 例文は A1 語彙のみ、A2 例文は A1∪A2 語彙（累計）。LLM の文法検証（Task 13 相当）と spaCy による決定的な語彙メンバーシップ検証（`tools/check_vocab.py` + `tools/function_words_nl.txt`）の**二段でゲート**する。どちらも 0 違反が条件。
 
 ## コードスタイル
 - `srs.js`・`stats.js` は**純関数**（DOM・副作用なし）でテスト可能に保つ。
@@ -62,10 +69,11 @@ tests/                  srs.test.js, stats.test.js
 ## 修正フロー
 1. 大きな変更は `docs/plans/YYYY-MM-DD-<feature>.md` に計画を書く。
 2. `docs/plans/changes-log.md` に1行追記。
-3. 実装後 `node --test`（green 必須）＋ `node tools/validate_data.mjs <level>`。UI変更は a11y を確認（`/web-design-guidelines`）。
+3. 実装後 `node --test`（green 必須）＋ `node tools/validate_data.mjs <level>`＋ `check_vocab.py`。UI変更は a11y を確認（`/web-design-guidelines`）。
 4. **git 使用**（コミット/ブランチは通常運用。グローバルの git-workflow に従う）。
 
 ## 落とし穴
+- **独語アプリ (`apps/vocabulary/`) には触れない。** コアロジック（srs/session/stats/dashboard）は独語版のコピーで、共通バグ修正は両アプリに適用が必要（changes-log に注記する）。
 - edge-tts は `boundary="WordBoundary"` 必須（無いと `timing` が空になりカラオケが壊れる）。
 - `file://` では動かない（fetch/ES Modules）。必ず `python3 -m http.server`。
 - `js/srs.js` を触ったら `node --test` を必ず green に。
