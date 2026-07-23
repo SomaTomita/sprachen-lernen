@@ -40,7 +40,7 @@
 {"lemma":"hij","pos":"pronoun","ja":"彼","en":"he"}
 {"lemma":"aardappel","pos":"noun","article":"de","plural":"aardappels","ja":"じゃがいも","en":"potato"}
 {"lemma":"aaien","pos":"verb","ja":"撫でる","en":"to stroke, to pet"}
-{"lemma":"aanhalingstekens","pos":"noun","article":"het","ja":"引用符（複数）","en":"quotation marks"}
+{"lemma":"aanhalingstekens","pos":"noun","article":"de","ja":"引用符（複数）","en":"quotation marks"}
 {"lemma":"aankruisen","pos":"verb","ja":"チェックを入れる、印を付ける","en":"to tick, to check off"}
 {"lemma":"aansteken","pos":"verb","ja":"火をつける、点火する","en":"to light, to ignite"}
 {"lemma":"aap","pos":"noun","article":"de","plural":"apen","ja":"サル","en":"monkey, ape"}
@@ -59,7 +59,7 @@
 {"lemma":"azijn","pos":"noun","article":"de","ja":"酢","en":"vinegar"}
 {"lemma":"baard","pos":"noun","article":"de","plural":"baarden","ja":"あごひげ","en":"beard"}
 {"lemma":"baby","pos":"noun","article":"de","plural":"baby's","ja":"赤ちゃん","en":"baby"}
-{"lemma":"babykleertjes","pos":"noun","article":"het","ja":"ベビー服","en":"baby clothes"}
+{"lemma":"babykleertjes","pos":"noun","article":"de","ja":"ベビー服","en":"baby clothes"}
 {"lemma":"badje","pos":"noun","article":"het","plural":"badjes","ja":"（小さな）浴槽、行水","en":"little bath"}
 {"lemma":"badkamer","pos":"noun","article":"de","plural":"badkamers","ja":"浴室、バスルーム","en":"bathroom"}
 {"lemma":"badpak","pos":"noun","article":"het","plural":"badpakken","ja":"水着","en":"swimsuit"}
@@ -75,7 +75,7 @@
 {"lemma":"begrijpen","pos":"verb","ja":"理解する、わかる","en":"to understand"}
 {"lemma":"bel","pos":"noun","article":"de","plural":"bellen","ja":"ベル、呼び鈴","en":"bell, doorbell"}
 {"lemma":"beloven","pos":"verb","ja":"約束する","en":"to promise"}
-{"lemma":"benen","pos":"noun","article":"het","ja":"脚（beenの複数）","en":"legs"}
+{"lemma":"benen","pos":"noun","article":"de","ja":"脚（beenの複数）","en":"legs"}
 {"lemma":"berg","pos":"noun","article":"de","plural":"bergen","ja":"山","en":"mountain"}
 {"lemma":"bergtop","pos":"noun","article":"de","plural":"bergtoppen","ja":"山頂","en":"mountain top, summit"}
 {"lemma":"betalen","pos":"verb","ja":"支払う","en":"to pay"}
@@ -187,7 +187,7 @@
 {"lemma":"duif","pos":"noun","article":"de","plural":"duiven","ja":"ハト","en":"pigeon, dove"}
 {"lemma":"duiken","pos":"verb","ja":"潜る、ダイビングする","en":"to dive"}
 {"lemma":"duim","pos":"noun","article":"de","plural":"duimen","ja":"親指","en":"thumb"}
-{"lemma":"duinen","pos":"noun","article":"het","ja":"砂丘","en":"dunes"}
+{"lemma":"duinen","pos":"noun","article":"de","ja":"砂丘","en":"dunes"}
 {"lemma":"duwen","pos":"verb","ja":"押す","en":"to push"}
 {"lemma":"een","pos":"article","ja":"（不定冠詞）ある〜、一つの","en":"a, an"}
 {"lemma":"eend","pos":"noun","article":"de","plural":"eenden","ja":"アヒル、カモ","en":"duck"}
@@ -276,7 +276,7 @@
 {"lemma":"ijs","pos":"noun","article":"het","ja":"氷、アイスクリーム","en":"ice; ice cream"}
 {"lemma":"inburgeren","pos":"verb","ja":"市民統合する、社会に溶け込む","en":"to integrate (into society)"}
 {"lemma":"inchecken","pos":"verb","ja":"チェックインする","en":"to check in"}
-{"lemma":"insecten","pos":"noun","article":"het","ja":"昆虫、虫","en":"insects"}
+{"lemma":"insecten","pos":"noun","article":"de","ja":"昆虫、虫","en":"insects"}
 {"lemma":"instappen","pos":"verb","ja":"乗り込む、乗車する","en":"to get in, to board"}
 {"lemma":"internetbankieren","pos":"verb","ja":"インターネットバンキングをする","en":"to do internet banking"}
 {"lemma":"inversie","pos":"noun","article":"de","plural":"inversies","ja":"倒置（法）","en":"inversion"}
@@ -318,14 +318,14 @@
 {"lemma":"kleur","pos":"noun","article":"de","plural":"kleuren","ja":"色","en":"color"}
 {"lemma":"klimmen","pos":"verb","ja":"登る、よじ登る","en":"to climb"}
 {"lemma":"klittenband","pos":"noun","article":"het","ja":"マジックテープ、面ファスナー","en":"Velcro, hook-and-loop fastener"}
-{"lemma":"kluisjes","pos":"noun","article":"het","plural":"kluisjes","ja":"ロッカー、貴重品ロッカー","en":"lockers"}
+{"lemma":"kluisjes","pos":"noun","article":"de","plural":"kluisjes","ja":"ロッカー、貴重品ロッカー","en":"lockers"}
 {"lemma":"knie","pos":"noun","article":"de","plural":"knieën","ja":"膝","en":"knee"}
 {"lemma":"knippen","pos":"verb","ja":"（はさみで）切る","en":"to cut (with scissors)"}
 {"lemma":"knoeien","pos":"verb","ja":"こぼす、汚す","en":"to spill, to make a mess"}
 {"lemma":"knoflook","pos":"noun","article":"de","ja":"にんにく","en":"garlic"}
 {"lemma":"knoop","pos":"noun","article":"de","plural":"knopen","ja":"ボタン、結び目","en":"button, knot"}
 {"lemma":"koe","pos":"noun","article":"de","plural":"koeien","ja":"牛、雌牛","en":"cow"}
-{"lemma":"koekjes","pos":"noun","article":"het","plural":"koekjes","ja":"クッキー、ビスケット","en":"cookies, biscuits"}
+{"lemma":"koekjes","pos":"noun","article":"de","plural":"koekjes","ja":"クッキー、ビスケット","en":"cookies, biscuits"}
 {"lemma":"koffie","pos":"noun","article":"de","ja":"コーヒー","en":"coffee"}
 {"lemma":"koken","pos":"verb","ja":"料理する、（湯を）沸かす","en":"to cook, to boil"}
 {"lemma":"komkommer","pos":"noun","article":"de","plural":"komkommers","ja":"きゅうり","en":"cucumber"}
@@ -340,7 +340,7 @@
 {"lemma":"krabben","pos":"verb","ja":"かく、引っかく","en":"to scratch"}
 {"lemma":"krijgen","pos":"verb","ja":"得る、受け取る","en":"to get, to receive"}
 {"lemma":"krokodil","pos":"noun","article":"de","plural":"krokodillen","ja":"ワニ","en":"crocodile"}
-{"lemma":"kruiden","pos":"noun","article":"het","plural":"kruiden","ja":"香辛料、ハーブ、薬味","en":"herbs, spices"}
+{"lemma":"kruiden","pos":"noun","article":"de","plural":"kruiden","ja":"香辛料、ハーブ、薬味","en":"herbs, spices"}
 {"lemma":"kruis","pos":"noun","article":"het","plural":"kruisen","ja":"十字、十字架","en":"cross"}
 {"lemma":"kubus","pos":"noun","article":"de","plural":"kubussen","ja":"立方体","en":"cube"}
 {"lemma":"kuit","pos":"noun","article":"de","plural":"kuiten","ja":"ふくらはぎ","en":"calf (of the leg)"}
@@ -381,7 +381,7 @@
 {"lemma":"map","pos":"noun","article":"de","plural":"mappen","ja":"フォルダー、バインダー","en":"folder, binder"}
 {"lemma":"markt","pos":"noun","article":"de","plural":"markten","ja":"市場、マーケット","en":"market"}
 {"lemma":"mat","pos":"noun","article":"de","plural":"matten","ja":"マット、敷物","en":"mat"}
-{"lemma":"medicijnen","pos":"noun","article":"het","plural":"medicijnen","ja":"薬、医薬品","en":"medicine, medication"}
+{"lemma":"medicijnen","pos":"noun","article":"de","plural":"medicijnen","ja":"薬、医薬品","en":"medicine, medication"}
 {"lemma":"meel","pos":"noun","article":"het","ja":"小麦粉、粉","en":"flour"}
 {"lemma":"meer","pos":"noun","article":"het","plural":"meren","ja":"湖","en":"lake"}
 {"lemma":"meervoud","pos":"noun","article":"het","plural":"meervouden","ja":"複数（形）","en":"plural (grammar)"}
@@ -429,7 +429,7 @@
 {"lemma":"ober","pos":"noun","article":"de","plural":"obers","ja":"ウェイター、給仕","en":"waiter"}
 {"lemma":"ochtend","pos":"noun","article":"de","plural":"ochtenden","ja":"朝、午前","en":"morning"}
 {"lemma":"oefening","pos":"noun","article":"de","plural":"oefeningen","ja":"練習、演習","en":"exercise"}
-{"lemma":"ogen","pos":"noun","article":"het","ja":"目","en":"eyes"}
+{"lemma":"ogen","pos":"noun","article":"de","ja":"目","en":"eyes"}
 {"lemma":"oktober","pos":"noun","article":"de","ja":"10月","en":"October"}
 {"lemma":"olie","pos":"noun","article":"de","ja":"油、オイル","en":"oil"}
 {"lemma":"oliebollen","pos":"noun","article":"de","ja":"オリーボル（オランダの揚げ菓子）","en":"oliebollen (Dutch doughnut balls)"}
@@ -458,7 +458,7 @@
 {"lemma":"opstaan","pos":"verb","ja":"起きる、立ち上がる","en":"to get up"}
 {"lemma":"opticien","pos":"noun","article":"de","plural":"opticiens","ja":"眼鏡技師、眼鏡店員","en":"optician"}
 {"lemma":"oranje","pos":"adjective","ja":"オレンジ色の、橙色の","en":"orange"}
-{"lemma":"oren","pos":"noun","article":"het","ja":"耳（oorの複数形）","en":"ears"}
+{"lemma":"oren","pos":"noun","article":"de","ja":"耳（oorの複数形）","en":"ears"}
 {"lemma":"ovaal","pos":"noun","article":"het","plural":"ovalen","ja":"楕円","en":"oval"}
 {"lemma":"ov-chipkaart","pos":"noun","article":"de","plural":"ov-chipkaarten","ja":"OVチップカード（オランダの公共交通ICカード）","en":"OV-chipkaart (Dutch public transport smartcard)"}
 {"lemma":"over","pos":"preposition","ja":"〜について、〜を越えて、〜の上に","en":"about, over, across"}
@@ -554,7 +554,7 @@
 {"lemma":"schuren","pos":"verb","ja":"やすりをかける、ごしごし磨く","en":"to sand, to scrub"}
 {"lemma":"schuur","pos":"noun","article":"de","plural":"schuren","ja":"物置、納屋","en":"shed, barn"}
 {"lemma":"scooter","pos":"noun","article":"de","plural":"scooters","ja":"スクーター","en":"scooter"}
-{"lemma":"seizoenen","pos":"noun","article":"het","ja":"季節","en":"seasons"}
+{"lemma":"seizoenen","pos":"noun","article":"de","ja":"季節","en":"seasons"}
 {"lemma":"september","pos":"noun","article":"de","ja":"9月","en":"September"}
 {"lemma":"sinaasappel","pos":"noun","article":"de","plural":"sinaasappels","ja":"オレンジ","en":"orange"}
 {"lemma":"sinaasappelsap","pos":"noun","article":"het","ja":"オレンジジュース","en":"orange juice"}
@@ -583,7 +583,7 @@
 {"lemma":"sporten","pos":"verb","ja":"スポーツをする、運動する","en":"to do sports, to exercise"}
 {"lemma":"spreekbeurt","pos":"noun","article":"de","plural":"spreekbeurten","ja":"(学校の)口頭発表、スピーチ","en":"oral presentation, class talk"}
 {"lemma":"springen","pos":"verb","ja":"跳ぶ、跳ねる","en":"to jump"}
-{"lemma":"spruitjes","pos":"noun","article":"het","ja":"芽キャベツ","en":"Brussels sprouts"}
+{"lemma":"spruitjes","pos":"noun","article":"de","ja":"芽キャベツ","en":"Brussels sprouts"}
 {"lemma":"spuitje","pos":"noun","article":"het","plural":"spuitjes","ja":"注射、注射器","en":"injection, syringe"}
 {"lemma":"staan","pos":"verb","ja":"立つ、立っている、(場所に)ある","en":"to stand"}
 {"lemma":"staart","pos":"noun","article":"de","plural":"staarten","ja":"尻尾","en":"tail"}
@@ -620,7 +620,7 @@
 {"lemma":"toetje","pos":"noun","article":"het","plural":"toetjes","ja":"デザート","en":"dessert"}
 {"lemma":"toets","pos":"noun","article":"de","plural":"toetsen","ja":"テスト、（鍵盤の）キー","en":"test, key"}
 {"lemma":"toilet","pos":"noun","article":"het","plural":"toiletten","ja":"トイレ","en":"toilet"}
-{"lemma":"toiletten","pos":"noun","article":"het","ja":"トイレ（複数）","en":"toilets"}
+{"lemma":"toiletten","pos":"noun","article":"de","ja":"トイレ（複数）","en":"toilets"}
 {"lemma":"tomaat","pos":"noun","article":"de","plural":"tomaten","ja":"トマト","en":"tomato"}
 {"lemma":"topje","pos":"noun","article":"het","plural":"topjes","ja":"トップス（女性用の上着）","en":"top (garment)"}
 {"lemma":"tractor","pos":"noun","article":"de","plural":"tractoren","ja":"トラクター","en":"tractor"}
