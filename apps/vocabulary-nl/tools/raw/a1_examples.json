@@ -1,0 +1,162 @@
+{
+  "a1-huis": [
+    { "nl": "Het huis is groot.", "ja": "その家は大きい。", "en": "The house is big." },
+    { "nl": "Ik woon in een oud huis.", "ja": "私は古い家に住んでいる。", "en": "I live in an old house." }
+  ],
+  "a1-boek": [
+    { "nl": "Ik lees een boek.", "ja": "私は本を読む。", "en": "I read a book." },
+    { "nl": "Het boek op de tafel is nieuw.", "ja": "テーブルの上の本は新しい。", "en": "The book on the table is new." }
+  ],
+  "a1-water": [
+    { "nl": "Ik drink water.", "ja": "私は水を飲む。", "en": "I drink water." },
+    { "nl": "Het water in de stad is warm.", "ja": "町の水は温かい。", "en": "The water in the city is warm." }
+  ],
+  "a1-brood": [
+    { "nl": "Ik eet brood.", "ja": "私はパンを食べる。", "en": "I eat bread." },
+    { "nl": "Het brood op de tafel is oud.", "ja": "テーブルの上のパンは古い。", "en": "The bread on the table is old." }
+  ],
+  "a1-jaar": [
+    { "nl": "Het is een mooi jaar.", "ja": "良い一年だ。", "en": "It is a good year." },
+    { "nl": "Ik werk een jaar in de stad.", "ja": "私は一年、町で働く。", "en": "I work a year in the city." }
+  ],
+  "a1-raam": [
+    { "nl": "Het raam is groot.", "ja": "その窓は大きい。", "en": "The window is big." },
+    { "nl": "De hond slaapt bij het raam.", "ja": "犬は窓のそばで眠る。", "en": "The dog sleeps by the window." }
+  ],
+  "a1-ei": [
+    { "nl": "Ik eet een ei.", "ja": "私は卵を食べる。", "en": "I eat an egg." },
+    { "nl": "Het ei is klein.", "ja": "その卵は小さい。", "en": "The egg is small." }
+  ],
+  "a1-hond": [
+    { "nl": "De hond is groot.", "ja": "その犬は大きい。", "en": "The dog is big." },
+    { "nl": "De hond eet brood.", "ja": "犬はパンを食べる。", "en": "The dog eats bread." }
+  ],
+  "a1-auto": [
+    { "nl": "De auto is nieuw.", "ja": "その車は新しい。", "en": "The car is new." },
+    { "nl": "Ik ga met de auto naar de stad.", "ja": "私は車で町へ行く。", "en": "I go to the city by car." }
+  ],
+  "a1-stad": [
+    { "nl": "De stad is groot.", "ja": "その町は大きい。", "en": "The city is big." },
+    { "nl": "Ik woon in een mooie stad.", "ja": "私は美しい町に住んでいる。", "en": "I live in a beautiful city." }
+  ],
+  "a1-dag": [
+    { "nl": "Het is een mooie dag.", "ja": "良い天気の日だ。", "en": "It is a beautiful day." },
+    { "nl": "Ik lees de hele dag.", "ja": "私は一日中読む。", "en": "I read all day." }
+  ],
+  "a1-tafel": [
+    { "nl": "De tafel is klein.", "ja": "そのテーブルは小さい。", "en": "The table is small." },
+    { "nl": "Op de tafel is een appel.", "ja": "テーブルの上にりんごがある。", "en": "On the table is an apple." }
+  ],
+  "a1-stoel": [
+    { "nl": "De stoel is oud.", "ja": "その椅子は古い。", "en": "The chair is old." },
+    { "nl": "Ik slaap niet op een stoel.", "ja": "私は椅子では眠らない。", "en": "I don't sleep on a chair." }
+  ],
+  "a1-deur": [
+    { "nl": "De deur is groot.", "ja": "そのドアは大きい。", "en": "The door is big." },
+    { "nl": "De hond loopt door de deur.", "ja": "犬はドアを通って歩く。", "en": "The dog walks through the door." }
+  ],
+  "a1-boom": [
+    { "nl": "De boom is groot en oud.", "ja": "その木は大きくて古い。", "en": "The tree is big and old." },
+    { "nl": "De boom bij het huis is mooi.", "ja": "家のそばの木は美しい。", "en": "The tree by the house is beautiful." }
+  ],
+  "a1-bloem": [
+    { "nl": "De bloem is mooi.", "ja": "その花は美しい。", "en": "The flower is beautiful." },
+    { "nl": "Ik heb een bloem in de hand.", "ja": "私は手に花を持っている。", "en": "I have a flower in my hand." }
+  ],
+  "a1-hand": [
+    { "nl": "De hand is warm.", "ja": "その手は温かい。", "en": "The hand is warm." },
+    { "nl": "Ik heb een appel in de hand.", "ja": "私は手にりんごを持っている。", "en": "I have an apple in my hand." }
+  ],
+  "a1-arm": [
+    { "nl": "De arm is warm.", "ja": "その腕は温かい。", "en": "The arm is warm." },
+    { "nl": "Ik heb twee armen.", "ja": "私は腕が二本ある。", "en": "I have two arms." }
+  ],
+  "a1-appel": [
+    { "nl": "De appel is klein.", "ja": "そのりんごは小さい。", "en": "The apple is small." },
+    { "nl": "Ik eet een appel.", "ja": "私はりんごを食べる。", "en": "I eat an apple." }
+  ],
+  "a1-melk": [
+    { "nl": "Ik drink melk.", "ja": "私は牛乳を飲む。", "en": "I drink milk." },
+    { "nl": "De melk is warm.", "ja": "その牛乳は温かい。", "en": "The milk is warm." }
+  ],
+  "a1-eten": [
+    { "nl": "Ik eet een appel.", "ja": "私はりんごを食べる。", "en": "I eat an apple." },
+    { "nl": "Wij eten brood en een ei.", "ja": "私たちはパンと卵を食べる。", "en": "We eat bread and an egg." }
+  ],
+  "a1-drinken": [
+    { "nl": "Ik drink water.", "ja": "私は水を飲む。", "en": "I drink water." },
+    { "nl": "Jij drinkt melk.", "ja": "君は牛乳を飲む。", "en": "You drink milk." }
+  ],
+  "a1-lopen": [
+    { "nl": "Ik loop naar de stad.", "ja": "私は町へ歩く。", "en": "I walk to the city." },
+    { "nl": "De hond loopt in de stad.", "ja": "犬は町を歩く。", "en": "The dog walks in the city." }
+  ],
+  "a1-slapen": [
+    { "nl": "Ik slaap in een groot huis.", "ja": "私は大きな家で眠る。", "en": "I sleep in a big house." },
+    { "nl": "De hond slaapt op de stoel.", "ja": "犬は椅子の上で眠る。", "en": "The dog sleeps on the chair." }
+  ],
+  "a1-werken": [
+    { "nl": "Ik werk in de stad.", "ja": "私は町で働く。", "en": "I work in the city." },
+    { "nl": "Jij werkt niet vandaag.", "ja": "君は今日は働かない。", "en": "You don't work today." }
+  ],
+  "a1-wonen": [
+    { "nl": "Ik woon in een klein huis.", "ja": "私は小さな家に住んでいる。", "en": "I live in a small house." },
+    { "nl": "Wij wonen in de stad.", "ja": "私たちは町に住んでいる。", "en": "We live in the city." }
+  ],
+  "a1-lezen": [
+    { "nl": "Ik lees een boek.", "ja": "私は本を読む。", "en": "I read a book." },
+    { "nl": "Hij leest de hele dag.", "ja": "彼は一日中読む。", "en": "He reads all day." }
+  ],
+  "a1-spreken": [
+    { "nl": "Ik spreek met jou.", "ja": "私は君と話す。", "en": "I speak with you." },
+    { "nl": "Hij spreekt niet.", "ja": "彼は話さない。", "en": "He doesn't speak." }
+  ],
+  "a1-groot": [
+    { "nl": "Het huis is groot.", "ja": "その家は大きい。", "en": "The house is big." },
+    { "nl": "Ik woon in een grote stad.", "ja": "私は大きな町に住んでいる。", "en": "I live in a big city." }
+  ],
+  "a1-klein": [
+    { "nl": "De bloem is klein.", "ja": "その花は小さい。", "en": "The flower is small." },
+    { "nl": "Ik lees een klein boek.", "ja": "私は小さな本を読む。", "en": "I read a small book." }
+  ],
+  "a1-mooi": [
+    { "nl": "De stad is mooi.", "ja": "その町は美しい。", "en": "The city is beautiful." },
+    { "nl": "Het is een mooie dag.", "ja": "良い天気の日だ。", "en": "It is a beautiful day." }
+  ],
+  "a1-nieuw": [
+    { "nl": "De auto is nieuw.", "ja": "その車は新しい。", "en": "The car is new." },
+    { "nl": "Ik lees een nieuw boek.", "ja": "私は新しい本を読む。", "en": "I read a new book." }
+  ],
+  "a1-oud": [
+    { "nl": "Het huis is oud.", "ja": "その家は古い。", "en": "The house is old." },
+    { "nl": "De hond is oud.", "ja": "その犬は年をとっている。", "en": "The dog is old." }
+  ],
+  "a1-warm": [
+    { "nl": "Het water is warm.", "ja": "その水は温かい。", "en": "The water is warm." },
+    { "nl": "Het is warm in de stad.", "ja": "町は暖かい。", "en": "It is warm in the city." }
+  ],
+  "a1-in": [
+    { "nl": "Ik woon in de stad.", "ja": "私は町に住んでいる。", "en": "I live in the city." },
+    { "nl": "De hond slaapt in het huis.", "ja": "犬は家の中で眠る。", "en": "The dog sleeps in the house." }
+  ],
+  "a1-op": [
+    { "nl": "Het boek is op de tafel.", "ja": "本はテーブルの上にある。", "en": "The book is on the table." },
+    { "nl": "Ik lees op de stoel.", "ja": "私は椅子で読む。", "en": "I read on the chair." }
+  ],
+  "a1-met": [
+    { "nl": "Ik loop met de hond.", "ja": "私は犬と歩く。", "en": "I walk with the dog." },
+    { "nl": "Jij eet met mij.", "ja": "君は私と一緒に食べる。", "en": "You eat with me." }
+  ],
+  "a1-ik": [
+    { "nl": "Ik ben hier.", "ja": "私はここにいる。", "en": "I am here." },
+    { "nl": "Ik lees een boek.", "ja": "私は本を読む。", "en": "I read a book." }
+  ],
+  "a1-jij": [
+    { "nl": "Jij bent groot.", "ja": "君は大きい。", "en": "You are tall." },
+    { "nl": "Werk jij vandaag?", "ja": "君は今日働くの？", "en": "Do you work today?" }
+  ],
+  "a1-hij": [
+    { "nl": "Hij is oud.", "ja": "彼は年をとっている。", "en": "He is old." },
+    { "nl": "Hij woont in de stad.", "ja": "彼は町に住んでいる。", "en": "He lives in the city." }
+  ]
+}

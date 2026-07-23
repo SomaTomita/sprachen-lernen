@@ -1,0 +1,40 @@
+{"lemma":"huis","pos":"noun","article":"het","plural":"huizen","ja":"家","en":"house"}
+{"lemma":"boek","pos":"noun","article":"het","plural":"boeken","ja":"本","en":"book"}
+{"lemma":"water","pos":"noun","article":"het","ja":"水","en":"water"}
+{"lemma":"brood","pos":"noun","article":"het","plural":"broden","ja":"パン","en":"bread"}
+{"lemma":"jaar","pos":"noun","article":"het","plural":"jaren","ja":"年","en":"year"}
+{"lemma":"raam","pos":"noun","article":"het","plural":"ramen","ja":"窓","en":"window"}
+{"lemma":"ei","pos":"noun","article":"het","plural":"eieren","ja":"卵","en":"egg"}
+{"lemma":"hond","pos":"noun","article":"de","plural":"honden","ja":"犬","en":"dog"}
+{"lemma":"auto","pos":"noun","article":"de","plural":"auto's","ja":"車","en":"car"}
+{"lemma":"stad","pos":"noun","article":"de","plural":"steden","ja":"町、都市","en":"city"}
+{"lemma":"dag","pos":"noun","article":"de","plural":"dagen","ja":"日、昼","en":"day"}
+{"lemma":"tafel","pos":"noun","article":"de","plural":"tafels","ja":"テーブル、机","en":"table"}
+{"lemma":"stoel","pos":"noun","article":"de","plural":"stoelen","ja":"椅子","en":"chair"}
+{"lemma":"deur","pos":"noun","article":"de","plural":"deuren","ja":"ドア、扉","en":"door"}
+{"lemma":"boom","pos":"noun","article":"de","plural":"bomen","ja":"木","en":"tree"}
+{"lemma":"bloem","pos":"noun","article":"de","plural":"bloemen","ja":"花","en":"flower"}
+{"lemma":"hand","pos":"noun","article":"de","plural":"handen","ja":"手","en":"hand"}
+{"lemma":"arm","pos":"noun","article":"de","plural":"armen","ja":"腕","en":"arm"}
+{"lemma":"appel","pos":"noun","article":"de","plural":"appels","ja":"りんご","en":"apple"}
+{"lemma":"melk","pos":"noun","article":"de","ja":"牛乳","en":"milk"}
+{"lemma":"eten","pos":"verb","ja":"食べる","en":"to eat"}
+{"lemma":"drinken","pos":"verb","ja":"飲む","en":"to drink"}
+{"lemma":"lopen","pos":"verb","ja":"歩く","en":"to walk"}
+{"lemma":"slapen","pos":"verb","ja":"眠る、寝る","en":"to sleep"}
+{"lemma":"werken","pos":"verb","ja":"働く","en":"to work"}
+{"lemma":"wonen","pos":"verb","ja":"住む","en":"to live (reside)"}
+{"lemma":"lezen","pos":"verb","ja":"読む","en":"to read"}
+{"lemma":"spreken","pos":"verb","ja":"話す","en":"to speak"}
+{"lemma":"groot","pos":"adjective","ja":"大きい","en":"big"}
+{"lemma":"klein","pos":"adjective","ja":"小さい","en":"small"}
+{"lemma":"mooi","pos":"adjective","ja":"美しい、きれいな","en":"beautiful"}
+{"lemma":"nieuw","pos":"adjective","ja":"新しい","en":"new"}
+{"lemma":"oud","pos":"adjective","ja":"古い、年をとった","en":"old"}
+{"lemma":"warm","pos":"adjective","ja":"暖かい、熱い","en":"warm"}
+{"lemma":"in","pos":"preposition","ja":"～の中に","en":"in"}
+{"lemma":"op","pos":"preposition","ja":"～の上に","en":"on"}
+{"lemma":"met","pos":"preposition","ja":"～と一緒に、～で","en":"with"}
+{"lemma":"ik","pos":"pronoun","ja":"私","en":"I"}
+{"lemma":"jij","pos":"pronoun","ja":"君、あなた","en":"you"}
+{"lemma":"hij","pos":"pronoun","ja":"彼","en":"he"}
