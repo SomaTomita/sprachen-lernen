@@ -9,7 +9,7 @@
   ],
   "a1-water": [
     { "nl": "Ik drink water.", "ja": "私は水を飲む。", "en": "I drink water." },
-    { "nl": "Het water in de stad is warm.", "ja": "町の水は温かい。", "en": "The water in the city is warm." }
+    { "nl": "Het water is niet warm.", "ja": "その水は温かくない。", "en": "The water is not warm." }
   ],
   "a1-brood": [
     { "nl": "Ik eet brood.", "ja": "私はパンを食べる。", "en": "I eat bread." },
@@ -17,7 +17,7 @@
   ],
   "a1-jaar": [
     { "nl": "Het is een mooi jaar.", "ja": "良い一年だ。", "en": "It is a good year." },
-    { "nl": "Ik werk een jaar in de stad.", "ja": "私は一年、町で働く。", "en": "I work a year in the city." }
+    { "nl": "Ik werk een jaar in de stad.", "ja": "私は一年、町で働く。", "en": "I work in the city for a year." }
   ],
   "a1-raam": [
     { "nl": "Het raam is groot.", "ja": "その窓は大きい。", "en": "The window is big." },
@@ -152,7 +152,7 @@
     { "nl": "Ik lees een boek.", "ja": "私は本を読む。", "en": "I read a book." }
   ],
   "a1-jij": [
-    { "nl": "Jij bent groot.", "ja": "君は大きい。", "en": "You are tall." },
+    { "nl": "Jij bent groot.", "ja": "君は背が高い。", "en": "You are tall." },
     { "nl": "Werk jij vandaag?", "ja": "君は今日働くの？", "en": "Do you work today?" }
   ],
   "a1-hij": [
