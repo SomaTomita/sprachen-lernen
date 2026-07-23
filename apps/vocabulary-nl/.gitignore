@@ -25,3 +25,7 @@ data/A2/parts/
 # 注: tools/.venv（約157MB, edge-tts用）は root の .venv/ で無視済み。
 #     再構築: python3 -m venv tools/.venv && tools/.venv/bin/pip install edge-tts
 # ─────────────────────────────────────────────
+
+# glossing scratch (merged into tools/raw/a1.jsonl)
+tools/raw/gloss/
+tools/raw/a1_review.json
