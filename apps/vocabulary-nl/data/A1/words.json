@@ -73,9 +73,9 @@
         "en": "I drink water."
       },
       {
-        "nl": "Het water in de stad is warm.",
-        "ja": "町の水は温かい。",
-        "en": "The water in the city is warm."
+        "nl": "Het water is niet warm.",
+        "ja": "その水は温かくない。",
+        "en": "The water is not warm."
       }
     ]
   },
@@ -129,7 +129,7 @@
       {
         "nl": "Ik werk een jaar in de stad.",
         "ja": "私は一年、町で働く。",
-        "en": "I work a year in the city."
+        "en": "I work in the city for a year."
       }
     ]
   },
@@ -1002,7 +1002,7 @@
     "examples": [
       {
         "nl": "Jij bent groot.",
-        "ja": "君は大きい。",
+        "ja": "君は背が高い。",
         "en": "You are tall."
       },
       {
