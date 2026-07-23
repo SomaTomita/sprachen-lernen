@@ -17,12 +17,68 @@
       {
         "nl": "Het huis is groot.",
         "ja": "その家は大きい。",
-        "en": "The house is big."
+        "en": "The house is big.",
+        "audio": "audio/a1-huis-1.mp3",
+        "timing": [
+          {
+            "w": "Het",
+            "s": 0.1,
+            "e": 0.275
+          },
+          {
+            "w": "huis",
+            "s": 0.287,
+            "e": 0.713
+          },
+          {
+            "w": "is",
+            "s": 0.75,
+            "e": 0.938
+          },
+          {
+            "w": "groot",
+            "s": 0.938,
+            "e": 1.312
+          }
+        ]
       },
       {
         "nl": "Ik woon in een oud huis.",
         "ja": "私は古い家に住んでいる。",
-        "en": "I live in an old house."
+        "en": "I live in an old house.",
+        "audio": "audio/a1-huis-2.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.225
+          },
+          {
+            "w": "woon",
+            "s": 0.275,
+            "e": 0.625
+          },
+          {
+            "w": "in",
+            "s": 0.688,
+            "e": 0.825
+          },
+          {
+            "w": "een",
+            "s": 0.838,
+            "e": 0.975
+          },
+          {
+            "w": "oud",
+            "s": 1.038,
+            "e": 1.262
+          },
+          {
+            "w": "huis",
+            "s": 1.262,
+            "e": 1.738
+          }
+        ]
       }
     ]
   },
@@ -44,12 +100,73 @@
       {
         "nl": "Ik lees een boek.",
         "ja": "私は本を読む。",
-        "en": "I read a book."
+        "en": "I read a book.",
+        "audio": "audio/a1-boek-1.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.225
+          },
+          {
+            "w": "lees",
+            "s": 0.3,
+            "e": 0.662
+          },
+          {
+            "w": "een",
+            "s": 0.662,
+            "e": 0.75
+          },
+          {
+            "w": "boek",
+            "s": 0.75,
+            "e": 1.05
+          }
+        ]
       },
       {
         "nl": "Het boek op de tafel is nieuw.",
         "ja": "テーブルの上の本は新しい。",
-        "en": "The book on the table is new."
+        "en": "The book on the table is new.",
+        "audio": "audio/a1-boek-2.mp3",
+        "timing": [
+          {
+            "w": "Het",
+            "s": 0.1,
+            "e": 0.275
+          },
+          {
+            "w": "boek",
+            "s": 0.275,
+            "e": 0.55
+          },
+          {
+            "w": "op",
+            "s": 0.575,
+            "e": 0.725
+          },
+          {
+            "w": "de",
+            "s": 0.738,
+            "e": 0.838
+          },
+          {
+            "w": "tafel",
+            "s": 0.85,
+            "e": 1.337
+          },
+          {
+            "w": "is",
+            "s": 1.4,
+            "e": 1.562
+          },
+          {
+            "w": "nieuw",
+            "s": 1.562,
+            "e": 1.788
+          }
+        ]
       }
     ]
   },
@@ -70,12 +187,58 @@
       {
         "nl": "Ik drink water.",
         "ja": "私は水を飲む。",
-        "en": "I drink water."
+        "en": "I drink water.",
+        "audio": "audio/a1-water-1.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.212
+          },
+          {
+            "w": "drink",
+            "s": 0.3,
+            "e": 0.675
+          },
+          {
+            "w": "water",
+            "s": 0.688,
+            "e": 1.188
+          }
+        ]
       },
       {
         "nl": "Het water is niet warm.",
         "ja": "その水は温かくない。",
-        "en": "The water is not warm."
+        "en": "The water is not warm.",
+        "audio": "audio/a1-water-2.mp3",
+        "timing": [
+          {
+            "w": "Het",
+            "s": 0.1,
+            "e": 0.263
+          },
+          {
+            "w": "water",
+            "s": 0.287,
+            "e": 0.7
+          },
+          {
+            "w": "is",
+            "s": 0.812,
+            "e": 0.975
+          },
+          {
+            "w": "niet",
+            "s": 0.988,
+            "e": 1.238
+          },
+          {
+            "w": "warm",
+            "s": 1.25,
+            "e": 1.65
+          }
+        ]
       }
     ]
   },
@@ -97,12 +260,68 @@
       {
         "nl": "Ik eet brood.",
         "ja": "私はパンを食べる。",
-        "en": "I eat bread."
+        "en": "I eat bread.",
+        "audio": "audio/a1-brood-1.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.237
+          },
+          {
+            "w": "eet",
+            "s": 0.3,
+            "e": 0.537
+          },
+          {
+            "w": "brood",
+            "s": 0.537,
+            "e": 0.988
+          }
+        ]
       },
       {
         "nl": "Het brood op de tafel is oud.",
         "ja": "テーブルの上のパンは古い。",
-        "en": "The bread on the table is old."
+        "en": "The bread on the table is old.",
+        "audio": "audio/a1-brood-2.mp3",
+        "timing": [
+          {
+            "w": "Het",
+            "s": 0.1,
+            "e": 0.263
+          },
+          {
+            "w": "brood",
+            "s": 0.287,
+            "e": 0.7
+          },
+          {
+            "w": "op",
+            "s": 0.725,
+            "e": 0.863
+          },
+          {
+            "w": "de",
+            "s": 0.875,
+            "e": 0.975
+          },
+          {
+            "w": "tafel",
+            "s": 0.988,
+            "e": 1.488
+          },
+          {
+            "w": "is",
+            "s": 1.562,
+            "e": 1.725
+          },
+          {
+            "w": "oud",
+            "s": 1.75,
+            "e": 2.025
+          }
+        ]
       }
     ]
   },
@@ -124,12 +343,78 @@
       {
         "nl": "Het is een mooi jaar.",
         "ja": "良い一年だ。",
-        "en": "It is a good year."
+        "en": "It is a good year.",
+        "audio": "audio/a1-jaar-1.mp3",
+        "timing": [
+          {
+            "w": "Het",
+            "s": 0.1,
+            "e": 0.275
+          },
+          {
+            "w": "is",
+            "s": 0.3,
+            "e": 0.512
+          },
+          {
+            "w": "een",
+            "s": 0.512,
+            "e": 0.588
+          },
+          {
+            "w": "mooi",
+            "s": 0.588,
+            "e": 0.9
+          },
+          {
+            "w": "jaar",
+            "s": 0.9,
+            "e": 1.262
+          }
+        ]
       },
       {
         "nl": "Ik werk een jaar in de stad.",
         "ja": "私は一年、町で働く。",
-        "en": "I work in the city for a year."
+        "en": "I work in the city for a year.",
+        "audio": "audio/a1-jaar-2.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.2
+          },
+          {
+            "w": "werk",
+            "s": 0.287,
+            "e": 0.637
+          },
+          {
+            "w": "een",
+            "s": 0.662,
+            "e": 0.8
+          },
+          {
+            "w": "jaar",
+            "s": 0.8,
+            "e": 1.15
+          },
+          {
+            "w": "in",
+            "s": 1.2,
+            "e": 1.312
+          },
+          {
+            "w": "de",
+            "s": 1.325,
+            "e": 1.387
+          },
+          {
+            "w": "stad",
+            "s": 1.387,
+            "e": 1.725
+          }
+        ]
       }
     ]
   },
@@ -151,12 +436,68 @@
       {
         "nl": "Het raam is groot.",
         "ja": "その窓は大きい。",
-        "en": "The window is big."
+        "en": "The window is big.",
+        "audio": "audio/a1-raam-1.mp3",
+        "timing": [
+          {
+            "w": "Het",
+            "s": 0.1,
+            "e": 0.275
+          },
+          {
+            "w": "raam",
+            "s": 0.287,
+            "e": 0.713
+          },
+          {
+            "w": "is",
+            "s": 0.762,
+            "e": 0.963
+          },
+          {
+            "w": "groot",
+            "s": 0.963,
+            "e": 1.35
+          }
+        ]
       },
       {
         "nl": "De hond slaapt bij het raam.",
         "ja": "犬は窓のそばで眠る。",
-        "en": "The dog sleeps by the window."
+        "en": "The dog sleeps by the window.",
+        "audio": "audio/a1-raam-2.mp3",
+        "timing": [
+          {
+            "w": "De",
+            "s": 0.1,
+            "e": 0.188
+          },
+          {
+            "w": "hond",
+            "s": 0.225,
+            "e": 0.562
+          },
+          {
+            "w": "slaapt",
+            "s": 0.588,
+            "e": 1.05
+          },
+          {
+            "w": "bij",
+            "s": 1.062,
+            "e": 1.275
+          },
+          {
+            "w": "het",
+            "s": 1.275,
+            "e": 1.35
+          },
+          {
+            "w": "raam",
+            "s": 1.35,
+            "e": 1.788
+          }
+        ]
       }
     ]
   },
@@ -178,12 +519,58 @@
       {
         "nl": "Ik eet een ei.",
         "ja": "私は卵を食べる。",
-        "en": "I eat an egg."
+        "en": "I eat an egg.",
+        "audio": "audio/a1-ei-1.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.225
+          },
+          {
+            "w": "eet",
+            "s": 0.3,
+            "e": 0.537
+          },
+          {
+            "w": "een",
+            "s": 0.537,
+            "e": 0.662
+          },
+          {
+            "w": "ei",
+            "s": 0.675,
+            "e": 0.9
+          }
+        ]
       },
       {
         "nl": "Het ei is klein.",
         "ja": "その卵は小さい。",
-        "en": "The egg is small."
+        "en": "The egg is small.",
+        "audio": "audio/a1-ei-2.mp3",
+        "timing": [
+          {
+            "w": "Het",
+            "s": 0.1,
+            "e": 0.275
+          },
+          {
+            "w": "ei",
+            "s": 0.375,
+            "e": 0.562
+          },
+          {
+            "w": "is",
+            "s": 0.662,
+            "e": 0.85
+          },
+          {
+            "w": "klein",
+            "s": 0.863,
+            "e": 1.312
+          }
+        ]
       }
     ]
   },
@@ -205,12 +592,58 @@
       {
         "nl": "De hond is groot.",
         "ja": "その犬は大きい。",
-        "en": "The dog is big."
+        "en": "The dog is big.",
+        "audio": "audio/a1-hond-1.mp3",
+        "timing": [
+          {
+            "w": "De",
+            "s": 0.1,
+            "e": 0.212
+          },
+          {
+            "w": "hond",
+            "s": 0.225,
+            "e": 0.575
+          },
+          {
+            "w": "is",
+            "s": 0.65,
+            "e": 0.838
+          },
+          {
+            "w": "groot",
+            "s": 0.838,
+            "e": 1.212
+          }
+        ]
       },
       {
         "nl": "De hond eet brood.",
         "ja": "犬はパンを食べる。",
-        "en": "The dog eats bread."
+        "en": "The dog eats bread.",
+        "audio": "audio/a1-hond-2.mp3",
+        "timing": [
+          {
+            "w": "De",
+            "s": 0.1,
+            "e": 0.2
+          },
+          {
+            "w": "hond",
+            "s": 0.212,
+            "e": 0.537
+          },
+          {
+            "w": "eet",
+            "s": 0.613,
+            "e": 0.838
+          },
+          {
+            "w": "brood",
+            "s": 0.838,
+            "e": 1.262
+          }
+        ]
       }
     ]
   },
@@ -232,12 +665,78 @@
       {
         "nl": "De auto is nieuw.",
         "ja": "その車は新しい。",
-        "en": "The car is new."
+        "en": "The car is new.",
+        "audio": "audio/a1-auto-1.mp3",
+        "timing": [
+          {
+            "w": "De",
+            "s": 0.1,
+            "e": 0.212
+          },
+          {
+            "w": "auto",
+            "s": 0.3,
+            "e": 0.75
+          },
+          {
+            "w": "is",
+            "s": 0.825,
+            "e": 1.0
+          },
+          {
+            "w": "nieuw",
+            "s": 1.0,
+            "e": 1.25
+          }
+        ]
       },
       {
         "nl": "Ik ga met de auto naar de stad.",
         "ja": "私は車で町へ行く。",
-        "en": "I go to the city by car."
+        "en": "I go to the city by car.",
+        "audio": "audio/a1-auto-2.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.212
+          },
+          {
+            "w": "ga",
+            "s": 0.275,
+            "e": 0.6
+          },
+          {
+            "w": "met",
+            "s": 0.637,
+            "e": 0.838
+          },
+          {
+            "w": "de",
+            "s": 0.85,
+            "e": 0.925
+          },
+          {
+            "w": "auto",
+            "s": 0.963,
+            "e": 1.387
+          },
+          {
+            "w": "naar",
+            "s": 1.425,
+            "e": 1.587
+          },
+          {
+            "w": "de",
+            "s": 1.587,
+            "e": 1.688
+          },
+          {
+            "w": "stad",
+            "s": 1.688,
+            "e": 2.025
+          }
+        ]
       }
     ]
   },
@@ -259,12 +758,68 @@
       {
         "nl": "De stad is groot.",
         "ja": "その町は大きい。",
-        "en": "The city is big."
+        "en": "The city is big.",
+        "audio": "audio/a1-stad-1.mp3",
+        "timing": [
+          {
+            "w": "De",
+            "s": 0.1,
+            "e": 0.188
+          },
+          {
+            "w": "stad",
+            "s": 0.237,
+            "e": 0.625
+          },
+          {
+            "w": "is",
+            "s": 0.7,
+            "e": 0.9
+          },
+          {
+            "w": "groot",
+            "s": 0.9,
+            "e": 1.288
+          }
+        ]
       },
       {
         "nl": "Ik woon in een mooie stad.",
         "ja": "私は美しい町に住んでいる。",
-        "en": "I live in a beautiful city."
+        "en": "I live in a beautiful city.",
+        "audio": "audio/a1-stad-2.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.225
+          },
+          {
+            "w": "woon",
+            "s": 0.287,
+            "e": 0.637
+          },
+          {
+            "w": "in",
+            "s": 0.688,
+            "e": 0.825
+          },
+          {
+            "w": "een",
+            "s": 0.863,
+            "e": 0.938
+          },
+          {
+            "w": "mooie",
+            "s": 0.938,
+            "e": 1.363
+          },
+          {
+            "w": "stad",
+            "s": 1.363,
+            "e": 1.712
+          }
+        ]
       }
     ]
   },
@@ -286,12 +841,68 @@
       {
         "nl": "Het is een mooie dag.",
         "ja": "良い天気の日だ。",
-        "en": "It is a beautiful day."
+        "en": "It is a beautiful day.",
+        "audio": "audio/a1-dag-1.mp3",
+        "timing": [
+          {
+            "w": "Het",
+            "s": 0.1,
+            "e": 0.275
+          },
+          {
+            "w": "is",
+            "s": 0.3,
+            "e": 0.512
+          },
+          {
+            "w": "een",
+            "s": 0.512,
+            "e": 0.588
+          },
+          {
+            "w": "mooie",
+            "s": 0.588,
+            "e": 1.05
+          },
+          {
+            "w": "dag",
+            "s": 1.05,
+            "e": 1.363
+          }
+        ]
       },
       {
         "nl": "Ik lees de hele dag.",
         "ja": "私は一日中読む。",
-        "en": "I read all day."
+        "en": "I read all day.",
+        "audio": "audio/a1-dag-2.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.225
+          },
+          {
+            "w": "lees",
+            "s": 0.3,
+            "e": 0.688
+          },
+          {
+            "w": "de",
+            "s": 0.688,
+            "e": 0.8
+          },
+          {
+            "w": "hele",
+            "s": 0.8,
+            "e": 1.175
+          },
+          {
+            "w": "dag",
+            "s": 1.175,
+            "e": 1.475
+          }
+        ]
       }
     ]
   },
@@ -313,12 +924,68 @@
       {
         "nl": "De tafel is klein.",
         "ja": "そのテーブルは小さい。",
-        "en": "The table is small."
+        "en": "The table is small.",
+        "audio": "audio/a1-tafel-1.mp3",
+        "timing": [
+          {
+            "w": "De",
+            "s": 0.1,
+            "e": 0.188
+          },
+          {
+            "w": "tafel",
+            "s": 0.25,
+            "e": 0.762
+          },
+          {
+            "w": "is",
+            "s": 0.85,
+            "e": 1.038
+          },
+          {
+            "w": "klein",
+            "s": 1.05,
+            "e": 1.488
+          }
+        ]
       },
       {
         "nl": "Op de tafel is een appel.",
         "ja": "テーブルの上にりんごがある。",
-        "en": "On the table is an apple."
+        "en": "On the table is an apple.",
+        "audio": "audio/a1-tafel-2.mp3",
+        "timing": [
+          {
+            "w": "Op",
+            "s": 0.1,
+            "e": 0.188
+          },
+          {
+            "w": "de",
+            "s": 0.275,
+            "e": 0.375
+          },
+          {
+            "w": "tafel",
+            "s": 0.388,
+            "e": 0.9
+          },
+          {
+            "w": "is",
+            "s": 1.0,
+            "e": 1.163
+          },
+          {
+            "w": "een",
+            "s": 1.188,
+            "e": 1.275
+          },
+          {
+            "w": "appel",
+            "s": 1.312,
+            "e": 1.637
+          }
+        ]
       }
     ]
   },
@@ -340,12 +1007,68 @@
       {
         "nl": "De stoel is oud.",
         "ja": "その椅子は古い。",
-        "en": "The chair is old."
+        "en": "The chair is old.",
+        "audio": "audio/a1-stoel-1.mp3",
+        "timing": [
+          {
+            "w": "De",
+            "s": 0.1,
+            "e": 0.2
+          },
+          {
+            "w": "stoel",
+            "s": 0.25,
+            "e": 0.7
+          },
+          {
+            "w": "is",
+            "s": 0.787,
+            "e": 0.963
+          },
+          {
+            "w": "oud",
+            "s": 1.0,
+            "e": 1.275
+          }
+        ]
       },
       {
         "nl": "Ik slaap niet op een stoel.",
         "ja": "私は椅子では眠らない。",
-        "en": "I don't sleep on a chair."
+        "en": "I don't sleep on a chair.",
+        "audio": "audio/a1-stoel-2.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.2
+          },
+          {
+            "w": "slaap",
+            "s": 0.25,
+            "e": 0.662
+          },
+          {
+            "w": "niet",
+            "s": 0.7,
+            "e": 1.0
+          },
+          {
+            "w": "op",
+            "s": 1.05,
+            "e": 1.212
+          },
+          {
+            "w": "een",
+            "s": 1.225,
+            "e": 1.337
+          },
+          {
+            "w": "stoel",
+            "s": 1.337,
+            "e": 1.738
+          }
+        ]
       }
     ]
   },
@@ -367,12 +1090,68 @@
       {
         "nl": "De deur is groot.",
         "ja": "そのドアは大きい。",
-        "en": "The door is big."
+        "en": "The door is big.",
+        "audio": "audio/a1-deur-1.mp3",
+        "timing": [
+          {
+            "w": "De",
+            "s": 0.1,
+            "e": 0.188
+          },
+          {
+            "w": "deur",
+            "s": 0.237,
+            "e": 0.537
+          },
+          {
+            "w": "is",
+            "s": 0.637,
+            "e": 0.812
+          },
+          {
+            "w": "groot",
+            "s": 0.812,
+            "e": 1.2
+          }
+        ]
       },
       {
         "nl": "De hond loopt door de deur.",
         "ja": "犬はドアを通って歩く。",
-        "en": "The dog walks through the door."
+        "en": "The dog walks through the door.",
+        "audio": "audio/a1-deur-2.mp3",
+        "timing": [
+          {
+            "w": "De",
+            "s": 0.1,
+            "e": 0.188
+          },
+          {
+            "w": "hond",
+            "s": 0.2,
+            "e": 0.525
+          },
+          {
+            "w": "loopt",
+            "s": 0.688,
+            "e": 1.012
+          },
+          {
+            "w": "door",
+            "s": 1.1,
+            "e": 1.238
+          },
+          {
+            "w": "de",
+            "s": 1.238,
+            "e": 1.35
+          },
+          {
+            "w": "deur",
+            "s": 1.35,
+            "e": 1.675
+          }
+        ]
       }
     ]
   },
@@ -394,12 +1173,83 @@
       {
         "nl": "De boom is groot en oud.",
         "ja": "その木は大きくて古い。",
-        "en": "The tree is big and old."
+        "en": "The tree is big and old.",
+        "audio": "audio/a1-boom-1.mp3",
+        "timing": [
+          {
+            "w": "De",
+            "s": 0.1,
+            "e": 0.188
+          },
+          {
+            "w": "boom",
+            "s": 0.212,
+            "e": 0.613
+          },
+          {
+            "w": "is",
+            "s": 0.65,
+            "e": 0.85
+          },
+          {
+            "w": "groot",
+            "s": 0.85,
+            "e": 1.212
+          },
+          {
+            "w": "en",
+            "s": 1.262,
+            "e": 1.425
+          },
+          {
+            "w": "oud",
+            "s": 1.45,
+            "e": 1.725
+          }
+        ]
       },
       {
         "nl": "De boom bij het huis is mooi.",
         "ja": "家のそばの木は美しい。",
-        "en": "The tree by the house is beautiful."
+        "en": "The tree by the house is beautiful.",
+        "audio": "audio/a1-boom-2.mp3",
+        "timing": [
+          {
+            "w": "De",
+            "s": 0.1,
+            "e": 0.188
+          },
+          {
+            "w": "boom",
+            "s": 0.225,
+            "e": 0.625
+          },
+          {
+            "w": "bij",
+            "s": 0.625,
+            "e": 0.812
+          },
+          {
+            "w": "het",
+            "s": 0.812,
+            "e": 0.9
+          },
+          {
+            "w": "huis",
+            "s": 0.9,
+            "e": 1.3
+          },
+          {
+            "w": "is",
+            "s": 1.337,
+            "e": 1.5
+          },
+          {
+            "w": "mooi",
+            "s": 1.5,
+            "e": 1.85
+          }
+        ]
       }
     ]
   },
@@ -421,12 +1271,73 @@
       {
         "nl": "De bloem is mooi.",
         "ja": "その花は美しい。",
-        "en": "The flower is beautiful."
+        "en": "The flower is beautiful.",
+        "audio": "audio/a1-bloem-1.mp3",
+        "timing": [
+          {
+            "w": "De",
+            "s": 0.1,
+            "e": 0.2
+          },
+          {
+            "w": "bloem",
+            "s": 0.237,
+            "e": 0.65
+          },
+          {
+            "w": "is",
+            "s": 0.713,
+            "e": 0.9
+          },
+          {
+            "w": "mooi",
+            "s": 0.9,
+            "e": 1.238
+          }
+        ]
       },
       {
         "nl": "Ik heb een bloem in de hand.",
         "ja": "私は手に花を持っている。",
-        "en": "I have a flower in my hand."
+        "en": "I have a flower in my hand.",
+        "audio": "audio/a1-bloem-2.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.212
+          },
+          {
+            "w": "heb",
+            "s": 0.275,
+            "e": 0.438
+          },
+          {
+            "w": "een",
+            "s": 0.45,
+            "e": 0.575
+          },
+          {
+            "w": "bloem",
+            "s": 0.575,
+            "e": 0.963
+          },
+          {
+            "w": "in",
+            "s": 1.0,
+            "e": 1.113
+          },
+          {
+            "w": "de",
+            "s": 1.125,
+            "e": 1.188
+          },
+          {
+            "w": "hand",
+            "s": 1.188,
+            "e": 1.512
+          }
+        ]
       }
     ]
   },
@@ -448,12 +1359,73 @@
       {
         "nl": "De hand is warm.",
         "ja": "その手は温かい。",
-        "en": "The hand is warm."
+        "en": "The hand is warm.",
+        "audio": "audio/a1-hand-1.mp3",
+        "timing": [
+          {
+            "w": "De",
+            "s": 0.1,
+            "e": 0.2
+          },
+          {
+            "w": "hand",
+            "s": 0.225,
+            "e": 0.562
+          },
+          {
+            "w": "is",
+            "s": 0.588,
+            "e": 0.775
+          },
+          {
+            "w": "warm",
+            "s": 0.775,
+            "e": 1.175
+          }
+        ]
       },
       {
         "nl": "Ik heb een appel in de hand.",
         "ja": "私は手にりんごを持っている。",
-        "en": "I have an apple in my hand."
+        "en": "I have an apple in my hand.",
+        "audio": "audio/a1-hand-2.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.212
+          },
+          {
+            "w": "heb",
+            "s": 0.275,
+            "e": 0.438
+          },
+          {
+            "w": "een",
+            "s": 0.45,
+            "e": 0.588
+          },
+          {
+            "w": "appel",
+            "s": 0.7,
+            "e": 0.975
+          },
+          {
+            "w": "in",
+            "s": 1.012,
+            "e": 1.15
+          },
+          {
+            "w": "de",
+            "s": 1.163,
+            "e": 1.225
+          },
+          {
+            "w": "hand",
+            "s": 1.225,
+            "e": 1.55
+          }
+        ]
       }
     ]
   },
@@ -475,12 +1447,58 @@
       {
         "nl": "De arm is warm.",
         "ja": "その腕は温かい。",
-        "en": "The arm is warm."
+        "en": "The arm is warm.",
+        "audio": "audio/a1-arm-1.mp3",
+        "timing": [
+          {
+            "w": "De",
+            "s": 0.1,
+            "e": 0.225
+          },
+          {
+            "w": "arm",
+            "s": 0.325,
+            "e": 0.688
+          },
+          {
+            "w": "is",
+            "s": 0.713,
+            "e": 0.887
+          },
+          {
+            "w": "warm",
+            "s": 0.887,
+            "e": 1.312
+          }
+        ]
       },
       {
         "nl": "Ik heb twee armen.",
         "ja": "私は腕が二本ある。",
-        "en": "I have two arms."
+        "en": "I have two arms.",
+        "audio": "audio/a1-arm-2.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.212
+          },
+          {
+            "w": "heb",
+            "s": 0.25,
+            "e": 0.438
+          },
+          {
+            "w": "twee",
+            "s": 0.487,
+            "e": 0.838
+          },
+          {
+            "w": "armen",
+            "s": 0.887,
+            "e": 1.288
+          }
+        ]
       }
     ]
   },
@@ -502,12 +1520,58 @@
       {
         "nl": "De appel is klein.",
         "ja": "そのりんごは小さい。",
-        "en": "The apple is small."
+        "en": "The apple is small.",
+        "audio": "audio/a1-appel-1.mp3",
+        "timing": [
+          {
+            "w": "De",
+            "s": 0.1,
+            "e": 0.212
+          },
+          {
+            "w": "appel",
+            "s": 0.312,
+            "e": 0.662
+          },
+          {
+            "w": "is",
+            "s": 0.725,
+            "e": 0.912
+          },
+          {
+            "w": "klein",
+            "s": 0.925,
+            "e": 1.375
+          }
+        ]
       },
       {
         "nl": "Ik eet een appel.",
         "ja": "私はりんごを食べる。",
-        "en": "I eat an apple."
+        "en": "I eat an apple.",
+        "audio": "audio/a1-appel-2.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.212
+          },
+          {
+            "w": "eet",
+            "s": 0.287,
+            "e": 0.525
+          },
+          {
+            "w": "een",
+            "s": 0.525,
+            "e": 0.65
+          },
+          {
+            "w": "appel",
+            "s": 0.675,
+            "e": 1.012
+          }
+        ]
       }
     ]
   },
@@ -528,12 +1592,53 @@
       {
         "nl": "Ik drink melk.",
         "ja": "私は牛乳を飲む。",
-        "en": "I drink milk."
+        "en": "I drink milk.",
+        "audio": "audio/a1-melk-1.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.212
+          },
+          {
+            "w": "drink",
+            "s": 0.3,
+            "e": 0.675
+          },
+          {
+            "w": "melk",
+            "s": 0.688,
+            "e": 1.062
+          }
+        ]
       },
       {
         "nl": "De melk is warm.",
         "ja": "その牛乳は温かい。",
-        "en": "The milk is warm."
+        "en": "The milk is warm.",
+        "audio": "audio/a1-melk-2.mp3",
+        "timing": [
+          {
+            "w": "De",
+            "s": 0.1,
+            "e": 0.2
+          },
+          {
+            "w": "melk",
+            "s": 0.237,
+            "e": 0.637
+          },
+          {
+            "w": "is",
+            "s": 0.688,
+            "e": 0.875
+          },
+          {
+            "w": "warm",
+            "s": 0.875,
+            "e": 1.288
+          }
+        ]
       }
     ]
   },
@@ -553,12 +1658,68 @@
       {
         "nl": "Ik eet een appel.",
         "ja": "私はりんごを食べる。",
-        "en": "I eat an apple."
+        "en": "I eat an apple.",
+        "audio": "audio/a1-eten-1.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.212
+          },
+          {
+            "w": "eet",
+            "s": 0.287,
+            "e": 0.525
+          },
+          {
+            "w": "een",
+            "s": 0.525,
+            "e": 0.65
+          },
+          {
+            "w": "appel",
+            "s": 0.675,
+            "e": 1.012
+          }
+        ]
       },
       {
         "nl": "Wij eten brood en een ei.",
         "ja": "私たちはパンと卵を食べる。",
-        "en": "We eat bread and an egg."
+        "en": "We eat bread and an egg.",
+        "audio": "audio/a1-eten-2.mp3",
+        "timing": [
+          {
+            "w": "Wij",
+            "s": 0.1,
+            "e": 0.338
+          },
+          {
+            "w": "eten",
+            "s": 0.425,
+            "e": 0.75
+          },
+          {
+            "w": "brood",
+            "s": 0.762,
+            "e": 1.188
+          },
+          {
+            "w": "en",
+            "s": 1.288,
+            "e": 1.413
+          },
+          {
+            "w": "een",
+            "s": 1.45,
+            "e": 1.55
+          },
+          {
+            "w": "ei",
+            "s": 1.562,
+            "e": 1.788
+          }
+        ]
       }
     ]
   },
@@ -578,12 +1739,48 @@
       {
         "nl": "Ik drink water.",
         "ja": "私は水を飲む。",
-        "en": "I drink water."
+        "en": "I drink water.",
+        "audio": "audio/a1-drinken-1.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.212
+          },
+          {
+            "w": "drink",
+            "s": 0.3,
+            "e": 0.675
+          },
+          {
+            "w": "water",
+            "s": 0.688,
+            "e": 1.188
+          }
+        ]
       },
       {
         "nl": "Jij drinkt melk.",
         "ja": "君は牛乳を飲む。",
-        "en": "You drink milk."
+        "en": "You drink milk.",
+        "audio": "audio/a1-drinken-2.mp3",
+        "timing": [
+          {
+            "w": "Jij",
+            "s": 0.1,
+            "e": 0.362
+          },
+          {
+            "w": "drinkt",
+            "s": 0.412,
+            "e": 0.825
+          },
+          {
+            "w": "melk",
+            "s": 0.85,
+            "e": 1.2
+          }
+        ]
       }
     ]
   },
@@ -603,12 +1800,73 @@
       {
         "nl": "Ik loop naar de stad.",
         "ja": "私は町へ歩く。",
-        "en": "I walk to the city."
+        "en": "I walk to the city.",
+        "audio": "audio/a1-lopen-1.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.225
+          },
+          {
+            "w": "loop",
+            "s": 0.3,
+            "e": 0.65
+          },
+          {
+            "w": "naar",
+            "s": 0.675,
+            "e": 0.863
+          },
+          {
+            "w": "de",
+            "s": 0.863,
+            "e": 0.963
+          },
+          {
+            "w": "stad",
+            "s": 0.963,
+            "e": 1.312
+          }
+        ]
       },
       {
         "nl": "De hond loopt in de stad.",
         "ja": "犬は町を歩く。",
-        "en": "The dog walks in the city."
+        "en": "The dog walks in the city.",
+        "audio": "audio/a1-lopen-2.mp3",
+        "timing": [
+          {
+            "w": "De",
+            "s": 0.1,
+            "e": 0.188
+          },
+          {
+            "w": "hond",
+            "s": 0.2,
+            "e": 0.55
+          },
+          {
+            "w": "loopt",
+            "s": 0.7,
+            "e": 1.025
+          },
+          {
+            "w": "in",
+            "s": 1.05,
+            "e": 1.188
+          },
+          {
+            "w": "de",
+            "s": 1.2,
+            "e": 1.262
+          },
+          {
+            "w": "stad",
+            "s": 1.262,
+            "e": 1.6
+          }
+        ]
       }
     ]
   },
@@ -628,12 +1886,78 @@
       {
         "nl": "Ik slaap in een groot huis.",
         "ja": "私は大きな家で眠る。",
-        "en": "I sleep in a big house."
+        "en": "I sleep in a big house.",
+        "audio": "audio/a1-slapen-1.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.212
+          },
+          {
+            "w": "slaap",
+            "s": 0.25,
+            "e": 0.713
+          },
+          {
+            "w": "in",
+            "s": 0.775,
+            "e": 0.9
+          },
+          {
+            "w": "een",
+            "s": 0.912,
+            "e": 0.95
+          },
+          {
+            "w": "groot",
+            "s": 0.95,
+            "e": 1.387
+          },
+          {
+            "w": "huis",
+            "s": 1.387,
+            "e": 1.85
+          }
+        ]
       },
       {
         "nl": "De hond slaapt op de stoel.",
         "ja": "犬は椅子の上で眠る。",
-        "en": "The dog sleeps on the chair."
+        "en": "The dog sleeps on the chair.",
+        "audio": "audio/a1-slapen-2.mp3",
+        "timing": [
+          {
+            "w": "De",
+            "s": 0.1,
+            "e": 0.188
+          },
+          {
+            "w": "hond",
+            "s": 0.212,
+            "e": 0.537
+          },
+          {
+            "w": "slaapt",
+            "s": 0.562,
+            "e": 1.012
+          },
+          {
+            "w": "op",
+            "s": 1.025,
+            "e": 1.163
+          },
+          {
+            "w": "de",
+            "s": 1.175,
+            "e": 1.275
+          },
+          {
+            "w": "stoel",
+            "s": 1.275,
+            "e": 1.675
+          }
+        ]
       }
     ]
   },
@@ -653,12 +1977,63 @@
       {
         "nl": "Ik werk in de stad.",
         "ja": "私は町で働く。",
-        "en": "I work in the city."
+        "en": "I work in the city.",
+        "audio": "audio/a1-werken-1.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.212
+          },
+          {
+            "w": "werk",
+            "s": 0.287,
+            "e": 0.637
+          },
+          {
+            "w": "in",
+            "s": 0.7,
+            "e": 0.825
+          },
+          {
+            "w": "de",
+            "s": 0.838,
+            "e": 0.912
+          },
+          {
+            "w": "stad",
+            "s": 0.912,
+            "e": 1.25
+          }
+        ]
       },
       {
         "nl": "Jij werkt niet vandaag.",
         "ja": "君は今日は働かない。",
-        "en": "You don't work today."
+        "en": "You don't work today.",
+        "audio": "audio/a1-werken-2.mp3",
+        "timing": [
+          {
+            "w": "Jij",
+            "s": 0.1,
+            "e": 0.375
+          },
+          {
+            "w": "werkt",
+            "s": 0.4,
+            "e": 0.775
+          },
+          {
+            "w": "niet",
+            "s": 0.863,
+            "e": 1.137
+          },
+          {
+            "w": "vandaag",
+            "s": 1.15,
+            "e": 1.675
+          }
+        ]
       }
     ]
   },
@@ -678,12 +2053,73 @@
       {
         "nl": "Ik woon in een klein huis.",
         "ja": "私は小さな家に住んでいる。",
-        "en": "I live in a small house."
+        "en": "I live in a small house.",
+        "audio": "audio/a1-wonen-1.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.225
+          },
+          {
+            "w": "woon",
+            "s": 0.275,
+            "e": 0.625
+          },
+          {
+            "w": "in",
+            "s": 0.688,
+            "e": 0.825
+          },
+          {
+            "w": "een",
+            "s": 0.838,
+            "e": 0.938
+          },
+          {
+            "w": "klein",
+            "s": 0.95,
+            "e": 1.35
+          },
+          {
+            "w": "huis",
+            "s": 1.35,
+            "e": 1.825
+          }
+        ]
       },
       {
         "nl": "Wij wonen in de stad.",
         "ja": "私たちは町に住んでいる。",
-        "en": "We live in the city."
+        "en": "We live in the city.",
+        "audio": "audio/a1-wonen-2.mp3",
+        "timing": [
+          {
+            "w": "Wij",
+            "s": 0.1,
+            "e": 0.362
+          },
+          {
+            "w": "wonen",
+            "s": 0.388,
+            "e": 0.85
+          },
+          {
+            "w": "in",
+            "s": 0.863,
+            "e": 1.012
+          },
+          {
+            "w": "de",
+            "s": 1.025,
+            "e": 1.087
+          },
+          {
+            "w": "stad",
+            "s": 1.087,
+            "e": 1.438
+          }
+        ]
       }
     ]
   },
@@ -703,12 +2139,63 @@
       {
         "nl": "Ik lees een boek.",
         "ja": "私は本を読む。",
-        "en": "I read a book."
+        "en": "I read a book.",
+        "audio": "audio/a1-lezen-1.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.225
+          },
+          {
+            "w": "lees",
+            "s": 0.3,
+            "e": 0.662
+          },
+          {
+            "w": "een",
+            "s": 0.662,
+            "e": 0.75
+          },
+          {
+            "w": "boek",
+            "s": 0.75,
+            "e": 1.05
+          }
+        ]
       },
       {
         "nl": "Hij leest de hele dag.",
         "ja": "彼は一日中読む。",
-        "en": "He reads all day."
+        "en": "He reads all day.",
+        "audio": "audio/a1-lezen-2.mp3",
+        "timing": [
+          {
+            "w": "Hij",
+            "s": 0.1,
+            "e": 0.312
+          },
+          {
+            "w": "leest",
+            "s": 0.338,
+            "e": 0.75
+          },
+          {
+            "w": "de",
+            "s": 0.762,
+            "e": 0.85
+          },
+          {
+            "w": "hele",
+            "s": 0.85,
+            "e": 1.238
+          },
+          {
+            "w": "dag",
+            "s": 1.238,
+            "e": 1.55
+          }
+        ]
       }
     ]
   },
@@ -728,12 +2215,53 @@
       {
         "nl": "Ik spreek met jou.",
         "ja": "私は君と話す。",
-        "en": "I speak with you."
+        "en": "I speak with you.",
+        "audio": "audio/a1-spreken-1.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.2
+          },
+          {
+            "w": "spreek",
+            "s": 0.275,
+            "e": 0.738
+          },
+          {
+            "w": "met",
+            "s": 0.75,
+            "e": 0.938
+          },
+          {
+            "w": "jou",
+            "s": 0.938,
+            "e": 1.188
+          }
+        ]
       },
       {
         "nl": "Hij spreekt niet.",
         "ja": "彼は話さない。",
-        "en": "He doesn't speak."
+        "en": "He doesn't speak.",
+        "audio": "audio/a1-spreken-2.mp3",
+        "timing": [
+          {
+            "w": "Hij",
+            "s": 0.1,
+            "e": 0.287
+          },
+          {
+            "w": "spreekt",
+            "s": 0.325,
+            "e": 0.75
+          },
+          {
+            "w": "niet",
+            "s": 0.775,
+            "e": 1.038
+          }
+        ]
       }
     ]
   },
@@ -753,12 +2281,68 @@
       {
         "nl": "Het huis is groot.",
         "ja": "その家は大きい。",
-        "en": "The house is big."
+        "en": "The house is big.",
+        "audio": "audio/a1-groot-1.mp3",
+        "timing": [
+          {
+            "w": "Het",
+            "s": 0.1,
+            "e": 0.275
+          },
+          {
+            "w": "huis",
+            "s": 0.287,
+            "e": 0.713
+          },
+          {
+            "w": "is",
+            "s": 0.75,
+            "e": 0.938
+          },
+          {
+            "w": "groot",
+            "s": 0.938,
+            "e": 1.312
+          }
+        ]
       },
       {
         "nl": "Ik woon in een grote stad.",
         "ja": "私は大きな町に住んでいる。",
-        "en": "I live in a big city."
+        "en": "I live in a big city.",
+        "audio": "audio/a1-groot-2.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.225
+          },
+          {
+            "w": "woon",
+            "s": 0.287,
+            "e": 0.637
+          },
+          {
+            "w": "in",
+            "s": 0.7,
+            "e": 0.825
+          },
+          {
+            "w": "een",
+            "s": 0.863,
+            "e": 0.9
+          },
+          {
+            "w": "grote",
+            "s": 0.9,
+            "e": 1.413
+          },
+          {
+            "w": "stad",
+            "s": 1.413,
+            "e": 1.75
+          }
+        ]
       }
     ]
   },
@@ -778,12 +2362,63 @@
       {
         "nl": "De bloem is klein.",
         "ja": "その花は小さい。",
-        "en": "The flower is small."
+        "en": "The flower is small.",
+        "audio": "audio/a1-klein-1.mp3",
+        "timing": [
+          {
+            "w": "De",
+            "s": 0.1,
+            "e": 0.2
+          },
+          {
+            "w": "bloem",
+            "s": 0.237,
+            "e": 0.65
+          },
+          {
+            "w": "is",
+            "s": 0.725,
+            "e": 0.912
+          },
+          {
+            "w": "klein",
+            "s": 0.925,
+            "e": 1.375
+          }
+        ]
       },
       {
         "nl": "Ik lees een klein boek.",
         "ja": "私は小さな本を読む。",
-        "en": "I read a small book."
+        "en": "I read a small book.",
+        "audio": "audio/a1-klein-2.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.225
+          },
+          {
+            "w": "lees",
+            "s": 0.3,
+            "e": 0.662
+          },
+          {
+            "w": "een",
+            "s": 0.662,
+            "e": 0.762
+          },
+          {
+            "w": "klein",
+            "s": 0.775,
+            "e": 1.175
+          },
+          {
+            "w": "boek",
+            "s": 1.175,
+            "e": 1.462
+          }
+        ]
       }
     ]
   },
@@ -803,12 +2438,63 @@
       {
         "nl": "De stad is mooi.",
         "ja": "その町は美しい。",
-        "en": "The city is beautiful."
+        "en": "The city is beautiful.",
+        "audio": "audio/a1-mooi-1.mp3",
+        "timing": [
+          {
+            "w": "De",
+            "s": 0.1,
+            "e": 0.188
+          },
+          {
+            "w": "stad",
+            "s": 0.237,
+            "e": 0.613
+          },
+          {
+            "w": "is",
+            "s": 0.675,
+            "e": 0.863
+          },
+          {
+            "w": "mooi",
+            "s": 0.863,
+            "e": 1.225
+          }
+        ]
       },
       {
         "nl": "Het is een mooie dag.",
         "ja": "良い天気の日だ。",
-        "en": "It is a beautiful day."
+        "en": "It is a beautiful day.",
+        "audio": "audio/a1-mooi-2.mp3",
+        "timing": [
+          {
+            "w": "Het",
+            "s": 0.1,
+            "e": 0.275
+          },
+          {
+            "w": "is",
+            "s": 0.3,
+            "e": 0.512
+          },
+          {
+            "w": "een",
+            "s": 0.512,
+            "e": 0.588
+          },
+          {
+            "w": "mooie",
+            "s": 0.588,
+            "e": 1.05
+          },
+          {
+            "w": "dag",
+            "s": 1.05,
+            "e": 1.363
+          }
+        ]
       }
     ]
   },
@@ -828,12 +2514,63 @@
       {
         "nl": "De auto is nieuw.",
         "ja": "その車は新しい。",
-        "en": "The car is new."
+        "en": "The car is new.",
+        "audio": "audio/a1-nieuw-1.mp3",
+        "timing": [
+          {
+            "w": "De",
+            "s": 0.1,
+            "e": 0.212
+          },
+          {
+            "w": "auto",
+            "s": 0.3,
+            "e": 0.75
+          },
+          {
+            "w": "is",
+            "s": 0.825,
+            "e": 1.0
+          },
+          {
+            "w": "nieuw",
+            "s": 1.0,
+            "e": 1.25
+          }
+        ]
       },
       {
         "nl": "Ik lees een nieuw boek.",
         "ja": "私は新しい本を読む。",
-        "en": "I read a new book."
+        "en": "I read a new book.",
+        "audio": "audio/a1-nieuw-2.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.225
+          },
+          {
+            "w": "lees",
+            "s": 0.3,
+            "e": 0.65
+          },
+          {
+            "w": "een",
+            "s": 0.65,
+            "e": 0.762
+          },
+          {
+            "w": "nieuw",
+            "s": 0.762,
+            "e": 0.975
+          },
+          {
+            "w": "boek",
+            "s": 0.975,
+            "e": 1.262
+          }
+        ]
       }
     ]
   },
@@ -853,12 +2590,58 @@
       {
         "nl": "Het huis is oud.",
         "ja": "その家は古い。",
-        "en": "The house is old."
+        "en": "The house is old.",
+        "audio": "audio/a1-oud-1.mp3",
+        "timing": [
+          {
+            "w": "Het",
+            "s": 0.1,
+            "e": 0.275
+          },
+          {
+            "w": "huis",
+            "s": 0.287,
+            "e": 0.7
+          },
+          {
+            "w": "is",
+            "s": 0.75,
+            "e": 0.938
+          },
+          {
+            "w": "oud",
+            "s": 1.0,
+            "e": 1.262
+          }
+        ]
       },
       {
         "nl": "De hond is oud.",
         "ja": "その犬は年をとっている。",
-        "en": "The dog is old."
+        "en": "The dog is old.",
+        "audio": "audio/a1-oud-2.mp3",
+        "timing": [
+          {
+            "w": "De",
+            "s": 0.1,
+            "e": 0.212
+          },
+          {
+            "w": "hond",
+            "s": 0.225,
+            "e": 0.562
+          },
+          {
+            "w": "is",
+            "s": 0.625,
+            "e": 0.812
+          },
+          {
+            "w": "oud",
+            "s": 0.838,
+            "e": 1.1
+          }
+        ]
       }
     ]
   },
@@ -878,12 +2661,68 @@
       {
         "nl": "Het water is warm.",
         "ja": "その水は温かい。",
-        "en": "The water is warm."
+        "en": "The water is warm.",
+        "audio": "audio/a1-warm-1.mp3",
+        "timing": [
+          {
+            "w": "Het",
+            "s": 0.1,
+            "e": 0.263
+          },
+          {
+            "w": "water",
+            "s": 0.287,
+            "e": 0.7
+          },
+          {
+            "w": "is",
+            "s": 0.812,
+            "e": 0.963
+          },
+          {
+            "w": "warm",
+            "s": 0.963,
+            "e": 1.375
+          }
+        ]
       },
       {
         "nl": "Het is warm in de stad.",
         "ja": "町は暖かい。",
-        "en": "It is warm in the city."
+        "en": "It is warm in the city.",
+        "audio": "audio/a1-warm-2.mp3",
+        "timing": [
+          {
+            "w": "Het",
+            "s": 0.1,
+            "e": 0.275
+          },
+          {
+            "w": "is",
+            "s": 0.3,
+            "e": 0.487
+          },
+          {
+            "w": "warm",
+            "s": 0.487,
+            "e": 0.875
+          },
+          {
+            "w": "in",
+            "s": 0.887,
+            "e": 1.012
+          },
+          {
+            "w": "de",
+            "s": 1.025,
+            "e": 1.087
+          },
+          {
+            "w": "stad",
+            "s": 1.087,
+            "e": 1.425
+          }
+        ]
       }
     ]
   },
@@ -903,12 +2742,73 @@
       {
         "nl": "Ik woon in de stad.",
         "ja": "私は町に住んでいる。",
-        "en": "I live in the city."
+        "en": "I live in the city.",
+        "audio": "audio/a1-in-1.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.225
+          },
+          {
+            "w": "woon",
+            "s": 0.275,
+            "e": 0.625
+          },
+          {
+            "w": "in",
+            "s": 0.65,
+            "e": 0.787
+          },
+          {
+            "w": "de",
+            "s": 0.812,
+            "e": 0.875
+          },
+          {
+            "w": "stad",
+            "s": 0.875,
+            "e": 1.238
+          }
+        ]
       },
       {
         "nl": "De hond slaapt in het huis.",
         "ja": "犬は家の中で眠る。",
-        "en": "The dog sleeps in the house."
+        "en": "The dog sleeps in the house.",
+        "audio": "audio/a1-in-2.mp3",
+        "timing": [
+          {
+            "w": "De",
+            "s": 0.1,
+            "e": 0.2
+          },
+          {
+            "w": "hond",
+            "s": 0.225,
+            "e": 0.562
+          },
+          {
+            "w": "slaapt",
+            "s": 0.625,
+            "e": 1.075
+          },
+          {
+            "w": "in",
+            "s": 1.1,
+            "e": 1.25
+          },
+          {
+            "w": "het",
+            "s": 1.25,
+            "e": 1.325
+          },
+          {
+            "w": "huis",
+            "s": 1.325,
+            "e": 1.8
+          }
+        ]
       }
     ]
   },
@@ -928,12 +2828,73 @@
       {
         "nl": "Het boek is op de tafel.",
         "ja": "本はテーブルの上にある。",
-        "en": "The book is on the table."
+        "en": "The book is on the table.",
+        "audio": "audio/a1-op-1.mp3",
+        "timing": [
+          {
+            "w": "Het",
+            "s": 0.1,
+            "e": 0.287
+          },
+          {
+            "w": "boek",
+            "s": 0.287,
+            "e": 0.588
+          },
+          {
+            "w": "is",
+            "s": 0.637,
+            "e": 0.825
+          },
+          {
+            "w": "op",
+            "s": 0.838,
+            "e": 0.963
+          },
+          {
+            "w": "de",
+            "s": 0.963,
+            "e": 1.05
+          },
+          {
+            "w": "tafel",
+            "s": 1.05,
+            "e": 1.538
+          }
+        ]
       },
       {
         "nl": "Ik lees op de stoel.",
         "ja": "私は椅子で読む。",
-        "en": "I read on the chair."
+        "en": "I read on the chair.",
+        "audio": "audio/a1-op-2.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.225
+          },
+          {
+            "w": "lees",
+            "s": 0.3,
+            "e": 0.675
+          },
+          {
+            "w": "op",
+            "s": 0.688,
+            "e": 0.825
+          },
+          {
+            "w": "de",
+            "s": 0.838,
+            "e": 0.95
+          },
+          {
+            "w": "stoel",
+            "s": 0.95,
+            "e": 1.363
+          }
+        ]
       }
     ]
   },
@@ -953,12 +2914,63 @@
       {
         "nl": "Ik loop met de hond.",
         "ja": "私は犬と歩く。",
-        "en": "I walk with the dog."
+        "en": "I walk with the dog.",
+        "audio": "audio/a1-met-1.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.225
+          },
+          {
+            "w": "loop",
+            "s": 0.287,
+            "e": 0.65
+          },
+          {
+            "w": "met",
+            "s": 0.675,
+            "e": 0.887
+          },
+          {
+            "w": "de",
+            "s": 0.887,
+            "e": 0.963
+          },
+          {
+            "w": "hond",
+            "s": 0.963,
+            "e": 1.3
+          }
+        ]
       },
       {
         "nl": "Jij eet met mij.",
         "ja": "君は私と一緒に食べる。",
-        "en": "You eat with me."
+        "en": "You eat with me.",
+        "audio": "audio/a1-met-2.mp3",
+        "timing": [
+          {
+            "w": "Jij",
+            "s": 0.1,
+            "e": 0.388
+          },
+          {
+            "w": "eet",
+            "s": 0.463,
+            "e": 0.713
+          },
+          {
+            "w": "met",
+            "s": 0.75,
+            "e": 0.95
+          },
+          {
+            "w": "mij.",
+            "s": 0.95,
+            "e": 1.225
+          }
+        ]
       }
     ]
   },
@@ -978,12 +2990,53 @@
       {
         "nl": "Ik ben hier.",
         "ja": "私はここにいる。",
-        "en": "I am here."
+        "en": "I am here.",
+        "audio": "audio/a1-ik-1.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.212
+          },
+          {
+            "w": "ben",
+            "s": 0.275,
+            "e": 0.512
+          },
+          {
+            "w": "hier",
+            "s": 0.512,
+            "e": 0.838
+          }
+        ]
       },
       {
         "nl": "Ik lees een boek.",
         "ja": "私は本を読む。",
-        "en": "I read a book."
+        "en": "I read a book.",
+        "audio": "audio/a1-ik-2.mp3",
+        "timing": [
+          {
+            "w": "Ik",
+            "s": 0.1,
+            "e": 0.225
+          },
+          {
+            "w": "lees",
+            "s": 0.3,
+            "e": 0.662
+          },
+          {
+            "w": "een",
+            "s": 0.662,
+            "e": 0.75
+          },
+          {
+            "w": "boek",
+            "s": 0.75,
+            "e": 1.05
+          }
+        ]
       }
     ]
   },
@@ -1003,12 +3056,48 @@
       {
         "nl": "Jij bent groot.",
         "ja": "君は背が高い。",
-        "en": "You are tall."
+        "en": "You are tall.",
+        "audio": "audio/a1-jij-1.mp3",
+        "timing": [
+          {
+            "w": "Jij",
+            "s": 0.1,
+            "e": 0.375
+          },
+          {
+            "w": "bent",
+            "s": 0.388,
+            "e": 0.675
+          },
+          {
+            "w": "groot",
+            "s": 0.688,
+            "e": 1.125
+          }
+        ]
       },
       {
         "nl": "Werk jij vandaag?",
         "ja": "君は今日働くの？",
-        "en": "Do you work today?"
+        "en": "Do you work today?",
+        "audio": "audio/a1-jij-2.mp3",
+        "timing": [
+          {
+            "w": "Werk",
+            "s": 0.1,
+            "e": 0.45
+          },
+          {
+            "w": "jij",
+            "s": 0.463,
+            "e": 0.713
+          },
+          {
+            "w": "vandaag",
+            "s": 0.725,
+            "e": 1.25
+          }
+        ]
       }
     ]
   },
@@ -1028,12 +3117,58 @@
       {
         "nl": "Hij is oud.",
         "ja": "彼は年をとっている。",
-        "en": "He is old."
+        "en": "He is old.",
+        "audio": "audio/a1-hij-1.mp3",
+        "timing": [
+          {
+            "w": "Hij",
+            "s": 0.1,
+            "e": 0.338
+          },
+          {
+            "w": "is",
+            "s": 0.4,
+            "e": 0.575
+          },
+          {
+            "w": "oud",
+            "s": 0.65,
+            "e": 0.925
+          }
+        ]
       },
       {
         "nl": "Hij woont in de stad.",
         "ja": "彼は町に住んでいる。",
-        "en": "He lives in the city."
+        "en": "He lives in the city.",
+        "audio": "audio/a1-hij-2.mp3",
+        "timing": [
+          {
+            "w": "Hij",
+            "s": 0.1,
+            "e": 0.312
+          },
+          {
+            "w": "woont",
+            "s": 0.325,
+            "e": 0.675
+          },
+          {
+            "w": "in",
+            "s": 0.688,
+            "e": 0.838
+          },
+          {
+            "w": "de",
+            "s": 0.85,
+            "e": 0.912
+          },
+          {
+            "w": "stad",
+            "s": 0.912,
+            "e": 1.25
+          }
+        ]
       }
     ]
   }
