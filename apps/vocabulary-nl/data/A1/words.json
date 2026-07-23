@@ -1,0 +1,1040 @@
+[
+  {
+    "id": "a1-huis",
+    "lemma": "huis",
+    "pos": "noun",
+    "article": "het",
+    "plural": "huizen",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-huis.mp3",
+    "meanings": [
+      {
+        "ja": "家",
+        "en": "house"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Het huis is groot.",
+        "ja": "その家は大きい。",
+        "en": "The house is big."
+      },
+      {
+        "nl": "Ik woon in een oud huis.",
+        "ja": "私は古い家に住んでいる。",
+        "en": "I live in an old house."
+      }
+    ]
+  },
+  {
+    "id": "a1-boek",
+    "lemma": "boek",
+    "pos": "noun",
+    "article": "het",
+    "plural": "boeken",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-boek.mp3",
+    "meanings": [
+      {
+        "ja": "本",
+        "en": "book"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Ik lees een boek.",
+        "ja": "私は本を読む。",
+        "en": "I read a book."
+      },
+      {
+        "nl": "Het boek op de tafel is nieuw.",
+        "ja": "テーブルの上の本は新しい。",
+        "en": "The book on the table is new."
+      }
+    ]
+  },
+  {
+    "id": "a1-water",
+    "lemma": "water",
+    "pos": "noun",
+    "article": "het",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-water.mp3",
+    "meanings": [
+      {
+        "ja": "水",
+        "en": "water"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Ik drink water.",
+        "ja": "私は水を飲む。",
+        "en": "I drink water."
+      },
+      {
+        "nl": "Het water in de stad is warm.",
+        "ja": "町の水は温かい。",
+        "en": "The water in the city is warm."
+      }
+    ]
+  },
+  {
+    "id": "a1-brood",
+    "lemma": "brood",
+    "pos": "noun",
+    "article": "het",
+    "plural": "broden",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-brood.mp3",
+    "meanings": [
+      {
+        "ja": "パン",
+        "en": "bread"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Ik eet brood.",
+        "ja": "私はパンを食べる。",
+        "en": "I eat bread."
+      },
+      {
+        "nl": "Het brood op de tafel is oud.",
+        "ja": "テーブルの上のパンは古い。",
+        "en": "The bread on the table is old."
+      }
+    ]
+  },
+  {
+    "id": "a1-jaar",
+    "lemma": "jaar",
+    "pos": "noun",
+    "article": "het",
+    "plural": "jaren",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-jaar.mp3",
+    "meanings": [
+      {
+        "ja": "年",
+        "en": "year"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Het is een mooi jaar.",
+        "ja": "良い一年だ。",
+        "en": "It is a good year."
+      },
+      {
+        "nl": "Ik werk een jaar in de stad.",
+        "ja": "私は一年、町で働く。",
+        "en": "I work a year in the city."
+      }
+    ]
+  },
+  {
+    "id": "a1-raam",
+    "lemma": "raam",
+    "pos": "noun",
+    "article": "het",
+    "plural": "ramen",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-raam.mp3",
+    "meanings": [
+      {
+        "ja": "窓",
+        "en": "window"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Het raam is groot.",
+        "ja": "その窓は大きい。",
+        "en": "The window is big."
+      },
+      {
+        "nl": "De hond slaapt bij het raam.",
+        "ja": "犬は窓のそばで眠る。",
+        "en": "The dog sleeps by the window."
+      }
+    ]
+  },
+  {
+    "id": "a1-ei",
+    "lemma": "ei",
+    "pos": "noun",
+    "article": "het",
+    "plural": "eieren",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-ei.mp3",
+    "meanings": [
+      {
+        "ja": "卵",
+        "en": "egg"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Ik eet een ei.",
+        "ja": "私は卵を食べる。",
+        "en": "I eat an egg."
+      },
+      {
+        "nl": "Het ei is klein.",
+        "ja": "その卵は小さい。",
+        "en": "The egg is small."
+      }
+    ]
+  },
+  {
+    "id": "a1-hond",
+    "lemma": "hond",
+    "pos": "noun",
+    "article": "de",
+    "plural": "honden",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-hond.mp3",
+    "meanings": [
+      {
+        "ja": "犬",
+        "en": "dog"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "De hond is groot.",
+        "ja": "その犬は大きい。",
+        "en": "The dog is big."
+      },
+      {
+        "nl": "De hond eet brood.",
+        "ja": "犬はパンを食べる。",
+        "en": "The dog eats bread."
+      }
+    ]
+  },
+  {
+    "id": "a1-auto",
+    "lemma": "auto",
+    "pos": "noun",
+    "article": "de",
+    "plural": "auto's",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-auto.mp3",
+    "meanings": [
+      {
+        "ja": "車",
+        "en": "car"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "De auto is nieuw.",
+        "ja": "その車は新しい。",
+        "en": "The car is new."
+      },
+      {
+        "nl": "Ik ga met de auto naar de stad.",
+        "ja": "私は車で町へ行く。",
+        "en": "I go to the city by car."
+      }
+    ]
+  },
+  {
+    "id": "a1-stad",
+    "lemma": "stad",
+    "pos": "noun",
+    "article": "de",
+    "plural": "steden",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-stad.mp3",
+    "meanings": [
+      {
+        "ja": "町、都市",
+        "en": "city"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "De stad is groot.",
+        "ja": "その町は大きい。",
+        "en": "The city is big."
+      },
+      {
+        "nl": "Ik woon in een mooie stad.",
+        "ja": "私は美しい町に住んでいる。",
+        "en": "I live in a beautiful city."
+      }
+    ]
+  },
+  {
+    "id": "a1-dag",
+    "lemma": "dag",
+    "pos": "noun",
+    "article": "de",
+    "plural": "dagen",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-dag.mp3",
+    "meanings": [
+      {
+        "ja": "日、昼",
+        "en": "day"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Het is een mooie dag.",
+        "ja": "良い天気の日だ。",
+        "en": "It is a beautiful day."
+      },
+      {
+        "nl": "Ik lees de hele dag.",
+        "ja": "私は一日中読む。",
+        "en": "I read all day."
+      }
+    ]
+  },
+  {
+    "id": "a1-tafel",
+    "lemma": "tafel",
+    "pos": "noun",
+    "article": "de",
+    "plural": "tafels",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-tafel.mp3",
+    "meanings": [
+      {
+        "ja": "テーブル、机",
+        "en": "table"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "De tafel is klein.",
+        "ja": "そのテーブルは小さい。",
+        "en": "The table is small."
+      },
+      {
+        "nl": "Op de tafel is een appel.",
+        "ja": "テーブルの上にりんごがある。",
+        "en": "On the table is an apple."
+      }
+    ]
+  },
+  {
+    "id": "a1-stoel",
+    "lemma": "stoel",
+    "pos": "noun",
+    "article": "de",
+    "plural": "stoelen",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-stoel.mp3",
+    "meanings": [
+      {
+        "ja": "椅子",
+        "en": "chair"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "De stoel is oud.",
+        "ja": "その椅子は古い。",
+        "en": "The chair is old."
+      },
+      {
+        "nl": "Ik slaap niet op een stoel.",
+        "ja": "私は椅子では眠らない。",
+        "en": "I don't sleep on a chair."
+      }
+    ]
+  },
+  {
+    "id": "a1-deur",
+    "lemma": "deur",
+    "pos": "noun",
+    "article": "de",
+    "plural": "deuren",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-deur.mp3",
+    "meanings": [
+      {
+        "ja": "ドア、扉",
+        "en": "door"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "De deur is groot.",
+        "ja": "そのドアは大きい。",
+        "en": "The door is big."
+      },
+      {
+        "nl": "De hond loopt door de deur.",
+        "ja": "犬はドアを通って歩く。",
+        "en": "The dog walks through the door."
+      }
+    ]
+  },
+  {
+    "id": "a1-boom",
+    "lemma": "boom",
+    "pos": "noun",
+    "article": "de",
+    "plural": "bomen",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-boom.mp3",
+    "meanings": [
+      {
+        "ja": "木",
+        "en": "tree"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "De boom is groot en oud.",
+        "ja": "その木は大きくて古い。",
+        "en": "The tree is big and old."
+      },
+      {
+        "nl": "De boom bij het huis is mooi.",
+        "ja": "家のそばの木は美しい。",
+        "en": "The tree by the house is beautiful."
+      }
+    ]
+  },
+  {
+    "id": "a1-bloem",
+    "lemma": "bloem",
+    "pos": "noun",
+    "article": "de",
+    "plural": "bloemen",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-bloem.mp3",
+    "meanings": [
+      {
+        "ja": "花",
+        "en": "flower"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "De bloem is mooi.",
+        "ja": "その花は美しい。",
+        "en": "The flower is beautiful."
+      },
+      {
+        "nl": "Ik heb een bloem in de hand.",
+        "ja": "私は手に花を持っている。",
+        "en": "I have a flower in my hand."
+      }
+    ]
+  },
+  {
+    "id": "a1-hand",
+    "lemma": "hand",
+    "pos": "noun",
+    "article": "de",
+    "plural": "handen",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-hand.mp3",
+    "meanings": [
+      {
+        "ja": "手",
+        "en": "hand"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "De hand is warm.",
+        "ja": "その手は温かい。",
+        "en": "The hand is warm."
+      },
+      {
+        "nl": "Ik heb een appel in de hand.",
+        "ja": "私は手にりんごを持っている。",
+        "en": "I have an apple in my hand."
+      }
+    ]
+  },
+  {
+    "id": "a1-arm",
+    "lemma": "arm",
+    "pos": "noun",
+    "article": "de",
+    "plural": "armen",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-arm.mp3",
+    "meanings": [
+      {
+        "ja": "腕",
+        "en": "arm"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "De arm is warm.",
+        "ja": "その腕は温かい。",
+        "en": "The arm is warm."
+      },
+      {
+        "nl": "Ik heb twee armen.",
+        "ja": "私は腕が二本ある。",
+        "en": "I have two arms."
+      }
+    ]
+  },
+  {
+    "id": "a1-appel",
+    "lemma": "appel",
+    "pos": "noun",
+    "article": "de",
+    "plural": "appels",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-appel.mp3",
+    "meanings": [
+      {
+        "ja": "りんご",
+        "en": "apple"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "De appel is klein.",
+        "ja": "そのりんごは小さい。",
+        "en": "The apple is small."
+      },
+      {
+        "nl": "Ik eet een appel.",
+        "ja": "私はりんごを食べる。",
+        "en": "I eat an apple."
+      }
+    ]
+  },
+  {
+    "id": "a1-melk",
+    "lemma": "melk",
+    "pos": "noun",
+    "article": "de",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-melk.mp3",
+    "meanings": [
+      {
+        "ja": "牛乳",
+        "en": "milk"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Ik drink melk.",
+        "ja": "私は牛乳を飲む。",
+        "en": "I drink milk."
+      },
+      {
+        "nl": "De melk is warm.",
+        "ja": "その牛乳は温かい。",
+        "en": "The milk is warm."
+      }
+    ]
+  },
+  {
+    "id": "a1-eten",
+    "lemma": "eten",
+    "pos": "verb",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-eten.mp3",
+    "meanings": [
+      {
+        "ja": "食べる",
+        "en": "to eat"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Ik eet een appel.",
+        "ja": "私はりんごを食べる。",
+        "en": "I eat an apple."
+      },
+      {
+        "nl": "Wij eten brood en een ei.",
+        "ja": "私たちはパンと卵を食べる。",
+        "en": "We eat bread and an egg."
+      }
+    ]
+  },
+  {
+    "id": "a1-drinken",
+    "lemma": "drinken",
+    "pos": "verb",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-drinken.mp3",
+    "meanings": [
+      {
+        "ja": "飲む",
+        "en": "to drink"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Ik drink water.",
+        "ja": "私は水を飲む。",
+        "en": "I drink water."
+      },
+      {
+        "nl": "Jij drinkt melk.",
+        "ja": "君は牛乳を飲む。",
+        "en": "You drink milk."
+      }
+    ]
+  },
+  {
+    "id": "a1-lopen",
+    "lemma": "lopen",
+    "pos": "verb",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-lopen.mp3",
+    "meanings": [
+      {
+        "ja": "歩く",
+        "en": "to walk"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Ik loop naar de stad.",
+        "ja": "私は町へ歩く。",
+        "en": "I walk to the city."
+      },
+      {
+        "nl": "De hond loopt in de stad.",
+        "ja": "犬は町を歩く。",
+        "en": "The dog walks in the city."
+      }
+    ]
+  },
+  {
+    "id": "a1-slapen",
+    "lemma": "slapen",
+    "pos": "verb",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-slapen.mp3",
+    "meanings": [
+      {
+        "ja": "眠る、寝る",
+        "en": "to sleep"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Ik slaap in een groot huis.",
+        "ja": "私は大きな家で眠る。",
+        "en": "I sleep in a big house."
+      },
+      {
+        "nl": "De hond slaapt op de stoel.",
+        "ja": "犬は椅子の上で眠る。",
+        "en": "The dog sleeps on the chair."
+      }
+    ]
+  },
+  {
+    "id": "a1-werken",
+    "lemma": "werken",
+    "pos": "verb",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-werken.mp3",
+    "meanings": [
+      {
+        "ja": "働く",
+        "en": "to work"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Ik werk in de stad.",
+        "ja": "私は町で働く。",
+        "en": "I work in the city."
+      },
+      {
+        "nl": "Jij werkt niet vandaag.",
+        "ja": "君は今日は働かない。",
+        "en": "You don't work today."
+      }
+    ]
+  },
+  {
+    "id": "a1-wonen",
+    "lemma": "wonen",
+    "pos": "verb",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-wonen.mp3",
+    "meanings": [
+      {
+        "ja": "住む",
+        "en": "to live (reside)"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Ik woon in een klein huis.",
+        "ja": "私は小さな家に住んでいる。",
+        "en": "I live in a small house."
+      },
+      {
+        "nl": "Wij wonen in de stad.",
+        "ja": "私たちは町に住んでいる。",
+        "en": "We live in the city."
+      }
+    ]
+  },
+  {
+    "id": "a1-lezen",
+    "lemma": "lezen",
+    "pos": "verb",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-lezen.mp3",
+    "meanings": [
+      {
+        "ja": "読む",
+        "en": "to read"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Ik lees een boek.",
+        "ja": "私は本を読む。",
+        "en": "I read a book."
+      },
+      {
+        "nl": "Hij leest de hele dag.",
+        "ja": "彼は一日中読む。",
+        "en": "He reads all day."
+      }
+    ]
+  },
+  {
+    "id": "a1-spreken",
+    "lemma": "spreken",
+    "pos": "verb",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-spreken.mp3",
+    "meanings": [
+      {
+        "ja": "話す",
+        "en": "to speak"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Ik spreek met jou.",
+        "ja": "私は君と話す。",
+        "en": "I speak with you."
+      },
+      {
+        "nl": "Hij spreekt niet.",
+        "ja": "彼は話さない。",
+        "en": "He doesn't speak."
+      }
+    ]
+  },
+  {
+    "id": "a1-groot",
+    "lemma": "groot",
+    "pos": "adjective",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-groot.mp3",
+    "meanings": [
+      {
+        "ja": "大きい",
+        "en": "big"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Het huis is groot.",
+        "ja": "その家は大きい。",
+        "en": "The house is big."
+      },
+      {
+        "nl": "Ik woon in een grote stad.",
+        "ja": "私は大きな町に住んでいる。",
+        "en": "I live in a big city."
+      }
+    ]
+  },
+  {
+    "id": "a1-klein",
+    "lemma": "klein",
+    "pos": "adjective",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-klein.mp3",
+    "meanings": [
+      {
+        "ja": "小さい",
+        "en": "small"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "De bloem is klein.",
+        "ja": "その花は小さい。",
+        "en": "The flower is small."
+      },
+      {
+        "nl": "Ik lees een klein boek.",
+        "ja": "私は小さな本を読む。",
+        "en": "I read a small book."
+      }
+    ]
+  },
+  {
+    "id": "a1-mooi",
+    "lemma": "mooi",
+    "pos": "adjective",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-mooi.mp3",
+    "meanings": [
+      {
+        "ja": "美しい、きれいな",
+        "en": "beautiful"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "De stad is mooi.",
+        "ja": "その町は美しい。",
+        "en": "The city is beautiful."
+      },
+      {
+        "nl": "Het is een mooie dag.",
+        "ja": "良い天気の日だ。",
+        "en": "It is a beautiful day."
+      }
+    ]
+  },
+  {
+    "id": "a1-nieuw",
+    "lemma": "nieuw",
+    "pos": "adjective",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-nieuw.mp3",
+    "meanings": [
+      {
+        "ja": "新しい",
+        "en": "new"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "De auto is nieuw.",
+        "ja": "その車は新しい。",
+        "en": "The car is new."
+      },
+      {
+        "nl": "Ik lees een nieuw boek.",
+        "ja": "私は新しい本を読む。",
+        "en": "I read a new book."
+      }
+    ]
+  },
+  {
+    "id": "a1-oud",
+    "lemma": "oud",
+    "pos": "adjective",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-oud.mp3",
+    "meanings": [
+      {
+        "ja": "古い、年をとった",
+        "en": "old"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Het huis is oud.",
+        "ja": "その家は古い。",
+        "en": "The house is old."
+      },
+      {
+        "nl": "De hond is oud.",
+        "ja": "その犬は年をとっている。",
+        "en": "The dog is old."
+      }
+    ]
+  },
+  {
+    "id": "a1-warm",
+    "lemma": "warm",
+    "pos": "adjective",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-warm.mp3",
+    "meanings": [
+      {
+        "ja": "暖かい、熱い",
+        "en": "warm"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Het water is warm.",
+        "ja": "その水は温かい。",
+        "en": "The water is warm."
+      },
+      {
+        "nl": "Het is warm in de stad.",
+        "ja": "町は暖かい。",
+        "en": "It is warm in the city."
+      }
+    ]
+  },
+  {
+    "id": "a1-in",
+    "lemma": "in",
+    "pos": "preposition",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-in.mp3",
+    "meanings": [
+      {
+        "ja": "～の中に",
+        "en": "in"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Ik woon in de stad.",
+        "ja": "私は町に住んでいる。",
+        "en": "I live in the city."
+      },
+      {
+        "nl": "De hond slaapt in het huis.",
+        "ja": "犬は家の中で眠る。",
+        "en": "The dog sleeps in the house."
+      }
+    ]
+  },
+  {
+    "id": "a1-op",
+    "lemma": "op",
+    "pos": "preposition",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-op.mp3",
+    "meanings": [
+      {
+        "ja": "～の上に",
+        "en": "on"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Het boek is op de tafel.",
+        "ja": "本はテーブルの上にある。",
+        "en": "The book is on the table."
+      },
+      {
+        "nl": "Ik lees op de stoel.",
+        "ja": "私は椅子で読む。",
+        "en": "I read on the chair."
+      }
+    ]
+  },
+  {
+    "id": "a1-met",
+    "lemma": "met",
+    "pos": "preposition",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-met.mp3",
+    "meanings": [
+      {
+        "ja": "～と一緒に、～で",
+        "en": "with"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Ik loop met de hond.",
+        "ja": "私は犬と歩く。",
+        "en": "I walk with the dog."
+      },
+      {
+        "nl": "Jij eet met mij.",
+        "ja": "君は私と一緒に食べる。",
+        "en": "You eat with me."
+      }
+    ]
+  },
+  {
+    "id": "a1-ik",
+    "lemma": "ik",
+    "pos": "pronoun",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-ik.mp3",
+    "meanings": [
+      {
+        "ja": "私",
+        "en": "I"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Ik ben hier.",
+        "ja": "私はここにいる。",
+        "en": "I am here."
+      },
+      {
+        "nl": "Ik lees een boek.",
+        "ja": "私は本を読む。",
+        "en": "I read a book."
+      }
+    ]
+  },
+  {
+    "id": "a1-jij",
+    "lemma": "jij",
+    "pos": "pronoun",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-jij.mp3",
+    "meanings": [
+      {
+        "ja": "君、あなた",
+        "en": "you"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Jij bent groot.",
+        "ja": "君は大きい。",
+        "en": "You are tall."
+      },
+      {
+        "nl": "Werk jij vandaag?",
+        "ja": "君は今日働くの？",
+        "en": "Do you work today?"
+      }
+    ]
+  },
+  {
+    "id": "a1-hij",
+    "lemma": "hij",
+    "pos": "pronoun",
+    "level": "A1",
+    "lemmaAudio": "audio/lemma/a1-hij.mp3",
+    "meanings": [
+      {
+        "ja": "彼",
+        "en": "he"
+      }
+    ],
+    "examples": [
+      {
+        "nl": "Hij is oud.",
+        "ja": "彼は年をとっている。",
+        "en": "He is old."
+      },
+      {
+        "nl": "Hij woont in de stad.",
+        "ja": "彼は町に住んでいる。",
+        "en": "He lives in the city."
+      }
+    ]
+  }
+]
