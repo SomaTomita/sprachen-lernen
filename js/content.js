@@ -170,6 +170,14 @@ export const SECTIONS = [
       "Goethe A1/A2 単語のフラッシュカード（Leitner）＋ネイティブ音声＋進捗トラッキング。",
   },
   {
+    id: "vocabulary-nl",
+    label: "単語（蘭）",
+    kind: "app",
+    href: "apps/vocabulary-nl/",
+    tagline:
+      "オランダ語 A1/A2 単語のフラッシュカード（Leitner）＋ネイティブ音声＋例文（スパイラル）＋進捗トラッキング。",
+  },
+  {
     id: "grammar-exercises",
     label: "文法練習",
     kind: "app",
