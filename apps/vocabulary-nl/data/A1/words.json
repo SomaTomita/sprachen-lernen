@@ -316,7 +316,7 @@
         "en": "The table is small."
       },
       {
-        "nl": "Op de tafel is een appel.",
+        "nl": "Op de tafel ligt een appel.",
         "ja": "テーブルの上にりんごがある。",
         "en": "On the table is an apple."
       }
@@ -1916,9 +1916,9 @@
         "en": "The cat is sitting on my leg."
       },
       {
-        "nl": "De hond eet een been.",
-        "ja": "犬が骨を食べている。",
-        "en": "The dog is eating a bone."
+        "nl": "Het been van de koe is groot.",
+        "ja": "その牛の骨は大きい。",
+        "en": "The cow's bone is big."
       }
     ]
   },
@@ -2702,7 +2702,7 @@
     "examples": [
       {
         "nl": "Het bloempje is heel klein.",
-        "ja": "その小さな花はとても小さい。",
+        "ja": "その花はとても小さい。",
         "en": "The little flower is very small."
       },
       {
@@ -2920,7 +2920,7 @@
       },
       {
         "nl": "Ik leg de bol in de tuin.",
-        "ja": "私は球根を庭に植える。",
+        "ja": "私は球根を庭に置く。",
         "en": "I put the bulb in the garden."
       },
       {
@@ -3079,7 +3079,7 @@
       {
         "nl": "De vrouw heeft klachten aan haar borsten.",
         "ja": "その女性は胸に不調がある。",
-        "en": "The woman has complaints in her breasts."
+        "en": "The woman has problems with her breasts."
       },
       {
         "nl": "De vrouw is zwanger en haar borsten groeien.",
@@ -3899,7 +3899,7 @@
         "en": "The conductor is on the train."
       },
       {
-        "nl": "De conducteur vraagt mijn vervoersbewijs.",
+        "nl": "De conducteur vraagt om mijn vervoersbewijs.",
         "ja": "車掌が私の乗車券を求める。",
         "en": "The conductor asks for my ticket."
       }
@@ -4975,9 +4975,9 @@
         "en": "The baby sucks his thumb."
       },
       {
-        "nl": "Ik heb twee duimen en tien vingers.",
-        "ja": "私には親指が2本、指が10本ある。",
-        "en": "I have two thumbs and ten fingers."
+        "nl": "Ik heb twee duimen en acht vingers.",
+        "ja": "私には親指が2本、指が8本ある。",
+        "en": "I have two thumbs and eight fingers."
       }
     ]
   },
@@ -5477,7 +5477,7 @@
     ],
     "examples": [
       {
-        "nl": "Ik fiets naar het werk.",
+        "nl": "Ik fiets naar mijn werk.",
         "ja": "私は自転車で仕事に行く。",
         "en": "I cycle to work."
       },
@@ -5874,7 +5874,7 @@
     ],
     "examples": [
       {
-        "nl": "Ik geef mijn zus een kado.",
+        "nl": "Ik geef mijn zus een cadeau.",
         "ja": "私は姉にプレゼントをあげる。",
         "en": "I give my sister a present."
       },
@@ -6192,7 +6192,7 @@
         "en": "The tree is green."
       },
       {
-        "nl": "Ik draag een groen t-shirt.",
+        "nl": "Ik draag een groen T-shirt.",
         "ja": "私は緑のTシャツを着ている。",
         "en": "I am wearing a green T-shirt."
       }
@@ -6759,7 +6759,7 @@
         "en": "I see him in the garden."
       },
       {
-        "nl": "Wij geven hem een kado.",
+        "nl": "Wij geven hem een cadeau.",
         "ja": "私たちは彼にプレゼントをあげる。",
         "en": "We give him a present."
       }
@@ -6833,12 +6833,12 @@
       {
         "nl": "De hersens zitten in het hoofd.",
         "ja": "脳は頭の中にある。",
-        "en": "The brains are in the head."
+        "en": "The brain is in the head."
       },
       {
         "nl": "De hersens zijn heel belangrijk.",
         "ja": "脳はとても大切だ。",
-        "en": "The brains are very important."
+        "en": "The brain is very important."
       }
     ]
   },
@@ -6917,7 +6917,7 @@
       {
         "nl": "Mijn oma heeft een kapotte heup.",
         "ja": "祖母は股関節を痛めている。",
-        "en": "My grandma has a broken hip."
+        "en": "My grandma has a bad hip."
       },
       {
         "nl": "Ik leg mijn hand op mijn heup.",
@@ -7232,7 +7232,7 @@
         "en": "Their house is very big."
       },
       {
-        "nl": "Ik geef hun een kado.",
+        "nl": "Ik geef hun een cadeau.",
         "ja": "私は彼らにプレゼントをあげる。",
         "en": "I give them a present."
       },
@@ -7322,7 +7322,7 @@
       {
         "nl": "Zij gaat inburgeren en doet examen.",
         "ja": "彼女は市民統合をして試験を受ける。",
-        "en": "She is going to integrate and takes an exam."
+        "en": "She is going to integrate and she takes an exam."
       }
     ]
   },
@@ -7573,7 +7573,7 @@
     ],
     "examples": [
       {
-        "nl": "Dit kado is voor jou.",
+        "nl": "Dit cadeau is voor jou.",
         "ja": "このプレゼントは君のためだ。",
         "en": "This present is for you."
       },
@@ -7825,13 +7825,13 @@
     ]
   },
   {
-    "id": "a1-kado",
-    "lemma": "kado",
+    "id": "a1-cadeau",
+    "lemma": "cadeau",
     "pos": "noun",
     "article": "het",
     "plural": "kado's",
     "level": "A1",
-    "lemmaAudio": "audio/lemma/a1-kado.mp3",
+    "lemmaAudio": "audio/lemma/a1-cadeau.mp3",
     "meanings": [
       {
         "ja": "プレゼント、贈り物",
@@ -7840,12 +7840,12 @@
     ],
     "examples": [
       {
-        "nl": "Ik geef mijn zus een kado.",
+        "nl": "Ik geef mijn zus een cadeau.",
         "ja": "私は姉にプレゼントをあげる。",
         "en": "I give my sister a present."
       },
       {
-        "nl": "Dit kado is voor oma.",
+        "nl": "Dit cadeau is voor oma.",
         "ja": "このプレゼントはおばあちゃんのためのものだ。",
         "en": "This present is for grandma."
       }
@@ -8270,7 +8270,7 @@
       {
         "nl": "Ik heb klachten aan mijn knie.",
         "ja": "私は膝の具合が悪い。",
-        "en": "I have complaints in my knee."
+        "en": "I have trouble with my knee."
       },
       {
         "nl": "Heeft u nog klachten?",
@@ -8566,7 +8566,7 @@
         "en": "The baby spills milk."
       },
       {
-        "nl": "Ik knoei soep op mijn t-shirt.",
+        "nl": "Ik knoei soep op mijn T-shirt.",
         "ja": "私はTシャツにスープをこぼす。",
         "en": "I spill soup on my T-shirt."
       }
@@ -9012,7 +9012,7 @@
         "en": "The cat scratches at the door."
       },
       {
-        "nl": "Ik heb jeuk en krab op mijn arm.",
+        "nl": "Ik heb jeuk en krab aan mijn arm.",
         "ja": "私はかゆくて腕をかく。",
         "en": "I am itchy and scratch my arm."
       }
@@ -9032,7 +9032,7 @@
     ],
     "examples": [
       {
-        "nl": "Ik krijg een kado van oma.",
+        "nl": "Ik krijg een cadeau van oma.",
         "ja": "私はおばあちゃんからプレゼントをもらう。",
         "en": "I get a present from Grandma."
       },
@@ -10037,7 +10037,7 @@
   },
   {
     "id": "a1-mais",
-    "lemma": "mais",
+    "lemma": "maïs",
     "pos": "noun",
     "article": "de",
     "level": "A1",
@@ -10050,12 +10050,12 @@
     ],
     "examples": [
       {
-        "nl": "Ik eet mais bij het vlees.",
+        "nl": "Ik eet maïs bij het vlees.",
         "ja": "私は肉と一緒にとうもろこしを食べる。",
         "en": "I eat corn with the meat."
       },
       {
-        "nl": "De mais op de akker is hoog.",
+        "nl": "De maïs op de akker is hoog.",
         "ja": "畑のとうもろこしは背が高い。",
         "en": "The corn in the field is tall."
       }
@@ -10529,7 +10529,7 @@
     ],
     "examples": [
       {
-        "nl": "Hij geeft mij een kado.",
+        "nl": "Hij geeft mij een cadeau.",
         "ja": "彼は私にプレゼントをくれます。",
         "en": "He gives me a present."
       },
@@ -10770,7 +10770,7 @@
         "en": "There is a mosquito in the bedroom."
       },
       {
-        "nl": "De mug bijt in mijn arm.",
+        "nl": "De mug prikt in mijn arm.",
         "ja": "蚊が私の腕を刺します。",
         "en": "The mosquito bites my arm."
       }
@@ -12672,8 +12672,8 @@
       },
       {
         "nl": "Deze laarzen passen mij goed.",
-        "ja": "このブーツは私によく合う。",
-        "en": "These boots suit me well."
+        "ja": "このブーツは私にぴったり合う。",
+        "en": "These boots fit me well."
       }
     ]
   },
@@ -12853,8 +12853,8 @@
     "examples": [
       {
         "nl": "De persoonsvorm is een werkwoord.",
-        "ja": "定形動詞は動詞の一つの形だ。",
-        "en": "The finite verb is a verb form."
+        "ja": "定形動詞は動詞だ。",
+        "en": "The finite verb is a verb."
       },
       {
         "nl": "Ik onderstreep de persoonsvorm in de zin.",
@@ -13479,7 +13479,8 @@
         "ja": "私たちは2点取る。",
         "en": "We win two points."
       }
-    ]
+    ],
+    "plural": "punten"
   },
   {
     "id": "a1-puntenslijper",
@@ -14139,7 +14140,7 @@
     ],
     "examples": [
       {
-        "nl": "Mijn t-shirt is roze.",
+        "nl": "Mijn T-shirt is roze.",
         "ja": "私のTシャツはピンクだ。",
         "en": "My t-shirt is pink."
       },
@@ -14700,7 +14701,7 @@
       {
         "nl": "Mijn vader schroeft het rek in de kelder.",
         "ja": "父は地下室でラックをねじ留めする。",
-        "en": "My father screws the rack together in the cellar."
+        "en": "My father screws the rack in the cellar."
       }
     ]
   },
@@ -16116,7 +16117,7 @@
       },
       {
         "nl": "Mijn broer heeft veel tandpijn.",
-        "ja": "兄はひどい歯痛がある。",
+        "ja": "兄は歯がとても痛い。",
         "en": "My brother has a lot of toothache."
       }
     ]
@@ -16417,7 +16418,7 @@
       },
       {
         "nl": "Ik zie twee tijgers.",
-        "ja": "私はトラを二頭見える。",
+        "ja": "トラが二頭見える。",
         "en": "I see two tigers."
       }
     ]
@@ -16715,7 +16716,7 @@
       {
         "nl": "De trap in ons huis is hoog.",
         "ja": "私たちの家の階段は高い。",
-        "en": "The stairs in our house are steep."
+        "en": "The stairs in our house are high."
       }
     ]
   },
@@ -16800,7 +16801,7 @@
   },
   {
     "id": "a1-t-shirt",
-    "lemma": "t-shirt",
+    "lemma": "T-shirt",
     "pos": "noun",
     "article": "het",
     "plural": "t-shirts",
@@ -16814,12 +16815,12 @@
     ],
     "examples": [
       {
-        "nl": "Mijn t-shirt is wit.",
+        "nl": "Mijn T-shirt is wit.",
         "ja": "私のTシャツは白い。",
         "en": "My T-shirt is white."
       },
       {
-        "nl": "Ik koop een nieuw t-shirt.",
+        "nl": "Ik koop een nieuw T-shirt.",
         "ja": "私は新しいTシャツを買う。",
         "en": "I am buying a new T-shirt."
       }
@@ -17510,7 +17511,7 @@
         "en": "My birthday is in May."
       },
       {
-        "nl": "Ik krijg een kado voor mijn verjaardag.",
+        "nl": "Ik krijg een cadeau voor mijn verjaardag.",
         "ja": "私は誕生日にプレゼントをもらいます。",
         "en": "I get a present for my birthday."
       }
@@ -17910,9 +17911,9 @@
     ],
     "examples": [
       {
-        "nl": "Ik maak een vinkje.",
-        "ja": "私はチェックマークを付けます。",
-        "en": "I make a check mark."
+        "nl": "Achter het woord staat een vinkje.",
+        "ja": "その単語の後ろにチェックマークがある。",
+        "en": "There is a check mark after the word."
       },
       {
         "nl": "Er staat een vinkje achter het woord.",
@@ -18152,7 +18153,7 @@
         "en": "Do you feel the sun?"
       },
       {
-        "nl": "Het water voelt koud.",
+        "nl": "Het water voelt koud aan.",
         "ja": "水は冷たく感じます。",
         "en": "The water feels cold."
       },
@@ -18360,7 +18361,7 @@
     ],
     "examples": [
       {
-        "nl": "Dit kado is voor jou.",
+        "nl": "Dit cadeau is voor jou.",
         "ja": "このプレゼントは君のためのものです。",
         "en": "This present is for you."
       },
@@ -19645,7 +19646,7 @@
       },
       {
         "nl": "Ik ben ziek en blijf in bed.",
-        "ja": "私は具合が悪いのでベッドにいる。",
+        "ja": "私は病気でベッドにいる。",
         "en": "I am ill and stay in bed."
       }
     ]
@@ -20462,7 +20463,7 @@
       },
       {
         "nl": "Hier spreekt men Nederlands.",
-        "ja": "ここでは人はオランダ語を話す。",
+        "ja": "ここではオランダ語を話す。",
         "en": "People speak Dutch here."
       }
     ]
@@ -21415,7 +21416,7 @@
         "en": "How are you doing today?"
       },
       {
-        "nl": "Hoe kom je naar het werk?",
+        "nl": "Hoe ga je naar je werk?",
         "ja": "どうやって職場に来るの？",
         "en": "How do you get to work?"
       }
@@ -22049,9 +22050,9 @@
         "en": "This book is better."
       },
       {
-        "nl": "Nu voel ik me beter.",
-        "ja": "今は気分が良くなった。",
-        "en": "Now I feel better."
+        "nl": "Nu ben ik weer beter.",
+        "ja": "今はもう良くなった。",
+        "en": "Now I am better again."
       }
     ]
   },
@@ -22495,7 +22496,7 @@
       {
         "nl": "Zij vertelt het duidelijk aan de kinderen.",
         "ja": "彼女は子どもたちにはっきりと話す。",
-        "en": "She explains it clearly to the children."
+        "en": "She tells it clearly to the children."
       }
     ]
   },
@@ -22519,7 +22520,7 @@
       },
       {
         "nl": "Ik ben vandaag echt ziek.",
-        "ja": "私は今日本当に具合が悪い。",
+        "ja": "私は今日、本当に具合が悪い。",
         "en": "I am really sick today."
       },
       {
@@ -23043,9 +23044,9 @@
         "en": "He is holding the book in his hand."
       },
       {
-        "nl": "Wij houden het brood in de kast.",
-        "ja": "私たちはパンを戸棚に入れておく。",
-        "en": "We keep the bread in the cupboard."
+        "nl": "Wij houden de soep warm.",
+        "ja": "私たちはスープを温かく保つ。",
+        "en": "We keep the soup warm."
       }
     ]
   },

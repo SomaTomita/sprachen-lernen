@@ -294,7 +294,7 @@
 {"lemma":"kaarten","pos":"verb","ja":"トランプ（カードゲーム）をする","en":"to play cards"}
 {"lemma":"kaartlezer","pos":"noun","article":"de","plural":"kaartlezers","ja":"カードリーダー","en":"card reader"}
 {"lemma":"kaas","pos":"noun","article":"de","plural":"kazen","ja":"チーズ","en":"cheese"}
-{"lemma":"kado","pos":"noun","article":"het","plural":"kado's","ja":"プレゼント、贈り物","en":"gift, present"}
+{"lemma":"cadeau","pos":"noun","article":"het","plural":"kado's","ja":"プレゼント、贈り物","en":"gift, present"}
 {"lemma":"kameel","pos":"noun","article":"de","plural":"kamelen","ja":"ラクダ","en":"camel"}
 {"lemma":"kantine","pos":"noun","article":"de","plural":"kantines","ja":"食堂、カンティーン","en":"canteen, cafeteria"}
 {"lemma":"kapot","pos":"adjective","ja":"壊れた、故障した","en":"broken"}
@@ -376,7 +376,7 @@
 {"lemma":"maart","pos":"noun","article":"de","ja":"3月","en":"March"}
 {"lemma":"maat","pos":"noun","article":"de","plural":"maten","ja":"サイズ、寸法","en":"size, measure"}
 {"lemma":"machinist","pos":"noun","article":"de","plural":"machinisten","ja":"（列車の）運転士、機関士","en":"train driver, engineer"}
-{"lemma":"mais","pos":"noun","article":"de","ja":"とうもろこし","en":"corn, maize"}
+{"lemma":"maïs","pos":"noun","article":"de","ja":"とうもろこし","en":"corn, maize"}
 {"lemma":"mandarijnen","pos":"noun","article":"de","plural":"mandarijnen","ja":"みかん、マンダリン","en":"mandarins, tangerines"}
 {"lemma":"map","pos":"noun","article":"de","plural":"mappen","ja":"フォルダー、バインダー","en":"folder, binder"}
 {"lemma":"markt","pos":"noun","article":"de","plural":"markten","ja":"市場、マーケット","en":"market"}
@@ -504,7 +504,7 @@
 {"lemma":"praten","pos":"verb","ja":"話す、しゃべる","en":"to talk"}
 {"lemma":"prijs","pos":"noun","article":"de","plural":"prijzen","ja":"値段、価格、賞","en":"price, prize"}
 {"lemma":"prikken","pos":"verb","ja":"刺す、突く","en":"to prick, to poke"}
-{"lemma":"punt","pos":"noun","article":"de","ja":"点、ピリオド、先端、（得）点","en":"point, period, tip"}
+{"lemma":"punt","pos":"noun","article":"de","ja":"点、ピリオド、先端、（得）点","en":"point, period, tip","plural":"punten"}
 {"lemma":"puntenslijper","pos":"noun","article":"de","plural":"puntenslijpers","ja":"鉛筆削り","en":"pencil sharpener"}
 {"lemma":"pyjama","pos":"noun","article":"de","plural":"pyjama's","ja":"パジャマ","en":"pyjamas"}
 {"lemma":"rat","pos":"noun","article":"de","plural":"ratten","ja":"ネズミ（ドブネズミ）","en":"rat"}
@@ -629,7 +629,7 @@
 {"lemma":"trein","pos":"noun","article":"de","plural":"treinen","ja":"電車、列車","en":"train"}
 {"lemma":"trekken","pos":"verb","ja":"引く、引っ張る","en":"to pull"}
 {"lemma":"trui","pos":"noun","article":"de","plural":"truien","ja":"セーター","en":"sweater, jumper"}
-{"lemma":"t-shirt","pos":"noun","article":"het","plural":"t-shirts","ja":"Tシャツ","en":"T-shirt"}
+{"lemma":"T-shirt","pos":"noun","article":"het","plural":"t-shirts","ja":"Tシャツ","en":"T-shirt"}
 {"lemma":"tuin","pos":"noun","article":"de","plural":"tuinen","ja":"庭","en":"garden"}
 {"lemma":"tuincentrum","pos":"noun","article":"het","plural":"tuincentra","ja":"園芸店、ガーデンセンター","en":"garden centre"}
 {"lemma":"tulp","pos":"noun","article":"de","plural":"tulpen","ja":"チューリップ","en":"tulip"}
