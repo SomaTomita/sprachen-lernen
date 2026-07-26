@@ -28,11 +28,16 @@
 | ソース | URL | 内容 | 用途 |
 |---|---|---|---|
 | numo.nl NT2 モジュール語彙 | `https://assets.numo.nl/wp/Woordenlijst-nt2.pdf`（A0–A1）, `https://assets.numo.nl/wp/Woordenlijst-nt2-modules-A1-A2.pdf`（A1–A2） | アルファベット順 PDF | **一次候補**（レベル境界が明確） |
-| NT2 TaalMenu | `https://nt2taalmenu.nl/` の A1 / A2 単語リスト（NL-NL / NL-EN） | A1 約2100 / A2 語彙、英訳つき | 英語グロス（en）取得・補完 |
+| NT2 TaalMenu（アルファベット順） | `https://nt2taalmenu.nl/nt2/lijsten/engels_al.pdf` | A1 2100語・英訳つき | 英語グロス（en）取得・補完 |
+| **NT2 TaalMenu（頻度順）** | `https://nt2taalmenu.nl/nt2/lijsten/engels_fre.pdf` | A1 2100語を**頻度帯順**・英訳＋名詞の de/het 付き | **コア語の補完（下記の重要な発見）** |
 | Open KNM | `https://open-knm.org/en/vocabulary` | A2（inburgering）1300+語、音声・例文つき | A2 の裏取り |
 | Taalprofielen（Taalunie） | `https://taalunie.org/` / `https://www.erk.nl/` | CEFR 別 文法・機能・語彙記述（蘭語） | **文法天井の典拠** |
 
 > **注意:** オランダ語には Goethe 相当の単一「公式 A1/A2 語彙リスト」は存在しない。上記は CEFR/inburgering 整合の実務標準。目標規模: **A1 ≈ 800〜1000語 / A2 ≈ 600〜900語（A2 新規のみ／A1 と互いに素）**。独語実績値 A1=786 / A2=584 を目安に、ソースの実データで増減可。
+
+> **重要な発見（実装中に判明・2026-07）:** numo の A0–A1 リストは**主題別（食べ物・体・衣類など具体名詞中心）**で、**高頻度のコア語が欠落**している。NT2 頻度リストと突き合わせると**上位100語のうち55語、上位200語のうち124語が numo に無い**（`niet / en / goed / doen / komen / maken / nemen / zeggen / veel / wat / kind / man / vrouw / tijd / werk / land` 等）。
+> → **対策:** numo（766語）＋ **頻度リスト上位200帯の欠落124語** を統合し **A1 = 890語** とする。頻度リストの 200位以降の欠落語は A2 の候補プールとして使う。
+> → **教訓:** 単一ソースに頼らず、必ず頻度リストと突き合わせて coverage を検証する。コア語が欠けると例文が不自然になる（実際にパイロット後の例文生成で `maken/doen/komen/kind` 等を回避せざるを得ず不自然化した）。
 
 ### オランダ語データモデル（`data/<level>/words.json` の1件）
 
