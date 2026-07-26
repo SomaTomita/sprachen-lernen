@@ -41,7 +41,8 @@
 
 **形容詞**
 - 述語用法（"Het huis is groot."）＋**基本的な付加語 -e 変化**（de 語 → -e：`de grote stad` / `een grote stad`；het 語 + `een` → 無語尾：`een groot huis`；het 語 + `het/dit` → -e：`het grote huis`）。
-- **比較級・最上級は禁止**（groter / grootst / beter / meer … 不可）。
+- **比較級・最上級は禁止**（groter / grootst / … 不可）。
+  - **例外（見出し語の自己使用のみ）:** `meer` / `beter` / `verder` は形態的には比較級だが、NT2 頻度リスト上位200帯の A1 コア語であり見出し語として採録している。**その語自身の例文に限り使用可**（"Ik wil meer water." / "Dat is beter." / "Wij lopen verder."）。他の語の例文で自由に比較級を使うことは引き続き禁止（独語版が `möchte` に与えた例外と同じ扱い）。
 
 **否定・その他**
 - 否定は `niet` / `geen`。指小 `-je` は一般的なもの可。

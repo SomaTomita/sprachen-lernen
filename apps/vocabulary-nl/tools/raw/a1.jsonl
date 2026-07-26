@@ -764,3 +764,127 @@
 {"lemma":"zwart","pos":"adjective","ja":"黒い","en":"black"}
 {"lemma":"zwembroek","pos":"noun","article":"de","plural":"zwembroeken","ja":"水泳パンツ、海パン","en":"swimming trunks"}
 {"lemma":"zwemmen","pos":"verb","ja":"泳ぐ","en":"to swim"}
+{"lemma":"aan","pos":"preposition","ja":"〜に、〜へ、〜に接して","en":"on, to, at"}
+{"lemma":"al","pos":"adverb","ja":"すでに、もう","en":"already"}
+{"lemma":"men","pos":"pronoun","ja":"人は（一般に）、世間では","en":"one, people (impersonal subject)"}
+{"lemma":"allemaal","pos":"pronoun","ja":"みんな、全部、すべて","en":"all, all of them"}
+{"lemma":"mens","pos":"noun","article":"de","plural":"mensen","ja":"人、人間","en":"person, human being"}
+{"lemma":"alles","pos":"pronoun","ja":"すべて、全部","en":"everything"}
+{"lemma":"ander","pos":"adjective","ja":"他の、別の","en":"other, different"}
+{"lemma":"beginnen","pos":"verb","ja":"始まる、始める","en":"to begin, to start"}
+{"lemma":"bijna","pos":"adverb","ja":"ほとんど、もう少しで","en":"almost, nearly"}
+{"lemma":"blijven","pos":"verb","ja":"とどまる、〜のままである","en":"to stay, to remain"}
+{"lemma":"niet","pos":"adverb","ja":"〜ない（否定）","en":"not"}
+{"lemma":"cent","pos":"noun","article":"de","plural":"centen","ja":"セント（通貨単位）","en":"cent"}
+{"lemma":"nog","pos":"adverb","ja":"まだ、さらに、もう","en":"still, yet, another"}
+{"lemma":"dan","pos":"adverb","ja":"それから、そのとき、では、（比較で）〜より","en":"then; than"}
+{"lemma":"nou","pos":"adverb","ja":"今、さて、まあ（話し言葉）","en":"now; well (colloquial)"}
+{"lemma":"nu","pos":"adverb","ja":"今、現在","en":"now"}
+{"lemma":"of","pos":"conjunction","ja":"または、あるいは、〜かどうか","en":"or; whether"}
+{"lemma":"ook","pos":"adverb","ja":"〜も、もまた","en":"also, too"}
+{"lemma":"pakken","pos":"verb","ja":"つかむ、取る、（乗り物に）乗る","en":"to grab, to take, to catch"}
+{"lemma":"dik","pos":"adjective","ja":"厚い、太い","en":"thick, fat"}
+{"lemma":"te","pos":"adverb","ja":"〜すぎる、（不定詞の前に置く助詞）","en":"too (excessively); to (infinitive marker)"}
+{"lemma":"doen","pos":"verb","ja":"する、行う","en":"to do"}
+{"lemma":"dom","pos":"adjective","ja":"愚かな、ばかな","en":"stupid, silly"}
+{"lemma":"toch","pos":"adverb","ja":"それでも、やはり、〜でしょう","en":"still, nevertheless, after all"}
+{"lemma":"toen","pos":"adverb","ja":"その時（過去）、〜したとき","en":"then (in the past); when"}
+{"lemma":"dus","pos":"adverb","ja":"だから、つまり、それゆえ","en":"so, therefore"}
+{"lemma":"tot","pos":"preposition","ja":"〜まで","en":"until, up to"}
+{"lemma":"eens","pos":"adverb","ja":"一度、いつか、ちょっと（語調を和らげる）","en":"once, sometime; (softening particle)"}
+{"lemma":"en","pos":"conjunction","ja":"そして、〜と","en":"and"}
+{"lemma":"er","pos":"adverb","ja":"そこに、それについて（虚辞・代名副詞の er）","en":"there; of it (existential/pronominal adverb)"}
+{"lemma":"veel","pos":"pronoun","ja":"多くの、たくさん","en":"much, many, a lot"}
+{"lemma":"geen","pos":"pronoun","ja":"一つも〜ない、少しも〜ない","en":"no, not any"}
+{"lemma":"wat","pos":"pronoun","ja":"何、何か、少し、なんて〜だろう","en":"what; something; how (exclamation)"}
+{"lemma":"goed","pos":"adjective","ja":"良い、上手に、正しい","en":"good, well"}
+{"lemma":"we","pos":"pronoun","ja":"私たちは","en":"we"}
+{"lemma":"weer","pos":"adverb","ja":"再び、また","en":"again"}
+{"lemma":"wel","pos":"adverb","ja":"（否定に対して）そうだよ、確かに、まあ","en":"indeed, certainly; (emphatic affirmative particle)"}
+{"lemma":"hier","pos":"adverb","ja":"ここに、ここで","en":"here"}
+{"lemma":"zeggen","pos":"verb","ja":"言う、話す","en":"to say, to tell"}
+{"lemma":"hoe","pos":"adverb","ja":"どのように、どうやって","en":"how"}
+{"lemma":"zich","pos":"pronoun","ja":"自分自身を／に（再帰代名詞）","en":"himself, herself, itself, themselves (reflexive)"}
+{"lemma":"zij","pos":"pronoun","ja":"彼女は、彼らは","en":"she; they"}
+{"lemma":"ja","pos":"interjection","ja":"はい、うん","en":"yes"}
+{"lemma":"je","pos":"pronoun","ja":"きみは、あなたは、きみの（くだけた二人称）","en":"you (informal); your"}
+{"lemma":"zo","pos":"adverb","ja":"そのように、こんなに、すぐに","en":"so, like this; soon"}
+{"lemma":"zo'n","pos":"pronoun","ja":"そのような〜、こんな〜","en":"such a"}
+{"lemma":"komen","pos":"verb","ja":"来る、到着する","en":"to come"}
+{"lemma":"aantal","pos":"noun","article":"het","plural":"aantallen","ja":"数、数量、いくつか","en":"number, quantity"}
+{"lemma":"als","pos":"conjunction","ja":"〜のとき、もし〜なら、〜として","en":"if, when; as"}
+{"lemma":"altijd","pos":"adverb","ja":"いつも、常に","en":"always"}
+{"lemma":"laten","pos":"verb","ja":"〜させる、そのままにする、置いていく","en":"to let, to allow; to leave"}
+{"lemma":"anders","pos":"adverb","ja":"違って、それ以外に、さもなければ","en":"differently, otherwise; else"}
+{"lemma":"maar","pos":"conjunction","ja":"しかし、だが、ただ〜だけ","en":"but; only (particle)"}
+{"lemma":"maken","pos":"verb","ja":"作る、する、直す","en":"to make, to do"}
+{"lemma":"beide","pos":"pronoun","ja":"両方の、双方","en":"both"}
+{"lemma":"man","pos":"noun","article":"de","plural":"mannen","ja":"男、男性、夫","en":"man; husband"}
+{"lemma":"bekend","pos":"adjective","ja":"よく知られた、有名な、なじみの","en":"known, well-known, familiar"}
+{"lemma":"belangrijk","pos":"adjective","ja":"重要な、大切な","en":"important"}
+{"lemma":"nemen","pos":"verb","ja":"取る、受け取る、（乗り物に）乗る","en":"to take"}
+{"lemma":"bepaald","pos":"adjective","ja":"ある特定の、一定の、決められた","en":"certain, particular; specified"}
+{"lemma":"niets","pos":"pronoun","ja":"何も〜ない","en":"nothing"}
+{"lemma":"bestaan","pos":"verb","ja":"存在する、（uit で）〜から成る","en":"to exist; to consist (of)"}
+{"lemma":"betekenen","pos":"verb","ja":"意味する、〜を表す","en":"to mean, to signify"}
+{"lemma":"noemen","pos":"verb","ja":"呼ぶ、名づける、挙げる","en":"to call, to name, to mention"}
+{"lemma":"beter","pos":"adjective","ja":"より良い、もっとうまく","en":"better"}
+{"lemma":"nooit","pos":"adverb","ja":"決して〜ない、一度も〜ない","en":"never"}
+{"lemma":"omdat","pos":"conjunction","ja":"〜だから、〜なので","en":"because"}
+{"lemma":"brengen","pos":"verb","ja":"持って行く、持って来る、連れて行く","en":"to bring, to take"}
+{"lemma":"brief","pos":"noun","article":"de","plural":"brieven","ja":"手紙","en":"letter"}
+{"lemma":"bruid","pos":"noun","article":"de","plural":"bruiden","ja":"花嫁","en":"bride"}
+{"lemma":"daar","pos":"adverb","ja":"そこに、あそこで","en":"there"}
+{"lemma":"plaats","pos":"noun","article":"de","plural":"plaatsen","ja":"場所、席","en":"place, seat"}
+{"lemma":"daarom","pos":"adverb","ja":"だから、そのため","en":"therefore, that is why"}
+{"lemma":"spel","pos":"noun","article":"het","plural":"spellen","ja":"遊び、ゲーム、試合","en":"game, play"}
+{"lemma":"deel","pos":"noun","article":"het","plural":"delen","ja":"部分、一部","en":"part, share"}
+{"lemma":"tijd","pos":"noun","article":"de","plural":"tijden","ja":"時間、時、時代","en":"time"}
+{"lemma":"derde","pos":"numeral","ja":"3番目の、第三の","en":"third"}
+{"lemma":"ding","pos":"noun","article":"het","plural":"dingen","ja":"もの、物事","en":"thing"}
+{"lemma":"twee","pos":"numeral","ja":"2、二つ","en":"two"}
+{"lemma":"drie","pos":"numeral","ja":"3、三つ","en":"three"}
+{"lemma":"vaak","pos":"adverb","ja":"よく、しばしば","en":"often"}
+{"lemma":"duidelijk","pos":"adjective","ja":"明らかな、はっきりした","en":"clear, obvious"}
+{"lemma":"echt","pos":"adjective","ja":"本当の、本物の、実際に","en":"real, genuine, really"}
+{"lemma":"verder","pos":"adverb","ja":"さらに、その先へ、その他に","en":"further, furthermore"}
+{"lemma":"eigen","pos":"adjective","ja":"自分の、固有の","en":"own, one's own"}
+{"lemma":"elk","pos":"pronoun","ja":"それぞれの、どの〜も","en":"each, every"}
+{"lemma":"vooral","pos":"adverb","ja":"とりわけ、特に","en":"especially, above all"}
+{"lemma":"elkaar","pos":"pronoun","ja":"お互い、互いに","en":"each other, one another"}
+{"lemma":"vraag","pos":"noun","article":"de","plural":"vragen","ja":"質問、問い、需要","en":"question, demand"}
+{"lemma":"erg","pos":"adjective","ja":"とても、ひどい、酷い","en":"very, bad, awful"}
+{"lemma":"vrouw","pos":"noun","article":"de","plural":"vrouwen","ja":"女性、妻","en":"woman, wife"}
+{"lemma":"ervan","pos":"adverb","ja":"それの、それについて","en":"of it, about it"}
+{"lemma":"waar","pos":"adverb","ja":"どこに、どこで","en":"where"}
+{"lemma":"even","pos":"adverb","ja":"ちょっと、少しの間、同じく","en":"for a moment, just, equally"}
+{"lemma":"waarin","pos":"adverb","ja":"その中に、〜の中で（関係詞的）","en":"in which, wherein"}
+{"lemma":"geval","pos":"noun","article":"het","plural":"gevallen","ja":"場合、ケース、事例","en":"case, instance"}
+{"lemma":"want","pos":"conjunction","ja":"というのは、〜だから","en":"because, for"}
+{"lemma":"werk","pos":"noun","article":"het","plural":"werken","ja":"仕事、労働、作品","en":"work, job"}
+{"lemma":"heer","pos":"noun","article":"de","plural":"heren","ja":"紳士、〜様、主人","en":"gentleman, sir, lord"}
+{"lemma":"wie","pos":"pronoun","ja":"誰、〜する人","en":"who"}
+{"lemma":"zeer","pos":"adverb","ja":"非常に、とても","en":"very, greatly"}
+{"lemma":"houden","pos":"verb","ja":"持つ、保つ、（van で）好む","en":"to hold, to keep; (van) to like, to love"}
+{"lemma":"zelf","pos":"pronoun","ja":"自分で、〜自身","en":"oneself, myself, himself"}
+{"lemma":"zelfs","pos":"adverb","ja":"〜さえ、〜すら","en":"even"}
+{"lemma":"ieder","pos":"pronoun","ja":"それぞれの、どの〜も、誰もが","en":"each, every, everyone"}
+{"lemma":"iets","pos":"pronoun","ja":"何か、少し","en":"something, somewhat"}
+{"lemma":"zoals","pos":"conjunction","ja":"〜のように、例えば〜など","en":"such as, like, as"}
+{"lemma":"jong","pos":"adjective","ja":"若い、幼い","en":"young"}
+{"lemma":"kind","pos":"noun","article":"het","plural":"kinderen","ja":"子ども","en":"child"}
+{"lemma":"afhankelijk","pos":"adjective","ja":"依存した、〜次第の","en":"dependent"}
+{"lemma":"land","pos":"noun","article":"het","plural":"landen","ja":"国、土地、陸","en":"country, land"}
+{"lemma":"algemeen","pos":"adjective","ja":"一般的な、全体の","en":"general, common"}
+{"lemma":"lang","pos":"adjective","ja":"長い、（背が）高い、長く","en":"long, tall"}
+{"lemma":"leven","pos":"noun","article":"het","plural":"levens","ja":"人生、生命、暮らし","en":"life"}
+{"lemma":"bedoelen","pos":"verb","ja":"意図する、（言いたいことを）意味する","en":"to mean, to intend"}
+{"lemma":"beetje","pos":"noun","article":"het","plural":"beetjes","ja":"少し、ちょっと","en":"a bit, a little"}
+{"lemma":"lijken","pos":"verb","ja":"〜のように見える、似ている","en":"to seem, to look like"}
+{"lemma":"begin","pos":"noun","article":"het","ja":"始まり、最初","en":"beginning, start"}
+{"lemma":"belang","pos":"noun","article":"het","plural":"belangen","ja":"重要性、利害、関心","en":"importance, interest"}
+{"lemma":"macht","pos":"noun","article":"de","plural":"machten","ja":"権力、力","en":"power, might"}
+{"lemma":"bereiken","pos":"verb","ja":"達する、到達する、（連絡が）届く","en":"to reach, to achieve"}
+{"lemma":"me","pos":"pronoun","ja":"私を、私に","en":"me"}
+{"lemma":"misschien","pos":"adverb","ja":"たぶん、もしかすると","en":"maybe, perhaps"}
+{"lemma":"bijzonder","pos":"adjective","ja":"特別な、独特の、非常に","en":"special, particular"}
