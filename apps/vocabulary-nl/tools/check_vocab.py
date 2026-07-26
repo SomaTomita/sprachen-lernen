@@ -18,13 +18,18 @@ FUNCTION_POS = {"ADP", "AUX", "CCONJ", "SCONJ", "DET", "PRON", "PART",
                 "PUNCT", "NUM", "PROPN", "SYM", "X", "INTJ"}
 _PUNCT = ".,!?;:\"'()[]«»–—-…"
 _VOWEL2 = re.compile(r"(aa|ee|oo|uu)")
-_SUFFIXES = ("'s", "en", "s", "e", "t", "n")  # 蘭語の主要な屈折語尾
+_SUFFIXES = ("eren", "'s", "en", "s", "e", "t", "n")  # 蘭語の主要な屈折語尾（-eren は kinderen/eieren 型）
 
 
 def _canon(w: str) -> str:
-    """二重母音の単母音化(aa→a) と 有声無声の正規化(z→s, v→f)。"""
+    """二重母音の単母音化(aa→a)・有声無声の正規化(z→s, v→f)・末尾重子音の単一化。
+    蘭語は短母音動詞で語幹末子音が重なる（krabben↔krabt / zitten↔zit / liggen↔ligt /
+    pakken↔pakt）ため、末尾の重子音を1つに畳んで両者を同じ語幹に落とす。"""
     w = _VOWEL2.sub(lambda m: m.group(0)[0], w)
-    return w.replace("z", "s").replace("v", "f")
+    w = w.replace("z", "s").replace("v", "f")
+    if len(w) >= 3 and w[-1] == w[-2] and w[-1] not in "aeiou":
+        w = w[:-1]
+    return w
 
 
 def canon_forms(word: str) -> set[str]:
@@ -41,11 +46,36 @@ def canon_forms(word: str) -> set[str]:
         for suf in _SUFFIXES:
             if b.endswith(suf) and len(b) - len(suf) >= 2:
                 forms.add(b[: -len(suf)])
+    # koe→koeien 型: -en を落とした語幹の末尾 i も落として koe に合わせる
+    for f in list(forms):
+        if f.endswith("i") and len(f) >= 3:
+            forms.add(f[:-1])
     return {_canon(f) for f in forms if len(f) >= 2}
 
 
 def load_lemmas(path: Path) -> set[str]:
     return {w["lemma"].lower() for w in json.loads(path.read_text(encoding="utf-8"))}
+
+
+# 分離動詞の前つづり。主文では分離して現れる（"Ik check in." / "Ik sta op."）ため、
+# spaCy は残った本体だけを lemma 化する（inchecken → check）。本体側も許可語幹に加える。
+_PARTICLES = ("aan", "achter", "af", "bij", "binnen", "door", "in", "langs", "mee", "na",
+              "neer", "om", "onder", "op", "over", "rond", "samen", "terug", "tegen",
+              "toe", "uit", "van", "voor", "weg")
+
+
+def separable_stems(path: Path) -> set[str]:
+    """分離動詞見出し語の「本体」語幹を返す（inchecken→checken, opstaan→staan）。"""
+    stems: set[str] = set()
+    for w in json.loads(path.read_text(encoding="utf-8")):
+        if w.get("pos") != "verb":
+            continue
+        lem = w["lemma"].lower()
+        for p in _PARTICLES:
+            if lem.startswith(p) and len(lem) - len(p) >= 4:
+                stems.add(lem[len(p):])
+                break
+    return stems
 
 
 def main(level: str) -> int:
@@ -55,8 +85,12 @@ def main(level: str) -> int:
         allowed |= load_lemmas(base / "A2" / "words.json")
     fn = {l.strip().lower() for l in Path("tools/function_words_nl.txt").read_text(encoding="utf-8").split() if l.strip()}
     allowed |= fn
+    # 分離動詞の本体語幹も許可（"Ik check in." の check ← inchecken）
+    seps = separable_stems(base / "A1" / "words.json")
+    if level == "A2":
+        seps |= separable_stems(base / "A2" / "words.json")
     allowed_canon: set[str] = set()
-    for a in allowed:
+    for a in allowed | seps:
         allowed_canon |= canon_forms(a)
 
     nlp = spacy.load("nl_core_news_sm")

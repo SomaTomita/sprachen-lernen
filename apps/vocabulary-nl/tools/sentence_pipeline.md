@@ -18,7 +18,9 @@
 - 見出し語は**実現形**で使ってよい（活用・複数・指小 -je・分離動詞の分離形）。例: `lopen`→loop/loopt/liep/gelopen、`huis`→huizen、`opstaan`→"sta … op"。
 - この規則は LLM 判定に委ねず、`check_vocab.py`（spaCy `nl_core_news_sm` で形態素解析→見出し語照合）で機械的にゲートする。
 - **照合方式:** `check_vocab.py` は (1) spaCy lemma / 表層形の完全一致、(2) 語尾変化・複数・二重母音(oo→o)・有声無声(z→s, v→f)・規則的過去分詞(ge-)を吸収した**正規化語幹**での一致、の 2 段で判定する。小モデルは蘭語活用の見出し語化を外しやすい（"werk"→"werken" にならない等）ため、(2) が活用形の偽陽性を吸収する。
-- **既知の残存限界:** (a) 不規則過去分詞（`gegeten` 等）や強変化は語幹一致しないことがある＝偽陽性、(b) 2〜3 字の非常に短い語は近い許可語と語幹衝突しうる＝偽陰性（例: `kat`↔`kan`）。ただし本番の全語彙では該当語自体が見出し語になるため実害は小さい。残った違反候補は (a) `function_words_nl.txt` 追補、(b) 正当な派生語を seed に追加、(c) changes-log に理由記録、で運用。精度が要れば `nl_core_news_md` へ上げる。
+- **正規化が吸収する形:** 活用語尾（-en/-t/-e/-s/-n）・不規則複数（`kinderen`→kind, `eieren`→ei, `koeien`→koe）・**末尾重子音**（`krokodillen`→krokodil, `krabt`↔krabben, `zit`↔zitten, `mappen`→map）・二重母音（`lopen`↔loopt）・有声無声（z↔s, v↔f）・規則的過去分詞（ge-）。
+- **既知の残存限界:** (a) **母音が変わる強変化複数**（`stad`→`steden`, `schip`→`schepen`）は語幹一致せず**偽陽性**になる → 例文でこの型の複数形を使うのは避けるか、違反候補として目視確認する。(b) 不規則過去分詞（`gegeten` 等）も同様。(c) 2〜3 字の短語は近い許可語と語幹衝突しうる＝**偽陰性**（例: `kat`↔`kan`）。(d) 許可語の派生語（`regen` があると `regenen` も通る）は通過しうる。
+- 残った違反候補は (a) `function_words_nl.txt` 追補、(b) 正当な派生語を seed に追加、(c) changes-log に理由記録、で運用。精度が要れば `nl_core_news_md` へ上げる。**本ツールは backstop であり、一次担保は生成時の allowlist 遵守と LLM 文法検証。**
 
 ---
 
@@ -42,7 +44,6 @@
 **形容詞**
 - 述語用法（"Het huis is groot."）＋**基本的な付加語 -e 変化**（de 語 → -e：`de grote stad` / `een grote stad`；het 語 + `een` → 無語尾：`een groot huis`；het 語 + `het/dit` → -e：`het grote huis`）。
 - **比較級・最上級は禁止**（groter / grootst / … 不可）。
-  - **例外（見出し語の自己使用のみ）:** `meer` / `beter` / `verder` は形態的には比較級だが、NT2 頻度リスト上位200帯の A1 コア語であり見出し語として採録している。**その語自身の例文に限り使用可**（"Ik wil meer water." / "Dat is beter." / "Wij lopen verder."）。他の語の例文で自由に比較級を使うことは引き続き禁止（独語版が `möchte` に与えた例外と同じ扱い）。
 
 **否定・その他**
 - 否定は `niet` / `geen`。指小 `-je` は一般的なもの可。
@@ -51,6 +52,20 @@
 **文の形式**
 - **短く 3〜8 語**（句読点除く）。対象見出し語を必ず含む（実現形可）。
 - 自然な JA 訳・EN 訳を付ける（直訳すぎない）。オランダ語として正用法（語順・冠詞 de/het・主述一致）。
+
+**見出し語の自己使用の例外（重要・A1/A2 共通）**
+
+見出し語そのものが天井で禁止された文法カテゴリに属する場合、**その語の例文に限り**最小限の形で使用してよい（見出し語は自分の例文に必ず登場しなければならないため）。**他の語の例文では引き続き禁止**。独語版が `möchte` に与えた例外と同じ扱い。A1 での具体例:
+
+| 見出し語 | 天井上の問題 | 許す形（自己使用のみ） |
+|---|---|---|
+| `meer` / `beter` / `verder` | 比較級形 | "Ik wil meer water." / "Dat is beter." / "Wij lopen verder." |
+| `omdat` | 従属節（動詞後置）が必須 | 最小の従属節1つ・正しい動詞後置: "Ik blijf binnen, omdat het koud is." |
+| `zich` | 再帰は A2 解禁項目 | "Zij voelt zich niet goed." |
+| `zullen` | 未来 `zullen` は禁止 | **未来叙述には使わない**。提案・申し出の定型のみ: "Zullen wij samen eten?" / "Zal ik je helpen?" |
+| `als` / `toen` / `wie` / `waarin` / `zoals` | 従属節・関係節を誘発 | **節を作らない用法に限定**する。`als`＝前置詞「〜として」("Hij werkt als kapper.")、`toen`＝V2 倒置の副詞("Toen was ik klein.")、`wie`/`waarin`＝疑問詞、`zoals`＝定動詞を伴わない句("fruit, zoals appels")。 |
+
+**分離動詞は主文で分離させてよい**（"Ik check in met mijn ov-chipkaart." / "Ik sta om zeven uur op."）。`check_vocab.py` は分離動詞の本体語幹を許可済みなので、分離形でゲートは通る。
 
 **例文数**
 - 各語 **2 文**。`meanings.length >= 2` の語は **3 文以上で各語義を最低 1 文カバー**（`validate_data.mjs` のしきい値と一致）。
