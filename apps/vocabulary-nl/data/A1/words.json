@@ -1084,7 +1084,7 @@
       },
       {
         "nl": "Mag ik jouw hond aaien?",
-        "ja": "あなたの犬を撫でてもいいですか。",
+        "ja": "あなたの犬を撫でてもいい？",
         "en": "May I pet your dog?"
       }
     ]
@@ -1110,7 +1110,7 @@
       },
       {
         "nl": "Waar staan de aanhalingstekens?",
-        "ja": "引用符はどこにありますか。",
+        "ja": "引用符はどこにある？",
         "en": "Where are the quotation marks?"
       }
     ]
@@ -2473,7 +2473,7 @@
       },
       {
         "nl": "Ik kom binnen een uur.",
-        "ja": "私は1時間以内に来ます。",
+        "ja": "私は1時間以内に来る。",
         "en": "I am coming within an hour."
       }
     ]
@@ -3736,7 +3736,7 @@
     "examples": [
       {
         "nl": "Ik eet graag chips.",
-        "ja": "私はポテトチップスが好きです。",
+        "ja": "私はポテトチップスが好きだ。",
         "en": "I like eating crisps."
       },
       {
@@ -3762,7 +3762,7 @@
     "examples": [
       {
         "nl": "Ik eet graag chocolade.",
-        "ja": "私はチョコレートが好きです。",
+        "ja": "私はチョコレートが好きだ。",
         "en": "I like eating chocolate."
       },
       {
@@ -4060,7 +4060,7 @@
       },
       {
         "nl": "Heb jij een creditcard?",
-        "ja": "クレジットカードを持っていますか。",
+        "ja": "クレジットカードを持っている？",
         "en": "Do you have a credit card?"
       }
     ]
@@ -4212,12 +4212,12 @@
     "examples": [
       {
         "nl": "Dat is mijn huis.",
-        "ja": "あれが私の家です。",
+        "ja": "あれが私の家だ。",
         "en": "That is my house."
       },
       {
         "nl": "Dat vind ik heel leuk.",
-        "ja": "それ、とても気に入っています。",
+        "ja": "それ、とても気に入っている。",
         "en": "I like that a lot."
       }
     ]
@@ -4242,7 +4242,7 @@
       },
       {
         "nl": "De vrouw is mijn moeder.",
-        "ja": "その女性は私の母です。",
+        "ja": "その女性は私の母だ。",
         "en": "The woman is my mother."
       }
     ]
@@ -4268,7 +4268,7 @@
       },
       {
         "nl": "Mijn verjaardag is in december.",
-        "ja": "私の誕生日は12月です。",
+        "ja": "私の誕生日は12月だ。",
         "en": "My birthday is in December."
       }
     ]
@@ -4343,7 +4343,7 @@
       },
       {
         "nl": "Die boeken zijn van mij.",
-        "ja": "あの本は私のものです。",
+        "ja": "あの本は私のものだ。",
         "en": "Those books are mine."
       }
     ]
@@ -4419,7 +4419,7 @@
     "examples": [
       {
         "nl": "Op dinsdag werk ik niet.",
-        "ja": "火曜日は仕事をしません。",
+        "ja": "火曜日は仕事をしない。",
         "en": "On Tuesday I do not work."
       },
       {
@@ -4446,12 +4446,12 @@
     "examples": [
       {
         "nl": "De directeur is vandaag ziek.",
-        "ja": "校長は今日病気です。",
+        "ja": "校長は今日病気だ。",
         "en": "The director is ill today."
       },
       {
         "nl": "Ik praat met de directeur.",
-        "ja": "私は責任者と話します。",
+        "ja": "私は責任者と話す。",
         "en": "I am talking with the manager."
       }
     ]
@@ -4471,7 +4471,7 @@
     "examples": [
       {
         "nl": "Dit is mijn nieuwe fiets.",
-        "ja": "これが私の新しい自転車です。",
+        "ja": "これが私の新しい自転車だ。",
         "en": "This is my new bike."
       },
       {
@@ -4525,12 +4525,12 @@
     "examples": [
       {
         "nl": "Donderdag ga ik naar de markt.",
-        "ja": "木曜日に市場へ行きます。",
+        "ja": "木曜日に市場へ行く。",
         "en": "On Thursday I go to the market."
       },
       {
         "nl": "Op donderdag eten wij vis.",
-        "ja": "木曜日には魚を食べます。",
+        "ja": "木曜日には魚を食べる。",
         "en": "On Thursday we eat fish."
       }
     ]
@@ -4630,7 +4630,7 @@
       },
       {
         "nl": "Streep de letters door.",
-        "ja": "その文字に線を引いて消してください。",
+        "ja": "その文字に線を引いて消して。",
         "en": "Cross out the letters."
       }
     ]
@@ -4739,7 +4739,7 @@
       },
       {
         "nl": "Ik neem een koud drankje.",
-        "ja": "私は冷たい飲み物にします。",
+        "ja": "私は冷たい飲み物にする。",
         "en": "I will have a cold drink."
       }
     ]
@@ -4897,7 +4897,7 @@
       },
       {
         "nl": "Mijn broer is drukker.",
-        "ja": "兄は印刷工です。",
+        "ja": "兄は印刷工だ。",
         "en": "My brother is a printer."
       }
     ]
@@ -5181,12 +5181,12 @@
     "examples": [
       {
         "nl": "Wat is het enkelvoud van huizen?",
-        "ja": "huizen の単数形は何ですか。",
+        "ja": "huizen の単数形は何？",
         "en": "What is the singular of huizen?"
       },
       {
         "nl": "Het enkelvoud van boeken is boek.",
-        "ja": "boeken の単数形は boek です。",
+        "ja": "boeken の単数形は boek だ。",
         "en": "The singular of boeken is boek."
       }
     ]
@@ -5399,7 +5399,7 @@
     "examples": [
       {
         "nl": "Mijn verjaardag is in februari.",
-        "ja": "私の誕生日は2月です。",
+        "ja": "私の誕生日は2月だ。",
         "en": "My birthday is in February."
       },
       {
@@ -5698,7 +5698,7 @@
       },
       {
         "nl": "Wij geven garantie op de fiets.",
-        "ja": "私たちは自転車に保証をつけます。",
+        "ja": "私たちは自転車に保証をつける。",
         "en": "We give a guarantee on the bicycle."
       }
     ]
@@ -5746,7 +5746,7 @@
     "examples": [
       {
         "nl": "De geboorte van ons kind is in mei.",
-        "ja": "私たちの子どもの誕生は5月です。",
+        "ja": "私たちの子どもの誕生は5月だ。",
         "en": "The birth of our child is in May."
       },
       {
@@ -5880,7 +5880,7 @@
       },
       {
         "nl": "Geef mij het zout.",
-        "ja": "塩を取ってください。",
+        "ja": "塩を取って。",
         "en": "Give me the salt."
       }
     ]
@@ -7397,7 +7397,7 @@
       },
       {
         "nl": "U kunt nu instappen.",
-        "ja": "今ご乗車いただけます。",
+        "ja": "今から乗車できる。",
         "en": "You can board now."
       }
     ]
@@ -7650,7 +7650,7 @@
     "examples": [
       {
         "nl": "Waar wonen jullie?",
-        "ja": "あなたたちはどこに住んでいますか。",
+        "ja": "あなたたちはどこに住んでいる？",
         "en": "Where do you live?"
       },
       {
@@ -7660,7 +7660,7 @@
       },
       {
         "nl": "Ik help jullie graag.",
-        "ja": "喜んでお手伝いします。",
+        "ja": "喜んで手伝う。",
         "en": "I am happy to help you."
       }
     ]
@@ -7686,7 +7686,7 @@
       },
       {
         "nl": "Mijn verjaardag is in juni.",
-        "ja": "私の誕生日は6月です。",
+        "ja": "私の誕生日は6月だ。",
         "en": "My birthday is in June."
       }
     ]
@@ -8163,7 +8163,7 @@
       },
       {
         "nl": "Kijk jij graag naar vogels?",
-        "ja": "鳥を眺めるのは好きですか。",
+        "ja": "鳥を眺めるのは好き？",
         "en": "Do you like watching birds?"
       }
     ]
@@ -8274,7 +8274,7 @@
       },
       {
         "nl": "Heeft u nog klachten?",
-        "ja": "まだ症状はありますか。",
+        "ja": "まだ症状はある？",
         "en": "Do you still have symptoms?"
       }
     ]
@@ -8407,7 +8407,7 @@
     "examples": [
       {
         "nl": "Welke kleur heeft jouw fiets?",
-        "ja": "あなたの自転車は何色ですか。",
+        "ja": "あなたの自転車は何色？",
         "en": "What color is your bike?"
       },
       {
@@ -8542,7 +8542,7 @@
       },
       {
         "nl": "Knip jij mijn haar?",
-        "ja": "私の髪を切ってくれますか。",
+        "ja": "私の髪を切ってくれる？",
         "en": "Are you cutting my hair?"
       }
     ]
@@ -8705,7 +8705,7 @@
       },
       {
         "nl": "Wil jij koffie of thee?",
-        "ja": "コーヒーか紅茶はいかがですか。",
+        "ja": "コーヒーか紅茶はどう？",
         "en": "Would you like coffee or tea?"
       }
     ]
@@ -8794,7 +8794,7 @@
       },
       {
         "nl": "Dat is twee komma vijf.",
-        "ja": "それは2.5です。",
+        "ja": "それは2.5だ。",
         "en": "That is two point five."
       }
     ]
@@ -10371,12 +10371,12 @@
     "examples": [
       {
         "nl": "De meterkast is in de gang.",
-        "ja": "メーター収納庫は廊下にあります。",
+        "ja": "メーター収納庫は廊下にある。",
         "en": "The meter cupboard is in the hallway."
       },
       {
         "nl": "Ik kijk in de meterkast.",
-        "ja": "私はメーター収納庫の中を見ます。",
+        "ja": "私はメーター収納庫の中を見る。",
         "en": "I look inside the meter cupboard."
       }
     ]
@@ -10398,12 +10398,12 @@
     "examples": [
       {
         "nl": "Ik ga met de metro naar mijn werk.",
-        "ja": "私は地下鉄で仕事に行きます。",
+        "ja": "私は地下鉄で仕事に行く。",
         "en": "I go to work by metro."
       },
       {
         "nl": "De metro naar Amsterdam is vol.",
-        "ja": "アムステルダム行きの地下鉄は満員です。",
+        "ja": "アムステルダム行きの地下鉄は満員だ。",
         "en": "The metro to Amsterdam is full."
       }
     ]
@@ -10425,12 +10425,12 @@
     "examples": [
       {
         "nl": "In de middag drink ik thee.",
-        "ja": "午後に私はお茶を飲みます。",
+        "ja": "午後に私はお茶を飲む。",
         "en": "In the afternoon I drink tea."
       },
       {
         "nl": "De middag is warm en zonnig.",
-        "ja": "午後は暖かくて晴れています。",
+        "ja": "午後は暖かくて晴れている。",
         "en": "The afternoon is warm and sunny."
       }
     ]
@@ -10457,7 +10457,7 @@
       },
       {
         "nl": "Tegen het middaguur eten wij samen.",
-        "ja": "昼どきになると私たちは一緒に食べます。",
+        "ja": "昼どきになると私たちは一緒に食べる。",
         "en": "Around midday we eat together."
       }
     ]
@@ -10484,7 +10484,7 @@
       },
       {
         "nl": "De middelvinger zit naast de wijsvinger.",
-        "ja": "中指は人差し指の隣にあります。",
+        "ja": "中指は人差し指の隣にある。",
         "en": "The middle finger is next to the index finger."
       }
     ]
@@ -10505,12 +10505,12 @@
     "examples": [
       {
         "nl": "Om middernacht slaap ik al.",
-        "ja": "真夜中には私はもう眠っています。",
+        "ja": "真夜中には私はもう眠っている。",
         "en": "At midnight I am already asleep."
       },
       {
         "nl": "Wij eten oliebollen om middernacht.",
-        "ja": "私たちは真夜中にオリーボルを食べます。",
+        "ja": "私たちは真夜中にオリーボルを食べる。",
         "en": "We eat oliebollen at midnight."
       }
     ]
@@ -10530,12 +10530,12 @@
     "examples": [
       {
         "nl": "Hij geeft mij een cadeau.",
-        "ja": "彼は私にプレゼントをくれます。",
+        "ja": "彼は私にプレゼントをくれる。",
         "en": "He gives me a present."
       },
       {
         "nl": "Wil je met mij praten?",
-        "ja": "私と話したいですか。",
+        "ja": "私と話したい？",
         "en": "Do you want to talk with me?"
       }
     ]
@@ -10555,12 +10555,12 @@
     "examples": [
       {
         "nl": "Mijn moeder werkt in de stad.",
-        "ja": "私の母は町で働いています。",
+        "ja": "私の母は町で働いている。",
         "en": "My mother works in the city."
       },
       {
         "nl": "Dat is mijn fiets.",
-        "ja": "あれは私の自転車です。",
+        "ja": "あれは私の自転車だ。",
         "en": "That is my bicycle."
       }
     ]
@@ -10587,7 +10587,7 @@
       },
       {
         "nl": "Ik koop dit nieuwe model.",
-        "ja": "私はこの新しいモデルを買います。",
+        "ja": "私はこの新しいモデルを買う。",
         "en": "I am buying this new model."
       }
     ]
@@ -10609,12 +10609,12 @@
     "examples": [
       {
         "nl": "Mijn moeder kookt soep.",
-        "ja": "母はスープを作ります。",
+        "ja": "母はスープを作る。",
         "en": "My mother cooks soup."
       },
       {
         "nl": "De moeder van Anna is ziek.",
-        "ja": "アンナのお母さんは病気です。",
+        "ja": "アンナのお母さんは病気だ。",
         "en": "Anna's mother is ill."
       }
     ]
@@ -10634,7 +10634,7 @@
     "examples": [
       {
         "nl": "Ik moet nu mijn huiswerk maken.",
-        "ja": "私は今、宿題をしなければなりません。",
+        "ja": "私は今、宿題をしなければならない。",
         "en": "I have to do my homework now."
       },
       {
@@ -10659,7 +10659,7 @@
     "examples": [
       {
         "nl": "Mag ik een beetje water?",
-        "ja": "少し水をいただけますか。",
+        "ja": "少し水をもらえる？",
         "en": "May I have a little water?"
       },
       {
@@ -10686,7 +10686,7 @@
     "examples": [
       {
         "nl": "Het kind heeft snoep in zijn mond.",
-        "ja": "その子は口の中にお菓子を入れています。",
+        "ja": "その子は口の中にお菓子を入れている。",
         "en": "The child has candy in his mouth."
       },
       {
@@ -10713,12 +10713,12 @@
     "examples": [
       {
         "nl": "De motor van de auto is kapot.",
-        "ja": "その車のエンジンは壊れています。",
+        "ja": "その車のエンジンは壊れている。",
         "en": "The engine of the car is broken."
       },
       {
         "nl": "Mijn broer rijdt op een motor.",
-        "ja": "兄はバイクに乗ります。",
+        "ja": "兄はバイクに乗る。",
         "en": "My brother rides a motorbike."
       }
     ]
@@ -10739,12 +10739,12 @@
     "examples": [
       {
         "nl": "Ik eet muesli met melk.",
-        "ja": "私は牛乳をかけてミューズリーを食べます。",
+        "ja": "私は牛乳をかけてミューズリーを食べる。",
         "en": "I eat muesli with milk."
       },
       {
         "nl": "Elke ochtend eet ik muesli.",
-        "ja": "毎朝私はミューズリーを食べます。",
+        "ja": "毎朝私はミューズリーを食べる。",
         "en": "Every morning I eat muesli."
       }
     ]
@@ -10766,12 +10766,12 @@
     "examples": [
       {
         "nl": "Er is een mug in de slaapkamer.",
-        "ja": "寝室に蚊が一匹います。",
+        "ja": "寝室に蚊が一匹いる。",
         "en": "There is a mosquito in the bedroom."
       },
       {
         "nl": "De mug prikt in mijn arm.",
-        "ja": "蚊が私の腕を刺します。",
+        "ja": "蚊が私の腕を刺す。",
         "en": "The mosquito bites my arm."
       }
     ]
@@ -10793,17 +10793,17 @@
     "examples": [
       {
         "nl": "De muis eet kaas.",
-        "ja": "そのネズミはチーズを食べます。",
+        "ja": "そのネズミはチーズを食べる。",
         "en": "The mouse eats cheese."
       },
       {
         "nl": "De poes vangt een muis.",
-        "ja": "猫がネズミを捕まえます。",
+        "ja": "猫がネズミを捕まえる。",
         "en": "The cat catches a mouse."
       },
       {
         "nl": "De muis van mijn computer is kapot.",
-        "ja": "私のパソコンのマウスは壊れています。",
+        "ja": "私のパソコンのマウスは壊れている。",
         "en": "The mouse of my computer is broken."
       }
     ]
@@ -10825,12 +10825,12 @@
     "examples": [
       {
         "nl": "Een mus zit in de boom.",
-        "ja": "スズメが木にとまっています。",
+        "ja": "スズメが木にとまっている。",
         "en": "A sparrow is sitting in the tree."
       },
       {
         "nl": "De mus eet brood.",
-        "ja": "そのスズメはパンを食べます。",
+        "ja": "そのスズメはパンを食べる。",
         "en": "The sparrow eats bread."
       }
     ]
@@ -10852,7 +10852,7 @@
     "examples": [
       {
         "nl": "In de winter draag ik een muts.",
-        "ja": "冬に私はニット帽をかぶります。",
+        "ja": "冬に私はニット帽をかぶる。",
         "en": "In winter I wear a cap."
       },
       {
@@ -10884,7 +10884,7 @@
       },
       {
         "nl": "De kast staat tegen de muur.",
-        "ja": "戸棚は壁に寄せて置いてあります。",
+        "ja": "戸棚は壁に寄せて置いてある。",
         "en": "The cupboard stands against the wall."
       }
     ]
@@ -10904,12 +10904,12 @@
     "examples": [
       {
         "nl": "Na het werk ga ik naar huis.",
-        "ja": "仕事の後、私は家に帰ります。",
+        "ja": "仕事の後、私は家に帰る。",
         "en": "After work I go home."
       },
       {
         "nl": "Na de lunch drinken wij koffie.",
-        "ja": "昼食の後、私たちはコーヒーを飲みます。",
+        "ja": "昼食の後、私たちはコーヒーを飲む。",
         "en": "After lunch we drink coffee."
       }
     ]
@@ -10929,12 +10929,12 @@
     "examples": [
       {
         "nl": "Mijn moeder naait een jurk.",
-        "ja": "母はワンピースを縫います。",
+        "ja": "母はワンピースを縫う。",
         "en": "My mother sews a dress."
       },
       {
         "nl": "Ik naai een knoop aan mijn overhemd.",
-        "ja": "私はシャツにボタンを縫い付けます。",
+        "ja": "私はシャツにボタンを縫い付ける。",
         "en": "I sew a button onto my shirt."
       }
     ]
@@ -10954,12 +10954,12 @@
     "examples": [
       {
         "nl": "Wij gaan naar de markt.",
-        "ja": "私たちは市場へ行きます。",
+        "ja": "私たちは市場へ行く。",
         "en": "We are going to the market."
       },
       {
         "nl": "Ik loop naar het station.",
-        "ja": "私は駅まで歩きます。",
+        "ja": "私は駅まで歩く。",
         "en": "I walk to the station."
       }
     ]
@@ -10979,12 +10979,12 @@
     "examples": [
       {
         "nl": "De stoel staat naast de tafel.",
-        "ja": "椅子はテーブルの隣にあります。",
+        "ja": "椅子はテーブルの隣にある。",
         "en": "The chair stands next to the table."
       },
       {
         "nl": "Ik zit naast mijn zus.",
-        "ja": "私は姉の隣に座っています。",
+        "ja": "私は姉の隣に座っている。",
         "en": "I am sitting next to my sister."
       }
     ]
@@ -11006,7 +11006,7 @@
     "examples": [
       {
         "nl": "In de nacht slaap ik goed.",
-        "ja": "夜に私はよく眠ります。",
+        "ja": "夜に私はよく眠る。",
         "en": "At night I sleep well."
       },
       {
@@ -11038,7 +11038,7 @@
       },
       {
         "nl": "In bed draag ik een nachthemd.",
-        "ja": "ベッドでは私は寝間着を着ます。",
+        "ja": "ベッドでは私は寝間着を着る。",
         "en": "In bed I wear a nightgown."
       }
     ]
@@ -11060,17 +11060,17 @@
     "examples": [
       {
         "nl": "Mijn nagel is kapot.",
-        "ja": "私の爪は割れています。",
+        "ja": "私の爪は割れている。",
         "en": "My nail is broken."
       },
       {
         "nl": "Ik knip mijn nagels.",
-        "ja": "私は爪を切ります。",
+        "ja": "私は爪を切る。",
         "en": "I cut my nails."
       },
       {
         "nl": "Ik sla een nagel in de plank.",
-        "ja": "私は板に釘を打ちます。",
+        "ja": "私は板に釘を打つ。",
         "en": "I hammer a nail into the board."
       }
     ]
@@ -11096,7 +11096,7 @@
       },
       {
         "nl": "Het najaar begint in september.",
-        "ja": "秋は9月に始まります。",
+        "ja": "秋は9月に始まる。",
         "en": "The autumn begins in September."
       }
     ]
@@ -11116,12 +11116,12 @@
     "examples": [
       {
         "nl": "Mijn schoenen zijn nat.",
-        "ja": "私の靴は濡れています。",
+        "ja": "私の靴は濡れている。",
         "en": "My shoes are wet."
       },
       {
         "nl": "Het gras is nat van de regen.",
-        "ja": "草は雨で濡れています。",
+        "ja": "草は雨で濡れている。",
         "en": "The grass is wet from the rain."
       }
     ]
@@ -11148,7 +11148,7 @@
       },
       {
         "nl": "Mijn navel zit op mijn buik.",
-        "ja": "へそはお腹にあります。",
+        "ja": "へそはお腹にある。",
         "en": "My navel is on my belly."
       }
     ]
@@ -11170,12 +11170,12 @@
     "examples": [
       {
         "nl": "De giraffe heeft een lange nek.",
-        "ja": "キリンは長い首をしています。",
+        "ja": "キリンは長い首をしている。",
         "en": "The giraffe has a long neck."
       },
       {
         "nl": "De sjaal zit om mijn nek.",
-        "ja": "マフラーが私の首に巻かれています。",
+        "ja": "マフラーが私の首に巻かれている。",
         "en": "The scarf is around my neck."
       }
     ]
@@ -11202,7 +11202,7 @@
       },
       {
         "nl": "Ik snuit mijn neus.",
-        "ja": "私は鼻をかみます。",
+        "ja": "私は鼻をかむ。",
         "en": "I blow my nose."
       }
     ]
@@ -11223,12 +11223,12 @@
     "examples": [
       {
         "nl": "De nieren zitten in de buik.",
-        "ja": "腎臓はお腹の中にあります。",
+        "ja": "腎臓はお腹の中にある。",
         "en": "The kidneys are in the belly."
       },
       {
         "nl": "Ik heb twee nieren.",
-        "ja": "私には腎臓が2つあります。",
+        "ja": "私には腎臓が2つある。",
         "en": "I have two kidneys."
       }
     ]
@@ -11250,12 +11250,12 @@
     "examples": [
       {
         "nl": "Het nietje zit in het papier.",
-        "ja": "ホチキスの針が紙に留まっています。",
+        "ja": "ホチキスの針が紙に留まっている。",
         "en": "The staple is in the paper."
       },
       {
         "nl": "Ik zoek een nietje.",
-        "ja": "私はホチキスの針を探しています。",
+        "ja": "私はホチキスの針を探している。",
         "en": "I am looking for a staple."
       }
     ]
@@ -11275,12 +11275,12 @@
     "examples": [
       {
         "nl": "Ik nies want ik ben verkouden.",
-        "ja": "風邪をひいているので私はくしゃみをします。",
+        "ja": "風邪をひいているので私はくしゃみをする。",
         "en": "I sneeze because I have a cold."
       },
       {
         "nl": "Het kind niest heel vaak.",
-        "ja": "その子はとてもよくくしゃみをします。",
+        "ja": "その子はとてもよくくしゃみをする。",
         "en": "The child sneezes very often."
       }
     ]
@@ -11307,7 +11307,7 @@
       },
       {
         "nl": "Het nijlpaard zwemt in de rivier.",
-        "ja": "カバは川で泳ぎます。",
+        "ja": "カバは川で泳ぐ。",
         "en": "The hippopotamus swims in the river."
       }
     ]
@@ -11328,17 +11328,17 @@
     "examples": [
       {
         "nl": "Ik eet noten en druiven.",
-        "ja": "私はナッツとぶどうを食べます。",
+        "ja": "私はナッツとぶどうを食べる。",
         "en": "I eat nuts and grapes."
       },
       {
         "nl": "Deze noten zijn zout.",
-        "ja": "このナッツは塩味です。",
+        "ja": "このナッツは塩味だ。",
         "en": "These nuts are salty."
       },
       {
         "nl": "Ik lees de noten en zing.",
-        "ja": "私は音符を読んで歌います。",
+        "ja": "私は音符を読んで歌う。",
         "en": "I read the notes and sing."
       }
     ]
@@ -11364,7 +11364,7 @@
       },
       {
         "nl": "Mijn verjaardag is in november.",
-        "ja": "私の誕生日は11月です。",
+        "ja": "私の誕生日は11月だ。",
         "en": "My birthday is in November."
       }
     ]
@@ -11386,12 +11386,12 @@
     "examples": [
       {
         "nl": "De ober brengt de soep.",
-        "ja": "ウェイターがスープを持ってきます。",
+        "ja": "ウェイターがスープを持ってくる。",
         "en": "The waiter brings the soup."
       },
       {
         "nl": "Ik vraag de ober om water.",
-        "ja": "私はウェイターに水を頼みます。",
+        "ja": "私はウェイターに水を頼む。",
         "en": "I ask the waiter for water."
       }
     ]
@@ -11413,12 +11413,12 @@
     "examples": [
       {
         "nl": "In de ochtend eet ik brood.",
-        "ja": "朝に私はパンを食べます。",
+        "ja": "朝に私はパンを食べる。",
         "en": "In the morning I eat bread."
       },
       {
         "nl": "Elke ochtend sta ik om zeven uur op.",
-        "ja": "毎朝私は7時に起きます。",
+        "ja": "毎朝私は7時に起きる。",
         "en": "Every morning I get up at seven o'clock."
       }
     ]
@@ -11445,7 +11445,7 @@
       },
       {
         "nl": "Ik maak de oefening in mijn schrift.",
-        "ja": "私はノートで練習問題を解きます。",
+        "ja": "私はノートで練習問題を解く。",
         "en": "I do the exercise in my notebook."
       }
     ]
@@ -11471,7 +11471,7 @@
       },
       {
         "nl": "Het kind heeft mooie ogen.",
-        "ja": "その子はきれいな目をしています。",
+        "ja": "その子はきれいな目をしている。",
         "en": "The child has beautiful eyes."
       }
     ]
@@ -11492,12 +11492,12 @@
     "examples": [
       {
         "nl": "In oktober begint de herfst.",
-        "ja": "10月に秋が始まります。",
+        "ja": "10月に秋が始まる。",
         "en": "In October the autumn begins."
       },
       {
         "nl": "Mijn zus komt in oktober.",
-        "ja": "姉は10月に来ます。",
+        "ja": "姉は10月に来る。",
         "en": "My sister comes in October."
       }
     ]
@@ -11518,12 +11518,12 @@
     "examples": [
       {
         "nl": "Ik kook met olie.",
-        "ja": "私は油で料理をします。",
+        "ja": "私は油で料理をする。",
         "en": "I cook with oil."
       },
       {
         "nl": "Wij doen olie op de salade.",
-        "ja": "私たちはサラダに油をかけます。",
+        "ja": "私たちはサラダに油をかける。",
         "en": "We put oil on the salad."
       }
     ]
@@ -11544,12 +11544,12 @@
     "examples": [
       {
         "nl": "Wij eten oliebollen in december.",
-        "ja": "私たちは12月にオリーボルを食べます。",
+        "ja": "私たちは12月にオリーボルを食べる。",
         "en": "We eat oliebollen in December."
       },
       {
         "nl": "Mijn oma maakt oliebollen met suiker.",
-        "ja": "祖母は砂糖をかけたオリーボルを作ります。",
+        "ja": "祖母は砂糖をかけたオリーボルを作る。",
         "en": "My grandma makes oliebollen with sugar."
       }
     ]
@@ -11576,7 +11576,7 @@
       },
       {
         "nl": "De olifant drinkt water.",
-        "ja": "象は水を飲みます。",
+        "ja": "象は水を飲む。",
         "en": "The elephant drinks water."
       }
     ]
@@ -11597,12 +11597,12 @@
     "examples": [
       {
         "nl": "Ik eet olijven met brood.",
-        "ja": "私はパンと一緒にオリーブを食べます。",
+        "ja": "私はパンと一緒にオリーブを食べる。",
         "en": "I eat olives with bread."
       },
       {
         "nl": "De olijven zijn groen.",
-        "ja": "そのオリーブは緑色です。",
+        "ja": "そのオリーブは緑色だ。",
         "en": "The olives are green."
       }
     ]
@@ -11622,12 +11622,12 @@
     "examples": [
       {
         "nl": "Wij eten om zes uur.",
-        "ja": "私たちは6時に食べます。",
+        "ja": "私たちは6時に食べる。",
         "en": "We eat at six o'clock."
       },
       {
         "nl": "De kinderen zitten om de tafel.",
-        "ja": "子どもたちはテーブルを囲んで座っています。",
+        "ja": "子どもたちはテーブルを囲んで座っている。",
         "en": "The children sit around the table."
       }
     ]
@@ -11649,12 +11649,12 @@
     "examples": [
       {
         "nl": "Mijn oma woont in Rotterdam.",
-        "ja": "祖母はロッテルダムに住んでいます。",
+        "ja": "祖母はロッテルダムに住んでいる。",
         "en": "My grandma lives in Rotterdam."
       },
       {
         "nl": "Ik ga met mijn oma naar de markt.",
-        "ja": "私は祖母と市場へ行きます。",
+        "ja": "私は祖母と市場へ行く。",
         "en": "I go to the market with my grandma."
       }
     ]
@@ -11674,12 +11674,12 @@
     "examples": [
       {
         "nl": "Ik omcirkel het goede woord.",
-        "ja": "私は正しい単語を丸で囲みます。",
+        "ja": "私は正しい単語を丸で囲む。",
         "en": "I circle the correct word."
       },
       {
         "nl": "Omcirkel de letters in het boek.",
-        "ja": "本の中の文字を丸で囲んでください。",
+        "ja": "本の中の文字を丸で囲んで。",
         "en": "Circle the letters in the book."
       }
     ]
@@ -13065,12 +13065,12 @@
     "examples": [
       {
         "nl": "Kan ik hier pinnen?",
-        "ja": "ここでデビットカードで払えますか。",
+        "ja": "ここでデビットカードで払える？",
         "en": "Can I pay by debit card here?"
       },
       {
         "nl": "Ik ga bij de kassa pinnen.",
-        "ja": "レジでカードで払います。",
+        "ja": "レジでカードで払う。",
         "en": "I am going to pay by card at the till."
       }
     ]
@@ -13388,7 +13388,7 @@
       },
       {
         "nl": "Praat jij met de kinderen?",
-        "ja": "あなたは子どもたちと話しますか。",
+        "ja": "あなたは子どもたちと話す？",
         "en": "Do you talk with the children?"
       }
     ]
@@ -13415,7 +13415,7 @@
       },
       {
         "nl": "Wat is de prijs van dit boek?",
-        "ja": "この本の値段はいくらですか。",
+        "ja": "この本の値段はいくら？",
         "en": "What is the price of this book?"
       },
       {
@@ -13694,7 +13694,7 @@
       },
       {
         "nl": "Reis jij naar Amsterdam?",
-        "ja": "あなたはアムステルダムへ行きますか。",
+        "ja": "あなたはアムステルダムへ行く？",
         "en": "Are you travelling to Amsterdam?"
       }
     ]
@@ -13771,7 +13771,7 @@
       },
       {
         "nl": "Kun jij de kraan repareren?",
-        "ja": "蛇口を修理できますか。",
+        "ja": "蛇口を修理できる？",
         "en": "Can you repair the tap?"
       }
     ]
@@ -13881,7 +13881,7 @@
       },
       {
         "nl": "Rijd jij op de scooter?",
-        "ja": "あなたはスクーターに乗りますか。",
+        "ja": "あなたはスクーターに乗る？",
         "en": "Do you ride the scooter?"
       }
     ]
@@ -16285,7 +16285,7 @@
       },
       {
         "nl": "U tekent het contract.",
-        "ja": "あなたが契約書に署名します。",
+        "ja": "あなたが契約書に署名する。",
         "en": "You sign the contract."
       }
     ]
@@ -16549,7 +16549,7 @@
     "examples": [
       {
         "nl": "Waar is het toilet?",
-        "ja": "トイレはどこですか。",
+        "ja": "トイレはどこ？",
         "en": "Where is the toilet?"
       },
       {
@@ -17051,7 +17051,7 @@
     "examples": [
       {
         "nl": "Ik kom uit Japan.",
-        "ja": "私は日本の出身です。",
+        "ja": "私は日本の出身だ。",
         "en": "I am from Japan."
       },
       {
@@ -17081,12 +17081,12 @@
     "examples": [
       {
         "nl": "Wij checken vandaag uit.",
-        "ja": "私たちは今日チェックアウトします。",
+        "ja": "私たちは今日チェックアウトする。",
         "en": "We check out today."
       },
       {
         "nl": "Ik wil om tien uur uitchecken.",
-        "ja": "10時にチェックアウトしたいです。",
+        "ja": "10時にチェックアウトしたい。",
         "en": "I want to check out at ten o'clock."
       }
     ]
@@ -17108,12 +17108,12 @@
     "examples": [
       {
         "nl": "Dit is een uitroepteken.",
-        "ja": "これは感嘆符です。",
+        "ja": "これは感嘆符だ。",
         "en": "This is an exclamation mark."
       },
       {
         "nl": "Het uitroepteken staat achter het woord.",
-        "ja": "感嘆符は語の後ろにあります。",
+        "ja": "感嘆符は語の後ろにある。",
         "en": "The exclamation mark is after the word."
       }
     ]
@@ -17133,12 +17133,12 @@
     "examples": [
       {
         "nl": "Ik rust nu even uit.",
-        "ja": "私は今少し休みます。",
+        "ja": "私は今少し休む。",
         "en": "I am resting for a bit now."
       },
       {
         "nl": "Wij rusten in de tuin uit.",
-        "ja": "私たちは庭で休みます。",
+        "ja": "私たちは庭で休む。",
         "en": "We rest in the garden."
       }
     ]
@@ -17158,12 +17158,12 @@
     "examples": [
       {
         "nl": "Ik stap bij het station uit.",
-        "ja": "私は駅で降ります。",
+        "ja": "私は駅で降りる。",
         "en": "I get off at the station."
       },
       {
         "nl": "Wij stappen hier uit.",
-        "ja": "私たちはここで降ります。",
+        "ja": "私たちはここで降りる。",
         "en": "We get off here."
       }
     ]
@@ -17184,12 +17184,12 @@
     "examples": [
       {
         "nl": "De uitverkoop begint vandaag.",
-        "ja": "セールは今日始まります。",
+        "ja": "セールは今日始まる。",
         "en": "The sale starts today."
       },
       {
         "nl": "Ik koop deze trui in de uitverkoop.",
-        "ja": "私はこのセーターをセールで買います。",
+        "ja": "私はこのセーターをセールで買う。",
         "en": "I buy this sweater in the sale."
       }
     ]
@@ -17211,12 +17211,12 @@
     "examples": [
       {
         "nl": "Ik werk vandaag acht uur.",
-        "ja": "私は今日8時間働きます。",
+        "ja": "私は今日8時間働く。",
         "en": "I work eight hours today."
       },
       {
         "nl": "Ik sta om zeven uur op.",
-        "ja": "私は7時に起きます。",
+        "ja": "私は7時に起きる。",
         "en": "I get up at seven o'clock."
       }
     ]
@@ -17263,12 +17263,12 @@
     "examples": [
       {
         "nl": "De vaas staat op de tafel.",
-        "ja": "花瓶はテーブルの上にあります。",
+        "ja": "花瓶はテーブルの上にある。",
         "en": "The vase is on the table."
       },
       {
         "nl": "Er staan bloemen in de vaas.",
-        "ja": "花瓶に花が入っています。",
+        "ja": "花瓶に花が入っている。",
         "en": "There are flowers in the vase."
       }
     ]
@@ -17290,12 +17290,12 @@
     "examples": [
       {
         "nl": "Mijn vader werkt in de tuin.",
-        "ja": "父は庭で働いています。",
+        "ja": "父は庭で働いている。",
         "en": "My father works in the garden."
       },
       {
         "nl": "De vader van Anna kookt vandaag.",
-        "ja": "アンナのお父さんが今日料理します。",
+        "ja": "アンナのお父さんが今日料理する。",
         "en": "Anna's father is cooking today."
       }
     ]
@@ -17315,17 +17315,17 @@
     "examples": [
       {
         "nl": "Het kind valt op de vloer.",
-        "ja": "子どもが床に転びます。",
+        "ja": "子どもが床に転ぶ。",
         "en": "The child falls on the floor."
       },
       {
         "nl": "De appel valt uit de boom.",
-        "ja": "りんごが木から落ちます。",
+        "ja": "りんごが木から落ちる。",
         "en": "The apple falls out of the tree."
       },
       {
         "nl": "Ik val bijna op de trap.",
-        "ja": "私は階段でほとんど転びそうになります。",
+        "ja": "私は階段でほとんど転びそうになる。",
         "en": "I almost fall on the stairs."
       }
     ]
@@ -17345,17 +17345,17 @@
     "examples": [
       {
         "nl": "Dit is het boek van Anna.",
-        "ja": "これはアンナの本です。",
+        "ja": "これはアンナの本だ。",
         "en": "This is Anna's book."
       },
       {
         "nl": "Ik kom van de markt.",
-        "ja": "私は市場から帰ってきます。",
+        "ja": "私は市場から帰ってくる。",
         "en": "I am coming from the market."
       },
       {
         "nl": "De deur van het huis is groot.",
-        "ja": "その家のドアは大きいです。",
+        "ja": "その家のドアは大きい。",
         "en": "The door of the house is big."
       }
     ]
@@ -17375,17 +17375,17 @@
     "examples": [
       {
         "nl": "De poes vangt een muis.",
-        "ja": "猫がネズミを捕まえます。",
+        "ja": "猫がネズミを捕まえる。",
         "en": "The cat catches a mouse."
       },
       {
         "nl": "Wij vangen een grote vis.",
-        "ja": "私たちは大きな魚を捕まえます。",
+        "ja": "私たちは大きな魚を捕まえる。",
         "en": "We catch a big fish."
       },
       {
         "nl": "Ik vang een vlieg in de keuken.",
-        "ja": "私は台所でハエを捕まえます。",
+        "ja": "私は台所でハエを捕まえる。",
         "en": "I catch a fly in the kitchen."
       }
     ]
@@ -17405,12 +17405,12 @@
     "examples": [
       {
         "nl": "Wij varen met de boot.",
-        "ja": "私たちは船で行きます。",
+        "ja": "私たちは船で行く。",
         "en": "We go by boat."
       },
       {
         "nl": "De boot vaart naar het eiland.",
-        "ja": "船は島へ向かいます。",
+        "ja": "船は島へ向かう。",
         "en": "The boat sails to the island."
       }
     ]
@@ -17430,12 +17430,12 @@
     "examples": [
       {
         "nl": "Ik veeg de vloer.",
-        "ja": "私は床を掃きます。",
+        "ja": "私は床を掃く。",
         "en": "I sweep the floor."
       },
       {
         "nl": "Mijn moeder veegt de keuken.",
-        "ja": "母は台所を掃きます。",
+        "ja": "母は台所を掃く。",
         "en": "My mother sweeps the kitchen."
       }
     ]
@@ -17455,12 +17455,12 @@
     "examples": [
       {
         "nl": "Deze trein verbindt twee dorpen.",
-        "ja": "この電車は二つの村をつないでいます。",
+        "ja": "この電車は二つの村をつないでいる。",
         "en": "This train connects two villages."
       },
       {
         "nl": "Ik verbind u met de directeur.",
-        "ja": "部長におつなぎします。",
+        "ja": "部長につなぐ。",
         "en": "I will connect you to the director."
       }
     ]
@@ -17480,12 +17480,12 @@
     "examples": [
       {
         "nl": "Ik vergeet altijd mijn pasje.",
-        "ja": "私はいつもカードを忘れます。",
+        "ja": "私はいつもカードを忘れる。",
         "en": "I always forget my card."
       },
       {
         "nl": "Hij vergeet zijn boek in de kantine.",
-        "ja": "彼は食堂に本を忘れます。",
+        "ja": "彼は食堂に本を忘れる。",
         "en": "He forgets his book in the canteen."
       }
     ]
@@ -17507,12 +17507,12 @@
     "examples": [
       {
         "nl": "Mijn verjaardag is in mei.",
-        "ja": "私の誕生日は5月です。",
+        "ja": "私の誕生日は5月だ。",
         "en": "My birthday is in May."
       },
       {
         "nl": "Ik krijg een cadeau voor mijn verjaardag.",
-        "ja": "私は誕生日にプレゼントをもらいます。",
+        "ja": "私は誕生日にプレゼントをもらう。",
         "en": "I get a present for my birthday."
       }
     ]
@@ -17534,12 +17534,12 @@
     "examples": [
       {
         "nl": "Het verkeerslicht is rood.",
-        "ja": "信号は赤です。",
+        "ja": "信号は赤だ。",
         "en": "The traffic light is red."
       },
       {
         "nl": "Wij staan bij het verkeerslicht.",
-        "ja": "私たちは信号のところに立っています。",
+        "ja": "私たちは信号のところに立っている。",
         "en": "We are standing at the traffic light."
       }
     ]
@@ -17561,12 +17561,12 @@
     "examples": [
       {
         "nl": "Bloemetje is een verkleinwoord.",
-        "ja": "bloemetje は縮小語です。",
+        "ja": "bloemetje は縮小語だ。",
         "en": "\"Bloemetje\" is a diminutive."
       },
       {
         "nl": "Zusje is een verkleinwoord van zus.",
-        "ja": "zusje は zus の縮小語です。",
+        "ja": "zusje は zus の縮小語だ。",
         "en": "\"Zusje\" is a diminutive of \"zus\"."
       }
     ]
@@ -17586,12 +17586,12 @@
     "examples": [
       {
         "nl": "Zij verkoopt bloemen op de markt.",
-        "ja": "彼女は市場で花を売っています。",
+        "ja": "彼女は市場で花を売っている。",
         "en": "She sells flowers at the market."
       },
       {
         "nl": "Wij verkopen onze oude auto.",
-        "ja": "私たちは古い車を売ります。",
+        "ja": "私たちは古い車を売る。",
         "en": "We are selling our old car."
       }
     ]
@@ -17613,12 +17613,12 @@
     "examples": [
       {
         "nl": "De verkoper helpt mij.",
-        "ja": "店員が私を手伝ってくれます。",
+        "ja": "店員が私を手伝ってくれる。",
         "en": "The salesperson helps me."
       },
       {
         "nl": "De verkoper werkt in een schoenwinkel.",
-        "ja": "その店員は靴屋で働いています。",
+        "ja": "その店員は靴屋で働いている。",
         "en": "The salesperson works in a shoe shop."
       }
     ]
@@ -17638,12 +17638,12 @@
     "examples": [
       {
         "nl": "Ik ben verkouden.",
-        "ja": "私は風邪をひいています。",
+        "ja": "私は風邪をひいている。",
         "en": "I have a cold."
       },
       {
         "nl": "Het kind is erg verkouden.",
-        "ja": "その子はひどい風邪をひいています。",
+        "ja": "その子はひどい風邪をひいている。",
         "en": "The child has a bad cold."
       }
     ]
@@ -17663,17 +17663,17 @@
     "examples": [
       {
         "nl": "Ik verlies altijd mijn pen.",
-        "ja": "私はいつもペンをなくします。",
+        "ja": "私はいつもペンをなくす。",
         "en": "I always lose my pen."
       },
       {
         "nl": "Wij verliezen het spel.",
-        "ja": "私たちはその試合に負けます。",
+        "ja": "私たちはその試合に負ける。",
         "en": "We lose the game."
       },
       {
         "nl": "Hij verliest zijn pinpas.",
-        "ja": "彼はデビットカードをなくします。",
+        "ja": "彼はデビットカードをなくす。",
         "en": "He loses his debit card."
       }
     ]
@@ -17695,12 +17695,12 @@
     "examples": [
       {
         "nl": "De verloskundige komt vandaag.",
-        "ja": "助産師が今日来ます。",
+        "ja": "助産師が今日来る。",
         "en": "The midwife comes today."
       },
       {
         "nl": "De verloskundige helpt bij de bevalling.",
-        "ja": "助産師が出産を手伝います。",
+        "ja": "助産師が出産を手伝う。",
         "en": "The midwife helps with the birth."
       }
     ]
@@ -17720,12 +17720,12 @@
     "examples": [
       {
         "nl": "Vertel jij iets over Japan?",
-        "ja": "日本について何か話してくれますか。",
+        "ja": "日本について何か話してくれる？",
         "en": "Will you tell something about Japan?"
       },
       {
         "nl": "De moeder vertelt iets aan het kind.",
-        "ja": "母親が子どもに何か話します。",
+        "ja": "母親が子どもに何か話す。",
         "en": "The mother tells something to the child."
       }
     ]
@@ -17747,12 +17747,12 @@
     "examples": [
       {
         "nl": "De trein heeft vertraging.",
-        "ja": "電車が遅れています。",
+        "ja": "電車が遅れている。",
         "en": "The train is delayed."
       },
       {
         "nl": "Er is vertraging op deze lijn.",
-        "ja": "この路線で遅延があります。",
+        "ja": "この路線で遅延がある。",
         "en": "There is a delay on this line."
       }
     ]
@@ -17774,12 +17774,12 @@
     "examples": [
       {
         "nl": "Ik heb geen vervoersbewijs.",
-        "ja": "私は乗車券を持っていません。",
+        "ja": "私は乗車券を持っていない。",
         "en": "I don't have a transport ticket."
       },
       {
         "nl": "De conducteur wil mijn vervoersbewijs zien.",
-        "ja": "車掌が私の乗車券を見たがっています。",
+        "ja": "車掌が私の乗車券を見たがっている。",
         "en": "The conductor wants to see my ticket."
       }
     ]
@@ -17801,12 +17801,12 @@
     "examples": [
       {
         "nl": "Dit vest is te klein.",
-        "ja": "このカーディガンは小さすぎます。",
+        "ja": "このカーディガンは小さすぎる。",
         "en": "This cardigan is too small."
       },
       {
         "nl": "Ik draag een blauw vest.",
-        "ja": "私は青いカーディガンを着ています。",
+        "ja": "私は青いカーディガンを着ている。",
         "en": "I am wearing a blue cardigan."
       }
     ]
@@ -17828,12 +17828,12 @@
     "examples": [
       {
         "nl": "Ik teken een vierkant.",
-        "ja": "私は正方形を描きます。",
+        "ja": "私は正方形を描く。",
         "en": "I draw a square."
       },
       {
         "nl": "Het vierkant is rood.",
-        "ja": "その正方形は赤です。",
+        "ja": "その正方形は赤だ。",
         "en": "The square is red."
       }
     ]
@@ -17853,17 +17853,17 @@
     "examples": [
       {
         "nl": "Ik vind mijn boek niet.",
-        "ja": "私は本が見つかりません。",
+        "ja": "私は本が見つからない。",
         "en": "I can't find my book."
       },
       {
         "nl": "Hij vindt de pen onder de tafel.",
-        "ja": "彼はテーブルの下でペンを見つけます。",
+        "ja": "彼はテーブルの下でペンを見つける。",
         "en": "He finds the pen under the table."
       },
       {
         "nl": "Ik vind dit boek leuk.",
-        "ja": "私はこの本が気に入っています。",
+        "ja": "私はこの本が気に入っている。",
         "en": "I like this book."
       }
     ]
@@ -17885,12 +17885,12 @@
     "examples": [
       {
         "nl": "Ik heb tien vingers.",
-        "ja": "私は指が10本あります。",
+        "ja": "私は指が10本ある。",
         "en": "I have ten fingers."
       },
       {
         "nl": "De baby pakt mijn vinger.",
-        "ja": "赤ちゃんが私の指をつかみます。",
+        "ja": "赤ちゃんが私の指をつかむ。",
         "en": "The baby grabs my finger."
       }
     ]
@@ -17911,13 +17911,13 @@
     ],
     "examples": [
       {
-        "nl": "Achter het woord staat een vinkje.",
-        "ja": "その単語の後ろにチェックマークがある。",
-        "en": "There is a check mark after the word."
+        "nl": "Ik zie een vinkje op het papier.",
+        "ja": "紙にチェックマークが見える。",
+        "en": "I see a check mark on the paper."
       },
       {
         "nl": "Er staat een vinkje achter het woord.",
-        "ja": "語の後ろにチェックマークがあります。",
+        "ja": "語の後ろにチェックマークがある。",
         "en": "There is a check mark after the word."
       }
     ]
@@ -17939,12 +17939,12 @@
     "examples": [
       {
         "nl": "Wij eten vandaag vis.",
-        "ja": "私たちは今日魚を食べます。",
+        "ja": "私たちは今日魚を食べる。",
         "en": "We are eating fish today."
       },
       {
         "nl": "De vissen zwemmen in het water.",
-        "ja": "魚が水の中を泳いでいます。",
+        "ja": "魚が水の中を泳いでいる。",
         "en": "The fish swim in the water."
       }
     ]
@@ -17965,12 +17965,12 @@
     "examples": [
       {
         "nl": "Ik eet geen vlees.",
-        "ja": "私は肉を食べません。",
+        "ja": "私は肉を食べない。",
         "en": "I don't eat meat."
       },
       {
         "nl": "De slager verkoopt goed vlees.",
-        "ja": "あの肉屋は良い肉を売っています。",
+        "ja": "あの肉屋は良い肉を売っている。",
         "en": "The butcher sells good meat."
       }
     ]
@@ -17992,12 +17992,12 @@
     "examples": [
       {
         "nl": "Er zit een vlieg op het brood.",
-        "ja": "パンの上にハエがとまっています。",
+        "ja": "パンの上にハエがとまっている。",
         "en": "There is a fly on the bread."
       },
       {
         "nl": "Ik zie een grote vlieg.",
-        "ja": "大きなハエが見えます。",
+        "ja": "大きなハエが見える。",
         "en": "I see a big fly."
       }
     ]
@@ -18017,12 +18017,12 @@
     "examples": [
       {
         "nl": "De vogels vliegen hoog.",
-        "ja": "鳥たちが高く飛んでいます。",
+        "ja": "鳥たちが高く飛んでいる。",
         "en": "The birds fly high."
       },
       {
         "nl": "Wij vliegen morgen naar Japan.",
-        "ja": "私たちは明日日本へ飛びます。",
+        "ja": "私たちは明日日本へ飛ぶ。",
         "en": "We fly to Japan tomorrow."
       }
     ]
@@ -18044,12 +18044,12 @@
     "examples": [
       {
         "nl": "Het vliegtuig is heel groot.",
-        "ja": "その飛行機はとても大きいです。",
+        "ja": "その飛行機はとても大きい。",
         "en": "The airplane is very big."
       },
       {
         "nl": "Wij gaan met het vliegtuig naar Japan.",
-        "ja": "私たちは飛行機で日本へ行きます。",
+        "ja": "私たちは飛行機で日本へ行く。",
         "en": "We go to Japan by plane."
       }
     ]
@@ -18071,12 +18071,12 @@
     "examples": [
       {
         "nl": "De vlinder zit op een bloem.",
-        "ja": "チョウが花にとまっています。",
+        "ja": "チョウが花にとまっている。",
         "en": "The butterfly sits on a flower."
       },
       {
         "nl": "Ik zie een mooie vlinder in de tuin.",
-        "ja": "庭できれいなチョウを見かけます。",
+        "ja": "庭できれいなチョウを見かける。",
         "en": "I see a beautiful butterfly in the garden."
       }
     ]
@@ -18098,12 +18098,12 @@
     "examples": [
       {
         "nl": "De vloer is nat.",
-        "ja": "床が濡れています。",
+        "ja": "床が濡れている。",
         "en": "The floor is wet."
       },
       {
         "nl": "Het kind speelt op de vloer.",
-        "ja": "子どもが床で遊んでいます。",
+        "ja": "子どもが床で遊んでいる。",
         "en": "The child plays on the floor."
       }
     ]
@@ -18124,12 +18124,12 @@
     "examples": [
       {
         "nl": "Wij kopen voedsel in de supermarkt.",
-        "ja": "私たちはスーパーで食料を買います。",
+        "ja": "私たちはスーパーで食料を買う。",
         "en": "We buy food in the supermarket."
       },
       {
         "nl": "Er is veel voedsel in de kast.",
-        "ja": "戸棚に食料がたくさんあります。",
+        "ja": "戸棚に食料がたくさんある。",
         "en": "There is a lot of food in the cupboard."
       }
     ]
@@ -18149,17 +18149,17 @@
     "examples": [
       {
         "nl": "Voel jij de zon?",
-        "ja": "太陽を感じますか。",
+        "ja": "太陽を感じる？",
         "en": "Do you feel the sun?"
       },
       {
         "nl": "Het water voelt koud aan.",
-        "ja": "水は冷たく感じます。",
+        "ja": "水は冷たく感じる。",
         "en": "The water feels cold."
       },
       {
         "nl": "Ik voel de regen op mijn hand.",
-        "ja": "手に雨を感じます。",
+        "ja": "手に雨を感じる。",
         "en": "I feel the rain on my hand."
       }
     ]
@@ -18181,12 +18181,12 @@
     "examples": [
       {
         "nl": "Ik sta op één voet.",
-        "ja": "私は片足で立っています。",
+        "ja": "私は片足で立っている。",
         "en": "I am standing on one foot."
       },
       {
         "nl": "Ik ga te voet naar de markt.",
-        "ja": "私は歩いて市場へ行きます。",
+        "ja": "私は歩いて市場へ行く。",
         "en": "I go to the market on foot."
       }
     ]
@@ -18206,12 +18206,12 @@
     "examples": [
       {
         "nl": "De kinderen voetballen in de tuin.",
-        "ja": "子どもたちが庭でサッカーをしています。",
+        "ja": "子どもたちが庭でサッカーをしている。",
         "en": "The children play football in the garden."
       },
       {
         "nl": "Voetbal jij vaak met je broer?",
-        "ja": "よく兄弟とサッカーをしますか。",
+        "ja": "よく兄弟とサッカーをする？",
         "en": "Do you often play football with your brother?"
       }
     ]
@@ -18232,12 +18232,12 @@
     "examples": [
       {
         "nl": "Mijn voeten zijn koud.",
-        "ja": "私の足は冷たいです。",
+        "ja": "私の足は冷たい。",
         "en": "My feet are cold."
       },
       {
         "nl": "Ik was mijn voeten in de badkamer.",
-        "ja": "私は浴室で足を洗います。",
+        "ja": "私は浴室で足を洗う。",
         "en": "I wash my feet in the bathroom."
       }
     ]
@@ -18259,12 +18259,12 @@
     "examples": [
       {
         "nl": "De voetganger steekt hier over.",
-        "ja": "歩行者はここで渡ります。",
+        "ja": "歩行者はここで渡る。",
         "en": "The pedestrian crosses here."
       },
       {
         "nl": "Een voetganger staat bij het verkeerslicht.",
-        "ja": "歩行者が信号のところに立っています。",
+        "ja": "歩行者が信号のところに立っている。",
         "en": "A pedestrian is standing at the traffic light."
       }
     ]
@@ -18286,12 +18286,12 @@
     "examples": [
       {
         "nl": "Mijn voetzool is nat.",
-        "ja": "足の裏が濡れています。",
+        "ja": "足の裏が濡れている。",
         "en": "The sole of my foot is wet."
       },
       {
         "nl": "Ik voel het gras onder mijn voetzool.",
-        "ja": "足の裏で草を感じます。",
+        "ja": "足の裏で草を感じる。",
         "en": "I feel the grass under the sole of my foot."
       }
     ]
@@ -18312,12 +18312,12 @@
     "examples": [
       {
         "nl": "De vogels zingen in de boom.",
-        "ja": "鳥たちが木で歌っています。",
+        "ja": "鳥たちが木で歌っている。",
         "en": "The birds are singing in the tree."
       },
       {
         "nl": "Ik zie veel vogels op het dak.",
-        "ja": "屋根の上に鳥がたくさん見えます。",
+        "ja": "屋根の上に鳥がたくさん見える。",
         "en": "I see many birds on the roof."
       }
     ]
@@ -18337,12 +18337,12 @@
     "examples": [
       {
         "nl": "De bus is vol.",
-        "ja": "バスは満員です。",
+        "ja": "バスは満員だ。",
         "en": "The bus is full."
       },
       {
         "nl": "Wij zitten in een volle trein.",
-        "ja": "私たちは満員の電車に乗っています。",
+        "ja": "私たちは満員の電車に乗っている。",
         "en": "We are sitting in a full train."
       }
     ]
@@ -18362,17 +18362,17 @@
     "examples": [
       {
         "nl": "Dit cadeau is voor jou.",
-        "ja": "このプレゼントは君のためのものです。",
+        "ja": "このプレゼントは君のためのものだ。",
         "en": "This present is for you."
       },
       {
         "nl": "De auto staat voor het huis.",
-        "ja": "車は家の前に止まっています。",
+        "ja": "車は家の前に止まっている。",
         "en": "The car is in front of the house."
       },
       {
         "nl": "Wij eten voor twaalf uur.",
-        "ja": "私たちは12時前に食べます。",
+        "ja": "私たちは12時前に食べる。",
         "en": "We eat before twelve o'clock."
       }
     ]
@@ -18612,7 +18612,7 @@
       },
       {
         "nl": "Vraag jij de prijs?",
-        "ja": "値段を聞いてくれますか。",
+        "ja": "値段を聞いてくれる？",
         "en": "Are you asking the price?"
       }
     ]
@@ -18984,7 +18984,7 @@
       },
       {
         "nl": "Weet jij de prijs?",
-        "ja": "値段を知っていますか。",
+        "ja": "値段を知っている？",
         "en": "Do you know the price?"
       }
     ]
@@ -19087,7 +19087,7 @@
       },
       {
         "nl": "Wil jij koffie of thee?",
-        "ja": "コーヒーか紅茶、どちらがいいですか。",
+        "ja": "コーヒーか紅茶、どちらがいい？",
         "en": "Do you want coffee or tea?"
       }
     ]
@@ -19346,7 +19346,7 @@
     "examples": [
       {
         "nl": "Wat betekent dit woord?",
-        "ja": "この単語はどういう意味ですか。",
+        "ja": "この単語はどういう意味？",
         "en": "What does this word mean?"
       },
       {
@@ -19671,7 +19671,7 @@
       },
       {
         "nl": "Zie jij die vogels?",
-        "ja": "あの鳥が見えますか。",
+        "ja": "あの鳥が見える？",
         "en": "Do you see those birds?"
       }
     ]
@@ -19723,7 +19723,7 @@
       },
       {
         "nl": "Wat betekent deze zin?",
-        "ja": "この文はどういう意味ですか。",
+        "ja": "この文はどういう意味？",
         "en": "What does this sentence mean?"
       },
       {
@@ -21317,7 +21317,7 @@
       },
       {
         "nl": "Morgen komen wij weer.",
-        "ja": "明日また来ます。",
+        "ja": "明日また来る。",
         "en": "We'll come again tomorrow."
       }
     ]
@@ -21362,7 +21362,7 @@
     "examples": [
       {
         "nl": "Hier is het toilet.",
-        "ja": "ここがトイレです。",
+        "ja": "ここがトイレだ。",
         "en": "Here is the toilet."
       },
       {
@@ -21462,7 +21462,7 @@
     "examples": [
       {
         "nl": "Zij is mijn zus.",
-        "ja": "彼女は私の姉です。",
+        "ja": "彼女は私の姉だ。",
         "en": "She is my sister."
       },
       {
@@ -21487,12 +21487,12 @@
     "examples": [
       {
         "nl": "Ja, ik kom morgen.",
-        "ja": "はい、明日行きます。",
+        "ja": "はい、明日行く。",
         "en": "Yes, I'll come tomorrow."
       },
       {
         "nl": "Ja, dat is goed.",
-        "ja": "はい、それでいいです。",
+        "ja": "はい、それでいい。",
         "en": "Yes, that's fine."
       }
     ]
@@ -21699,7 +21699,7 @@
       },
       {
         "nl": "Laten we samen eten.",
-        "ja": "一緒に食べましょう。",
+        "ja": "一緒に食べよう。",
         "en": "Let's eat together."
       }
     ]
@@ -22257,7 +22257,7 @@
       },
       {
         "nl": "Daarom kom ik morgen.",
-        "ja": "だから明日来ます。",
+        "ja": "だから明日来る。",
         "en": "That's why I'm coming tomorrow."
       }
     ]
@@ -22420,7 +22420,7 @@
       },
       {
         "nl": "Wij komen om twee uur.",
-        "ja": "私たちは2時に来ます。",
+        "ja": "私たちは2時に来る。",
         "en": "We are coming at two o'clock."
       }
     ]
@@ -22677,7 +22677,7 @@
     "examples": [
       {
         "nl": "Ik heb een vraag.",
-        "ja": "質問があります。",
+        "ja": "質問がある。",
         "en": "I have a question."
       },
       {
@@ -22804,7 +22804,7 @@
       },
       {
         "nl": "Waar is de bushalte?",
-        "ja": "バス停はどこですか。",
+        "ja": "バス停はどこ？",
         "en": "Where is the bus stop?"
       }
     ]
@@ -22859,7 +22859,7 @@
       },
       {
         "nl": "Waarin zit veel suiker?",
-        "ja": "何に砂糖がたくさん入っていますか。",
+        "ja": "何に砂糖がたくさん入っている？",
         "en": "What has a lot of sugar in it?"
       }
     ]
@@ -22985,12 +22985,12 @@
     "examples": [
       {
         "nl": "Wie komt vandaag?",
-        "ja": "今日は誰が来ますか。",
+        "ja": "今日は誰が来る？",
         "en": "Who is coming today?"
       },
       {
         "nl": "Wie is die vrouw?",
-        "ja": "あの女性は誰ですか。",
+        "ja": "あの女性は誰？",
         "en": "Who is that woman?"
       }
     ]
