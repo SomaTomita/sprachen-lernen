@@ -1,0 +1,6311 @@
+[
+ {
+  "lemma": "aanbellen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "aankomen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "aanrecht",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "aansteker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "aantrekken",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "aanwezig",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "aarde",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "abrikoos",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "achterhoofd",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "achterlicht",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "achternaam",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "achtste",
+  "pos": "numeral",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "acteur",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "adem",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "aders",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "adres",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "advocaat",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "afdalen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "aftrekken",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "afval",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "afwasborstel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "afwashulp",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "afwasmachine",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "afwezig",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "akkerbouwer",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "alarm",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "alfabet",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "alinea",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "alleenstaand",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "ambulance",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "ambulancemedewerker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "ananas",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "andijvie",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "angst",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "anticonceptiemiddelen",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "apotheker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "apothekersassistent",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "appelmoes",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "architect",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "armband",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "artikel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "arts",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "asbak",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "asperge",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "assistent",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "automonteur",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "autoverkoper",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "autowasser",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "avocado",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bacterie",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bad",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "badhanddoek",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "badmeester",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bagagedrager",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bakkebaard",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bakken",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "baksteen",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "balen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "balie",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "baliemedewerker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "balk",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "ballet",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bang",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bankrekening",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "barmedewerker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "beeld",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "beeldhouwer",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "behulpzaam",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bejaardenverzorger",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bejaardevrouw",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "belasting",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "beneden",
+  "pos": "preposition",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "beroep",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "beschermen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "beschuit",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bestek",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bestekla",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bestellen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bestemming",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "betongieter",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "beugel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bewegen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bewoner",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bibliotheekmedewerker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "big",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "blaas",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "blessure",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "blij",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "blikjes",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bloed",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "boa",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bocht",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "boekhouder",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "boer",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bonbons",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "boodschappenlijst",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "boos",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bord",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "borrelen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "boswachter",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "boterham",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bouwvakker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "braden",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "brand",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "brandweerauto",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "brandweerman",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "breedte",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "breuk",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "briefgeld",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "broek",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "broodafdeling",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "broodjes",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bsn-nummer",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "buis",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bureau",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "bureaustoel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "burgemeester",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "buschauffeur",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "buurt",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "café",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "cake",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "callcentermedewerker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "camera",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "cameraman",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "camper",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "camping",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "caravan",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "cateraar",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "cijfer",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "citroen",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "coach",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "competitie",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "compliment",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "conciërge",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "consultatiebureau",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "container",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "coupé",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "croissant",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "cupcake",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "cursus",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "dader",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "dakdekker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "danser",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "dansleraar",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "dekbed",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "dekbedovertrek",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "democratie",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "demonstratie",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "den",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "dicht",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "dichtdoen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "diefstal",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "diepte",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "diepvries",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "dierenarts",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "dierenverzorger",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "diëtist",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "dirigent",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "docent",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "docentleraar",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "doel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "dokter",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "doktersassistent",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "dood",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "doos",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "douanemedewerker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "douche",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "dozijn",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "draad",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "drank",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "drempel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "dromen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "droogtrommel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "droom",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "dun",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "dweil",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "eerste",
+  "pos": "numeral",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "elektriciën",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "elektriciteit",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "e-mail",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "emotie",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "etaleur",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "fabrieksmedewerker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "familie",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "festival",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "fietsenmaker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "fietskoerier",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "film",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "filterzakje",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "flatgebouw",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "fornuis",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "foto",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "fotograaf",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "framboos",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "fysiotherapeut",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "fysiotherapiepraktijk",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "gaar",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "garage",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "gebakje",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "geboortedatum",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "geboorteplaats",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "gedachte",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "gedicht",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "geestelijk",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "gehakt",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "geheugen",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "gehuwd",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "gek",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "geld",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "geluid",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "geluidstechnicus",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "gelukkig",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "gemeente",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "geodriehoek",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "gereedschap",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "gescheiden",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "geslacht",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "gesprek",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "getrouwd",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "gevangenis",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "gevangenisbewaker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "gezin",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "gezond",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "ggd-medewerker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "gids",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "gips",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "glas",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "glazenwasser",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "gootsteen",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "grapefruit",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "grappig",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "graven",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "grond",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "gymleraar",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "haak",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "haard",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "haastig",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "hamer",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "handdoek",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "handscanner",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "heftruckchauffeur",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "hiel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "hoek",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "honing",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "hoofdkussen",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "hoofdstad",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "hoofdstuk",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "hoogte",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "hovenier",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "huisartsenpraktijk",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "huisbaas",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "huisnummer",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "ijsbeer",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "ijsblokje",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "infectie",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "infuus",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "ingang",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "ingenieur",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "initialen",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "inschenken",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "inspannen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "inwoners",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "jaloers",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "jas",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "journalist",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "junkfood",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "jus",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kaal",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kabinet",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kachel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kalf",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kamermeisje",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kamperen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kan",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kanaal",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kantinemedewerker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kapitein",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kapstok",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "karaf",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kers",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "ketting",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "keukenmedewerker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "keuze",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kies",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kiezen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kin",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kinderen",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "klant",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kledingkast",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kleermaker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kliko's",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "klink",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kloppen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "klussen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "knotje",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "koelkast",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "koerier",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "koffiezetapparaat",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kok",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kom",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kompas",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "koning",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "koor",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kop",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "krant",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kroket",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kruising",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kruisje",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kuif",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kunstenaar",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kussensloop",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "kwast",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "la",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "laag",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "laborant",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "laboratorium",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "laden",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "laken",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "lam",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "landen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "laptop",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "lasser",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "leeftijd",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "leerkracht",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "leerling",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "leger",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "lek",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "lekker",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "lengte",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "lepel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "leraar",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "leren",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "levend",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "lichaam",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "lichamelijk",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "licht",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "lied",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "lief",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "lift",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "liften",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "limoen",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "lip",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "locatie",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "loodgieter",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "lossen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "lucht",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "lucifer",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "lui",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "maan",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "magazijnmedewerker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "mager",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "magnetron",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "mailen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "mais",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "makelaar",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "manicure",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "marktkoopman",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "masseur",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "maten",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "matras",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "matroos",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "mayonaise",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "meetlat",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "mengen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "mening",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "mentor",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "menu",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "mes",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "metaalbewerker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "metselaar",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "meubelmaker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "meubels",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "mier",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "milieustraat",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "militair",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "missen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "mitella",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "mobiel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "modder",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "moe",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "moedertaal",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "mok",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "monarchie",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "mondkapje",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "muntgeld",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "museum",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "muurkast",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "muziek",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "muziekleraar",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "muzikant",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "naaimachine",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "naald",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "nachtkastje",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "nadenken",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "nationaliteit",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "nectarine",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "neef",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "neefje",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "negatief",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "negende",
+  "pos": "numeral",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "nerveus",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "nicht",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "nichtje",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "nieuwsgierig",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "noemer",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "noorden",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "oefenen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "oksel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "omelet",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "onderwijs",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "onderzoeken",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "ongelukkig",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "ontlasting",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "ontspannen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "oogarts",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "oom",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "oorbel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "oorlel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "oorlog",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "oosten",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "open",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "openmaken",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "opera",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "operatie",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "opgeruimd",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "opleiding",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "opruimen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "opscheppen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "opspuiten",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "opstijgen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "optellen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "opticiën",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "opzoeken",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "orderpicker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "orkest",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "orthodontist",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "ouders",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "oven",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "overleggen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "paar",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "paardrijden",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "pakjes",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "paleis",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "pan",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "pap",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "paragraaf",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "paraplu",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "park",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "parkeerwachter",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "parkeren",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "passagier",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "passer",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "patient",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "pauze",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "pedicure",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "pellen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "perron",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "personeelsfunctionaris",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "perzik",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "pesten",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "pijn",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "piloot",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "plattegrond",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "platteland",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "pleister",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "pluimveehouder",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "podium",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "politicus",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "politieagent",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "politieauto",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "pony",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "portemonnee",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "positief",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "postbode",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "postcode",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "postsorteerder",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "poten",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "prei",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "privé",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "probleem",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "procenten",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "productiemedewerker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "proeven",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "programma",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "provincies",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "pruim",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "prullenbak",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "psycholoog",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "publiek",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "puree",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "radijs",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "rapport",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "rauw",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "receptionist",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "rechter",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "rechtszaal",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "regel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "regering",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "regio",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "reiziger",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "rekening",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "rekenmachine",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "rel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "relatie",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "reserveren",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "residentie",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "retourtje",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "rij",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "rijbewijs",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "rijtjeswoning",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "ring",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "riolering",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "roepnaam",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "roeren",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "roken",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "rollator",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "rolstoel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "roman",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "rommel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "rommelig",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "rot",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "rotonde",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "rugzak",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "ruim",
+  "pos": "adverb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "rups",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "rustig",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "ruzie",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "saai",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "samenwerken",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "saté",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "saus",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "scankassa",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "schaal",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "schakelaar",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "schatten",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "scheiding",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "schilder",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "schilderij",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "schillen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "schip",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "schipper",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "schoenenrek",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "schoenmaker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "school",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "schoolbord",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "schooldirecteur",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "schoonheidsspecialist",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "schoonmaakdoekjes",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "schoonmaakmiddelen",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "schoonmaker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "schoonzus",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "schrikken",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "schroef",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "schroevendraaier",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "schutting",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "scootmobiel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "selderie",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "serieus",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "sirene",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "slachtoffer",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "slagen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "slagroom",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "slepen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "sleutel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "slopen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "slot",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "smartboard",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "smeren",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "snoepen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "solist",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "sollicitant",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "sollicitatiebrief",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "sollicitatiegesprek",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "solliciteren",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "som",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "somber",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "soms",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "spaak",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "spannend",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "specialist",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "speelgoed",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "speelgoedwinkel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "spelden",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "spelfout",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "spellen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "spiegel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "spijker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "spoedeisenhulp",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "spoor",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "sportinstructeur",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "stage",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "standbeeld",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "stang",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "starten",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "steen",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "steigerbouwer",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "stelen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "stem",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "stemmen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "sterk",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "sterren",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "steward",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "stewardstewardess",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "stijf",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "stof",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "stomerijmedewerker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "stoppen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "stoptrein",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "stout",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "straatnaam",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "stratenmaker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "stratenveger",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "streng",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "stress",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "strijken",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "strijkijzer",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "strijkplank",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "student",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "stukadoor",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "supermarktmanager",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "tablet",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "tafeltje",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "tandarts",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "tandartsassistent",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "tandartspraktijk",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "tandem",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "tandenborstel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "tanken",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "tante",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "tappen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "taxichauffeur",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "tegels",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "tekst",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "telefoon",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "telefoonnummer",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "teleurstelling",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "teller",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "tent",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "tentoonstelling",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "terugbrengen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "testlocatie",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "theedoek",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "theelepel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "theezakje",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "thermostaat",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "tiende",
+  "pos": "numeral",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "tiental",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "timmerman",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "toa",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "toneel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "tong",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "traan",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "trainer",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "training",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "trots",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "t-shirt",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "tuincentrummedewerker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "tuinder",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "tunnel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "tweede",
+  "pos": "numeral",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "tweeklas",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "uitdagend",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "uitgang",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "uitkomst",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "uittrekken",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "urine",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vacature",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vaccinatie",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vaccinatielocatie",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vakkenvuller",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "varken",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vastmaken",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "veehouder",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "veganist",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vegetariër",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "verbaasd",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "verbazing",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "verbeteren",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "verbouwen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "verdriet",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "verdrietig",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "verdwijnen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vergadering",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vergelijken",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "verhuisauto",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "verhuizen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "verhuizer",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "verkeer",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "verliefd",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "verlof",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vermenigvuldigen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "verpleegkundige",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vers",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vertrekken",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vervoermiddel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "verwarming",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "verzekering",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "verzorgen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vet",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "veulen",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vierde",
+  "pos": "numeral",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vies",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vijfde",
+  "pos": "numeral",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vingers",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "virus",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "visafdeling",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "visagist",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "visboer",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vissen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "visser",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vlag",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vlecht",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vleeswaren",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vleeswarenafdeling",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vloerbedekking",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vloerenlegger",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "volgend",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "voorbeeld",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "voorhoofd",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "voorlicht",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "voornaam",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "voorzichtig",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vorig",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vork",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vrachtwagenchauffeur",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vrede",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vrienden",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vrijwilligerswerk",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vrolijk",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vuilnisbak",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vuilnisman",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vuist",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "vullen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "wafel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "wagon",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "wapen",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "wasknijper",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "waslijn",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "wasmachine",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "wasmiddel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "wasrek",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "waterkoker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "wc-borstel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "wc-papier",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "webdesigner",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "weduwe",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "weduwnaar",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "weegschaal",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "weerbericht",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "wegen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "wegenwachtmedewerker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "weggooien",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "wegwerker",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "wereld",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "werkbank",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "werkdagen",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "werkervaring",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "werkgever",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "werknemer",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "werktijden",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "werkweek",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "wesp",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "westen",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "wiel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "wijs",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "wimpel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "wind",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "windrichtingen",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "winkelen",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "winkelwagen",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "witlof",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "woonboot",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "woonplaats",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "woordenboek",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "worst",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "zaag",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "zadel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "zakjes",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "zakken",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "zand",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "zanger",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "zenuwen",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "zesde",
+  "pos": "numeral",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "zevende",
+  "pos": "numeral",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "ziekenhuis",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "zuchten",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "zuiden",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "zuivel",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "zwager",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "zwak",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "zweten",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "b",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "c",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "d",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "e",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "f",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "g",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "h",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "i",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "j",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "k",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "l",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "m",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "n",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "o",
+  "pos": "numeral",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "q",
+  "pos": "adjective",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "r",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "s",
+  "pos": "verb",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "v",
+  "pos": "noun",
+  "src": "numo-A1A2"
+ },
+ {
+  "lemma": "mogelijk",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "possible",
+  "src": "freq",
+  "rank": 200
+ },
+ {
+  "lemma": "bovendien",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "moreover",
+  "src": "freq",
+  "rank": 203
+ },
+ {
+  "lemma": "natuurlijk",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "natural",
+  "src": "freq",
+  "rank": 204
+ },
+ {
+  "lemma": "daarmee",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "with that",
+  "src": "freq",
+  "rank": 205
+ },
+ {
+  "lemma": "nee",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "no",
+  "src": "freq",
+  "rank": 206
+ },
+ {
+  "lemma": "daarna",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "afterwards",
+  "src": "freq",
+  "rank": 207
+ },
+ {
+  "lemma": "daarvoor",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "for that",
+  "src": "freq",
+  "rank": 208
+ },
+ {
+  "lemma": "steeds",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "always",
+  "src": "freq",
+  "rank": 209
+ },
+ {
+  "lemma": "dergelijke",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "such",
+  "src": "freq",
+  "rank": 210
+ },
+ {
+  "lemma": "terug",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "back",
+  "src": "freq",
+  "rank": 213
+ },
+ {
+  "lemma": "dezelfde",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "the same",
+  "src": "freq",
+  "rank": 214
+ },
+ {
+  "lemma": "terwijl",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "whereas",
+  "src": "freq",
+  "rank": 215
+ },
+ {
+  "lemma": "eerder",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "more rather",
+  "src": "freq",
+  "rank": 216
+ },
+ {
+  "lemma": "tijdens",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "during",
+  "src": "freq",
+  "rank": 217
+ },
+ {
+  "lemma": "eigenlijk",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "actual",
+  "src": "freq",
+  "rank": 218
+ },
+ {
+  "lemma": "erin",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "inside",
+  "src": "freq",
+  "rank": 220
+ },
+ {
+  "lemma": "feit",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "fact the",
+  "src": "freq",
+  "rank": 222
+ },
+ {
+  "lemma": "gebeuren",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to happen",
+  "src": "freq",
+  "rank": 224
+ },
+ {
+  "lemma": "gebied",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "area the",
+  "src": "freq",
+  "rank": 226
+ },
+ {
+  "lemma": "gebruiken",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to use",
+  "src": "freq",
+  "rank": 228
+ },
+ {
+  "lemma": "vier",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "four",
+  "src": "freq",
+  "rank": 229
+ },
+ {
+  "lemma": "geheel",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "whole",
+  "src": "freq",
+  "rank": 230
+ },
+ {
+  "lemma": "vijf",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "five",
+  "src": "freq",
+  "rank": 231
+ },
+ {
+  "lemma": "geleden",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "ago",
+  "src": "freq",
+  "rank": 234
+ },
+ {
+  "lemma": "volgen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to follow",
+  "src": "freq",
+  "rank": 237
+ },
+ {
+  "lemma": "gewoon",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "ordinary",
+  "src": "freq",
+  "rank": 238
+ },
+ {
+  "lemma": "volgens",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "according to",
+  "src": "freq",
+  "rank": 241
+ },
+ {
+  "lemma": "gisteren",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "yesterday",
+  "src": "freq",
+  "rank": 242
+ },
+ {
+  "lemma": "vorm",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "form the",
+  "src": "freq",
+  "rank": 243
+ },
+ {
+  "lemma": "god",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "god the",
+  "src": "freq",
+  "rank": 244
+ },
+ {
+  "lemma": "vormen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to form",
+  "src": "freq",
+  "rank": 245
+ },
+ {
+  "lemma": "groep",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "group the",
+  "src": "freq",
+  "rank": 246
+ },
+ {
+  "lemma": "helemaal",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "entirely",
+  "src": "freq",
+  "rank": 248
+ },
+ {
+  "lemma": "waarom",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "why",
+  "src": "freq",
+  "rank": 249
+ },
+ {
+  "lemma": "waarvan",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "of which",
+  "src": "freq",
+  "rank": 251
+ },
+ {
+  "lemma": "wanneer",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "when",
+  "src": "freq",
+  "rank": 253
+ },
+ {
+  "lemma": "hoor",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "hear",
+  "src": "freq",
+  "rank": 254
+ },
+ {
+  "lemma": "iemand",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "someone",
+  "src": "freq",
+  "rank": 256
+ },
+ {
+  "lemma": "weg",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "gone",
+  "src": "freq",
+  "rank": 257
+ },
+ {
+  "lemma": "jongen",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "boy the",
+  "src": "freq",
+  "rank": 259
+ },
+ {
+  "lemma": "welk",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "which",
+  "src": "freq",
+  "rank": 260
+ },
+ {
+  "lemma": "juist",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "correct",
+  "src": "freq",
+  "rank": 261
+ },
+ {
+  "lemma": "keer",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "time the",
+  "src": "freq",
+  "rank": 263
+ },
+ {
+  "lemma": "zaak",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "matter the",
+  "src": "freq",
+  "rank": 264
+ },
+ {
+  "lemma": "kennen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to know",
+  "src": "freq",
+  "rank": 265
+ },
+ {
+  "lemma": "zeker",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "certain",
+  "src": "freq",
+  "rank": 266
+ },
+ {
+  "lemma": "kerk",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "church the",
+  "src": "freq",
+  "rank": 267
+ },
+ {
+  "lemma": "kort",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "short",
+  "src": "freq",
+  "rank": 269
+ },
+ {
+  "lemma": "zoveel",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "so much",
+  "src": "freq",
+  "rank": 270
+ },
+ {
+  "lemma": "later",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "later",
+  "src": "freq",
+  "rank": 271
+ },
+ {
+  "lemma": "alsof",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "as if",
+  "src": "freq",
+  "rank": 272
+ },
+ {
+  "lemma": "antwoord",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "answer the",
+  "src": "freq",
+  "rank": 275
+ },
+ {
+  "lemma": "bedrijf",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "company the",
+  "src": "freq",
+  "rank": 278
+ },
+ {
+  "lemma": "minder",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "less",
+  "src": "freq",
+  "rank": 279
+ },
+ {
+  "lemma": "minister",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "minister the",
+  "src": "freq",
+  "rank": 281
+ },
+ {
+  "lemma": "begrip",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "term the",
+  "src": "freq",
+  "rank": 282
+ },
+ {
+  "lemma": "naam",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "name the",
+  "src": "freq",
+  "rank": 283
+ },
+ {
+  "lemma": "bepalen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to stipulate",
+  "src": "freq",
+  "rank": 284
+ },
+ {
+  "lemma": "net",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "exactly",
+  "src": "freq",
+  "rank": 285
+ },
+ {
+  "lemma": "bereikbaar",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "contactable",
+  "src": "freq",
+  "rank": 286
+ },
+ {
+  "lemma": "betreffen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to concern",
+  "src": "freq",
+  "rank": 288
+ },
+ {
+  "lemma": "partij",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "party the",
+  "src": "freq",
+  "rank": 289
+ },
+ {
+  "lemma": "bezig",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "busy",
+  "src": "freq",
+  "rank": 290
+ },
+ {
+  "lemma": "pas",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "just",
+  "src": "freq",
+  "rank": 291
+ },
+ {
+  "lemma": "per",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "by",
+  "src": "freq",
+  "rank": 293
+ },
+ {
+  "lemma": "dienen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to serve",
+  "src": "freq",
+  "rank": 294
+ },
+ {
+  "lemma": "diep",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "deeply",
+  "src": "freq",
+  "rank": 296
+ },
+ {
+  "lemma": "proberen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to try",
+  "src": "freq",
+  "rank": 297
+ },
+ {
+  "lemma": "direct",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "direct",
+  "src": "freq",
+  "rank": 298
+ },
+ {
+  "lemma": "reeds",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "already",
+  "src": "freq",
+  "rank": 301
+ },
+ {
+  "lemma": "slechts",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "only",
+  "src": "freq",
+  "rank": 303
+ },
+ {
+  "lemma": "eerst",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "first",
+  "src": "freq",
+  "rank": 304
+ },
+ {
+  "lemma": "snel",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "fast",
+  "src": "freq",
+  "rank": 305
+ },
+ {
+  "lemma": "eeuw",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "century the",
+  "src": "freq",
+  "rank": 306
+ },
+ {
+  "lemma": "einde",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "end the",
+  "src": "freq",
+  "rank": 308
+ },
+ {
+  "lemma": "soort",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "type the",
+  "src": "freq",
+  "rank": 309
+ },
+ {
+  "lemma": "enig",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "only",
+  "src": "freq",
+  "rank": 310
+ },
+ {
+  "lemma": "ermee",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "with it",
+  "src": "freq",
+  "rank": 312
+ },
+ {
+  "lemma": "tegenover",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "toward",
+  "src": "freq",
+  "rank": 314
+ },
+ {
+  "lemma": "gebruik",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "use the",
+  "src": "freq",
+  "rank": 315
+ },
+ {
+  "lemma": "thuis",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "at home",
+  "src": "freq",
+  "rank": 316
+ },
+ {
+  "lemma": "tien",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "ten",
+  "src": "freq",
+  "rank": 318
+ },
+ {
+  "lemma": "geldig",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "valid",
+  "src": "freq",
+  "rank": 319
+ },
+ {
+  "lemma": "tijdelijk",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "temporary",
+  "src": "freq",
+  "rank": 320
+ },
+ {
+  "lemma": "toe",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "towards",
+  "src": "freq",
+  "rank": 322
+ },
+ {
+  "lemma": "genoeg",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "enough",
+  "src": "freq",
+  "rank": 323
+ },
+ {
+  "lemma": "vast",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "fixed",
+  "src": "freq",
+  "rank": 326
+ },
+ {
+  "lemma": "gevoel",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "feeling the",
+  "src": "freq",
+  "rank": 327
+ },
+ {
+  "lemma": "via",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "by means of",
+  "src": "freq",
+  "rank": 328
+ },
+ {
+  "lemma": "gevolg",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "consequence the",
+  "src": "freq",
+  "rank": 329
+ },
+ {
+  "lemma": "graag",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "gladly",
+  "src": "freq",
+  "rank": 331
+ },
+ {
+  "lemma": "voorkomen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to occur",
+  "src": "freq",
+  "rank": 332
+ },
+ {
+  "lemma": "voorstellen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to present",
+  "src": "freq",
+  "rank": 334
+ },
+ {
+  "lemma": "halen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to obtain",
+  "src": "freq",
+  "rank": 336
+ },
+ {
+  "lemma": "vrij",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "free",
+  "src": "freq",
+  "rank": 337
+ },
+ {
+  "lemma": "hangen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to hang",
+  "src": "freq",
+  "rank": 338
+ },
+ {
+  "lemma": "waarbij",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "where",
+  "src": "freq",
+  "rank": 339
+ },
+ {
+  "lemma": "hard",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "hard",
+  "src": "freq",
+  "rank": 340
+ },
+ {
+  "lemma": "waarop",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "on which",
+  "src": "freq",
+  "rank": 341
+ },
+ {
+  "lemma": "heen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "gone",
+  "src": "freq",
+  "rank": 342
+ },
+ {
+  "lemma": "wachten",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to wait",
+  "src": "freq",
+  "rank": 343
+ },
+ {
+  "lemma": "hetzelfde",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "the same",
+  "src": "freq",
+  "rank": 346
+ },
+ {
+  "lemma": "wijze",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "mode the",
+  "src": "freq",
+  "rank": 347
+ },
+ {
+  "lemma": "hoeven",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to need",
+  "src": "freq",
+  "rank": 348
+ },
+ {
+  "lemma": "honderd",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "hundred",
+  "src": "freq",
+  "rank": 350
+ },
+ {
+  "lemma": "zetten",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to put",
+  "src": "freq",
+  "rank": 351
+ },
+ {
+  "lemma": "iedereen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "someone",
+  "src": "freq",
+  "rank": 352
+ },
+ {
+  "lemma": "zichzelf",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "itself",
+  "src": "freq",
+  "rank": 353
+ },
+ {
+  "lemma": "kamer",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "chamber the",
+  "src": "freq",
+  "rank": 354
+ },
+ {
+  "lemma": "kans",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "chance the",
+  "src": "freq",
+  "rank": 356
+ },
+ {
+  "lemma": "zwaar",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "heavy",
+  "src": "freq",
+  "rank": 357
+ },
+ {
+  "lemma": "kant",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "side the",
+  "src": "freq",
+  "rank": 358
+ },
+ {
+  "lemma": "langs",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "along",
+  "src": "freq",
+  "rank": 360
+ },
+ {
+  "lemma": "leiden",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to lead",
+  "src": "freq",
+  "rank": 361
+ },
+ {
+  "lemma": "aandacht",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "attention",
+  "src": "freq",
+  "rank": 362
+ },
+ {
+  "lemma": "aankijken",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to look at",
+  "src": "freq",
+  "rank": 364
+ },
+ {
+  "lemma": "aannemen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to adopt",
+  "src": "freq",
+  "rank": 366
+ },
+ {
+  "lemma": "manier",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "manner the",
+  "src": "freq",
+  "rank": 367
+ },
+ {
+  "lemma": "afgelopen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "expired",
+  "src": "freq",
+  "rank": 368
+ },
+ {
+  "lemma": "meisje",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "little girl the",
+  "src": "freq",
+  "rank": 369
+ },
+ {
+  "lemma": "allerlei",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "all kinds of",
+  "src": "freq",
+  "rank": 370
+ },
+ {
+  "lemma": "menen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to think",
+  "src": "freq",
+  "rank": 371
+ },
+ {
+  "lemma": "mogelijkheid",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "possibility the",
+  "src": "freq",
+  "rank": 373
+ },
+ {
+  "lemma": "behalve",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "except",
+  "src": "freq",
+  "rank": 376
+ },
+ {
+  "lemma": "beslissen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to decide",
+  "src": "freq",
+  "rank": 378
+ },
+ {
+  "lemma": "niemand",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "nobody",
+  "src": "freq",
+  "rank": 379
+ },
+ {
+  "lemma": "besluiten",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to decide",
+  "src": "freq",
+  "rank": 380
+ },
+ {
+  "lemma": "nieuws",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "news the",
+  "src": "freq",
+  "rank": 381
+ },
+ {
+  "lemma": "best",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "best",
+  "src": "freq",
+  "rank": 382
+ },
+ {
+  "lemma": "niks",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "nothing",
+  "src": "freq",
+  "rank": 383
+ },
+ {
+  "lemma": "ongeveer",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "approximately",
+  "src": "freq",
+  "rank": 385
+ },
+ {
+  "lemma": "betekenis",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "meaning",
+  "src": "freq",
+  "rank": 386
+ },
+ {
+  "lemma": "ontstaan",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to arise",
+  "src": "freq",
+  "rank": 387
+ },
+ {
+  "lemma": "ontwikkeling",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "development the",
+  "src": "freq",
+  "rank": 388
+ },
+ {
+  "lemma": "beweging",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "movement the",
+  "src": "freq",
+  "rank": 389
+ },
+ {
+  "lemma": "bieden",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to offer",
+  "src": "freq",
+  "rank": 391
+ },
+ {
+  "lemma": "politie",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "police force the",
+  "src": "freq",
+  "rank": 392
+ },
+ {
+  "lemma": "bril",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "spectacles the",
+  "src": "freq",
+  "rank": 393
+ },
+ {
+  "lemma": "commissie",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "commission the",
+  "src": "freq",
+  "rank": 395
+ },
+ {
+  "lemma": "contact",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "contact the",
+  "src": "freq",
+  "rank": 396
+ },
+ {
+  "lemma": "daarin",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "in this",
+  "src": "freq",
+  "rank": 398
+ },
+ {
+  "lemma": "dertig",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "thirty",
+  "src": "freq",
+  "rank": 400
+ },
+ {
+  "lemma": "dier",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "animal the",
+  "src": "freq",
+  "rank": 403
+ },
+ {
+  "lemma": "situatie",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "situation the",
+  "src": "freq",
+  "rank": 404
+ },
+ {
+  "lemma": "slecht",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "bad",
+  "src": "freq",
+  "rank": 406
+ },
+ {
+  "lemma": "sociaal",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "social",
+  "src": "freq",
+  "rank": 408
+ },
+ {
+  "lemma": "staat",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "state the",
+  "src": "freq",
+  "rank": 409
+ },
+ {
+  "lemma": "duren",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to last",
+  "src": "freq",
+  "rank": 410
+ },
+ {
+  "lemma": "eenmalig",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "one-off",
+  "src": "freq",
+  "rank": 412
+ },
+ {
+  "lemma": "stuk",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "piece the",
+  "src": "freq",
+  "rank": 413
+ },
+ {
+  "lemma": "eenvoudig",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "simple",
+  "src": "freq",
+  "rank": 414
+ },
+ {
+  "lemma": "enorm",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "enormous",
+  "src": "freq",
+  "rank": 415
+ },
+ {
+  "lemma": "verklaren",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to explain",
+  "src": "freq",
+  "rank": 416
+ },
+ {
+  "lemma": "hoewel",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "although",
+  "src": "freq",
+  "rank": 419
+ },
+ {
+  "lemma": "volk",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "people the",
+  "src": "freq",
+  "rank": 420
+ },
+ {
+  "lemma": "idee",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "idea the",
+  "src": "freq",
+  "rank": 421
+ },
+ {
+  "lemma": "volledig",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "complete",
+  "src": "freq",
+  "rank": 422
+ },
+ {
+  "lemma": "invloed",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "influence the",
+  "src": "freq",
+  "rank": 423
+ },
+ {
+  "lemma": "vreemd",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "strange",
+  "src": "freq",
+  "rank": 424
+ },
+ {
+  "lemma": "vriend",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "friend the",
+  "src": "freq",
+  "rank": 426
+ },
+ {
+  "lemma": "vroeg",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "asked",
+  "src": "freq",
+  "rank": 428
+ },
+ {
+  "lemma": "laat",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "late",
+  "src": "freq",
+  "rank": 429
+ },
+ {
+  "lemma": "vroeger",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "more in former days",
+  "src": "freq",
+  "rank": 430
+ },
+ {
+  "lemma": "lid",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "member the",
+  "src": "freq",
+  "rank": 432
+ },
+ {
+  "lemma": "waarmee",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "with which",
+  "src": "freq",
+  "rank": 433
+ },
+ {
+  "lemma": "meestal",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "generally",
+  "src": "freq",
+  "rank": 434
+ },
+ {
+  "lemma": "waarschijnlijk",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "probable",
+  "src": "freq",
+  "rank": 435
+ },
+ {
+  "lemma": "mevrouw",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "madam the",
+  "src": "freq",
+  "rank": 436
+ },
+ {
+  "lemma": "werkelijk",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "real",
+  "src": "freq",
+  "rank": 437
+ },
+ {
+  "lemma": "middel",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "means the",
+  "src": "freq",
+  "rank": 438
+ },
+ {
+  "lemma": "wijzen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to indicate",
+  "src": "freq",
+  "rank": 439
+ },
+ {
+  "lemma": "minuut",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "minute the",
+  "src": "freq",
+  "rank": 440
+ },
+ {
+  "lemma": "namelijk",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "namely",
+  "src": "freq",
+  "rank": 442
+ },
+ {
+  "lemma": "zes",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "six",
+  "src": "freq",
+  "rank": 443
+ },
+ {
+  "lemma": "nauwelijks",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "hardly",
+  "src": "freq",
+  "rank": 444
+ },
+ {
+  "lemma": "zodat",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "so that",
+  "src": "freq",
+  "rank": 445
+ },
+ {
+  "lemma": "ogenblik",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "moment the",
+  "src": "freq",
+  "rank": 446
+ },
+ {
+  "lemma": "zowel",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "both",
+  "src": "freq",
+  "rank": 447
+ },
+ {
+  "lemma": "omstandigheid",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "circumstance the",
+  "src": "freq",
+  "rank": 448
+ },
+ {
+  "lemma": "opnemen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to take",
+  "src": "freq",
+  "rank": 453
+ },
+ {
+  "lemma": "opnieuw",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "again",
+  "src": "freq",
+  "rank": 455
+ },
+ {
+  "lemma": "alleen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "only",
+  "src": "freq",
+  "rank": 456
+ },
+ {
+  "lemma": "optreden",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to act",
+  "src": "freq",
+  "rank": 457
+ },
+ {
+  "lemma": "antwoorden",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to answer",
+  "src": "freq",
+  "rank": 458
+ },
+ {
+  "lemma": "overigens",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "moreover",
+  "src": "freq",
+  "rank": 462
+ },
+ {
+  "lemma": "behoefte",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "need the",
+  "src": "freq",
+  "rank": 463
+ },
+ {
+  "lemma": "plan",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "plan the",
+  "src": "freq",
+  "rank": 464
+ },
+ {
+  "lemma": "beperken",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to limit",
+  "src": "freq",
+  "rank": 465
+ },
+ {
+  "lemma": "plotseling",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "sudden",
+  "src": "freq",
+  "rank": 466
+ },
+ {
+  "lemma": "bewust",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "aware",
+  "src": "freq",
+  "rank": 467
+ },
+ {
+  "lemma": "politiek",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "political",
+  "src": "freq",
+  "rank": 468
+ },
+ {
+  "lemma": "blad",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "booklet the",
+  "src": "freq",
+  "rank": 469
+ },
+ {
+  "lemma": "precies",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "exact",
+  "src": "freq",
+  "rank": 471
+ },
+ {
+  "lemma": "procent",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "percent the",
+  "src": "freq",
+  "rank": 475
+ },
+ {
+  "lemma": "buitenlands",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "foreign",
+  "src": "freq",
+  "rank": 476
+ },
+ {
+  "lemma": "raak",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "affect",
+  "src": "freq",
+  "rank": 477
+ },
+ {
+  "lemma": "daarover",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "about that",
+  "src": "freq",
+  "rank": 478
+ },
+ {
+  "lemma": "recht",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "law the",
+  "src": "freq",
+  "rank": 479
+ },
+ {
+  "lemma": "dochter",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "daughter the",
+  "src": "freq",
+  "rank": 480
+ },
+ {
+  "lemma": "resultaat",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "result the",
+  "src": "freq",
+  "rank": 481
+ },
+ {
+  "lemma": "roepen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to call",
+  "src": "freq",
+  "rank": 483
+ },
+ {
+  "lemma": "duizend",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "thousand",
+  "src": "freq",
+  "rank": 488
+ },
+ {
+  "lemma": "schijnen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to seem",
+  "src": "freq",
+  "rank": 489
+ },
+ {
+  "lemma": "ernstig",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "serious",
+  "src": "freq",
+  "rank": 490
+ },
+ {
+  "lemma": "eruit",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "out",
+  "src": "freq",
+  "rank": 492
+ },
+ {
+  "lemma": "sinds",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "since",
+  "src": "freq",
+  "rank": 493
+ },
+ {
+  "lemma": "ervaring",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "experience the",
+  "src": "freq",
+  "rank": 494
+ },
+ {
+  "lemma": "streek",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "region the",
+  "src": "freq",
+  "rank": 497
+ },
+ {
+  "lemma": "functie",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "function",
+  "src": "freq",
+  "rank": 498
+ },
+ {
+  "lemma": "strijd",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "fight the",
+  "src": "freq",
+  "rank": 499
+ },
+ {
+  "lemma": "geest",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "spirit the",
+  "src": "freq",
+  "rank": 502
+ },
+ {
+  "lemma": "tenslotte",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "finally",
+  "src": "freq",
+  "rank": 503
+ },
+ {
+  "lemma": "toekomst",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "future the",
+  "src": "freq",
+  "rank": 505
+ },
+ {
+  "lemma": "gelegenheid",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "occasion the",
+  "src": "freq",
+  "rank": 506
+ },
+ {
+  "lemma": "trouwen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to marry",
+  "src": "freq",
+  "rank": 507
+ },
+ {
+  "lemma": "ver",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "far",
+  "src": "freq",
+  "rank": 509
+ },
+ {
+  "lemma": "gemakkelijk",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "easy",
+  "src": "freq",
+  "rank": 510
+ },
+ {
+  "lemma": "veranderen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to change",
+  "src": "freq",
+  "rank": 511
+ },
+ {
+  "lemma": "verhaal",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "tale it",
+  "src": "freq",
+  "rank": 517
+ },
+ {
+  "lemma": "heten",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to be called",
+  "src": "freq",
+  "rank": 519
+ },
+ {
+  "lemma": "voldoende",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "sufficient",
+  "src": "freq",
+  "rank": 520
+ },
+ {
+  "lemma": "volkomen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "completely",
+  "src": "freq",
+  "rank": 522
+ },
+ {
+  "lemma": "hopen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to hope",
+  "src": "freq",
+  "rank": 523
+ },
+ {
+  "lemma": "vrijwel",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "nearly",
+  "src": "freq",
+  "rank": 524
+ },
+ {
+  "lemma": "houding",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "attitude the",
+  "src": "freq",
+  "rank": 525
+ },
+ {
+  "lemma": "vuil",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "dirty",
+  "src": "freq",
+  "rank": 526
+ },
+ {
+  "lemma": "hulp",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "aid the",
+  "src": "freq",
+  "rank": 527
+ },
+ {
+  "lemma": "waaraan",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to which",
+  "src": "freq",
+  "rank": 528
+ },
+ {
+  "lemma": "huwelijk",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "marriage the",
+  "src": "freq",
+  "rank": 529
+ },
+ {
+  "lemma": "waarde",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "value the",
+  "src": "freq",
+  "rank": 530
+ },
+ {
+  "lemma": "inderdaad",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "indeed",
+  "src": "freq",
+  "rank": 531
+ },
+ {
+  "lemma": "waardoor",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "as a result of which",
+  "src": "freq",
+  "rank": 532
+ },
+ {
+  "lemma": "indruk",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "impression the",
+  "src": "freq",
+  "rank": 533
+ },
+ {
+  "lemma": "informatie",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "information the",
+  "src": "freq",
+  "rank": 535
+ },
+ {
+  "lemma": "zoon",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "son the",
+  "src": "freq",
+  "rank": 536
+ },
+ {
+  "lemma": "internationaal",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "international",
+  "src": "freq",
+  "rank": 537
+ },
+ {
+  "lemma": "zorgen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to look",
+  "src": "freq",
+  "rank": 538
+ },
+ {
+  "lemma": "zulk",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "such",
+  "src": "freq",
+  "rank": 540
+ },
+ {
+  "lemma": "kennis",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "knowledge the",
+  "src": "freq",
+  "rank": 541
+ },
+ {
+  "lemma": "klinken",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to sound",
+  "src": "freq",
+  "rank": 542
+ },
+ {
+  "lemma": "aanvaarden",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to accept",
+  "src": "freq",
+  "rank": 545
+ },
+ {
+  "lemma": "kosten",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to cost",
+  "src": "freq",
+  "rank": 546
+ },
+ {
+  "lemma": "aardig",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "nice",
+  "src": "freq",
+  "rank": 547
+ },
+ {
+  "lemma": "kracht",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "force the",
+  "src": "freq",
+  "rank": 548
+ },
+ {
+  "lemma": "actie",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "action the",
+  "src": "freq",
+  "rank": 549
+ },
+ {
+  "lemma": "afdeling",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "department the",
+  "src": "freq",
+  "rank": 551
+ },
+ {
+  "lemma": "afstand",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "distance the",
+  "src": "freq",
+  "rank": 553
+ },
+ {
+  "lemma": "maatschappij",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "society the",
+  "src": "freq",
+  "rank": 555
+ },
+ {
+  "lemma": "meneer",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "mister the",
+  "src": "freq",
+  "rank": 557
+ },
+ {
+  "lemma": "bekijken",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to examine",
+  "src": "freq",
+  "rank": 558
+ },
+ {
+  "lemma": "belangstelling",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "interest the",
+  "src": "freq",
+  "rank": 560
+ },
+ {
+  "lemma": "menselijk",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "human",
+  "src": "freq",
+  "rank": 561
+ },
+ {
+  "lemma": "merken",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to see",
+  "src": "freq",
+  "rank": 562
+ },
+ {
+  "lemma": "meteen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "immediately",
+  "src": "freq",
+  "rank": 563
+ },
+ {
+  "lemma": "bevolking",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "population the",
+  "src": "freq",
+  "rank": 564
+ },
+ {
+  "lemma": "meter",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "meter the",
+  "src": "freq",
+  "rank": 565
+ },
+ {
+  "lemma": "mis",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "wrong",
+  "src": "freq",
+  "rank": 567
+ },
+ {
+  "lemma": "bewijzen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to prove",
+  "src": "freq",
+  "rank": 568
+ },
+ {
+  "lemma": "modern",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "modern",
+  "src": "freq",
+  "rank": 569
+ },
+ {
+  "lemma": "bezoek",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "visit the",
+  "src": "freq",
+  "rank": 570
+ },
+ {
+  "lemma": "moment",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "moment the",
+  "src": "freq",
+  "rank": 571
+ },
+ {
+  "lemma": "binnenkomen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to come in",
+  "src": "freq",
+  "rank": 572
+ },
+ {
+  "lemma": "blik",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "can it",
+  "src": "freq",
+  "rank": 574
+ },
+ {
+  "lemma": "buitenland",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "foreign country the",
+  "src": "freq",
+  "rank": 576
+ },
+ {
+  "lemma": "burgermeester",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "citizen master the",
+  "src": "freq",
+  "rank": 578
+ },
+ {
+  "lemma": "conclusie",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "conclusion the",
+  "src": "freq",
+  "rank": 580
+ },
+ {
+  "lemma": "onmiddelijk",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "direct",
+  "src": "freq",
+  "rank": 581
+ },
+ {
+  "lemma": "dagelijks",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "daily",
+  "src": "freq",
+  "rank": 582
+ },
+ {
+  "lemma": "ontvangen",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to receive",
+  "src": "freq",
+  "rank": 583
+ },
+ {
+  "lemma": "opzicht",
+  "pos": null,
+  "article_hint": "het",
+  "en_hint": "respect the",
+  "src": "freq",
+  "rank": 585
+ },
+ {
+  "lemma": "drukken",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to press",
+  "src": "freq",
+  "rank": 586
+ },
+ {
+  "lemma": "organisatie",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "organization the",
+  "src": "freq",
+  "rank": 587
+ },
+ {
+  "lemma": "duur",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "expensive",
+  "src": "freq",
+  "rank": 588
+ },
+ {
+  "lemma": "organiseren",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "to organize",
+  "src": "freq",
+  "rank": 589
+ },
+ {
+  "lemma": "eindelijk",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "at last",
+  "src": "freq",
+  "rank": 590
+ },
+ {
+  "lemma": "persoon",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "person the",
+  "src": "freq",
+  "rank": 591
+ },
+ {
+  "lemma": "extra",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "extra",
+  "src": "freq",
+  "rank": 592
+ },
+ {
+  "lemma": "raad",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "council the",
+  "src": "freq",
+  "rank": 593
+ },
+ {
+  "lemma": "reden",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "reason the",
+  "src": "freq",
+  "rank": 594
+ },
+ {
+  "lemma": "gelijk",
+  "pos": null,
+  "article_hint": null,
+  "en_hint": "right",
+  "src": "freq",
+  "rank": 595
+ },
+ {
+  "lemma": "richting",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "direction the",
+  "src": "freq",
+  "rank": 596
+ },
+ {
+  "lemma": "rol",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "paper scroll the",
+  "src": "freq",
+  "rank": 598
+ },
+ {
+  "lemma": "gemeenschap",
+  "pos": null,
+  "article_hint": "de",
+  "en_hint": "community the",
+  "src": "freq",
+  "rank": 599
+ }
+]
