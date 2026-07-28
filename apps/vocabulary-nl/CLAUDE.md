@@ -10,6 +10,24 @@
 - 例文音声生成: `tools/.venv/bin/python tools/tts_generate.py A1`（MP3＋単語タイミング）。
 - 見出し語音声生成: `tools/.venv/bin/python tools/tts_lemma.py A1`。
 
+## 語彙リストを公式ソースから再構築する
+語彙の正本は `tools/raw/<level>.jsonl`（→ `node tools/build_seed.mjs <level> tools/raw/<level>.jsonl` で `data/<level>/words.json` を生成）。元データは公式 PDF から作れる:
+
+```bash
+# 1) 公式 PDF を取得（numo NT2 モジュール語彙＝主題別 / NT2 TaalMenu＝頻度順）
+curl -sL -o /tmp/numo-a0a1.pdf https://assets.numo.nl/wp/Woordenlijst-nt2.pdf
+curl -sL -o /tmp/numo-a1a2.pdf https://assets.numo.nl/wp/Woordenlijst-nt2-modules-A1-A2.pdf
+curl -sL -o /tmp/nt2-freq.pdf  https://nt2taalmenu.nl/nt2/lijsten/engels_fre.pdf
+# 2) テキスト化（poppler の pdftotext。-layout は必須＝表の列が崩れる）
+pdftotext -layout /tmp/numo-a0a1.pdf /tmp/numo-a0a1.txt
+pdftotext -layout /tmp/nt2-freq.pdf  /tmp/nt2-freq.txt
+# 3) パース（lemma＋品詞 / lemma＋冠詞＋英訳＋頻度ランク）
+node tools/parse_numo.mjs /tmp/numo-a0a1.txt > /tmp/numo_a0a1.json   # 766 lemmas
+node tools/parse_freq.mjs /tmp/nt2-freq.txt  > /tmp/nt2_freq.json     # 2050 lemmas
+```
+
+**必ず2ソースを突き合わせること。** numo は**主題別（食べ物・体・衣類などの具体名詞中心）で高頻度コア語が抜ける**。A0–A1 リストは頻度上位100語のうち55語（`niet / en / goed / doen / komen / maken / kind / man / vrouw` 等）を欠いていた。A1–A2 リストも同様（`snel / naam / thuis / misschien`、さらに `vier` `vijf` すら無い）。**片方だけで作ると例文が不自然になる**（コア語を避けた言い回しを強いられる）。現行 A1=890語 = numo 766 ＋ 頻度リスト上位200帯の欠落124語。
+
 ## スタックと制約
 - **素の HTML/CSS/JS（ES Modules）。ビルド無し・フレームワーク無し・localStorage・DB無し。** TypeScript は使わない（独語版で過去に導入→素JSへ戻した。再導入しない）。
 - オフライン動作。**外部CDN/Webフォントを読み込まない**（Inter/Arial＋system フォールバック）。
