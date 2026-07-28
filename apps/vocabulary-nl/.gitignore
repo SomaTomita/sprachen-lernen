@@ -26,6 +26,17 @@ data/A2/parts/
 #     再構築: python3 -m venv tools/.venv && tools/.venv/bin/pip install edge-tts
 # ─────────────────────────────────────────────
 
-# glossing scratch (merged into tools/raw/a1.jsonl)
+# --- 語彙構築の中間生成物（正本は data/<level>/words.json と tools/raw/<level>.jsonl） ---
+# gloss 作業のバッチ入出力（マージ済み → tools/raw/a1.jsonl）
 tools/raw/gloss/
 tools/raw/a1_review.json
+# 高頻度コア語の補完バッチ（マージ済み → tools/raw/a1.jsonl）
+tools/raw/supp/
+# 例文生成のバッチ入出力（マージ済み → data/A1/words.json）
+tools/raw/exgen/
+# 冠詞 de/het 検証パスの入出力（修正は適用済み・内容は changes-log に記録）
+tools/raw/verify/
+# 公式 PDF のパース結果（tools/parse_numo.mjs / parse_freq.mjs で再生成できる）
+tools/raw/nt2_freq_parsed.json
+tools/raw/nt2_freq_missing.json
+tools/raw/numo_a1a2_new.json
