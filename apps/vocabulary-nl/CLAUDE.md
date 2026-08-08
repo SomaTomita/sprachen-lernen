@@ -91,6 +91,7 @@ tests/                  srs.test.js, stats.test.js, slug.test.js, build_seed.tes
 4. **git 使用**（コミット/ブランチは通常運用。グローバルの git-workflow に従う）。
 
 ## 落とし穴
+- **現状 A1 のみ。** `js/storage.js` の `LEVELS` は**データが存在するレベルだけ**を並べる（今は `['A1']`）。`LEVELS` に載せるとレベルタブが描画されるので、`data/A2/words.json` が無い状態で `'A2'` を載せると読込エラー画面になる。A2 を作ったら `LEVELS` に追加し、ホームの tagline（リポジトリ直下 `js/content.js`）も A1/A2 表記に戻す。
 - **独語アプリ (`apps/vocabulary/`) には触れない。** コアロジック（srs/session/stats/dashboard）は独語版のコピーで、共通バグ修正は両アプリに適用が必要（changes-log に注記する）。
 - edge-tts は `boundary="WordBoundary"` 必須（無いと `timing` が空になりカラオケが壊れる）。
 - `file://` では動かない（fetch/ES Modules）。必ず `python3 -m http.server`。

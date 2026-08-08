@@ -4,7 +4,9 @@ export const GOAL_MIN = 10;
 export const GOAL_MAX = 100;
 export const GOAL_DEFAULT = 30;
 
-export const LEVELS = ['A1', 'A2'];
+// データが存在するレベルだけを並べる。A2 の words.json を用意したら 'A2' を追加する
+// （ここに載っているとレベルタブが描画され、データが無いと読込エラー画面になる）。
+export const LEVELS = ['A1'];
 export const LEVEL_DEFAULT = 'A1';
 
 /** Clamp a daily goal into the allowed range, falling back to the default. */

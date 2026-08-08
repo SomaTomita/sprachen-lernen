@@ -175,7 +175,7 @@ export const SECTIONS = [
     kind: "app",
     href: "apps/vocabulary-nl/",
     tagline:
-      "オランダ語 A1/A2 単語のフラッシュカード（Leitner）＋ネイティブ音声＋例文（スパイラル）＋進捗トラッキング。",
+      "オランダ語 A1 単語のフラッシュカード（Leitner）＋ネイティブ音声＋例文（スパイラル）＋進捗トラッキング。",
   },
   {
     id: "grammar-exercises",
