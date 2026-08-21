@@ -26,9 +26,9 @@ const missing = [];
 const out = words.map(w => {
   const hit = bank.get(w.id);
   if (!hit) { missing.push(w.id); return w; }
-  const prev = new Map((w.examples || []).map(e => [e.nl, e]));
+  const prev = new Map((w.examples || []).map(e => [e.fr, e]));
   const examples = hit.ex.map(e => {
-    const old = prev.get(e.nl);
+    const old = prev.get(e.fr);
     return old && old.audio && old.timing ? { ...e, audio: old.audio, timing: old.timing } : e;
   });
   return { ...w, examples };
