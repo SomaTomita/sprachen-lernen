@@ -522,7 +522,7 @@ export function parseFlelex(text, level = 'A1') {
     if (cols[9] !== level) continue;
     const pos = FLELEX_POS[tag];
     if (!pos) continue;
-    const key = `${word} ${pos}`;
+    const key = `${word}${pos}`;
     if (seen.has(key)) continue;
     seen.add(key);
     out.push({ lemma: word.toLowerCase(), pos, tag, freq: Number(cols[2]) || 0 });
