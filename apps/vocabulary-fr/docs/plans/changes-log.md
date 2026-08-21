@@ -33,3 +33,7 @@
   - `IRREGULAR_ADJ_STEMS`（beau/nouveau/vieux/fou の女性形・母音前形）を追加。
   - ハイフンを含む見出し語は**構成要素も許可集合に自動登録**する一般則を追加（week-end 以外の12個のハイフン複合語 après-midi/grand-mère 等は元々個別に許可語彙内で解決済みだったが、この一般則でも安全に扱える）。
   - 実データで再検証: 対象形はすべて通過、`néanmoins/toutefois/stratégie` 等10個の確実な語彙外語は依然0件漏れ。
+- 2026-08-22 **重複データを発見・削除**: `long`/`longue`・`cher`/`chère`・`nouveau`/`nouvelle` が男性形・女性形として**別々のフラッシュカード**になっていた（FLELex が表層形ごとに頻度判定するため）。女性形3件を削除し男性形の見出し語に統合（`ami`/`amoureux` 型の同綴り異品詞統合と同じ方針）。**A1 = 1,218語。**
+- 2026-08-22 **不規則形容詞の語幹をさらに拡充**: `faux/fausse`・`blanc/blanche`・`sec/sèche`・`neuf/neuve`・`gentil/gentille`・`doux/douce`・`frais/fraîche` を `IRREGULAR_ADJ_STEMS` に追加（164語の形容詞全件を実際の語形変化でテストし、8クラス16件の偽陽性を検出・解消）。`quel`→`quelle` も spaCy が `quell`(二重l) に誤語形化するため同テーブルに登録。
+- 2026-08-22 **不規則動詞語幹に `dormir`(dor-)・`servir`(ser-) を追加**（単数現在形 dors/dort, sers/sert が偽陽性になっていた）。
+- 実データ再検証: 目標形はすべて通過（`public` は実際には A1 見出し語に無いため対象外と判明——検証データの誤りで、実装側の問題ではない）。確実な語彙外語8個は依然0件漏れ。node --test 90/90 green。

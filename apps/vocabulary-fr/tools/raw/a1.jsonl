@@ -198,7 +198,6 @@
 {"lemma":"chose","pos":"noun","article":"la","plural":"choses","ja":"もの、こと","en":"thing"}
 {"lemma":"château","pos":"noun","article":"le","plural":"châteaux","ja":"城","en":"castle"}
 {"lemma":"chèque","pos":"noun","article":"le","plural":"chèques","ja":"小切手","en":"cheque"}
-{"lemma":"chère","pos":"adjective","ja":"（値段が）高い、親愛な（cher の女性形）","en":"expensive; dear (feminine of cher)","note":"pos was noun"}
 {"lemma":"chômage","pos":"noun","article":"le","ja":"失業","en":"unemployment"}
 {"lemma":"ciel","pos":"noun","article":"le","plural":"ciels","ja":"空","en":"sky"}
 {"lemma":"cimetière","pos":"noun","article":"le","plural":"cimetières","ja":"墓地","en":"cemetery"}
@@ -589,7 +588,6 @@
 {"lemma":"loisir","pos":"noun","article":"le","plural":"loisirs","ja":"余暇、趣味","en":"leisure, hobby"}
 {"lemma":"long","pos":"adjective","ja":"長い","en":"long","meanings":[{"ja":"長い","en":"long"},{"ja":"長さ（le long de = 〜に沿って）","en":"length (le long de = along)"}]}
 {"lemma":"longtemps","pos":"adverb","ja":"長い間","en":"for a long time"}
-{"lemma":"longue","pos":"adjective","ja":"長い（long の女性形）","en":"long (feminine of long)"}
 {"lemma":"lui","pos":"pronoun","ja":"彼に、彼女に、彼（強勢形）","en":"to him/her; him (stressed)"}
 {"lemma":"lumière","pos":"noun","article":"la","plural":"lumières","ja":"光、明かり","en":"light"}
 {"lemma":"lundi","pos":"noun","article":"le","plural":"lundis","ja":"月曜日","en":"Monday"}
@@ -700,7 +698,6 @@
 {"lemma":"notre","pos":"determiner","ja":"私たちの","en":"our"}
 {"lemma":"nous","pos":"pronoun","ja":"私たちは、私たちを","en":"we, us"}
 {"lemma":"nouveau","pos":"adjective","ja":"新しい","en":"new"}
-{"lemma":"nouvelle","pos":"adjective","ja":"新しい（nouveau の女性形）","en":"new (feminine of nouveau)","note":"pos was noun"}
 {"lemma":"novembre","pos":"noun","article":"le","ja":"11月","en":"November"}
 {"lemma":"nuit","pos":"noun","article":"la","plural":"nuits","ja":"夜","en":"night"}
 {"lemma":"nul","pos":"adjective","ja":"ゼロの、ひどい","en":"nil, zero; useless, rubbish"}
