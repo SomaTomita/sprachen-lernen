@@ -178,6 +178,14 @@ export const SECTIONS = [
       "オランダ語 A1 単語のフラッシュカード（Leitner）＋ネイティブ音声＋例文（スパイラル）＋進捗トラッキング。",
   },
   {
+    id: "vocabulary-fr",
+    label: "単語（仏）",
+    kind: "app",
+    href: "apps/vocabulary-fr/",
+    tagline:
+      "フランス語 A1 単語のフラッシュカード（Leitner）＋ネイティブ音声＋例文（スパイラル）＋進捗トラッキング。",
+  },
+  {
     id: "grammar-exercises",
     label: "文法練習",
     kind: "app",
