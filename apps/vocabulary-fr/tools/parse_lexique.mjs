@@ -22,8 +22,8 @@ export function parseLexique(text) {
   const lines = text.split('\n');
   const head = lines[0].replace(/\r/g, '').split('\t');
   const ix = (name) => head.indexOf(name);
-  const [iO, iL, iC, iG, iN, iF] =
-    ['ortho', 'lemme', 'cgram', 'genre', 'nombre', 'freqlemlivres'].map(ix);
+  const [iO, iL, iC, iG, iN, iF, iFF] =
+    ['ortho', 'lemme', 'cgram', 'genre', 'nombre', 'freqlemlivres', 'freqlivres'].map(ix);
 
   // lemma ごとに NOM 行を集める（性の整合を取るため行を保持する）
   const nounRows = new Map();
@@ -36,19 +36,29 @@ export function parseLexique(text) {
     if (!out.has(lemma)) out.set(lemma, { article: null, plural: null, cgram: c[iC] || '', freq: Number(c[iF]) || 0 });
     if (c[iC] !== 'NOM') continue;
     if (!nounRows.has(lemma)) nounRows.set(lemma, []);
-    nounRows.get(lemma).push({ ortho: c[iO], genre: c[iG], nombre: c[iN] });
+    nounRows.get(lemma).push({ ortho: c[iO], genre: c[iG], nombre: c[iN], formFreq: Number(c[iFF]) || 0 });
   }
 
   const toArticle = (g) => (g === 'f' ? 'la' : g === 'm' ? 'le' : null);
   for (const [lemma, rows] of nounRows) {
-    // 基準行: ortho が lemma と一致し性が入っている行。無ければ性が入っている任意の行。
-    const canon = rows.find(r => r.ortho.toLowerCase() === lemma && r.genre)
+    // 基準行: ortho が lemma と一致する行（性が空でもそれを採る）。
+    // **性が空のときに別綴りの行から性を借りてはいけない** — Lexique は professeur の
+    // 基準行の genre を空にしており、借りると女性形 professeure の f を拾って `la` になる。
+    // 性不明は null のまま返し、gloss パスで補わせる方が安全（誤った性より無い方がよい）。
+    const canon = rows.find(r => r.ortho.toLowerCase() === lemma)
       || rows.find(r => r.genre)
       || rows[0];
     const article = toArticle(canon.genre);
-    // 複数形は基準行と同じ性の行から。性が不明なら任意の複数行。
-    const plural = (rows.find(r => r.nombre === 'p' && r.genre === canon.genre)
-      || (canon.genre ? null : rows.find(r => r.nombre === 'p')) || {}).ortho || null;
+    // 複数形は基準行と同じ性の複数行から。候補が複数あるときは
+    // **語形ごとの出現頻度が最大のもの**を採る。同性で綴りが2種ある語があり
+    // （lieu → lieus(魚) / lieux(場所)、oeil → oeils / yeux）、行順で採ると
+    // 稀な方を拾ってしまうため。頻度なら常用形が選ばれる。
+    // 複数形も基準行と同じ性の行だけを候補にする（性が空なら空の行のみ）。
+    // amoureux のように同性の複数行が無い語は「不変」として null を返す。
+    const pluralRows = rows.filter(r => r.nombre === 'p' && r.genre === canon.genre);
+    const plural = pluralRows.length
+      ? pluralRows.reduce((a, b) => (b.formFreq > a.formFreq ? b : a)).ortho
+      : null;
     const rec = out.get(lemma);
     rec.article = article;
     rec.plural = (plural && plural.toLowerCase() !== lemma) ? plural : null;
