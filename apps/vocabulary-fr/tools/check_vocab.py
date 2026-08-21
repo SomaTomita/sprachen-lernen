@@ -1,116 +1,123 @@
 #!/usr/bin/env python3
-"""例文の語彙スパイラルを機械検証する。
-A1 例文は A1 見出し語のみ、A2 例文は A1∪A2 見出し語のみ（＋機能語 allowlist＋固有名詞/数詞）。
+"""例文の語彙スパイラルを機械検証する（フランス語）。
+A1 例文は A1 見出し語（実現形を含む）＋機能語 allowlist＋固有名詞/数詞のみ。
 違反トークンを列挙して exit 1。実行: tools/.venv/bin/python tools/check_vocab.py A1
 
 照合は 3 段:
-  1. spaCy lemma / 表層形が許可集合にあるか（完全一致）。
-  2. 正規化照合: 語尾変化・複数・二重母音・有声無声の揺れを吸収した「語幹」で一致するか。
-     （spaCy 小モデルは "werk"→"werken" のような蘭語活用の見出し語化を外すため、その偽陽性を吸収する。）
-これでも外れた内容語だけを違反として報告する。精度が要れば nl_core_news_md/lg へ。
+  1. spaCy の lemma / 表層形が許可集合にあるか（完全一致）。
+  2. 正規化照合: 合字展開・アクセント除去・アポストロフィ/ハイフン除去のうえ、
+     フランス語の屈折語尾（動詞活用・性数一致・不規則複数 -aux/-eaux/-eux）を落とした
+     「語幹」で一致するか。
+  3. 見出し語の `plural` も許可集合に入れてあるので不規則複数はそのまま通る。
+
+spaCy fr_core_news_sm の実測特性（このツールの設計根拠）:
+  - エリジオンは分割される（"J'ai" → "J'" + "ai"）。表層形にアポストロフィが残るので除去する。
+  - 縮約は分割されない。`du`→`de` だが `au`→`au`、そして **`des`→`un`**、`Elle`→`lui` と
+    予想外の lemma を返す。いずれも機能語なので allowlist で吸収する。
+  - `Qu'est-ce que` は先頭ハイフン付きトークン `-ce` を作る。ハイフンを除去して扱う。
+  - **アクセントが欠けると lemma 化が効かない**（`achete` は `acheter` にならない）。
+    結果として綴りのアクセント誤りが違反として浮かぶ＝副次的なアクセント検査になる。
+  - `être`/`avoir` は文脈で AUX/VERB が変わるので品詞で助動詞を判定しない。
 """
-import json, re, sys
+import json, re, sys, unicodedata
 from pathlib import Path
 import spacy
 
 # 語彙集合の対象外（機能語・固有名詞・数詞・記号）。内容語(NOUN/VERB/ADJ/ADV)のみ照合する。
 FUNCTION_POS = {"ADP", "AUX", "CCONJ", "SCONJ", "DET", "PRON", "PART",
                 "PUNCT", "NUM", "PROPN", "SYM", "X", "INTJ"}
-_PUNCT = ".,!?;:\"'()[]«»–—-…"
-_VOWEL2 = re.compile(r"(aa|ee|oo|uu)")
-_SUFFIXES = ("eren", "'s", "en", "s", "e", "t", "n")  # 蘭語の主要な屈折語尾（-eren は kinderen/eieren 型）
 
+_STRIP = ".,!?;:\"'’()[]«»–—…-"
+_LIGATURES = ((("œ", "oe"), ("Œ", "OE"), ("æ", "ae"), ("Æ", "AE")))
 
-def _canon(w: str) -> str:
-    """二重母音の単母音化(aa→a)・有声無声の正規化(z→s, v→f)・末尾重子音の単一化。
-    蘭語は短母音動詞で語幹末子音が重なる（krabben↔krabt / zitten↔zit / liggen↔ligt /
-    pakken↔pakt）ため、末尾の重子音を1つに畳んで両者を同じ語幹に落とす。"""
-    w = _VOWEL2.sub(lambda m: m.group(0)[0], w)
-    w = w.replace("z", "s").replace("v", "f")
-    if len(w) >= 3 and w[-1] == w[-2] and w[-1] not in "aeiou":
-        w = w[:-1]
-    return w
+# フランス語の主要な屈折語尾。**_fold がアクセントを除去した後**に適用するので、
+# ここもアクセント無しの形で書く（"ée"→"ee", "és"→"es"）。長い語尾から順に落とす。
+_SUFFIXES = (
+    "eraient", "erions", "aient", "eront", "erons",
+    "ions", "iez", "ons", "ent", "ont", "ais", "ait", "ees", "ee", "es",
+    "is", "it", "ie", "ez", "as", "at", "er", "ir", "re",
+    "e", "s", "x", "t", "i", "u", "a",
+)
+# 不規則複数の書き換え。journal→journaux は -al、travail→travaux は -ail なので両方試す。
+_PLURAL_REWRITES = (
+    (r"eaux$", "eau"), (r"aux$", "al"), (r"aux$", "ail"),
+    (r"eux$", "eu"), (r"eux$", "eux"), (r"ux$", "u"),
+)
+
+def _fold(w: str) -> str:
+    """合字展開 → アクセント除去 → 小文字化 → アポストロフィ/ハイフン除去。"""
+    for a, b in _LIGATURES:
+        w = w.replace(a, b)
+    w = unicodedata.normalize("NFD", w)
+    w = "".join(c for c in w if not unicodedata.combining(c))
+    w = w.lower().strip(_STRIP)
+    return w.replace("'", "").replace("’", "").replace("-", "")
 
 
 def canon_forms(word: str) -> set[str]:
-    """表層形/見出し語から比較用の正規化語幹候補（無語尾＋主要語尾を落とした形）を作る。
-    両側を同じ規則で語幹化するので、活用形と不定詞/単数が共通語幹で一致する
-    （eten↔eet→"et"、lopen↔loopt→"lop"、huis↔huizen→"huis"、groot↔grote→"grot"）。
+    """比較用の正規化語幹候補。屈折語尾と不規則複数を落とした形を集める。
+    語尾除去は**2段**行う（mangeons → mange → mang のように2回落ちる形があるため）。
     2文字未満の語幹は誤一致を招くため除外する。"""
-    w = word.lower().strip(_PUNCT)
-    bases = {w}
-    if w.startswith("ge") and len(w) > 4:  # 規則的な過去分詞 gewerkt→werk など
-        bases.add(w[2:])
-    forms = set(bases)
-    for b in bases:
-        for suf in _SUFFIXES:
-            if b.endswith(suf) and len(b) - len(suf) >= 2:
-                forms.add(b[: -len(suf)])
-    # koe→koeien 型: -en を落とした語幹の末尾 i も落として koe に合わせる
-    for f in list(forms):
-        if f.endswith("i") and len(f) >= 3:
-            forms.add(f[:-1])
-    return {_canon(f) for f in forms if len(f) >= 2}
+    base = _fold(word)
+    if not base:
+        return set()
+    forms = {base}
+    # エリジオン付きの塊で来た場合（"l'école"）に備え、アポストロフィ後ろも候補にする。
+    # 通常 spaCy は "l'" と "école" に分割するので保険。
+    for sep in ("'", "\u2019"):
+        if sep in word:
+            tail = _fold(word.split(sep)[-1])
+            if tail:
+                forms.add(tail)
+    for pat, rep in _PLURAL_REWRITES:
+        for b in list(forms):
+            if re.search(pat, b):
+                forms.add(re.sub(pat, rep, b))
+    for _ in range(2):                      # 2段の語尾除去
+        for b in list(forms):
+            for suf in _SUFFIXES:
+                if b.endswith(suf) and len(b) - len(suf) >= 2:
+                    forms.add(b[: -len(suf)])
+    return {f for f in forms if len(f) >= 2}
 
 
 def load_lemmas(path: Path) -> set[str]:
-    return {w["lemma"].lower() for w in json.loads(path.read_text(encoding="utf-8"))}
-
-
-# 分離動詞の前つづり。主文では分離して現れる（"Ik check in." / "Ik sta op."）ため、
-# spaCy は残った本体だけを lemma 化する（inchecken → check）。本体側も許可語幹に加える。
-_PARTICLES = ("aan", "achter", "af", "bij", "binnen", "door", "in", "langs", "mee", "na",
-              "neer", "om", "onder", "op", "over", "rond", "samen", "terug", "tegen",
-              "toe", "uit", "van", "voor", "weg")
-
-
-def separable_stems(path: Path) -> set[str]:
-    """分離動詞見出し語の「本体」語幹を返す（inchecken→checken, opstaan→staan）。"""
-    stems: set[str] = set()
+    """見出し語と、あれば複数形も許可集合に入れる（不規則複数の偽陽性を防ぐ）。"""
+    out: set[str] = set()
     for w in json.loads(path.read_text(encoding="utf-8")):
-        if w.get("pos") != "verb":
-            continue
-        lem = w["lemma"].lower()
-        for p in _PARTICLES:
-            if lem.startswith(p) and len(lem) - len(p) >= 4:
-                stems.add(lem[len(p):])
-                break
-    return stems
+        out.add(w["lemma"].lower())
+        if w.get("plural"):
+            out.add(w["plural"].lower())
+    return out
 
 
 def main(level: str) -> int:
     base = Path("data")
-    allowed = load_lemmas(base / "A1" / "words.json")
-    if level == "A2":
-        allowed |= load_lemmas(base / "A2" / "words.json")
-    fn = {l.strip().lower() for l in Path("tools/function_words_nl.txt").read_text(encoding="utf-8").split() if l.strip()}
+    allowed = load_lemmas(base / level / "words.json")
+    fn = {l.strip().lower() for l in Path("tools/function_words_fr.txt").read_text(encoding="utf-8").split() if l.strip()}
     allowed |= fn
-    # 分離動詞の本体語幹も許可（"Ik check in." の check ← inchecken）
-    seps = separable_stems(base / "A1" / "words.json")
-    if level == "A2":
-        seps |= separable_stems(base / "A2" / "words.json")
+    allowed_folded = {_fold(a) for a in allowed} - {""}
     allowed_canon: set[str] = set()
-    for a in allowed | seps:
+    for a in allowed:
         allowed_canon |= canon_forms(a)
 
-    nlp = spacy.load("nl_core_news_sm")
+    nlp = spacy.load("fr_core_news_sm")
     data = json.loads((base / level / "words.json").read_text(encoding="utf-8"))
     violations = []
     for w in data:
         for e in w.get("examples", []):
-            doc = nlp(e["nl"])
+            doc = nlp(e["fr"])
             for tok in doc:
                 if tok.pos_ in FUNCTION_POS:
                     continue
-                text = tok.text.lower().strip(_PUNCT)
-                lem = tok.lemma_.lower().strip(_PUNCT)
-                if not text:
+                text_f, lem_f = _fold(tok.text), _fold(tok.lemma_)
+                if not text_f:
                     continue
-                if lem in allowed or text in allowed:
+                if text_f in allowed_folded or lem_f in allowed_folded:
                     continue
-                if (canon_forms(text) | canon_forms(lem)) & allowed_canon:
+                if (canon_forms(tok.text) | canon_forms(tok.lemma_)) & allowed_canon:
                     continue
-                violations.append(f'{w["id"]}: "{e["nl"]}" → 語彙外: {tok.text} (lemma={tok.lemma_}, pos={tok.pos_})')
+                violations.append(f'{w["id"]}: "{e["fr"]}" → 語彙外: {tok.text} (lemma={tok.lemma_}, pos={tok.pos_})')
 
     for v in violations:
         print("✗ " + v)
