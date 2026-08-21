@@ -3,6 +3,7 @@ import { dayNumber, recordActivity } from './storage.js';
 import { review } from './srs.js';
 import { buildSession } from './session.js';
 import { renderSentence, playKaraoke, playLemma, registerPlayButton } from './audio.js';
+import { displayHeadword } from './elision.js';
 export function renderFlashcards(app, ctx) {
     const { words, byId, state, persist } = ctx;
     const level = state.settings.level;
@@ -131,7 +132,7 @@ export function renderFlashcards(app, ctx) {
         aria-label="カードをめくって意味を表示">
         <p class="flashcard-hint-front">タップまたは Space でめくる</p>
         <div class="headword-row">
-          <h2 class="headword">${word.article ? word.article + ' ' : ''}${word.lemma}</h2>
+          <h2 class="headword">${displayHeadword(word.article, word.lemma)}</h2>
           <button type="button" id="lemmaPlay" class="icon-button button-play on-dark"
             aria-label="発音を再生">▶</button>
         </div>
