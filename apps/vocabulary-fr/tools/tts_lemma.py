@@ -14,7 +14,7 @@ from pathlib import Path
 
 import edge_tts
 
-VOICE = "nl-NL-ColetteNeural"
+VOICE = "fr-FR-DeniseNeural"
 RETRIES = 4
 SAVE_EVERY = 50
 

@@ -872,7 +872,6 @@
 {"lemma":"pâte","pos":"noun","article":"la","plural":"pâtes","ja":"生地、（複数で）パスタ","en":"dough, paste; (plural) pasta"}
 {"lemma":"pâté","pos":"noun","article":"le","plural":"pâtés","ja":"パテ（肉料理）","en":"pâté"}
 {"lemma":"père","pos":"noun","article":"le","plural":"pères","ja":"父","en":"father"}
-{"lemma":"qu'","pos":"adverb","ja":"que の縮約形（母音の前）","en":"elided form of que","conf":"low"}
 {"lemma":"quai","pos":"noun","article":"le","plural":"quais","ja":"（駅の）ホーム、河岸","en":"platform; quay"}
 {"lemma":"qualité","pos":"noun","article":"la","plural":"qualités","ja":"質、長所","en":"quality"}
 {"lemma":"quand","pos":"adverb","ja":"いつ","en":"when","meanings":[{"ja":"いつ（疑問）","en":"when (question word)"},{"ja":"〜のとき","en":"when (conjunction)"}]}

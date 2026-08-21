@@ -15,7 +15,7 @@ from pathlib import Path
 
 import edge_tts
 
-VOICE = "nl-NL-ColetteNeural"
+VOICE = "fr-FR-DeniseNeural"
 RETRIES = 4
 SAVE_EVERY = 40  # この件数ごとに words.json を保存
 
@@ -67,7 +67,7 @@ async def main(level: str) -> int:
                 done += 1
                 continue
             try:
-                timing = await synth(e["nl"], audio_dir / fname)
+                timing = await synth(e["fr"], audio_dir / fname)
             except Exception as err:  # noqa: BLE001
                 failures.append(f"{fname}: {err}")
                 print(f"FAIL {fname}: {err}", flush=True)
