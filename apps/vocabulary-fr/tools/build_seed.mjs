@@ -8,7 +8,11 @@ export function buildEntry(row, level) {
   if (row.plural) e.plural = row.plural;
   e.level = level;
   e.lemmaAudio = `audio/lemma/${id}.mp3`;
-  e.meanings = [{ ja: row.ja, en: row.en }];
+  // 同綴り異義語（devoir 動/名 など）は複数語義を持つので meanings 配列をそのまま通す。
+  // gloss が配列を出していればそれを使い、無ければ ja/en の1語義に落とす。
+  e.meanings = Array.isArray(row.meanings) && row.meanings.length
+    ? row.meanings.map(m => ({ ja: m.ja, en: m.en }))
+    : [{ ja: row.ja, en: row.en }];
   return e;
 }
 export function buildAll(rows, level) {

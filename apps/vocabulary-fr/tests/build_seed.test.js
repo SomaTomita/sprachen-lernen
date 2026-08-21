@@ -22,3 +22,20 @@ test('omits article/plural when absent; dedupes by id (first wins)', () => {
   assert.equal('article' in out[0], false);
   assert.equal(out[1].meanings[0].ja, '家');
 });
+
+test('passes a multi-sense meanings array through (homographs like devoir)', () => {
+  const e = buildEntry({
+    lemma: 'devoir', pos: 'verb',
+    meanings: [{ ja: '〜しなければならない', en: 'must, to have to' },
+               { ja: '宿題、義務', en: 'homework, duty' }],
+  }, 'A1');
+  assert.equal(e.meanings.length, 2);
+  assert.equal(e.meanings[0].ja, '〜しなければならない');
+  assert.equal(e.meanings[1].en, 'homework, duty');
+  assert.equal('article' in e, false);
+});
+test('falls back to flat ja/en when no meanings array is given', () => {
+  const e = buildEntry({ lemma: 'maison', pos: 'noun', article: 'la', plural: 'maisons', ja: '家', en: 'house' }, 'A1');
+  assert.deepEqual(e.meanings, [{ ja: '家', en: 'house' }]);
+  assert.equal(e.article, 'la');
+});
