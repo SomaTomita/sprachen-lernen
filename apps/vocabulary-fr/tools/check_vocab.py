@@ -88,6 +88,15 @@ IRREGULAR_VERB_STEMS = {
     "écrire": ["ecriv"],
 }
 
+# 不規則形容詞（BAGS 型）。beau/bel/belle のように母音前形・女性形・複数形が
+# 語尾除去だけでは復元できない語幹に変わる。キーは見出し語（男性単数形）。
+IRREGULAR_ADJ_STEMS = {
+    "beau": ["bel", "belle", "belles"],
+    "nouveau": ["nouvel", "nouvelle", "nouvelles"],
+    "vieux": ["vieil", "vieille", "vieilles"],
+    "fou": ["fol", "folle", "folles"],
+}
+
 
 def _fold(w: str) -> str:
     """合字展開 → アクセント除去 → 小文字化 → アポストロフィ/ハイフン除去。"""
@@ -148,6 +157,18 @@ def main(level: str) -> int:
     for inf, stems in IRREGULAR_VERB_STEMS.items():
         if inf in allowed:                       # A1 に無い動詞の語幹は入れない（無駄な許可を増やさない）
             allowed_canon |= {_fold(s) for s in stems}
+    for inf, stems in IRREGULAR_ADJ_STEMS.items():
+        if inf in allowed:
+            allowed_canon |= {_fold(s) for s in stems}
+    # ハイフン複合語（week-end 等）は spaCy がハイフンで別トークンに分割するため、
+    # 各構成要素も許可集合に加える（week/end は単独では仏語の語ではないが、
+    # 見出し語 "week-end" の一部として現れるので許可する）。
+    for a in list(allowed):
+        if "-" in a:
+            for part in a.split("-"):
+                pf = _fold(part)
+                if len(pf) >= 2:
+                    allowed_canon.add(pf)
 
     nlp = spacy.load("fr_core_news_sm")
     data = json.loads((base / level / "words.json").read_text(encoding="utf-8"))
