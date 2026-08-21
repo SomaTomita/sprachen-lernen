@@ -1,143 +1,135 @@
-# 例文生成・検証パイプライン（オランダ語 A1 / A2）
+# 例文生成・検証パイプライン（フランス語 A1）
 
-> 生成プロンプトにも検証プロンプトにも、対象レベルの「天井」と「スパイラル語彙規則」を**そのまま焼き込む**こと。
-> バッチ（20〜50 語）で回し、各バッチ後に次の3ゲートを通す:
-> 1. `node tools/validate_data.mjs <level> --no-audio`（スキーマ）
+> 生成プロンプトにも検証プロンプトにも、下記「A1 の天井」と「スパイラル語彙規則」を**そのまま焼き込む**こと。
+> バッチ（40〜50語）で回し、各バッチ後に次の3ゲートを通す:
+> 1. `node tools/validate_data.mjs A1 --no-audio`（スキーマ）
 > 2. **文法検証**（別 LLM エージェント／本書の検証プロンプト）
-> 3. `tools/.venv/bin/python tools/check_vocab.py <level>`（**決定的な語彙スパイラル検証**）
+> 3. `tools/.venv/bin/python tools/check_vocab.py A1`（**決定的な語彙スパイラル検証**）
 > 3 つすべて 0 エラーで初めて音声生成へ進む。
 
 ---
 
 ## 0. スパイラル語彙規則（最重要・必須）
 
-例文で使ってよい語を**レベルの累積集合に厳密に限定**する。これがスパイラルラーニングの担保。
+- **A1 の例文で使ってよい語** = 「A1 見出し語（その `plural`・活用形を含む実現形）」＋「機能語 allowlist（`tools/function_words_fr.txt`）」＋「固有名詞・数詞」**だけ**。
+- それ以外の内容語は**一切使わない**。自然な文が書けない場合は、許可語彙内で言い換える。
+- この規則は LLM 判定に委ねず `check_vocab.py`（spaCy `fr_core_news_sm` ＋ フランス語形態素正規化）で機械的にゲートする。
+- 許可集合には**見出し語の複数形も入れている**（`journal`→`journaux` のような不規則複数の偽陽性を根本的に防ぐため）。
 
-- **A1 の例文** = 「A1 見出し語」＋「機能語 allowlist（`tools/function_words_nl.txt`）」＋「固有名詞・数詞」だけ。
-- **A2 の例文** = 「A1 ∪ A2 見出し語」＋「機能語 allowlist」＋「固有名詞・数詞」だけ。
-- 見出し語は**実現形**で使ってよい（活用・複数・指小 -je・分離動詞の分離形）。例: `lopen`→loop/loopt/liep/gelopen、`huis`→huizen、`opstaan`→"sta … op"。
-- この規則は LLM 判定に委ねず、`check_vocab.py`（spaCy `nl_core_news_sm` で形態素解析→見出し語照合）で機械的にゲートする。
-- **照合方式:** `check_vocab.py` は (1) spaCy lemma / 表層形の完全一致、(2) 語尾変化・複数・二重母音(oo→o)・有声無声(z→s, v→f)・規則的過去分詞(ge-)を吸収した**正規化語幹**での一致、の 2 段で判定する。小モデルは蘭語活用の見出し語化を外しやすい（"werk"→"werken" にならない等）ため、(2) が活用形の偽陽性を吸収する。
-- **正規化が吸収する形:** 活用語尾（-en/-t/-e/-s/-n）・不規則複数（`kinderen`→kind, `eieren`→ei, `koeien`→koe）・**末尾重子音**（`krokodillen`→krokodil, `krabt`↔krabben, `zit`↔zitten, `mappen`→map）・二重母音（`lopen`↔loopt）・有声無声（z↔s, v↔f）・規則的過去分詞（ge-）。
-- **既知の残存限界:** (a) **母音が変わる強変化複数**（`stad`→`steden`, `schip`→`schepen`）は語幹一致せず**偽陽性**になる → 例文でこの型の複数形を使うのは避けるか、違反候補として目視確認する。(b) 不規則過去分詞（`gegeten` 等）も同様。(c) 2〜3 字の短語は近い許可語と語幹衝突しうる＝**偽陰性**（例: `kat`↔`kan`）。(d) 許可語の派生語（`regen` があると `regenen` も通る）は通過しうる。
-- 残った違反候補は (a) `function_words_nl.txt` 追補、(b) 正当な派生語を seed に追加、(c) changes-log に理由記録、で運用。精度が要れば `nl_core_news_md` へ上げる。**本ツールは backstop であり、一次担保は生成時の allowlist 遵守と LLM 文法検証。**
+> **蘭語版の教訓:** 検証ツールが正しい言語表現を偽陽性で弾くと、生成側が不自然な言い換えを強いられて**教材の質が落ちる**。偽陽性を見つけたら**例文を歪めるのではなく、まずツール側を直す**。
 
 ---
 
-## 1. A1 の天井（A1 例文で厳守・超過禁止）
+## 1. A1 の天井（厳守・超過禁止）
 
-1つでも超えたら reject。迷ったら必ず単純な方（現在形・主文）に倒す。
+1つでも超えたら reject。迷ったら必ず単純な方（現在形・単文）に倒す。
 
-**時制**
-- **現在形（onvoltooid tegenwoordige tijd）が中心**。原則すべて現在形。
-- 過去は次のみ控えめに: `zijn`(was/waren)・`hebben`(had/hadden) と、ごく一般的動詞の **Perfectum**（`heb/ben` + voltooid deelwoord、例: "Ik heb brood gegeten."）。
-- 一般動詞の imperfectum 叙述（liep, maakte, kocht…）は**禁止**。未来 `zullen`・条件法は**禁止**（近接未来 `gaan` + inf は可: "Ik ga eten."）。
+**時制・法**
+- **直説法現在（présent）が中心。**
+- **複合過去（passé composé）**は `avoir`/`être` ＋ ごく一般的な動詞に限り**控えめに**可（`J'ai mangé du pain.` / `Je suis allé à Paris.`）。
+- **近接未来（futur proche）** `aller` + 不定詞 可（`Je vais manger.`）。
+- **命令法の基本形** 可（`Regarde !` / `Écoutez !`）。
+- **禁止:** 半過去（imparfait）／単純未来（futur simple）／条件法（conditionnel）／接続法（subjonctif）／単純過去（passé simple）／大過去（plus-que-parfait）／ジェロンディフ（`en faisant`）。
 
-**語順**
-- 主文 V2。文頭に副詞句が出れば倒置（"Vandaag werk ik."）。分離動詞は主文で分離（"Ik sta om zeven uur op."）。
-- 疑問は倒置（"Werk jij vandaag?" — jij 倒置で -t が落ちる）。
+**語順・否定・疑問**
+- 平叙は SVO。否定は **`ne … pas`** を完全形で書く（口語の `pas` 単独は使わない）。`ne … jamais/rien/plus` も可。
+- 疑問はイントネーション（`Tu viens ?`）・**`est-ce que`**・基本の倒置（`Parlez-vous français ?`）。疑問詞 `qui / que / où / quand / comment / combien / pourquoi`。
 
-**従属・接続**
-- 等位接続 `en / of / maar / want / dus` まで。
-- **従属節は禁止**（`omdat / dat / als / toen / terwijl` の動詞後置節）。**関係節（die/dat）禁止**。**受動態（worden + 過去分詞）禁止**。
+**冠詞・名詞**
+- 定冠詞・不定冠詞・**部分冠詞（`du` / `de la` / `des`）**可。
+- **エリジオンとアポストロフィを正しく書く**（`j'ai` / `l'école` / `d'accord` / `qu'est-ce que`）。
+- 否定の `de`（`Je n'ai pas de pain.`）可。
 
 **形容詞**
-- 述語用法（"Het huis is groot."）＋**基本的な付加語 -e 変化**（de 語 → -e：`de grote stad` / `een grote stad`；het 語 + `een` → 無語尾：`een groot huis`；het 語 + `het/dit` → -e：`het grote huis`）。
-- **比較級・最上級は禁止**（groter / grootst / … 不可）。
+- **性数一致を必ず正しく**（`une grande maison` / `des livres verts` / `elle est petite`）。
+- 位置は原則**名詞の後**（`une voiture rouge`）。ただし BAGS 系の短い常用語は前置（`un grand homme` / `une belle ville` / `un bon livre` / `un petit chat`）。
+- **比較級・最上級は禁止**（`plus grand que` / `le plus` / `meilleur` 不可）。
 
-**否定・その他**
-- 否定は `niet` / `geen`。指小 `-je` は一般的なもの可。
-- 数詞・固有名詞・曜日・色・時刻は可。
+**代名詞**
+- 主語代名詞は自由。**直接・間接目的語代名詞（`le/la/les/lui/leur`）の多用は避ける**（A2 域）。
+- **`y` / `en` は原則禁止**（定型 `il y a` は可）。
+
+**禁止（A2 以上）**
+- **関係節**（`qui` / `que` を関係代名詞として使う節）。
+- **受動態**（`être` + 過去分詞の受動用法）。
+- **代名動詞の複雑な用法**（基本の `se lever` 程度は下記例外表に従う）。
 
 **文の形式**
-- **短く 3〜8 語**（句読点除く）。対象見出し語を必ず含む（実現形可）。
-- 自然な JA 訳・EN 訳を付ける（直訳すぎない）。オランダ語として正用法（語順・冠詞 de/het・主述一致）。
+- **3〜8語**（句読点を除く）。対象見出し語を必ず含む（活用形・実現形で可）。
+- 自然な **`ja`（日本語・常体）** と **`en`（英語）** の訳を付ける。**`ja` は「〜する / 〜だ」の常体で統一。です・ます体は使わない。**
 
-**見出し語の自己使用の例外（重要・A1/A2 共通）**
+**例文数**
+- 各語 **2文**。`meanings.length >= 2` の語は **3文以上で各語義を最低1文カバー**（`validate_data.mjs` のしきい値と一致）。
 
-見出し語そのものが天井で禁止された文法カテゴリに属する場合、**その語の例文に限り**最小限の形で使用してよい（見出し語は自分の例文に必ず登場しなければならないため）。**他の語の例文では引き続き禁止**。独語版が `möchte` に与えた例外と同じ扱い。A1 での具体例:
+---
+
+## 2. 見出し語の自己使用の例外（重要）
+
+見出し語自身が天井で禁止のカテゴリに属する場合、**その語の例文に限り**最小限の形で使用してよい（見出し語は自分の例文に必ず登場しなければならないため）。**他の語の例文では引き続き禁止。**
 
 | 見出し語 | 天井上の問題 | 許す形（自己使用のみ） |
 |---|---|---|
-| `meer` / `beter` / `verder` | 比較級形 | "Ik wil meer water." / "Dat is beter." / "Wij lopen verder." |
-| `omdat` | 従属節（動詞後置）が必須 | 最小の従属節1つ・正しい動詞後置: "Ik blijf binnen, omdat het koud is." |
-| `zich` | 再帰は A2 解禁項目 | "Zij voelt zich niet goed." |
-| `zullen` | 未来 `zullen` は禁止 | **未来叙述には使わない**。提案・申し出の定型のみ: "Zullen wij samen eten?" / "Zal ik je helpen?" |
-| `als` / `toen` / `wie` / `waarin` / `zoals` | 従属節・関係節を誘発 | **節を作らない用法に限定**する。`als`＝前置詞「〜として」("Hij werkt als kapper.")、`toen`＝V2 倒置の副詞("Toen was ik klein.")、`wie`/`waarin`＝疑問詞、`zoals`＝定動詞を伴わない句("fruit, zoals appels")。 |
-
-**分離動詞は主文で分離させてよい**（"Ik check in met mijn ov-chipkaart." / "Ik sta om zeven uur op."）。`check_vocab.py` は分離動詞の本体語幹を許可済みなので、分離形でゲートは通る。
-
-**例文数**
-- 各語 **2 文**。`meanings.length >= 2` の語は **3 文以上で各語義を最低 1 文カバー**（`validate_data.mjs` のしきい値と一致）。
+| `plus` / `moins` / `mieux` / `meilleur` | 比較級を誘発 | 比較構文にせず単独の副詞・定型で（`Je ne veux plus.` / `C'est mieux.`） |
+| `qui` / `que` | 関係節を誘発 | **疑問詞用法のみ**（`Qui est-ce ?` / `Que fais-tu ?`） |
+| `se` および代名動詞 | 代名動詞は A2 域 | 基本の日常動作のみ（`Je me lève à sept heures.`） |
+| `y` / `en`（代名詞） | 天井で禁止 | 定型のみ（`Il y a un livre.` / `J'en ai un.`） |
+| `être` の受動的な見え方 | 受動態は禁止 | `être` + **形容詞**は受動ではない（`La porte est ouverte.` は状態。可） |
 
 ---
 
-## 2. A2 の天井（A1 に追加解禁。A1 で許可のものは A2 でも当然可）
+## 3. 出力スキーマ
 
-**時制** — 全動詞の Perfectum 可。一般動詞・話法助動詞の imperfectum を限定的に（kon/moest/wilde/zou/ging/kwam/zei など基本語）。条件 `zou + inf` の基本形可。
-
-**従属・接続** — **従属節解禁**（`omdat / dat / als / want / toen`、動詞後置を正しく）。**間接疑問解禁**（"Ik weet niet waar hij woont."）。
-
-**形容詞** — 比較級・最上級解禁（`groter / grootst / beter / meer … dan / net zo … als`）。
-
-**その他解禁** — 再帰動詞（`zich voelen / zich vergissen`）。
-
-**禁止（B1 へ・A2 でも超過＝reject）** — 関係節（die/dat/wie/wat の関係代名詞）、受動態（worden + 過去分詞）、拡張従属接続詞（`hoewel / zodat / terwijl`）、一般動詞の自由な imperfectum 叙述の多用。
-
-**語彙** — A1∪A2 累計（A2 文に A1 語も可）。長さは従属節1つ程度まで。
-
----
-
-## 3. 出力スキーマ（`data/<level>/words.json`）
-
-seed の `id / lemma / pos / article / plural / level / lemmaAudio / meanings` を**保持**し、`examples` を追加。`audio` / `timing` は音声生成タスクで付与（生成段階では付けない）。
+seed の `id / lemma / pos / article / plural / level / lemmaAudio / meanings` を**保持**し、`examples` を追加する。`audio` / `timing` は音声生成タスクで付与（生成段階では付けない）。
 
 ```json
 {
-  "id": "a1-huis", "lemma": "huis", "pos": "noun", "article": "het", "plural": "huizen",
-  "level": "A1", "lemmaAudio": "audio/lemma/a1-huis.mp3",
+  "id": "a1-maison", "lemma": "maison", "pos": "noun", "article": "la", "plural": "maisons",
+  "level": "A1", "lemmaAudio": "audio/lemma/a1-maison.mp3",
   "meanings": [{ "ja": "家", "en": "house" }],
   "examples": [
-    { "nl": "Het huis is groot.", "ja": "その家は大きい。", "en": "The house is big." },
-    { "nl": "Ik woon in een oud huis.", "ja": "私は古い家に住んでいる。", "en": "I live in an old house." }
+    { "fr": "La maison est grande.", "ja": "その家は大きい。", "en": "The house is big." },
+    { "fr": "Je vais à la maison.", "ja": "私は家に帰る。", "en": "I am going home." }
   ]
 }
 ```
 
-生成の実務は `tools/raw/<level>_examples.json`（`{ "<id>": [ {nl,ja,en}, ... ] }`）に書き、`node tools/merge_examples.mjs <level> tools/raw/<level>_examples.json` で words.json にマージする。
+生成の実務は `tools/raw/exgen/out_NN.json`（`{ "<id>": [ {fr,ja,en}, ... ] }`）に書き、`node tools/merge_exgen.mjs A1` で words.json にマージする。
 
 ---
 
 ## 4. 生成プロンプト（雛形）
 
-> あなたはオランダ語 {LEVEL} 教材の編集者です。次の見出し語について、上記「{LEVEL} の天井」と「スパイラル語彙規則」を**厳守**した例文を作ってください。天井を1つでも超える文・許可語彙外の語を含む文は作らないこと（迷ったら単純な現在形・主文に倒す）。
+> あなたはフランス語 A1 教材の編集者です。次の見出し語について、上記「A1 の天井」と「スパイラル語彙規則」を**厳守**した例文を作ってください。天井を1つでも超える文・許可語彙外の内容語を含む文は作らないこと（迷ったら単純な現在形・単文に倒す）。
 >
 > - 見出し語: `{lemma}`（品詞 `{pos}`{名詞なら + 冠詞 `{article}` / 複数 `{plural}`}）
 > - 語義: `{meanings}`（JA/EN）
-> - **使ってよい語**: {A1 の場合「A1 見出し語＋機能語＋固有名詞/数詞」／A2 の場合「A1∪A2 見出し語＋機能語＋固有名詞/数詞」}。それ以外の内容語は使わない。
-> - 例文数: meanings が2件以上なら **3 文以上で各語義を1文以上カバー**、それ以外は **2 文**。各文 **3〜8 語**、見出し語（分離形・活用形可）を必ず含める。
-> - 各文に自然な JA 訳・EN 訳。
-> - 出力 JSON のみ: `[{ "nl": "...", "ja": "...", "en": "..." }, ...]`
+> - **使ってよい語**: `tools/raw/a1_allowed.txt` にある語＋見出し語自身＋固有名詞/数詞のみ。
+> - 例文数: meanings が2件以上なら **3文以上で各語義を1文以上カバー**、それ以外は **2文**。各文 **3〜8語**、見出し語を必ず含める。
+> - **形容詞の性数一致・エリジオン（`j'ai` / `l'école`）・`ne … pas` の完全形**を正しく書く。
+> - **`ja` は常体（〜する / 〜だ）。です・ます体は使わない。**
+> - 出力 JSON のみ: `{ "<id>": [{ "fr": "...", "ja": "...", "en": "..." }, ...] }`
 
 ---
 
 ## 5. 検証プロンプト（雛形・別エージェント＝文法ゲート）
 
-> 次のオランダ語例文が **{LEVEL} の文法天井**（上記）を超えていないか厳密に判定してください。観点:
-> 1. **文法レベル超過**: 従属節 / 関係節 / 受動態 / 一般動詞の imperfectum 叙述 / 未来 zullen /（A1 のみ）比較級・最上級・付加語 -e の誤り が無いか。
-> 2. **オランダ語の正しさ**: 語順(V2/倒置/分離動詞)・冠詞(de/het)・主述一致・自然さ。
-> 3. **対象語の使用**: 見出し語（分離形・活用形可）が実際に使われているか。JA/EN 訳が自然か。
-> - 対象語 `{lemma}` ／ 文 `{nl}` ／ 訳 `{ja}` / `{en}`
-> - 出力: `{ "ok": true|false, "reasons": [...], "fix": "修正文(nl/ja/en) or null" }`
-
-> **語彙スパイラルの可否は本プロンプト（LLM）ではなく `check_vocab.py`（決定的）で最終判定する。**
+> 次のフランス語例文が **A1 の文法天井**（上記）を超えていないか厳密に判定してください。観点:
+> 1. **天井超過**: 半過去 / 単純未来 / 条件法 / 接続法 / 単純過去 / 関係節 / 受動態 / 比較級・最上級 / `y`・`en` の乱用 が無いか（**自己使用の例外表に該当するものは flag しない**）。
+> 2. **形容詞の性数一致と位置**（`une grande maison` / `des livres verts` / BAGS の前置）。
+> 3. **エリジオン・アポストロフィ・冠詞**（`j'ai` / `l'école` / `du` / `de la` / `des` / 否定の `de`）。
+> 4. **動詞の活用と主語一致。**
+> 5. **対象語の使用**: 見出し語が実際に使われているか。
+> 6. **訳**: `ja` が**常体**で自然か、`en` が正確か。
+> - 出力は**問題のある文だけ**: `id | fr | 分類 | 問題 | 修正案（fr、必要なら ja/en）`
+> - **修正案も許可語彙内の語だけで書くこと**（語彙外語を使うと `check_vocab.py` で落ちる。蘭語版で実際に起きた）。
 
 ---
 
 ## 6. 自己チェック（生成側・最低限）
 
-- [ ] 全語に規定数の `examples`（各 nl/ja/en）がある。
-- [ ] 各 example で対象見出し語が実際に使われている（実現形可）。
+- [ ] 全語に規定数の `examples`（各 fr/ja/en）がある。
+- [ ] 各 example で対象見出し語が実際に使われている。
 - [ ] **許可語彙集合の外の内容語が無い**（スパイラル）。
-- [ ] 従属節・関係節・受動・一般動詞 imperfectum が混入していない（A1 は比較級・付加語語尾も確認）。
-- [ ] 文が短い（3〜8 語）。冠詞 de/het と語順が正しい。JA/EN 訳が自然。
+- [ ] 半過去・単純未来・条件法・接続法・関係節・受動・比較級が混入していない。
+- [ ] 形容詞の性数一致が正しい。エリジオンが正しい。`ne … pas` が完全形。
+- [ ] 文が短い（3〜8語）。`ja` が常体。
