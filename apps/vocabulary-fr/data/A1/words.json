@@ -2833,19 +2833,6 @@
     ]
   },
   {
-    "id": "a1-chere",
-    "lemma": "chère",
-    "pos": "adjective",
-    "level": "A1",
-    "lemmaAudio": "audio/lemma/a1-chere.mp3",
-    "meanings": [
-      {
-        "ja": "（値段が）高い、親愛な（cher の女性形）",
-        "en": "expensive; dear (feminine of cher)"
-      }
-    ]
-  },
-  {
     "id": "a1-chomage",
     "lemma": "chômage",
     "pos": "noun",
@@ -8358,19 +8345,6 @@
     ]
   },
   {
-    "id": "a1-longue",
-    "lemma": "longue",
-    "pos": "adjective",
-    "level": "A1",
-    "lemmaAudio": "audio/lemma/a1-longue.mp3",
-    "meanings": [
-      {
-        "ja": "長い（long の女性形）",
-        "en": "long (feminine of long)"
-      }
-    ]
-  },
-  {
     "id": "a1-lui",
     "lemma": "lui",
     "pos": "pronoun",
@@ -9939,19 +9913,6 @@
       {
         "ja": "新しい",
         "en": "new"
-      }
-    ]
-  },
-  {
-    "id": "a1-nouvelle",
-    "lemma": "nouvelle",
-    "pos": "adjective",
-    "level": "A1",
-    "lemmaAudio": "audio/lemma/a1-nouvelle.mp3",
-    "meanings": [
-      {
-        "ja": "新しい（nouveau の女性形）",
-        "en": "new (feminine of nouveau)"
       }
     ]
   },

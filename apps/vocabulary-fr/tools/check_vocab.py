@@ -86,6 +86,8 @@ IRREGULAR_VERB_STEMS = {
     "vivre": ["viv", "vi", "vis", "vecu"],
     "plaire": ["plaiss", "plu"],
     "écrire": ["ecriv"],
+    "dormir": ["dor"],
+    "servir": ["ser"],
 }
 
 # 不規則形容詞（BAGS 型）。beau/bel/belle のように母音前形・女性形・複数形が
@@ -95,6 +97,17 @@ IRREGULAR_ADJ_STEMS = {
     "nouveau": ["nouvel", "nouvelle", "nouvelles"],
     "vieux": ["vieil", "vieille", "vieilles"],
     "fou": ["fol", "folle", "folles"],
+    "faux": ["fausse", "fausses"],
+    "blanc": ["blanche", "blanches"],
+    "sec": ["seche", "seches"],
+    "public": ["publique", "publiques"],
+    "neuf": ["neuve", "neuves"],
+    "gentil": ["gentille", "gentilles"],
+    "doux": ["douce", "douces"],
+    "frais": ["fraiche", "fraiches"],
+    # quel: spaCy が女性単数 "Quelle" を誤って lemma "quell"(二重l) にする。
+    # DET タグの時は元々 FUNCTION_POS で無視されるが ADJ タグになるケースがあるため保険で登録。
+    "quel": ["quell"],
 }
 
 
