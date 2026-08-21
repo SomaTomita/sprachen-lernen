@@ -37,3 +37,7 @@
 - 2026-08-22 **不規則形容詞の語幹をさらに拡充**: `faux/fausse`・`blanc/blanche`・`sec/sèche`・`neuf/neuve`・`gentil/gentille`・`doux/douce`・`frais/fraîche` を `IRREGULAR_ADJ_STEMS` に追加（164語の形容詞全件を実際の語形変化でテストし、8クラス16件の偽陽性を検出・解消）。`quel`→`quelle` も spaCy が `quell`(二重l) に誤語形化するため同テーブルに登録。
 - 2026-08-22 **不規則動詞語幹に `dormir`(dor-)・`servir`(ser-) を追加**（単数現在形 dors/dort, sers/sert が偽陽性になっていた）。
 - 実データ再検証: 目標形はすべて通過（`public` は実際には A1 見出し語に無いため対象外と判明——検証データの誤りで、実装側の問題ではない）。確実な語彙外語8個は依然0件漏れ。node --test 90/90 green。
+- 2026-08-22 **A1 例文生成完了**: 28バッチ（1218語）を並列生成し全てマージ。**A1 = 1218語・例文2486文**（平均4.7語/文）。多義語49語が3文以上でカバー。
+  - `node tools/validate_data.mjs A1 --no-audio` → ✓ 1218 words valid
+  - `tools/.venv/bin/python tools/check_vocab.py A1` → **✓ 0 violations**（不規則動詞・形容詞・ハイフン複合語の修正が実データで完全に機能）
+  - `node --test` → 90/90 green
