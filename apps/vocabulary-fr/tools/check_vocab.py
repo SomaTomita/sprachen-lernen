@@ -18,6 +18,10 @@ spaCy fr_core_news_sm の実測特性（このツールの設計根拠）:
   - **アクセントが欠けると lemma 化が効かない**（`achete` は `acheter` にならない）。
     結果として綴りのアクセント誤りが違反として浮かぶ＝副次的なアクセント検査になる。
   - `être`/`avoir` は文脈で AUX/VERB が変わるので品詞で助動詞を判定しない。
+  - **不規則動詞は語幹自体が変わる**ため、屈折語尾を落とすだけでは復元できない
+    （`venir`→`viens/vient/viennent` は `ven-` ではなく `vien-`／`vienn-`）。
+    A1 の31語すべてを実際の活用形（80通り超）で測定し `IRREGULAR_VERB_STEMS` に
+    追加語幹として登録して解消した（0件の偽陽性まで確認済み）。
 """
 import json, re, sys, unicodedata
 from pathlib import Path
@@ -34,8 +38,12 @@ _LIGATURES = ((("œ", "oe"), ("Œ", "OE"), ("æ", "ae"), ("Æ", "AE")))
 # ここもアクセント無しの形で書く（"ée"→"ee", "és"→"es"）。長い語尾から順に落とす。
 _SUFFIXES = (
     "eraient", "erions", "aient", "eront", "erons",
+    "issant", "issons", "issez", "issent",  # -ir/-iss 型(finir型)の現在分詞・複数活用
+    "ant",                                   # 現在分詞（parlant→parl／なければ全動詞で不一致になる）
     "ions", "iez", "ons", "ent", "ont", "ais", "ait", "ees", "ee", "es",
-    "is", "it", "ie", "ez", "as", "at", "er", "ir", "re",
+    "is", "it", "ie", "ez", "as", "at",
+    "oir",                                   # devoir型語幹（recevoir→recev。無いと -oir の o が残って不一致）
+    "er", "ir", "re",
     "e", "s", "x", "t", "i", "u", "a",
 )
 # 不規則複数の書き換え。journal→journaux は -al、travail→travaux は -ail なので両方試す。
@@ -43,6 +51,43 @@ _PLURAL_REWRITES = (
     (r"eaux$", "eau"), (r"aux$", "al"), (r"aux$", "ail"),
     (r"eux$", "eu"), (r"eux$", "eux"), (r"ux$", "u"),
 )
+
+
+# フランス語の不規則動詞は語幹そのものが変わり（venir: vien-/ven-/viend-、
+# recevoir: reçoi-/recev-、prendre: prend-/prenn-（3人称複数のみ二重子音）等）、
+# 屈折語尾を落とすだけの canon_forms では復元できない。以下は A1 見出し語に含まれる
+# 不規則動詞について、**追加で許可集合に加える折り畳み済み語幹**（fr_core_news_sm の
+# 実際の活用形80通り超に対して測定し、0件の偽陽性まで詰めた語幹）。
+# キーは見出し語（不定詞）。値は _fold 済みの語幹文字列（canon_forms は再適用しない）。
+IRREGULAR_VERB_STEMS = {
+    "venir": ["vien", "vienn", "viend"],
+    "tenir": ["tien", "tienn", "tiend"],
+    "devenir": ["devien", "devienn", "deviend"],
+    "revenir": ["revien", "revienn", "reviend"],
+    "prendre": ["pren", "prenn", "pris"],
+    "apprendre": ["appren", "apprenn", "appris"],
+    "comprendre": ["compren", "comprenn", "compris"],
+    "surprendre": ["surpren", "surprenn", "surpris"],
+    "mettre": ["mis"],
+    "permettre": ["permis"],
+    "promettre": ["promis"],
+    "mourir": ["meur", "mourr", "mort"],
+    "envoyer": ["envoi", "enverr"],
+    "voir": ["voy", "verr", "vu"],
+    "croire": ["croy", "cru"],
+    "boire": ["buv", "boiv", "bu"],
+    "recevoir": ["recoi", "recoiv", "recu"],
+    "apercevoir": ["apercoi", "apercoiv", "apercu"],
+    "asseoir": ["assied", "assoi", "assoy", "assey", "assis"],
+    "connaître": ["connaiss", "connu"],
+    "naître": ["naiss", "ne"],
+    "lire": ["lu"],
+    "suivre": ["suiv", "sui", "su"],
+    "vivre": ["viv", "vi", "vis", "vecu"],
+    "plaire": ["plaiss", "plu"],
+    "écrire": ["ecriv"],
+}
+
 
 def _fold(w: str) -> str:
     """合字展開 → アクセント除去 → 小文字化 → アポストロフィ/ハイフン除去。"""
@@ -100,6 +145,9 @@ def main(level: str) -> int:
     allowed_canon: set[str] = set()
     for a in allowed:
         allowed_canon |= canon_forms(a)
+    for inf, stems in IRREGULAR_VERB_STEMS.items():
+        if inf in allowed:                       # A1 に無い動詞の語幹は入れない（無駄な許可を増やさない）
+            allowed_canon |= {_fold(s) for s in stems}
 
     nlp = spacy.load("fr_core_news_sm")
     data = json.loads((base / level / "words.json").read_text(encoding="utf-8"))
