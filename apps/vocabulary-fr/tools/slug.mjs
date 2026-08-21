@@ -5,7 +5,7 @@ export function slug(lemma) {
   let s = lemma;
   for (const [re, to] of LIGATURES) s = s.replace(re, to);
   return s
-    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/-+/g, '-')
