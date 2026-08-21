@@ -29,3 +29,9 @@ test('the aspirated-h list is exported so data tasks can extend it', () => {
   assert.ok(HARD_H instanceof Set);
   assert.ok(HARD_H.has('héros'));
 });
+
+import { displayHeadword as browserVersion } from '../js/elision.js';
+test('js/elision.js stays in sync with tools/elision.mjs', () => {
+  for (const [a, l] of [['la','école'],['le','livre'],['le','héros'],['la','maison'],[null,'parler']])
+    assert.equal(browserVersion(a, l), displayHeadword(a, l));
+});

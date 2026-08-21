@@ -1,6 +1,7 @@
 // Reading-list reader: every word is shown inline (meaning + all examples),
 // no click-to-expand, no detail pane. Search filters the list live.
 import { renderSentence, playKaraoke, playLemma, registerPlayButton } from './audio.js';
+import { displayHeadword } from './elision.js';
 
 export function renderReader(app, words, level = 'A1') {
     app.innerHTML = `
@@ -33,7 +34,7 @@ export function renderReader(app, words, level = 'A1') {
         titleRow.className = 'reading-title-row';
         const headword = document.createElement('h3');
         headword.className = 'reading-headword';
-        headword.textContent = `${w.article ? w.article + ' ' : ''}${w.lemma}`;
+        headword.textContent = displayHeadword(w.article, w.lemma);
         const lemmaBtn = document.createElement('button');
         lemmaBtn.type = 'button';
         lemmaBtn.textContent = '▶';
