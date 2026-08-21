@@ -29,3 +29,7 @@
   - **一般則の穴（全動詞に影響）**: 現在分詞 `-ant`（`parlant` 等）が接尾辞リストに無く**全動詞**で不一致。`-oir` 語幹（`recevoir`→`recev`）も無く devoir型動詞で不一致。両方を `_SUFFIXES` に追加。
   - **不規則語幹（動詞ごと）**: `venir`(vien-/vienn-)・`tenir`・`devenir`・`revenir`・`prendre`系(pren-/prenn-)・`mourir`(meur-)・`voir`(voy-)・`croire`(croy-)・`boire`(buv-/boiv-)・`recevoir`(reçoi-)・`apercevoir`・`asseoir`・`connaître`・`naître`・`suivre`(sui-/su-)・`vivre`(vi-/vis-)・`plaire`・`écrire` など不規則過去分詞含め26語。`IRREGULAR_VERB_STEMS` テーブルを追加し、**0/200失敗**まで確認。
   - 実データ（batch_00の45語・92文）でも再検証し、対象語彙は0違反。**この修正を残り27バッチの生成前に適用**（蘭語版の教訓: 偽陽性を放置すると生成側が不自然な言い換えを強いられる）。
+- 2026-08-22 **`check_vocab.py` に不規則形容詞(BAGS型)とハイフン複合語の対応を追加。** バッチ24-27の生成で発見: `belle`(←beau)/`nouvelle`/`vieille`/`folle` は spaCy が語幹を全く別形（bel/nouvel/vieil/fol）に語形化するため canon_forms が復元できず偽陽性。`week-end` はトークナイザがハイフンで `week`/`-`/`end` に分割し、どちらも単独では仏語として認識されないため偽陽性。
+  - `IRREGULAR_ADJ_STEMS`（beau/nouveau/vieux/fou の女性形・母音前形）を追加。
+  - ハイフンを含む見出し語は**構成要素も許可集合に自動登録**する一般則を追加（week-end 以外の12個のハイフン複合語 après-midi/grand-mère 等は元々個別に許可語彙内で解決済みだったが、この一般則でも安全に扱える）。
+  - 実データで再検証: 対象形はすべて通過、`néanmoins/toutefois/stratégie` 等10個の確実な語彙外語は依然0件漏れ。
