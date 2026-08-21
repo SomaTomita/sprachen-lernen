@@ -146,7 +146,7 @@
 {"lemma":"buffet","pos":"noun","article":"le","plural":"buffets","ja":"ビュッフェ、食器棚","en":"buffet; sideboard"}
 {"lemma":"bureau","pos":"noun","article":"le","plural":"bureaux","ja":"机、オフィス","en":"desk; office"}
 {"lemma":"bus","pos":"noun","article":"le","ja":"バス","en":"bus"}
-{"lemma":"boeuf","pos":"noun","article":"le","plural":"boeufs","ja":"牛、牛肉","en":"ox; beef"}
+{"lemma":"bœuf","pos":"noun","article":"le","plural":"bœufs","ja":"牛、牛肉","en":"ox; beef"}
 {"lemma":"bâtiment","pos":"noun","article":"le","plural":"bâtiments","ja":"建物","en":"building"}
 {"lemma":"bébé","pos":"noun","article":"le","plural":"bébés","ja":"赤ちゃん","en":"baby"}
 {"lemma":"cacher","pos":"verb","ja":"隠す（se cacher＝隠れる）","en":"to hide"}
@@ -272,7 +272,7 @@
 {"lemma":"culture","pos":"noun","article":"la","plural":"cultures","ja":"文化、栽培","en":"culture"}
 {"lemma":"culturel","pos":"adjective","ja":"文化の、文化的な","en":"cultural"}
 {"lemma":"curieux","pos":"adjective","ja":"好奇心の強い、奇妙な","en":"curious; strange"}
-{"lemma":"coeur","pos":"noun","article":"le","plural":"coeurs","ja":"心、心臓","en":"heart"}
+{"lemma":"cœur","pos":"noun","article":"le","plural":"cœurs","ja":"心、心臓","en":"heart"}
 {"lemma":"célèbre","pos":"adjective","ja":"有名な","en":"famous"}
 {"lemma":"côte","pos":"noun","article":"la","plural":"côtes","ja":"海岸、あばら骨、坂","en":"coast; rib"}
 {"lemma":"côté","pos":"noun","article":"le","plural":"côtés","ja":"側、横（à côté de＝〜のそばに）","en":"side"}
@@ -1040,7 +1040,7 @@
 {"lemma":"surtout","pos":"adverb","ja":"特に、とりわけ","en":"especially, above all"}
 {"lemma":"sympa","pos":"adjective","ja":"感じのいい、親切な","en":"nice, friendly"}
 {"lemma":"sympathique","pos":"adjective","ja":"感じのいい","en":"nice, likeable"}
-{"lemma":"soeur","pos":"noun","article":"la","plural":"soeurs","ja":"姉、妹","en":"sister"}
+{"lemma":"sœur","pos":"noun","article":"la","plural":"sœurs","ja":"姉、妹","en":"sister"}
 {"lemma":"séjour","pos":"noun","article":"le","plural":"séjours","ja":"滞在、居間","en":"stay; living room"}
 {"lemma":"sérieux","pos":"adjective","ja":"まじめな、深刻な","en":"serious"}
 {"lemma":"sûr","pos":"adjective","ja":"確かな、安全な","en":"sure, safe"}
@@ -1157,9 +1157,9 @@
 {"lemma":"y","pos":"pronoun","ja":"そこに、それに","en":"there; to it"}
 {"lemma":"zone","pos":"noun","article":"la","plural":"zones","ja":"地域、ゾーン","en":"zone, area"}
 {"lemma":"zoé","pos":"noun","article":"la","ja":"ゾエ（女性の名前）","en":"Zoé (female first name)","conf":"low","note":"prénom féminin relevé dans le corpus"}
-{"lemma":"oeil","pos":"noun","article":"le","plural":"yeux","ja":"目","en":"eye","note":"pluriel irrégulier : yeux"}
-{"lemma":"oeuf","pos":"noun","article":"le","plural":"oeufs","ja":"卵","en":"egg"}
-{"lemma":"oeuvre","pos":"noun","article":"la","plural":"oeuvres","ja":"作品","en":"work (of art)"}
+{"lemma":"œil","pos":"noun","article":"le","plural":"yeux","ja":"目","en":"eye","note":"pluriel irrégulier : yeux"}
+{"lemma":"œuf","pos":"noun","article":"le","plural":"œufs","ja":"卵","en":"egg"}
+{"lemma":"œuvre","pos":"noun","article":"la","plural":"œuvres","ja":"作品","en":"work (of art)"}
 {"lemma":"à","pos":"preposition","ja":"〜に、〜へ","en":"to, at"}
 {"lemma":"âge","pos":"noun","article":"le","plural":"âges","ja":"年齢","en":"age"}
 {"lemma":"âgé","pos":"adjective","ja":"年をとった、高齢の","en":"old, elderly"}

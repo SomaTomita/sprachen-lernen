@@ -1009,9 +1009,9 @@
     ],
     "examples": [
       {
-        "fr": "C'est un ancien château.",
-        "ja": "これは古い城だ。",
-        "en": "This is an old castle."
+        "fr": "C'est un château très ancien.",
+        "ja": "これはとても古い城だ。",
+        "en": "This is a very old castle."
       },
       {
         "fr": "Il est mon ancien professeur.",
@@ -2116,9 +2116,9 @@
         "en": "I also like coffee."
       },
       {
-        "fr": "Elle est aussi grande que lui.",
-        "ja": "彼女は彼と同じくらい背が高い。",
-        "en": "She is as tall as him."
+        "fr": "Lui aussi, il est grand.",
+        "ja": "彼もまた背が高い。",
+        "en": "He too is tall."
       }
     ]
   },
@@ -2268,7 +2268,7 @@
         "en": "He arrives before noon."
       },
       {
-        "fr": "Avant, je vis à Paris.",
+        "fr": "Avant, j'ai habité à Paris.",
         "ja": "前は、私はパリに住んでいた。",
         "en": "Before, I lived in Paris."
       }
@@ -3892,10 +3892,10 @@
   },
   {
     "id": "a1-boeuf",
-    "lemma": "boeuf",
+    "lemma": "bœuf",
     "pos": "noun",
     "article": "le",
-    "plural": "boeufs",
+    "plural": "bœufs",
     "level": "A1",
     "lemmaAudio": "audio/lemma/a1-boeuf.mp3",
     "meanings": [
@@ -3906,12 +3906,12 @@
     ],
     "examples": [
       {
-        "fr": "Nous mangeons du boeuf ce soir.",
+        "fr": "Nous mangeons du bœuf ce soir.",
         "ja": "私たちは今夜牛肉を食べる。",
         "en": "We are eating beef tonight."
       },
       {
-        "fr": "Le boeuf mange de l'herbe.",
+        "fr": "Le bœuf mange de l'herbe.",
         "ja": "牛は草を食べる。",
         "en": "The ox eats grass."
       }
@@ -4411,9 +4411,9 @@
         "en": "I prefer the one belonging to my brother."
       },
       {
-        "fr": "Celui-ci est plus grand.",
-        "ja": "こちらのほうが大きい。",
-        "en": "This one is bigger."
+        "fr": "Celui-ci est très grand.",
+        "ja": "こちらはとても大きい。",
+        "en": "This one is very big."
       }
     ]
   },
@@ -7213,10 +7213,10 @@
   },
   {
     "id": "a1-coeur",
-    "lemma": "coeur",
+    "lemma": "cœur",
     "pos": "noun",
     "article": "le",
-    "plural": "coeurs",
+    "plural": "cœurs",
     "level": "A1",
     "lemmaAudio": "audio/lemma/a1-coeur.mp3",
     "meanings": [
@@ -7227,12 +7227,12 @@
     ],
     "examples": [
       {
-        "fr": "Mon coeur bat vite.",
+        "fr": "Mon cœur bat vite.",
         "ja": "私の心臓は速く打つ。",
         "en": "My heart beats fast."
       },
       {
-        "fr": "Elle a un bon coeur.",
+        "fr": "Elle a un bon cœur.",
         "ja": "彼女は心が優しい。",
         "en": "She has a good heart."
       }
@@ -7656,7 +7656,7 @@
       },
       {
         "fr": "Je prends un demi, merci.",
-        "ja": "小グラスのビールをお願いします。",
+        "ja": "小さいグラスのビールをもらう。",
         "en": "I'll have a small beer, thanks."
       }
     ]
@@ -7945,13 +7945,13 @@
       },
       {
         "fr": "Marchez devant, s'il vous plaît.",
-        "ja": "前を歩いてください。",
+        "ja": "前を歩いて。",
         "en": "Please walk in front."
       },
       {
         "fr": "Le professeur passe devant.",
         "ja": "先生が前を通る。",
-        "en": "The teacher goes past ahead."
+        "en": "The teacher walks past."
       }
     ]
   },
@@ -8215,7 +8215,7 @@
       },
       {
         "fr": "Répondez directement, s'il vous plaît.",
-        "ja": "直接答えてください。",
+        "ja": "直接答えて。",
         "en": "Please answer directly."
       }
     ]
@@ -8571,7 +8571,7 @@
     "examples": [
       {
         "fr": "Parlez doucement, s'il vous plaît.",
-        "ja": "ゆっくり話してください。",
+        "ja": "ゆっくり話して。",
         "en": "Please speak slowly."
       },
       {
@@ -8625,12 +8625,12 @@
     "examples": [
       {
         "fr": "Continuez tout droit.",
-        "ja": "そのまま直進してください。",
+        "ja": "そのまま直進して。",
         "en": "Continue straight ahead."
       },
       {
         "fr": "Tournez à droite.",
-        "ja": "右に曲がってください。",
+        "ja": "右に曲がって。",
         "en": "Turn right."
       },
       {
@@ -9158,7 +9158,7 @@
       },
       {
         "fr": "Excusez-moi de vous déranger.",
-        "ja": "お邪魔してすみません。",
+        "ja": "邪魔してごめん。",
         "en": "Excuse me for disturbing you."
       }
     ]
@@ -9178,12 +9178,12 @@
     "examples": [
       {
         "fr": "Je désire un café, merci.",
-        "ja": "コーヒーをお願いします。",
+        "ja": "コーヒーが欲しい。",
         "en": "I would like a coffee, thank you."
       },
       {
         "fr": "Que désirez-vous exactement ?",
-        "ja": "正確には何がお望みですか？",
+        "ja": "正確には何が欲しいの？",
         "en": "What exactly do you want?"
       }
     ]
@@ -9235,7 +9235,7 @@
       },
       {
         "fr": "Racontez-moi tous les détails.",
-        "ja": "すべての詳細を話してください。",
+        "ja": "すべての詳細を話して。",
         "en": "Tell me all the details."
       }
     ]
@@ -9826,7 +9826,7 @@
       },
       {
         "fr": "Entrez, s'il vous plaît.",
-        "ja": "どうぞお入りください。",
+        "ja": "どうぞ入って。",
         "en": "Please come in."
       }
     ]
@@ -10171,7 +10171,7 @@
       },
       {
         "fr": "Euh, attendez un peu.",
-        "ja": "えーと、少し待ってください。",
+        "ja": "えーと、少し待って。",
         "en": "Um, wait a little."
       }
     ]
@@ -10345,7 +10345,7 @@
     "examples": [
       {
         "fr": "Excusez-moi de vous déranger, monsieur.",
-        "ja": "お邪魔してすみません、あなた。",
+        "ja": "邪魔してごめん。",
         "en": "Excuse me for disturbing you, sir."
       },
       {
@@ -10372,7 +10372,7 @@
     "examples": [
       {
         "fr": "Donnez-moi un exemple.",
-        "ja": "例を一つ挙げてください。",
+        "ja": "例を一つ挙げて。",
         "en": "Give me an example."
       },
       {
@@ -11989,7 +11989,7 @@
       },
       {
         "fr": "Tournez à gauche, s'il vous plaît.",
-        "ja": "左に曲がってください。",
+        "ja": "左に曲がって。",
         "en": "Turn left, please."
       }
     ]
@@ -13397,7 +13397,7 @@
       },
       {
         "fr": "Venez immédiatement, s'il vous plaît.",
-        "ja": "すぐに来てください。",
+        "ja": "すぐに来て。",
         "en": "Come immediately, please."
       }
     ]
@@ -14250,7 +14250,7 @@
       {
         "fr": "Ce jean est joli.",
         "ja": "このジーンズはかわいい。",
-        "en": "These jeans are nice."
+        "en": "This pair of jeans is nice."
       },
       {
         "fr": "Elle porte un jean bleu.",
@@ -15873,7 +15873,7 @@
         "en": "The view is magnificent."
       },
       {
-        "fr": "C'est un magnifique cadeau.",
+        "fr": "C'est un cadeau magnifique.",
         "ja": "それはすばらしい贈り物だ。",
         "en": "It's a magnificent gift."
       }
@@ -16639,9 +16639,9 @@
         "en": "This book is better."
       },
       {
-        "fr": "C'est le meilleur restaurant.",
-        "ja": "それは最高のレストランだ。",
-        "en": "It's the best restaurant."
+        "fr": "Ce restaurant est meilleur.",
+        "ja": "そのレストランのほうがいい。",
+        "en": "This restaurant is better."
       }
     ]
   },
@@ -19725,12 +19725,12 @@
     "examples": [
       {
         "fr": "Pardon, madame Dubois !",
-        "ja": "すみません、デュボワさん。",
+        "ja": "ごめん、デュボワさん。",
         "en": "Excuse me, Mrs Dubois!"
       },
       {
         "fr": "Pardon, je suis en retard.",
-        "ja": "すみません、遅れた。",
+        "ja": "ごめん、遅れた。",
         "en": "Sorry, I am late."
       },
       {
@@ -20784,8 +20784,8 @@
     ],
     "examples": [
       {
-        "fr": "Cette maison est faite en pierre.",
-        "ja": "この家は石で作られている。",
+        "fr": "Cette maison est en pierre.",
+        "ja": "この家は石造りだ。",
         "en": "This house is made of stone."
       },
       {
@@ -20814,9 +20814,9 @@
         "en": "This film is really worse."
       },
       {
-        "fr": "C'est le pire jour de l'année.",
-        "ja": "それは今年最悪の日だ。",
-        "en": "It's the worst day of the year."
+        "fr": "Ce jour est pire.",
+        "ja": "この日はもっと悪い。",
+        "en": "This day is worse."
       }
     ]
   },
@@ -20975,7 +20975,7 @@
       },
       {
         "fr": "S'il vous plaît, fermez la porte.",
-        "ja": "お願いします、ドアを閉めてください。",
+        "ja": "お願い、ドアを閉めて。",
         "en": "Please close the door."
       }
     ]
@@ -21263,9 +21263,9 @@
         "en": "I don't want any more coffee."
       },
       {
-        "fr": "Elle a plus de livres que moi.",
-        "ja": "彼女は私より多くの本を持っている。",
-        "en": "She has more books than me."
+        "fr": "Elle a plus de livres.",
+        "ja": "彼女はもっと多くの本を持っている。",
+        "en": "She has more books."
       }
     ]
   },
@@ -21939,7 +21939,7 @@
       },
       {
         "fr": "Je vous en prie, entrez.",
-        "ja": "どうぞ、お入りください。",
+        "ja": "どうぞ、入って。",
         "en": "Please, come in."
       }
     ]
@@ -22121,7 +22121,7 @@
         "en": "We are leaving next month."
       },
       {
-        "fr": "Elle prend le train prochain.",
+        "fr": "Elle prend le prochain train.",
         "ja": "彼女は次の電車に乗る。",
         "en": "She takes the next train."
       }
@@ -24292,9 +24292,9 @@
     ],
     "examples": [
       {
-        "fr": "Notre retour est prévu demain.",
-        "ja": "私たちの帰りは明日予定されている。",
-        "en": "Our return is planned for tomorrow."
+        "fr": "Notre retour est demain.",
+        "ja": "私たちの帰りは明日だ。",
+        "en": "Our return is tomorrow."
       },
       {
         "fr": "Le retour à la maison est long.",
@@ -27471,10 +27471,10 @@
   },
   {
     "id": "a1-soeur",
-    "lemma": "soeur",
+    "lemma": "sœur",
     "pos": "noun",
     "article": "la",
-    "plural": "soeurs",
+    "plural": "sœurs",
     "level": "A1",
     "lemmaAudio": "audio/lemma/a1-soeur.mp3",
     "meanings": [
@@ -27485,12 +27485,12 @@
     ],
     "examples": [
       {
-        "fr": "J'ai une petite soeur.",
+        "fr": "J'ai une petite sœur.",
         "ja": "私には妹がいる。",
         "en": "I have a little sister."
       },
       {
-        "fr": "Ma soeur habite à Lyon.",
+        "fr": "Ma sœur habite à Lyon.",
         "ja": "私の姉はリヨンに住んでいる。",
         "en": "My sister lives in Lyon."
       }
@@ -28012,7 +28012,7 @@
         "en": "I finish my work at noon."
       },
       {
-        "fr": "Le film va terminer bientôt.",
+        "fr": "Le film va se terminer bientôt.",
         "ja": "映画はもうすぐ終わる。",
         "en": "The movie is going to finish soon."
       }
@@ -30130,7 +30130,7 @@
       },
       {
         "fr": "Où est votre voiture ?",
-        "ja": "あなたの車はどこですか。",
+        "ja": "あなたの車はどこ？",
         "en": "Where is your car?"
       }
     ]
@@ -30175,7 +30175,7 @@
     "examples": [
       {
         "fr": "Vous êtes content ?",
-        "ja": "あなたは満足していますか。",
+        "ja": "あなたは満足している？",
         "en": "Are you happy?"
       },
       {
@@ -30527,7 +30527,7 @@
   },
   {
     "id": "a1-oeil",
-    "lemma": "oeil",
+    "lemma": "œil",
     "pos": "noun",
     "article": "le",
     "plural": "yeux",
@@ -30546,7 +30546,7 @@
         "en": "He has blue eyes."
       },
       {
-        "fr": "Mon oeil me fait mal.",
+        "fr": "Mon œil me fait mal.",
         "ja": "私は目が痛い。",
         "en": "My eye hurts."
       }
@@ -30554,10 +30554,10 @@
   },
   {
     "id": "a1-oeuf",
-    "lemma": "oeuf",
+    "lemma": "œuf",
     "pos": "noun",
     "article": "le",
-    "plural": "oeufs",
+    "plural": "œufs",
     "level": "A1",
     "lemmaAudio": "audio/lemma/a1-oeuf.mp3",
     "meanings": [
@@ -30568,12 +30568,12 @@
     ],
     "examples": [
       {
-        "fr": "Je mange un oeuf.",
+        "fr": "Je mange un œuf.",
         "ja": "私は卵を食べる。",
         "en": "I eat an egg."
       },
       {
-        "fr": "Les oeufs sont frais.",
+        "fr": "Les œufs sont frais.",
         "ja": "その卵は新鮮だ。",
         "en": "The eggs are fresh."
       }
@@ -30581,10 +30581,10 @@
   },
   {
     "id": "a1-oeuvre",
-    "lemma": "oeuvre",
+    "lemma": "œuvre",
     "pos": "noun",
     "article": "la",
-    "plural": "oeuvres",
+    "plural": "œuvres",
     "level": "A1",
     "lemmaAudio": "audio/lemma/a1-oeuvre.mp3",
     "meanings": [
@@ -30595,12 +30595,12 @@
     ],
     "examples": [
       {
-        "fr": "Cette oeuvre est belle.",
+        "fr": "Cette œuvre est belle.",
         "ja": "この作品は美しい。",
         "en": "This work is beautiful."
       },
       {
-        "fr": "Il regarde cette oeuvre d'art.",
+        "fr": "Il regarde cette œuvre d'art.",
         "ja": "彼はこの芸術作品を見る。",
         "en": "He is looking at this work of art."
       }
@@ -30652,9 +30652,9 @@
         "en": "How old are you?"
       },
       {
-        "fr": "Il a quarante ans.",
-        "ja": "彼は40歳だ。",
-        "en": "He is forty years old."
+        "fr": "Il ne dit pas son âge.",
+        "ja": "彼は自分の年齢を言わない。",
+        "en": "He doesn't say his age."
       }
     ]
   },

@@ -1,0 +1,244 @@
+[
+  {
+    "id": "a1-ancien",
+    "match": "C'est un ancien château.",
+    "fr": "C'est un château très ancien.",
+    "ja": "これはとても古い城だ。",
+    "en": "This is a very old castle.",
+    "why": "slice1: prenominal ancien=former, not old; moved postnominal for the intended 'old' sense"
+  },
+  {
+    "id": "a1-aussi",
+    "match": "Elle est aussi grande que lui.",
+    "fr": "Lui aussi, il est grand.",
+    "ja": "彼もまた背が高い。",
+    "en": "He too is tall.",
+    "why": "slice1: aussi...que is a comparative of equality, not covered by the self-use exception"
+  },
+  {
+    "id": "a1-avant",
+    "match": "Avant, je vis à Paris.",
+    "fr": "Avant, j'ai habité à Paris.",
+    "ja": "前は、私はパリに住んでいた。",
+    "en": "Before, I lived in Paris.",
+    "why": "slice1: présent tense contradicted the past-habitual ja/en translation; needs passé composé"
+  },
+  {
+    "id": "a1-celui",
+    "match": "Celui-ci est plus grand.",
+    "fr": "Celui-ci est très grand.",
+    "ja": "こちらはとても大きい。",
+    "en": "This one is very big.",
+    "why": "slice1: plus grand is the banned comparative, celui is not in the self-use exception table"
+  },
+  {
+    "id": "a1-jean",
+    "match": "Ce jean est joli.",
+    "en": "This pair of jeans is nice.",
+    "why": "slice3: en was plural while fr/ja are singular"
+  },
+  {
+    "id": "a1-magnifique",
+    "match": "C'est un magnifique cadeau.",
+    "fr": "C'est un cadeau magnifique.",
+    "why": "slice3: magnifique is not on the documented BAGS pre-noun list"
+  },
+  {
+    "id": "a1-meilleur",
+    "match": "C'est le meilleur restaurant.",
+    "fr": "Ce restaurant est meilleur.",
+    "ja": "そのレストランのほうがいい。",
+    "en": "This restaurant is better.",
+    "why": "slice4: le meilleur + noun is a full superlative, exceeds the bare-predicate self-use exception"
+  },
+  {
+    "id": "a1-pire",
+    "match": "C'est le pire jour de l'année.",
+    "fr": "Ce jour est pire.",
+    "ja": "この日はもっと悪い。",
+    "en": "This day is worse.",
+    "why": "slice4: le pire + noun is a full superlative, exceeds the bare-predicate self-use exception"
+  },
+  {
+    "id": "a1-plus",
+    "match": "Elle a plus de livres que moi.",
+    "fr": "Elle a plus de livres.",
+    "ja": "彼女はもっと多くの本を持っている。",
+    "en": "She has more books.",
+    "why": "slice4: plus...que is the explicitly banned comparative pattern"
+  },
+  {
+    "id": "a1-pierre",
+    "match": "Cette maison est faite en pierre.",
+    "fr": "Cette maison est en pierre.",
+    "ja": "この家は石造りだ。",
+    "en": "This house is made of stone.",
+    "why": "slice4: être fait(e) is a genuine passive of faire, not a lexicalized state-adjective"
+  },
+  {
+    "id": "a1-prochain",
+    "match": "Elle prend le train prochain.",
+    "fr": "Elle prend le prochain train.",
+    "why": "slice5: sequential prochain is normally preposed; postposed only in fixed time idioms"
+  },
+  {
+    "id": "a1-retour",
+    "match": "Notre retour est prévu demain.",
+    "fr": "Notre retour est demain.",
+    "ja": "私たちの帰りは明日だ。",
+    "en": "Our return is tomorrow.",
+    "why": "slice5: est prévu is a genuine passive of prévoir with an implied external agent"
+  },
+  {
+    "id": "a1-age-ac",
+    "match": "Il a quarante ans.",
+    "fr": "Il ne dit pas son âge.",
+    "ja": "彼は自分の年齢を言わない。",
+    "en": "He doesn't say his age.",
+    "why": "slice6: avoir X ans never realizes the headword âge itself"
+  },
+  {
+    "id": "a1-terminer",
+    "match": "Le film va terminer bientôt.",
+    "fr": "Le film va se terminer bientôt.",
+    "why": "slice6: intransitive terminer is non-standard; requires se terminer"
+  },
+  {
+    "id": "a1-votre",
+    "match": "Où est votre voiture ?",
+    "ja": "あなたの車はどこ？",
+    "why": "slice6: ja used です polite form, must be plain 常体"
+  },
+  {
+    "id": "a1-vous",
+    "match": "Vous êtes content ?",
+    "ja": "あなたは満足している？",
+    "why": "slice6: ja used ます polite form, must be plain 常体"
+  },
+  {
+    "id": "a1-demi",
+    "match": "Je prends un demi, merci.",
+    "ja": "小さいグラスのビールをもらう。",
+    "why": "sweep: お願いします is masu-form"
+  },
+  {
+    "id": "a1-devant",
+    "match": "Marchez devant, s'il vous plaît.",
+    "ja": "前を歩いて。",
+    "why": "sweep: てください is polite imperative"
+  },
+  {
+    "id": "a1-devant",
+    "match": "Le professeur passe devant.",
+    "en": "The teacher walks past.",
+    "why": "slice2: awkward/redundant English"
+  },
+  {
+    "id": "a1-directement",
+    "match": "Répondez directement, s'il vous plaît.",
+    "ja": "直接答えて。",
+    "why": "sweep: てください is polite imperative"
+  },
+  {
+    "id": "a1-doucement",
+    "match": "Parlez doucement, s'il vous plaît.",
+    "ja": "ゆっくり話して。",
+    "why": "sweep: てください is polite imperative"
+  },
+  {
+    "id": "a1-droit",
+    "match": "Continuez tout droit.",
+    "ja": "そのまま直進して。",
+    "why": "sweep: てください is polite imperative"
+  },
+  {
+    "id": "a1-droit",
+    "match": "Tournez à droite.",
+    "ja": "右に曲がって。",
+    "why": "sweep: てください is polite imperative"
+  },
+  {
+    "id": "a1-deranger",
+    "match": "Excusez-moi de vous déranger.",
+    "ja": "邪魔してごめん。",
+    "why": "sweep: すみません is masu-derived"
+  },
+  {
+    "id": "a1-desirer",
+    "match": "Je désire un café, merci.",
+    "ja": "コーヒーが欲しい。",
+    "why": "sweep: お願いします is masu-form"
+  },
+  {
+    "id": "a1-desirer",
+    "match": "Que désirez-vous exactement ?",
+    "ja": "正確には何が欲しいの？",
+    "why": "sweep: お望みですか is desu-form"
+  },
+  {
+    "id": "a1-detail",
+    "match": "Racontez-moi tous les détails.",
+    "ja": "すべての詳細を話して。",
+    "why": "sweep: てください is polite imperative"
+  },
+  {
+    "id": "a1-entrer",
+    "match": "Entrez, s'il vous plaît.",
+    "ja": "どうぞ入って。",
+    "why": "sweep: お入りください is polite imperative"
+  },
+  {
+    "id": "a1-euh",
+    "match": "Euh, attendez un peu.",
+    "ja": "えーと、少し待って。",
+    "why": "sweep: てください is polite imperative"
+  },
+  {
+    "id": "a1-excuser",
+    "match": "Excusez-moi de vous déranger, monsieur.",
+    "ja": "邪魔してごめん。",
+    "why": "sweep+slice2: すみません is masu-derived; あなた as vocative is unnatural/curt"
+  },
+  {
+    "id": "a1-exemple",
+    "match": "Donnez-moi un exemple.",
+    "ja": "例を一つ挙げて。",
+    "why": "sweep: てください is polite imperative"
+  },
+  {
+    "id": "a1-gauche",
+    "match": "Tournez à gauche, s'il vous plaît.",
+    "ja": "左に曲がって。",
+    "why": "sweep: てください is polite imperative"
+  },
+  {
+    "id": "a1-immediatement",
+    "match": "Venez immédiatement, s'il vous plaît.",
+    "ja": "すぐに来て。",
+    "why": "sweep: てください is polite imperative"
+  },
+  {
+    "id": "a1-pardon",
+    "match": "Pardon, madame Dubois !",
+    "ja": "ごめん、デュボワさん。",
+    "why": "sweep: すみません is masu-derived"
+  },
+  {
+    "id": "a1-pardon",
+    "match": "Pardon, je suis en retard.",
+    "ja": "ごめん、遅れた。",
+    "why": "sweep: すみません is masu-derived"
+  },
+  {
+    "id": "a1-plaire",
+    "match": "S'il vous plaît, fermez la porte.",
+    "ja": "お願い、ドアを閉めて。",
+    "why": "sweep: お願いします/てください are polite forms"
+  },
+  {
+    "id": "a1-prier",
+    "match": "Je vous en prie, entrez.",
+    "ja": "どうぞ、入って。",
+    "why": "sweep: お入りください is polite imperative"
+  }
+]

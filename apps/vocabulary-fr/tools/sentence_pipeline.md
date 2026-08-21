@@ -69,7 +69,7 @@
 
 | 見出し語 | 天井上の問題 | 許す形（自己使用のみ） |
 |---|---|---|
-| `plus` / `moins` / `mieux` / `meilleur` | 比較級を誘発 | 比較構文にせず単独の副詞・定型で（`Je ne veux plus.` / `C'est mieux.`） |
+| `plus` / `moins` / `mieux` / `meilleur` / `pire` | 比較級を誘発 | **`que` を使った明示比較（`plus grand que`）と `le/la` を伴う最上級（`le meilleur X`）は禁止。** `pire`/`meilleur` は比較対象を出さない裸の述語のみ許可（`C'est mieux.` / `Ce film est pire.`）。`pire` は `mauvais` の不規則比較級で非比較の語義を持たないため、この裸述語形が唯一の実現形になる。 |
 | `qui` / `que` | 関係節を誘発 | **疑問詞用法のみ**（`Qui est-ce ?` / `Que fais-tu ?`） |
 | `se` および代名動詞 | 代名動詞は A2 域 | 基本の日常動作のみ（`Je me lève à sept heures.`） |
 | `y` / `en`（代名詞） | 天井で禁止 | 定型のみ（`Il y a un livre.` / `J'en ai un.`） |
