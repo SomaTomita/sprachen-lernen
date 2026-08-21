@@ -1,4 +1,4 @@
-const KEY = 'nederlands-vocab-v1';
+const KEY = 'francais-vocab-v1';
 
 export const GOAL_MIN = 10;
 export const GOAL_MAX = 100;
