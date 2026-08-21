@@ -52,3 +52,18 @@ test('takes gender and plural from the same gender row (ortho == lemme is the an
   assert.equal(lx.get('amoureux').article, 'le');    // 先頭の女性行に引きずられない
   assert.equal(lx.get('amoureux').plural, null);     // -x は不変（lemma と同形なので null）
 });
+
+// 回帰テスト: 同じ性で複数形の綴りが2つある語（lieu → lieus(魚)/lieux(場所)、
+// oeil → oeils/yeux）。行順で採ると稀な方を拾うので、語形頻度が高い方を選ぶ。
+test('picks the most frequent plural form when several share the same gender', () => {
+  const HDR3 = 'ortho\tphon\tlemme\tcgram\tgenre\tnombre\tfreqlemfilms2\tfreqlemlivres\tfreqfilms2\tfreqlivres';
+  const SAMPLE3 = [
+    HDR3,
+    'lieu\tljo\tlieu\tNOM\tm\ts\t153\t213\t153\t213.38',
+    'lieus\tljo\tlieu\tNOM\tm\tp\t153\t213\t0.15\t0.07',   // 魚。稀
+    'lieux\tljo\tlieu\tNOM\tm\tp\t153\t213\t28.73\t54.12', // 場所。常用
+  ].join('\n');
+  const lx = parseLexique(SAMPLE3);
+  assert.equal(lx.get('lieu').article, 'le');
+  assert.equal(lx.get('lieu').plural, 'lieux');
+});
