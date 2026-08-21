@@ -12365,19 +12365,6 @@
     ]
   },
   {
-    "id": "a1-qu",
-    "lemma": "qu'",
-    "pos": "adverb",
-    "level": "A1",
-    "lemmaAudio": "audio/lemma/a1-qu.mp3",
-    "meanings": [
-      {
-        "ja": "que の縮約形（母音の前）",
-        "en": "elided form of que"
-      }
-    ]
-  },
-  {
     "id": "a1-quai",
     "lemma": "quai",
     "pos": "noun",
