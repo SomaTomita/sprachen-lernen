@@ -1,1199 +1,1199 @@
-{"lemma":"accent","pos":"noun","article":"le","plural":"accents"}
-{"lemma":"accepter","pos":"verb"}
-{"lemma":"accident","pos":"noun","article":"le","plural":"accidents"}
-{"lemma":"accompagner","pos":"verb"}
-{"lemma":"accueil","pos":"noun","article":"le","plural":"accueils"}
-{"lemma":"accueillir","pos":"verb"}
-{"lemma":"acheter","pos":"verb"}
-{"lemma":"activité","pos":"noun","article":"la","plural":"activités"}
-{"lemma":"admirer","pos":"verb"}
-{"lemma":"adorable","pos":"adjective"}
-{"lemma":"adorer","pos":"verb"}
-{"lemma":"adresse","pos":"noun","article":"la","plural":"adresses"}
-{"lemma":"adulte","pos":"noun","plural":"adultes"}
-{"lemma":"affaire","pos":"noun","article":"la","plural":"affaires"}
-{"lemma":"africain","pos":"adjective"}
-{"lemma":"agence","pos":"noun","article":"la","plural":"agences"}
-{"lemma":"agriculture","pos":"noun","article":"la"}
-{"lemma":"agréable","pos":"adjective"}
-{"lemma":"ah","pos":"interjection"}
-{"lemma":"aide","pos":"noun","plural":"aides"}
-{"lemma":"aider","pos":"verb"}
-{"lemma":"aile","pos":"noun","article":"la","plural":"ailes"}
-{"lemma":"aimer","pos":"verb"}
-{"lemma":"ainsi","pos":"adverb"}
-{"lemma":"air","pos":"noun","article":"le","plural":"airs"}
-{"lemma":"ajouter","pos":"verb"}
-{"lemma":"allemand","pos":"adjective"}
-{"lemma":"aller","pos":"verb"}
-{"lemma":"allumer","pos":"verb"}
-{"lemma":"allô","pos":"interjection"}
-{"lemma":"alors","pos":"adverb"}
-{"lemma":"ami","pos":"noun","article":"le","plural":"amis","posOptions":["adjective","noun"]}
-{"lemma":"amour","pos":"noun","article":"le"}
-{"lemma":"amoureux","pos":"noun","article":"le","posOptions":["noun","adjective"]}
-{"lemma":"amusant","pos":"adjective"}
-{"lemma":"amuser","pos":"verb"}
-{"lemma":"an","pos":"noun","article":"le","plural":"ans"}
-{"lemma":"analyser","pos":"verb"}
-{"lemma":"ancien","pos":"adjective"}
-{"lemma":"anglais","pos":"adjective"}
-{"lemma":"animal","pos":"noun","article":"le","plural":"animaux"}
-{"lemma":"animateur","pos":"noun","article":"le","plural":"animateurs"}
-{"lemma":"anniversaire","pos":"noun","article":"le","plural":"anniversaires"}
-{"lemma":"annoncer","pos":"verb"}
-{"lemma":"année","pos":"noun","article":"la","plural":"années"}
-{"lemma":"antiquité","pos":"noun","article":"la","plural":"antiquités"}
-{"lemma":"août","pos":"noun","article":"le"}
-{"lemma":"apercevoir","pos":"verb"}
-{"lemma":"apparaître","pos":"verb"}
-{"lemma":"appareil","pos":"noun","article":"le","plural":"appareils"}
-{"lemma":"appartement","pos":"noun","article":"le","plural":"appartements"}
-{"lemma":"appeler","pos":"verb"}
-{"lemma":"apporter","pos":"verb"}
-{"lemma":"apprendre","pos":"verb"}
-{"lemma":"approcher","pos":"verb"}
-{"lemma":"après","pos":"adverb","posOptions":["adverb","conjunction","preposition"]}
-{"lemma":"après-midi","pos":"noun"}
-{"lemma":"apéritif","pos":"noun","article":"le","plural":"apéritifs"}
-{"lemma":"arbre","pos":"noun","article":"le","plural":"arbres"}
-{"lemma":"argent","pos":"noun","article":"le","plural":"argents"}
-{"lemma":"arme","pos":"noun","article":"la","plural":"armes"}
-{"lemma":"arriver","pos":"verb"}
-{"lemma":"arrondissement","pos":"noun","article":"le","plural":"arrondissements"}
-{"lemma":"arrêter","pos":"verb"}
-{"lemma":"art","pos":"noun","article":"le","plural":"arts"}
-{"lemma":"ascenseur","pos":"noun","article":"le","plural":"ascenseurs"}
-{"lemma":"asseoir","pos":"verb"}
-{"lemma":"assez","pos":"adverb"}
-{"lemma":"assister","pos":"verb"}
-{"lemma":"association","pos":"noun","article":"la","plural":"associations"}
-{"lemma":"assurance","pos":"noun","article":"la","plural":"assurances"}
-{"lemma":"atelier","pos":"noun","article":"le","plural":"ateliers"}
-{"lemma":"attacher","pos":"verb"}
-{"lemma":"attendre","pos":"verb"}
-{"lemma":"attention","pos":"noun","article":"la","plural":"attentions"}
-{"lemma":"au","pos":"preposition"}
-{"lemma":"au-dessus","pos":"adverb"}
-{"lemma":"aucun","pos":"pronoun"}
-{"lemma":"aujourd'hui","pos":"adverb"}
-{"lemma":"auprès","pos":"adverb"}
-{"lemma":"aussi","pos":"adverb"}
-{"lemma":"aussitôt","pos":"adverb"}
-{"lemma":"automne","pos":"noun","article":"le","plural":"automnes"}
-{"lemma":"autour","pos":"adverb"}
-{"lemma":"autre","pos":"adjective"}
-{"lemma":"avancer","pos":"verb"}
-{"lemma":"avant","pos":"preposition"}
-{"lemma":"avec","pos":"preposition"}
-{"lemma":"aventure","pos":"noun","article":"la","plural":"aventures"}
-{"lemma":"avenue","pos":"noun","article":"la","plural":"avenues"}
-{"lemma":"avion","pos":"noun","article":"le","plural":"avions"}
-{"lemma":"avis","pos":"noun","article":"le"}
-{"lemma":"avoir","pos":"verb"}
-{"lemma":"avril","pos":"noun","article":"le"}
-{"lemma":"aéroport","pos":"noun","article":"le","plural":"aéroports"}
-{"lemma":"baigner","pos":"verb"}
-{"lemma":"bain","pos":"noun","article":"le","plural":"bains"}
-{"lemma":"balade","pos":"noun","article":"la","plural":"balades"}
-{"lemma":"bande","pos":"noun","article":"la","plural":"bandes"}
-{"lemma":"banlieue","pos":"noun","article":"la","plural":"banlieues"}
-{"lemma":"banque","pos":"noun","article":"la","plural":"banques"}
-{"lemma":"bar","pos":"noun","article":"le","plural":"bars"}
-{"lemma":"bas","pos":"adjective","posOptions":["adjective","adverb"]}
-{"lemma":"bateau","pos":"noun","article":"le","plural":"bateaux"}
-{"lemma":"battre","pos":"verb"}
-{"lemma":"beau","pos":"adjective"}
-{"lemma":"beaucoup","pos":"adverb"}
-{"lemma":"belge","pos":"adjective"}
-{"lemma":"ben","pos":"adverb"}
-{"lemma":"besoin","pos":"noun","article":"le","plural":"besoins"}
-{"lemma":"beurre","pos":"noun","article":"le","plural":"beurres"}
-{"lemma":"bicyclette","pos":"noun","article":"la","plural":"bicyclettes"}
-{"lemma":"bien","pos":"adjective","posOptions":["adjective","adverb"]}
-{"lemma":"bientôt","pos":"adverb"}
-{"lemma":"bienvenir","pos":"verb"}
-{"lemma":"billet","pos":"noun","article":"le","plural":"billets"}
-{"lemma":"bis","pos":"adjective"}
-{"lemma":"bise","pos":"noun","article":"la","plural":"bises"}
-{"lemma":"bizarre","pos":"adjective"}
-{"lemma":"bière","pos":"noun","article":"la","plural":"bières"}
-{"lemma":"blague","pos":"noun","article":"la","plural":"blagues"}
-{"lemma":"blanc","pos":"adjective"}
-{"lemma":"bleu","pos":"adjective"}
-{"lemma":"blond","pos":"adjective"}
-{"lemma":"blouson","pos":"noun","article":"le","plural":"blousons"}
-{"lemma":"boire","pos":"verb"}
-{"lemma":"bois","pos":"noun","article":"le"}
-{"lemma":"boisson","pos":"noun","article":"la","plural":"boissons"}
-{"lemma":"bon","pos":"adjective"}
-{"lemma":"bonheur","pos":"noun","article":"le","plural":"bonheurs"}
-{"lemma":"bonjour","pos":"noun","article":"le","plural":"bonjours"}
-{"lemma":"bonsoir","pos":"noun","article":"le","plural":"bonsoirs"}
-{"lemma":"bord","pos":"noun","article":"le","plural":"bords"}
-{"lemma":"boulanger","pos":"adjective"}
-{"lemma":"boule","pos":"noun","article":"la","plural":"boules"}
-{"lemma":"boulevard","pos":"noun","article":"le","plural":"boulevards"}
-{"lemma":"bout","pos":"noun","article":"le","plural":"bouts"}
-{"lemma":"bouteille","pos":"noun","article":"la","plural":"bouteilles"}
-{"lemma":"boutique","pos":"noun","article":"la","plural":"boutiques"}
-{"lemma":"boîte","pos":"noun","article":"la","plural":"boîtes"}
-{"lemma":"bras","pos":"noun","article":"le"}
-{"lemma":"bravo","pos":"interjection"}
-{"lemma":"briller","pos":"verb"}
-{"lemma":"bruit","pos":"noun","article":"le","plural":"bruits"}
-{"lemma":"brun","pos":"adjective"}
-{"lemma":"buffet","pos":"noun","article":"le","plural":"buffets"}
-{"lemma":"bureau","pos":"noun","article":"le","plural":"bureaux"}
-{"lemma":"bus","pos":"noun","article":"le"}
-{"lemma":"boeuf","pos":"noun","article":"le","plural":"boeufs"}
-{"lemma":"bâtiment","pos":"noun","article":"le","plural":"bâtiments"}
-{"lemma":"bébé","pos":"noun","article":"le","plural":"bébés"}
-{"lemma":"cacher","pos":"verb"}
-{"lemma":"cadeau","pos":"noun","article":"le","plural":"cadeaux"}
-{"lemma":"café","pos":"noun","article":"le","plural":"cafés"}
-{"lemma":"caisse","pos":"noun","article":"la","plural":"caisses"}
-{"lemma":"calme","pos":"adjective"}
-{"lemma":"campagne","pos":"noun","article":"la","plural":"campagnes"}
-{"lemma":"camping","pos":"noun","article":"le","plural":"campings"}
-{"lemma":"cantine","pos":"noun","article":"la","plural":"cantines"}
-{"lemma":"capitale","pos":"noun","article":"la","plural":"capitales"}
-{"lemma":"car","pos":"conjunction"}
-{"lemma":"carte","pos":"noun","article":"la","plural":"cartes"}
-{"lemma":"cas","pos":"noun","article":"le"}
-{"lemma":"cathédrale","pos":"noun","article":"la","plural":"cathédrales"}
-{"lemma":"cause","pos":"noun","article":"la","plural":"causes"}
-{"lemma":"ce","pos":"pronoun"}
-{"lemma":"cela","pos":"pronoun"}
-{"lemma":"celui","pos":"pronoun"}
-{"lemma":"centre","pos":"noun","article":"le","plural":"centres"}
-{"lemma":"certain","pos":"adjective","posOptions":["adjective","pronoun"]}
-{"lemma":"certainement","pos":"adverb"}
-{"lemma":"chacun","pos":"pronoun"}
-{"lemma":"chambre","pos":"noun","article":"la","plural":"chambres"}
-{"lemma":"champagne","pos":"noun","article":"le","plural":"champagnes"}
-{"lemma":"chance","pos":"noun","article":"la","plural":"chances"}
-{"lemma":"changer","pos":"verb"}
-{"lemma":"chanson","pos":"noun","article":"la","plural":"chansons"}
-{"lemma":"chanter","pos":"verb"}
-{"lemma":"chanteur","pos":"noun","article":"le","plural":"chanteurs"}
-{"lemma":"chaque","pos":"pronoun"}
-{"lemma":"charmant","pos":"adjective"}
-{"lemma":"chat","pos":"noun","article":"le","plural":"chats"}
-{"lemma":"chaud","pos":"adjective"}
-{"lemma":"chaussure","pos":"noun","article":"la","plural":"chaussures"}
-{"lemma":"chemin","pos":"noun","article":"le","plural":"chemins"}
-{"lemma":"cheminée","pos":"noun","article":"la","plural":"cheminées"}
-{"lemma":"cher","pos":"adjective","posOptions":["adverb","adjective"]}
-{"lemma":"chercher","pos":"verb"}
-{"lemma":"cheval","pos":"noun","article":"le","plural":"chevaux"}
-{"lemma":"chevalier","pos":"noun","article":"le","plural":"chevaliers"}
-{"lemma":"cheveu","pos":"noun","article":"le","plural":"cheveux"}
-{"lemma":"chez","pos":"preposition"}
-{"lemma":"chien","pos":"noun","article":"le","plural":"chiens"}
-{"lemma":"chinois","pos":"adjective"}
-{"lemma":"chocolat","pos":"noun","article":"le","plural":"chocolats"}
-{"lemma":"choisir","pos":"verb"}
-{"lemma":"choix","pos":"noun","article":"le"}
-{"lemma":"chose","pos":"noun","article":"la","plural":"choses"}
-{"lemma":"château","pos":"noun","article":"le","plural":"châteaux"}
-{"lemma":"chèque","pos":"noun","article":"le","plural":"chèques"}
-{"lemma":"chère","pos":"noun"}
-{"lemma":"chômage","pos":"noun","article":"le"}
-{"lemma":"ciel","pos":"noun","article":"le","plural":"ciels"}
-{"lemma":"cimetière","pos":"noun","article":"le","plural":"cimetières"}
-{"lemma":"cinéma","pos":"noun","article":"le","plural":"cinémas"}
-{"lemma":"cité","pos":"noun","article":"la","plural":"cités"}
-{"lemma":"clair","pos":"adjective"}
-{"lemma":"classe","pos":"noun","article":"la","plural":"classes"}
-{"lemma":"client","pos":"noun","article":"le","plural":"clients"}
-{"lemma":"climat","pos":"noun","article":"le","plural":"climats"}
-{"lemma":"club","pos":"noun","article":"le","plural":"clubs"}
-{"lemma":"clé","pos":"noun","article":"la","plural":"clés"}
-{"lemma":"coin","pos":"noun","article":"le","plural":"coins"}
-{"lemma":"collection","pos":"noun","article":"la","plural":"collections"}
-{"lemma":"collège","pos":"noun","article":"le","plural":"collèges"}
-{"lemma":"collègue","pos":"noun","plural":"collègues"}
-{"lemma":"colère","pos":"noun","article":"la","plural":"colères"}
-{"lemma":"combien","pos":"adverb"}
-{"lemma":"commander","pos":"verb"}
-{"lemma":"comme","pos":"adverb","posOptions":["adverb","conjunction"]}
-{"lemma":"commencer","pos":"verb"}
-{"lemma":"comment","pos":"adverb"}
-{"lemma":"commerce","pos":"noun","article":"le","plural":"commerces"}
-{"lemma":"commercial","pos":"adjective"}
-{"lemma":"commun","pos":"adjective"}
-{"lemma":"communication","pos":"noun","article":"la","plural":"communications"}
-{"lemma":"compagnie","pos":"noun","article":"la","plural":"compagnies"}
-{"lemma":"complet","pos":"adjective"}
-{"lemma":"compliquer","pos":"verb"}
-{"lemma":"composer","pos":"verb"}
-{"lemma":"comprendre","pos":"verb"}
-{"lemma":"compter","pos":"verb"}
-{"lemma":"concert","pos":"noun","article":"le","plural":"concerts"}
-{"lemma":"conduire","pos":"verb"}
-{"lemma":"confiance","pos":"noun","article":"la","plural":"confiances"}
-{"lemma":"confiture","pos":"noun","article":"la","plural":"confitures"}
-{"lemma":"connaissance","pos":"noun","article":"la","plural":"connaissances"}
-{"lemma":"connaître","pos":"verb"}
-{"lemma":"conseil","pos":"noun","article":"le","plural":"conseils"}
-{"lemma":"considérer","pos":"verb"}
-{"lemma":"construire","pos":"verb"}
-{"lemma":"content","pos":"adjective"}
-{"lemma":"continent","pos":"noun","article":"le","plural":"continents"}
-{"lemma":"continu","pos":"adjective"}
-{"lemma":"continuer","pos":"verb"}
-{"lemma":"contre","pos":"preposition"}
-{"lemma":"contrôle","pos":"noun","article":"le","plural":"contrôles"}
-{"lemma":"coopération","pos":"noun","article":"la"}
-{"lemma":"copain","pos":"noun","article":"le","plural":"copains"}
-{"lemma":"copine","pos":"noun"}
-{"lemma":"corde","pos":"noun","article":"la","plural":"cordes"}
-{"lemma":"coucher","pos":"verb"}
-{"lemma":"couleur","pos":"noun","article":"la","plural":"couleurs"}
-{"lemma":"couloir","pos":"noun","article":"le","plural":"couloirs"}
-{"lemma":"coup","pos":"noun","article":"le","plural":"coups"}
-{"lemma":"couper","pos":"verb"}
-{"lemma":"couple","pos":"noun","article":"le","plural":"couples"}
-{"lemma":"cour","pos":"noun","article":"la"}
-{"lemma":"courage","pos":"noun","article":"le","plural":"courages"}
-{"lemma":"courageux","pos":"adjective"}
-{"lemma":"courir","pos":"verb"}
-{"lemma":"course","pos":"noun","article":"la","plural":"courses"}
-{"lemma":"court","pos":"adjective"}
-{"lemma":"cousin","pos":"noun","article":"le","plural":"cousins"}
-{"lemma":"couvrir","pos":"verb"}
-{"lemma":"coûter","pos":"verb"}
-{"lemma":"cri","pos":"noun","article":"le","plural":"cris"}
-{"lemma":"crier","pos":"verb"}
-{"lemma":"croire","pos":"verb"}
-{"lemma":"créer","pos":"verb"}
-{"lemma":"crêpe","pos":"noun","plural":"crêpes"}
-{"lemma":"cuisine","pos":"noun","article":"la","plural":"cuisines"}
-{"lemma":"culture","pos":"noun","article":"la","plural":"cultures"}
-{"lemma":"culturel","pos":"adjective"}
-{"lemma":"curieux","pos":"adjective"}
-{"lemma":"coeur","pos":"noun","article":"le","plural":"coeurs"}
-{"lemma":"célèbre","pos":"adjective"}
-{"lemma":"côte","pos":"noun","article":"la","plural":"côtes"}
-{"lemma":"côté","pos":"noun","article":"le","plural":"côtés"}
-{"lemma":"d'abord","pos":"adverb"}
-{"lemma":"d'accord","pos":"adverb"}
-{"lemma":"dame","pos":"noun","article":"la","plural":"dames"}
-{"lemma":"dangereux","pos":"adjective"}
-{"lemma":"dans","pos":"preposition"}
-{"lemma":"danse","pos":"noun","article":"la","plural":"danses"}
-{"lemma":"danser","pos":"verb"}
-{"lemma":"date","pos":"noun","article":"la","plural":"dates"}
-{"lemma":"de","pos":"preposition"}
-{"lemma":"demain","pos":"noun","article":"le","plural":"demains","posOptions":["adverb","noun"]}
-{"lemma":"demande","pos":"noun","article":"la","plural":"demandes"}
-{"lemma":"demander","pos":"verb"}
-{"lemma":"demi","pos":"noun","article":"le","plural":"demis"}
-{"lemma":"demi-heure","pos":"noun","article":"la","plural":"demi-heures"}
-{"lemma":"dent","pos":"noun","article":"la","plural":"dents"}
-{"lemma":"depuis","pos":"preposition"}
-{"lemma":"dernier","pos":"adjective"}
-{"lemma":"derrière","pos":"preposition"}
-{"lemma":"descendre","pos":"verb"}
-{"lemma":"dessert","pos":"noun","article":"le","plural":"desserts"}
-{"lemma":"dessin","pos":"noun","article":"le","plural":"dessins"}
-{"lemma":"dessiner","pos":"verb"}
-{"lemma":"destination","pos":"noun","article":"la","plural":"destinations"}
-{"lemma":"devant","pos":"adverb","posOptions":["adverb","preposition"]}
-{"lemma":"devenir","pos":"verb"}
-{"lemma":"devoir","pos":"verb","posOptions":["verb","noun"],"articleIfNoun":"le","pluralIfNoun":"devoirs"}
-{"lemma":"dieu","pos":"noun","article":"le","plural":"dieux"}
-{"lemma":"difficile","pos":"adjective"}
-{"lemma":"différence","pos":"noun","article":"la","plural":"différences"}
-{"lemma":"différent","pos":"adjective"}
-{"lemma":"dimanche","pos":"noun","article":"le","plural":"dimanches"}
-{"lemma":"dire","pos":"verb"}
-{"lemma":"direct","pos":"adjective"}
-{"lemma":"directement","pos":"adverb"}
-{"lemma":"directeur","pos":"noun","article":"le","plural":"directeurs"}
-{"lemma":"direction","pos":"noun","article":"la","plural":"directions"}
-{"lemma":"diriger","pos":"verb"}
-{"lemma":"discuter","pos":"verb"}
-{"lemma":"disparaître","pos":"verb"}
-{"lemma":"disque","pos":"noun","article":"le","plural":"disques"}
-{"lemma":"divorcer","pos":"verb"}
-{"lemma":"document","pos":"noun","article":"le","plural":"documents"}
-{"lemma":"domaine","pos":"noun","article":"le","plural":"domaines"}
-{"lemma":"donc","pos":"adverb"}
-{"lemma":"donner","pos":"verb"}
-{"lemma":"dormir","pos":"verb"}
-{"lemma":"dos","pos":"noun","article":"le"}
-{"lemma":"doucement","pos":"adverb"}
-{"lemma":"doux","pos":"adjective"}
-{"lemma":"droit","pos":"noun","article":"le","plural":"droits","posOptions":["noun","adjective"]}
-{"lemma":"drôle","pos":"noun","posOptions":["noun","adjective"]}
-{"lemma":"du","pos":"preposition"}
-{"lemma":"dur","pos":"adjective"}
-{"lemma":"durer","pos":"verb"}
-{"lemma":"dynamique","pos":"adjective"}
-{"lemma":"début","pos":"noun","article":"le","plural":"débuts"}
-{"lemma":"décembre","pos":"noun","article":"le","plural":"décembres"}
-{"lemma":"décider","pos":"verb"}
-{"lemma":"décoration","pos":"noun","article":"la","plural":"décorations"}
-{"lemma":"décorer","pos":"verb"}
-{"lemma":"découverte","pos":"noun","article":"la","plural":"découvertes"}
-{"lemma":"découvrir","pos":"verb"}
-{"lemma":"défendre","pos":"verb"}
-{"lemma":"déjeuner","pos":"verb","posOptions":["verb","noun"],"articleIfNoun":"le","pluralIfNoun":"déjeuners"}
-{"lemma":"déjà","pos":"adverb"}
-{"lemma":"délicieux","pos":"adjective"}
-{"lemma":"départ","pos":"noun","article":"le","plural":"départs"}
-{"lemma":"département","pos":"noun","article":"le","plural":"départements"}
-{"lemma":"dépêcher","pos":"verb"}
-{"lemma":"déranger","pos":"verb"}
-{"lemma":"désirer","pos":"verb"}
-{"lemma":"désoler","pos":"verb"}
-{"lemma":"détail","pos":"noun","article":"le","plural":"détails"}
-{"lemma":"détester","pos":"verb"}
-{"lemma":"dîner","pos":"verb","posOptions":["verb","noun"],"articleIfNoun":"le","pluralIfNoun":"dîners"}
-{"lemma":"eau","pos":"noun","article":"la","plural":"eaux"}
-{"lemma":"effet","pos":"noun","article":"le","plural":"effets"}
-{"lemma":"eh","pos":"interjection"}
-{"lemma":"elle","pos":"pronoun"}
-{"lemma":"embrasser","pos":"verb"}
-{"lemma":"emmener","pos":"verb"}
-{"lemma":"en","pos":"pronoun","posOptions":["preposition","pronoun"]}
-{"lemma":"encore","pos":"adverb"}
-{"lemma":"endormir","pos":"verb"}
-{"lemma":"endroit","pos":"noun","article":"le","plural":"endroits"}
-{"lemma":"enfance","pos":"noun","article":"la","plural":"enfances"}
-{"lemma":"enfant","pos":"noun","article":"le","plural":"enfants"}
-{"lemma":"enfin","pos":"adverb"}
-{"lemma":"ennuyer","pos":"verb"}
-{"lemma":"ensemble","pos":"noun","article":"le","plural":"ensembles","posOptions":["adverb","noun"]}
-{"lemma":"ensuite","pos":"adverb"}
-{"lemma":"entendre","pos":"verb"}
-{"lemma":"entre","pos":"preposition"}
-{"lemma":"entreprise","pos":"noun","article":"la","plural":"entreprises"}
-{"lemma":"entrer","pos":"verb"}
-{"lemma":"entrée","pos":"noun","article":"la","plural":"entrées"}
-{"lemma":"envie","pos":"noun","article":"la","plural":"envies"}
-{"lemma":"environ","pos":"preposition"}
-{"lemma":"environnement","pos":"noun","article":"le","plural":"environnements"}
-{"lemma":"envoyer","pos":"verb"}
-{"lemma":"erreur","pos":"noun","article":"la","plural":"erreurs"}
-{"lemma":"espace","pos":"noun","plural":"espaces"}
-{"lemma":"espagnol","pos":"noun","article":"le","plural":"espagnols","posOptions":["adjective","noun"]}
-{"lemma":"espérer","pos":"verb"}
-{"lemma":"essayer","pos":"verb"}
-{"lemma":"est","pos":"noun","article":"le"}
-{"lemma":"et","pos":"conjunction"}
-{"lemma":"euh","pos":"interjection"}
-{"lemma":"euro","pos":"noun","article":"le","plural":"euros"}
-{"lemma":"européen","pos":"adjective"}
-{"lemma":"eux","pos":"pronoun"}
-{"lemma":"exactement","pos":"adverb"}
-{"lemma":"examen","pos":"noun","article":"le","plural":"examens"}
-{"lemma":"excellent","pos":"adjective"}
-{"lemma":"excuser","pos":"verb"}
-{"lemma":"exemple","pos":"noun","article":"le","plural":"exemples"}
-{"lemma":"exercice","pos":"noun","article":"le","plural":"exercices"}
-{"lemma":"exister","pos":"verb"}
-{"lemma":"explication","pos":"noun","article":"la","plural":"explications"}
-{"lemma":"expliquer","pos":"verb"}
-{"lemma":"exposition","pos":"noun","article":"la","plural":"expositions"}
-{"lemma":"extraordinaire","pos":"adjective"}
-{"lemma":"fabriquer","pos":"verb"}
-{"lemma":"face","pos":"noun","article":"la","plural":"faces"}
-{"lemma":"facile","pos":"adjective"}
-{"lemma":"facilement","pos":"adverb"}
-{"lemma":"faim","pos":"noun","article":"la","plural":"faims"}
-{"lemma":"faire","pos":"verb"}
-{"lemma":"fait","pos":"noun","article":"le","plural":"faits"}
-{"lemma":"falaise","pos":"noun","article":"la","plural":"falaises"}
-{"lemma":"falloir","pos":"verb"}
-{"lemma":"famille","pos":"noun","article":"la","plural":"familles"}
-{"lemma":"fantastique","pos":"adjective"}
-{"lemma":"farine","pos":"noun","article":"la","plural":"farines"}
-{"lemma":"fatiguer","pos":"verb"}
-{"lemma":"faux","pos":"adjective"}
-{"lemma":"façon","pos":"noun","article":"la","plural":"façons"}
-{"lemma":"femme","pos":"noun","article":"la","plural":"femmes"}
-{"lemma":"fenêtre","pos":"noun","article":"la","plural":"fenêtres"}
-{"lemma":"fermer","pos":"verb"}
-{"lemma":"feu","pos":"noun","article":"le","plural":"feux"}
-{"lemma":"feuille","pos":"noun","article":"la","plural":"feuilles"}
-{"lemma":"fille","pos":"noun","article":"la","plural":"filles"}
-{"lemma":"film","pos":"noun","article":"le","plural":"films"}
-{"lemma":"fin","pos":"noun","posOptions":["noun","adjective"]}
-{"lemma":"finalement","pos":"adverb"}
-{"lemma":"finir","pos":"verb"}
-{"lemma":"fleur","pos":"noun","article":"la","plural":"fleurs"}
-{"lemma":"fleuve","pos":"noun","article":"le","plural":"fleuves"}
-{"lemma":"fonction","pos":"noun","article":"la","plural":"fonctions"}
-{"lemma":"foot","pos":"noun","article":"le"}
-{"lemma":"forme","pos":"noun","article":"la","plural":"formes"}
-{"lemma":"former","pos":"verb"}
-{"lemma":"formidable","pos":"adjective"}
-{"lemma":"fort","pos":"adjective"}
-{"lemma":"forêt","pos":"noun","article":"la","plural":"forêts"}
-{"lemma":"fou","pos":"noun","article":"le","plural":"fous","posOptions":["noun","adjective"]}
-{"lemma":"frais","pos":"adjective"}
-{"lemma":"francophone","pos":"adjective"}
-{"lemma":"français","pos":"adjective"}
-{"lemma":"frapper","pos":"verb"}
-{"lemma":"froid","pos":"adjective"}
-{"lemma":"fromage","pos":"noun","article":"le","plural":"fromages"}
-{"lemma":"fruit","pos":"noun","article":"le","plural":"fruits"}
-{"lemma":"frère","pos":"noun","article":"le","plural":"frères"}
-{"lemma":"fumer","pos":"verb"}
-{"lemma":"futur","pos":"adjective"}
-{"lemma":"félicitation","pos":"noun","article":"la","plural":"félicitations"}
-{"lemma":"féliciter","pos":"verb"}
-{"lemma":"février","pos":"noun","article":"le"}
-{"lemma":"fête","pos":"noun","article":"la","plural":"fêtes"}
-{"lemma":"fêter","pos":"verb"}
-{"lemma":"gagner","pos":"verb"}
-{"lemma":"garder","pos":"verb"}
-{"lemma":"gare","pos":"noun","article":"la","plural":"gares"}
-{"lemma":"garçon","pos":"noun","article":"le","plural":"garçons"}
-{"lemma":"gauche","pos":"noun","posOptions":["noun","adjective"]}
-{"lemma":"genou","pos":"noun","article":"le","plural":"genoux"}
-{"lemma":"gens","pos":"noun"}
-{"lemma":"gentil","pos":"adjective"}
-{"lemma":"glace","pos":"noun","article":"la","plural":"glaces"}
-{"lemma":"goût","pos":"noun","article":"le","plural":"goûts"}
-{"lemma":"goûter","pos":"verb"}
-{"lemma":"grand","pos":"adjective"}
-{"lemma":"grand-mère","pos":"noun","article":"la","plural":"grand-mères"}
-{"lemma":"grand-père","pos":"noun","article":"le","plural":"grands-pères"}
-{"lemma":"grands-parents","pos":"noun","article":"le"}
-{"lemma":"gras","pos":"adjective"}
-{"lemma":"gratuit","pos":"adjective"}
-{"lemma":"grave","pos":"adjective"}
-{"lemma":"gris","pos":"adjective"}
-{"lemma":"gros","pos":"adjective"}
-{"lemma":"grotte","pos":"noun","article":"la","plural":"grottes"}
-{"lemma":"groupe","pos":"noun","article":"le","plural":"groupes"}
-{"lemma":"grâce","pos":"noun","article":"la","plural":"grâces"}
-{"lemma":"guerre","pos":"noun","article":"la","plural":"guerres"}
-{"lemma":"gâteau","pos":"noun","article":"le","plural":"gâteaux"}
-{"lemma":"génial","pos":"adjective"}
-{"lemma":"général","pos":"adjective"}
-{"lemma":"génération","pos":"noun","article":"la","plural":"générations"}
-{"lemma":"généreux","pos":"adjective"}
-{"lemma":"habiller","pos":"verb"}
-{"lemma":"habitant","pos":"noun","article":"le","plural":"habitants"}
-{"lemma":"habiter","pos":"verb"}
-{"lemma":"habitude","pos":"noun","article":"la","plural":"habitudes"}
-{"lemma":"haut","pos":"adverb"}
-{"lemma":"herbe","pos":"noun","article":"la","plural":"herbes"}
-{"lemma":"heure","pos":"noun","article":"la","plural":"heures"}
-{"lemma":"heureusement","pos":"adverb"}
-{"lemma":"heureux","pos":"adjective"}
-{"lemma":"hier","pos":"adverb"}
-{"lemma":"histoire","pos":"noun","article":"la","plural":"histoires"}
-{"lemma":"hiver","pos":"noun","article":"le","plural":"hivers"}
-{"lemma":"homme","pos":"noun","article":"le","plural":"hommes"}
-{"lemma":"honneur","pos":"noun","article":"le","plural":"honneurs"}
-{"lemma":"horreur","pos":"noun","article":"la","plural":"horreurs"}
-{"lemma":"horrible","pos":"adjective"}
-{"lemma":"huile","pos":"noun","article":"la","plural":"huiles"}
-{"lemma":"humain","pos":"adjective"}
-{"lemma":"humeur","pos":"noun","article":"la","plural":"humeurs"}
-{"lemma":"hôpital","pos":"noun","article":"le","plural":"hôpitaux"}
-{"lemma":"hôtel","pos":"noun","article":"le","plural":"hôtels"}
-{"lemma":"ici","pos":"adverb"}
-{"lemma":"identité","pos":"noun","article":"la","plural":"identités"}
-{"lemma":"idéal","pos":"adjective"}
-{"lemma":"idée","pos":"noun","article":"la","plural":"idées"}
-{"lemma":"il","pos":"pronoun"}
-{"lemma":"image","pos":"noun","article":"la","plural":"images"}
-{"lemma":"imaginer","pos":"verb"}
-{"lemma":"immeuble","pos":"noun","article":"le","plural":"immeubles"}
-{"lemma":"immédiatement","pos":"adverb"}
-{"lemma":"important","pos":"adjective"}
-{"lemma":"impossible","pos":"adjective"}
-{"lemma":"inauguration","pos":"noun","article":"la","plural":"inaugurations"}
-{"lemma":"incroyable","pos":"adjective"}
-{"lemma":"indiquer","pos":"verb"}
-{"lemma":"indépendant","pos":"adjective"}
-{"lemma":"informaticien","pos":"noun","article":"le","plural":"informaticiens"}
-{"lemma":"information","pos":"noun","article":"la","plural":"informations"}
-{"lemma":"informatique","pos":"noun","article":"la"}
-{"lemma":"informer","pos":"verb"}
-{"lemma":"inquiéter","pos":"verb"}
-{"lemma":"inscription","pos":"noun","article":"la","plural":"inscriptions"}
-{"lemma":"installer","pos":"verb"}
-{"lemma":"intelligent","pos":"adjective"}
-{"lemma":"interdire","pos":"verb"}
-{"lemma":"international","pos":"adjective"}
-{"lemma":"internet","pos":"noun"}
-{"lemma":"interroger","pos":"verb"}
-{"lemma":"intéressant","pos":"adjective"}
-{"lemma":"intéresser","pos":"verb"}
-{"lemma":"intérieur","pos":"noun","article":"le","plural":"intérieurs"}
-{"lemma":"inventer","pos":"verb"}
-{"lemma":"invitation","pos":"noun","article":"la","plural":"invitations"}
-{"lemma":"inviter","pos":"verb"}
-{"lemma":"invité","pos":"noun","article":"le","plural":"invités"}
-{"lemma":"italien","pos":"noun","article":"le","plural":"italiens","posOptions":["adjective","noun"]}
-{"lemma":"jamais","pos":"adverb"}
-{"lemma":"jambe","pos":"noun","article":"la"}
-{"lemma":"janvier","pos":"noun","article":"le"}
-{"lemma":"jardin","pos":"noun","article":"le","plural":"jardins"}
-{"lemma":"jaune","pos":"adjective"}
-{"lemma":"je","pos":"pronoun"}
-{"lemma":"jean","pos":"noun","article":"le","plural":"jeans"}
-{"lemma":"jeter","pos":"verb"}
-{"lemma":"jeu","pos":"noun","article":"le","plural":"jeux"}
-{"lemma":"jeudi","pos":"noun","article":"le","plural":"jeudis"}
-{"lemma":"jeune","pos":"noun","posOptions":["adjective","noun"]}
-{"lemma":"jeunesse","pos":"noun","article":"la","plural":"jeunesses"}
-{"lemma":"joie","pos":"noun","article":"la","plural":"joies"}
-{"lemma":"joli","pos":"adjective"}
-{"lemma":"jouer","pos":"verb"}
-{"lemma":"jour","pos":"noun","article":"le","plural":"jours"}
-{"lemma":"journal","pos":"noun","article":"le","plural":"journaux"}
-{"lemma":"journaliste","pos":"noun","plural":"journalistes"}
-{"lemma":"journée","pos":"noun","article":"la","plural":"journées"}
-{"lemma":"joyeux","pos":"adjective"}
-{"lemma":"juillet","pos":"noun","article":"le","plural":"juillets"}
-{"lemma":"juin","pos":"noun","article":"le"}
-{"lemma":"jus","pos":"noun","article":"le"}
-{"lemma":"jusque","pos":"preposition"}
-{"lemma":"juste","pos":"adjective"}
-{"lemma":"justement","pos":"adverb"}
-{"lemma":"kilo","pos":"noun","article":"le","plural":"kilos"}
-{"lemma":"kilomètre","pos":"noun","article":"le","plural":"kilomètres"}
-{"lemma":"la","pos":"pronoun"}
-{"lemma":"laisser","pos":"verb"}
-{"lemma":"lait","pos":"noun","article":"le","plural":"laits"}
-{"lemma":"lampe","pos":"noun","article":"la","plural":"lampes"}
-{"lemma":"langue","pos":"noun","article":"la","plural":"langues"}
-{"lemma":"large","pos":"adjective"}
-{"lemma":"laver","pos":"verb"}
-{"lemma":"le","pos":"pronoun","posOptions":["pronoun","article"]}
-{"lemma":"lecture","pos":"noun","article":"la","plural":"lectures"}
-{"lemma":"lendemain","pos":"noun","article":"le","plural":"lendemains"}
-{"lemma":"lentement","pos":"adverb"}
-{"lemma":"lettre","pos":"noun","article":"la","plural":"lettres"}
-{"lemma":"leur","pos":"determiner"}
-{"lemma":"lever","pos":"verb"}
-{"lemma":"liberté","pos":"noun","article":"la","plural":"libertés"}
-{"lemma":"libre","pos":"adjective"}
-{"lemma":"lieu","pos":"noun","article":"le","plural":"lieus"}
-{"lemma":"lire","pos":"verb"}
-{"lemma":"lit","pos":"noun","article":"le","plural":"lits"}
-{"lemma":"litre","pos":"noun","plural":"litres"}
-{"lemma":"littérature","pos":"noun","article":"la","plural":"littératures"}
-{"lemma":"livre","pos":"noun","plural":"livres"}
-{"lemma":"local","pos":"adjective"}
-{"lemma":"loin","pos":"adverb"}
-{"lemma":"loisir","pos":"noun","article":"le","plural":"loisirs"}
-{"lemma":"long","pos":"noun","article":"le","plural":"longs","posOptions":["noun","adjective"]}
-{"lemma":"longtemps","pos":"adverb"}
-{"lemma":"longue","pos":"adjective"}
-{"lemma":"lui","pos":"pronoun"}
-{"lemma":"lumière","pos":"noun","article":"la","plural":"lumières"}
-{"lemma":"lundi","pos":"noun","article":"le","plural":"lundis"}
-{"lemma":"lycée","pos":"noun","article":"le","plural":"lycées"}
-{"lemma":"là","pos":"adverb"}
-{"lemma":"là-bas","pos":"adverb"}
-{"lemma":"légende","pos":"noun","article":"la","plural":"légendes"}
-{"lemma":"légume","pos":"noun","article":"le","plural":"légumes"}
-{"lemma":"madame","pos":"noun","article":"la","plural":"mesdames"}
-{"lemma":"mademoiselle","pos":"noun","article":"la","plural":"mademoiselles"}
-{"lemma":"magasin","pos":"noun","article":"le","plural":"magasins"}
-{"lemma":"magazine","pos":"noun","article":"le","plural":"magazines"}
-{"lemma":"magnifique","pos":"adjective"}
-{"lemma":"mai","pos":"noun"}
-{"lemma":"mail","pos":"noun","article":"le","plural":"mails"}
-{"lemma":"main","pos":"noun","article":"la","plural":"mains"}
-{"lemma":"maintenant","pos":"adverb"}
-{"lemma":"mairie","pos":"noun","article":"la","plural":"mairies"}
-{"lemma":"mais","pos":"conjunction"}
-{"lemma":"maison","pos":"noun","article":"la","plural":"maisons"}
-{"lemma":"mal","pos":"noun","article":"le","plural":"maux","posOptions":["noun","adverb"]}
-{"lemma":"malade","pos":"adjective"}
-{"lemma":"maman","pos":"noun","article":"la","plural":"mamans"}
-{"lemma":"manger","pos":"verb"}
-{"lemma":"manière","pos":"noun","article":"la","plural":"manières"}
-{"lemma":"manquer","pos":"verb"}
-{"lemma":"marche","pos":"noun","article":"la","plural":"marches"}
-{"lemma":"marcher","pos":"verb"}
-{"lemma":"marché","pos":"noun","article":"le","plural":"marchés"}
-{"lemma":"mardi","pos":"noun","article":"le","plural":"mardis"}
-{"lemma":"mari","pos":"noun","article":"le","plural":"maris"}
-{"lemma":"mariage","pos":"noun","article":"le","plural":"mariages"}
-{"lemma":"marier","pos":"verb"}
-{"lemma":"marquer","pos":"verb"}
-{"lemma":"maths","pos":"noun","article":"la"}
-{"lemma":"matin","pos":"noun","article":"le","plural":"matins"}
-{"lemma":"matière","pos":"noun","article":"la","plural":"matières"}
-{"lemma":"mauvais","pos":"adjective"}
-{"lemma":"maître","pos":"noun","article":"le","plural":"maîtres"}
-{"lemma":"me","pos":"pronoun"}
-{"lemma":"mec","pos":"noun","article":"le","plural":"mecs"}
-{"lemma":"meilleur","pos":"adjective"}
-{"lemma":"menu","pos":"noun","article":"le","plural":"menus"}
-{"lemma":"mer","pos":"noun","article":"la","plural":"mers"}
-{"lemma":"merci","pos":"noun","article":"le","plural":"mercis"}
-{"lemma":"mercredi","pos":"noun","article":"le","plural":"mercredis"}
-{"lemma":"merveilleux","pos":"adjective"}
-{"lemma":"message","pos":"noun","article":"le","plural":"messages"}
-{"lemma":"messe","pos":"noun","article":"la","plural":"messes"}
-{"lemma":"messieurs","pos":"noun"}
-{"lemma":"mettre","pos":"verb"}
-{"lemma":"midi","pos":"noun","article":"le","plural":"midis"}
-{"lemma":"mieux","pos":"adverb"}
-{"lemma":"milieu","pos":"noun","article":"le","plural":"milieux"}
-{"lemma":"million","pos":"noun","article":"le","plural":"millions"}
-{"lemma":"mince","pos":"adjective"}
-{"lemma":"minute","pos":"noun","article":"la","plural":"minutes"}
-{"lemma":"mode","pos":"noun","plural":"modes"}
-{"lemma":"moderne","pos":"adjective"}
-{"lemma":"moi","pos":"noun","article":"le","posOptions":["pronoun","noun"]}
-{"lemma":"moins","pos":"adverb"}
-{"lemma":"moment","pos":"noun","article":"le","plural":"moments"}
-{"lemma":"mon","pos":"determiner"}
-{"lemma":"monde","pos":"noun","article":"le","plural":"mondes"}
-{"lemma":"mondial","pos":"adjective"}
-{"lemma":"monsieur","pos":"noun","article":"le","plural":"messieurs"}
-{"lemma":"montagne","pos":"noun","article":"la","plural":"montagnes"}
-{"lemma":"monter","pos":"verb"}
-{"lemma":"montrer","pos":"verb"}
-{"lemma":"monument","pos":"noun","article":"le","plural":"monuments"}
-{"lemma":"morceau","pos":"noun","article":"le","plural":"morceaux"}
-{"lemma":"mort","pos":"noun","article":"la","plural":"mortes"}
-{"lemma":"mot","pos":"noun","article":"le","plural":"mots"}
-{"lemma":"moulin","pos":"noun","article":"le","plural":"moulins"}
-{"lemma":"mourir","pos":"verb"}
-{"lemma":"moyen","pos":"noun","article":"le","plural":"moyens","posOptions":["adjective","noun"]}
-{"lemma":"moyenne","pos":"noun","article":"la","plural":"moyennes"}
-{"lemma":"mule","pos":"noun","article":"la","plural":"mules"}
-{"lemma":"mur","pos":"noun","article":"le","plural":"murs"}
-{"lemma":"musicien","pos":"noun","article":"le","plural":"musiciens"}
-{"lemma":"musique","pos":"noun","article":"la","plural":"musiques"}
-{"lemma":"musée","pos":"noun","article":"le","plural":"musées"}
-{"lemma":"mère","pos":"noun","article":"la","plural":"mères"}
-{"lemma":"mètre","pos":"noun","article":"le","plural":"mètres"}
-{"lemma":"médecin","pos":"noun","article":"le","plural":"médecins"}
-{"lemma":"ménage","pos":"noun","article":"le","plural":"ménages"}
-{"lemma":"métier","pos":"noun","article":"le","plural":"métiers"}
-{"lemma":"métro","pos":"noun","article":"le","plural":"métros"}
-{"lemma":"même","pos":"adjective","posOptions":["adverb","adjective"]}
-{"lemma":"national","pos":"adjective"}
-{"lemma":"nationalité","pos":"noun","article":"la","plural":"nationalités"}
-{"lemma":"nature","pos":"noun","article":"la","plural":"natures"}
-{"lemma":"naître","pos":"verb"}
-{"lemma":"ne","pos":"adverb"}
-{"lemma":"neige","pos":"noun","article":"la","plural":"neiges"}
-{"lemma":"neuf","pos":"adjective"}
-{"lemma":"nez","pos":"noun","article":"le"}
-{"lemma":"ni","pos":"conjunction"}
-{"lemma":"noir","pos":"noun","article":"le","plural":"noirs","posOptions":["adjective","noun"]}
-{"lemma":"nom","pos":"noun","article":"le","plural":"noms"}
-{"lemma":"nombre","pos":"noun","article":"le","plural":"nombres"}
-{"lemma":"nombreux","pos":"adjective"}
-{"lemma":"non","pos":"adverb"}
-{"lemma":"nord","pos":"noun","article":"le"}
-{"lemma":"normal","pos":"adjective"}
-{"lemma":"note","pos":"noun","article":"la","plural":"notes"}
-{"lemma":"noter","pos":"verb"}
-{"lemma":"notre","pos":"determiner"}
-{"lemma":"nous","pos":"pronoun"}
-{"lemma":"nouveau","pos":"adjective"}
-{"lemma":"nouvelle","pos":"noun"}
-{"lemma":"novembre","pos":"noun","article":"le"}
-{"lemma":"nuit","pos":"noun","article":"la","plural":"nuits"}
-{"lemma":"nul","pos":"adjective"}
-{"lemma":"numéro","pos":"noun","article":"le","plural":"numéros"}
-{"lemma":"objet","pos":"noun","article":"le","plural":"objets"}
-{"lemma":"obligatoire","pos":"adjective"}
-{"lemma":"observer","pos":"verb"}
-{"lemma":"occuper","pos":"verb"}
-{"lemma":"octobre","pos":"noun","article":"le"}
-{"lemma":"odeur","pos":"noun","article":"la","plural":"odeurs"}
-{"lemma":"office","pos":"noun","article":"le","plural":"offices"}
-{"lemma":"officiel","pos":"adjective"}
-{"lemma":"offrir","pos":"verb"}
-{"lemma":"oh","pos":"interjection"}
-{"lemma":"oiseau","pos":"noun","article":"le","plural":"oiseaux"}
-{"lemma":"ombre","pos":"noun","plural":"ombres"}
-{"lemma":"on","pos":"pronoun"}
-{"lemma":"oncle","pos":"noun","article":"le","plural":"oncles"}
-{"lemma":"opération","pos":"noun","article":"la","plural":"opérations"}
-{"lemma":"orange","pos":"adjective"}
-{"lemma":"ordinateur","pos":"noun","article":"le","plural":"ordinateurs"}
-{"lemma":"ordre","pos":"noun","article":"le","plural":"ordres"}
-{"lemma":"oreille","pos":"noun","article":"la","plural":"oreilles"}
-{"lemma":"organisation","pos":"noun","article":"la","plural":"organisations"}
-{"lemma":"organiser","pos":"verb"}
-{"lemma":"original","pos":"adjective"}
-{"lemma":"origine","pos":"noun","article":"la","plural":"origines"}
-{"lemma":"ou","pos":"conjunction"}
-{"lemma":"ouais","pos":"interjection"}
-{"lemma":"oublier","pos":"verb"}
-{"lemma":"oui","pos":"interjection"}
-{"lemma":"ouverture","pos":"noun","article":"la","plural":"ouvertures"}
-{"lemma":"ouvrier","pos":"noun","article":"le","plural":"ouvriers"}
-{"lemma":"ouvrir","pos":"verb"}
-{"lemma":"où","pos":"adverb","posOptions":["pronoun","adverb"]}
-{"lemma":"page","pos":"noun","plural":"pages"}
-{"lemma":"pain","pos":"noun","article":"le","plural":"pains"}
-{"lemma":"paix","pos":"noun","article":"la"}
-{"lemma":"palais","pos":"noun","article":"le"}
-{"lemma":"pantalon","pos":"noun","article":"le","plural":"pantalons"}
-{"lemma":"papa","pos":"noun","article":"le"}
-{"lemma":"pape","pos":"noun","article":"le","plural":"papes"}
-{"lemma":"paquet","pos":"noun","article":"le","plural":"paquets"}
-{"lemma":"par","pos":"preposition"}
-{"lemma":"paradis","pos":"noun","article":"le"}
-{"lemma":"parc","pos":"noun","article":"le","plural":"parcs"}
-{"lemma":"parce","pos":"conjunction"}
-{"lemma":"pardon","pos":"noun","article":"le","plural":"pardons","posOptions":["interjection","noun"]}
-{"lemma":"parfait","pos":"adjective"}
-{"lemma":"parfois","pos":"adverb"}
-{"lemma":"parfum","pos":"noun","article":"le","plural":"parfums"}
-{"lemma":"parisien","pos":"noun","article":"le","plural":"parisiens"}
-{"lemma":"parking","pos":"noun","article":"le","plural":"parkings"}
-{"lemma":"parler","pos":"verb"}
-{"lemma":"part","pos":"noun","article":"la","plural":"parts"}
-{"lemma":"partager","pos":"verb"}
-{"lemma":"participer","pos":"verb"}
-{"lemma":"particulier","pos":"adjective"}
-{"lemma":"partie","pos":"noun","article":"la","plural":"parties"}
-{"lemma":"partir","pos":"verb"}
-{"lemma":"partout","pos":"adverb"}
-{"lemma":"pas","pos":"noun","posOptions":["adverb","noun"]}
-{"lemma":"passage","pos":"noun","article":"le","plural":"passages"}
-{"lemma":"passer","pos":"verb"}
-{"lemma":"passion","pos":"noun","article":"la","plural":"passions"}
-{"lemma":"passionner","pos":"verb"}
-{"lemma":"passé","pos":"noun","article":"le","plural":"passés"}
-{"lemma":"pauvre","pos":"noun","plural":"pauvres"}
-{"lemma":"pays","pos":"noun","article":"le"}
-{"lemma":"paysage","pos":"noun","article":"le","plural":"paysages"}
-{"lemma":"peine","pos":"noun","article":"la","plural":"peines"}
-{"lemma":"peintre","pos":"noun","plural":"peintres"}
-{"lemma":"peinture","pos":"noun","article":"la","plural":"peintures"}
-{"lemma":"pendant","pos":"preposition"}
-{"lemma":"pendre","pos":"verb"}
-{"lemma":"penser","pos":"verb"}
-{"lemma":"perdre","pos":"verb"}
-{"lemma":"permettre","pos":"verb"}
-{"lemma":"pers","pos":"adjective"}
-{"lemma":"personnage","pos":"noun","article":"le","plural":"personnages"}
-{"lemma":"personne","pos":"noun","article":"la","plural":"personnes","posOptions":["adverb","noun"]}
-{"lemma":"petit","pos":"adjective"}
-{"lemma":"peu","pos":"adverb"}
-{"lemma":"peur","pos":"noun","article":"la","plural":"peurs"}
-{"lemma":"peut-être","pos":"adverb"}
-{"lemma":"photo","pos":"noun","article":"la","plural":"photos"}
-{"lemma":"pied","pos":"noun","article":"le","plural":"pieds"}
-{"lemma":"pierre","pos":"noun","article":"la","plural":"pierres"}
-{"lemma":"pire","pos":"adjective"}
-{"lemma":"piscine","pos":"noun","article":"la","plural":"piscines"}
-{"lemma":"piste","pos":"noun","article":"la","plural":"pistes"}
-{"lemma":"pièce","pos":"noun","article":"la","plural":"pièces"}
-{"lemma":"place","pos":"noun","article":"la","plural":"places"}
-{"lemma":"plage","pos":"noun","article":"la","plural":"plages"}
-{"lemma":"plaire","pos":"verb"}
-{"lemma":"plaisir","pos":"noun","article":"le","plural":"plaisirs"}
-{"lemma":"plan","pos":"noun","article":"le","plural":"plans"}
-{"lemma":"planche","pos":"noun","article":"la","plural":"planches"}
-{"lemma":"plante","pos":"noun","article":"la","plural":"plantes"}
-{"lemma":"plat","pos":"noun","article":"le","plural":"plats"}
-{"lemma":"plateau","pos":"noun","article":"le","plural":"plateaux"}
-{"lemma":"plein","pos":"adjective"}
-{"lemma":"pleurer","pos":"verb"}
-{"lemma":"pleuvoir","pos":"verb"}
-{"lemma":"pluie","pos":"noun","article":"la","plural":"pluies"}
-{"lemma":"plus","pos":"adverb"}
-{"lemma":"plusieurs","pos":"pronoun"}
-{"lemma":"plutôt","pos":"adverb"}
-{"lemma":"poisson","pos":"noun","article":"le","plural":"poissons"}
-{"lemma":"police","pos":"noun","article":"la","plural":"polices"}
-{"lemma":"politique","pos":"adjective"}
-{"lemma":"pomme","pos":"noun","article":"la","plural":"pommes"}
-{"lemma":"pont","pos":"noun","article":"le","plural":"ponts"}
-{"lemma":"population","pos":"noun","article":"la","plural":"populations"}
-{"lemma":"port","pos":"noun","article":"le","plural":"ports"}
-{"lemma":"portable","pos":"adjective"}
-{"lemma":"porte","pos":"noun","article":"la","plural":"portes"}
-{"lemma":"porter","pos":"verb"}
-{"lemma":"poser","pos":"verb"}
-{"lemma":"possible","pos":"adjective"}
-{"lemma":"posséder","pos":"verb"}
-{"lemma":"poste","pos":"noun","plural":"postes"}
-{"lemma":"pour","pos":"preposition","posOptions":["preposition","conjunction"]}
-{"lemma":"pourquoi","pos":"adverb"}
-{"lemma":"pourtant","pos":"adverb"}
-{"lemma":"pouvoir","pos":"verb"}
-{"lemma":"pratiquer","pos":"verb"}
-{"lemma":"premier","pos":"noun","article":"le","plural":"premiers"}
-{"lemma":"prendre","pos":"verb"}
-{"lemma":"presque","pos":"adverb"}
-{"lemma":"presser","pos":"verb"}
-{"lemma":"prier","pos":"verb"}
-{"lemma":"prince","pos":"noun","article":"le","plural":"princes"}
-{"lemma":"principal","pos":"adjective"}
-{"lemma":"printemps","pos":"noun","article":"le"}
-{"lemma":"prison","pos":"noun","article":"la","plural":"prisons"}
-{"lemma":"prix","pos":"noun","article":"le"}
-{"lemma":"problème","pos":"noun","article":"le","plural":"problèmes"}
-{"lemma":"prochain","pos":"adjective"}
-{"lemma":"produire","pos":"verb"}
-{"lemma":"produit","pos":"noun","article":"le","plural":"produits"}
-{"lemma":"prof","pos":"noun","plural":"profs"}
-{"lemma":"professeur","pos":"noun","article":"la"}
-{"lemma":"profiter","pos":"verb"}
-{"lemma":"programme","pos":"noun","article":"le","plural":"programmes"}
-{"lemma":"projet","pos":"noun","article":"le","plural":"projets"}
-{"lemma":"promenade","pos":"noun","article":"la","plural":"promenades"}
-{"lemma":"promener","pos":"verb"}
-{"lemma":"promettre","pos":"verb"}
-{"lemma":"proposer","pos":"verb"}
-{"lemma":"proposition","pos":"noun","article":"la","plural":"propositions"}
-{"lemma":"propre","pos":"adjective"}
-{"lemma":"propriétaire","pos":"noun","plural":"propriétaires"}
-{"lemma":"protéger","pos":"verb"}
-{"lemma":"province","pos":"noun","article":"la","plural":"provinces"}
-{"lemma":"près","pos":"adverb"}
-{"lemma":"préférer","pos":"verb"}
-{"lemma":"préféré","pos":"adjective"}
-{"lemma":"prénom","pos":"noun","article":"le","plural":"prénoms"}
-{"lemma":"préparer","pos":"verb"}
-{"lemma":"présenter","pos":"verb"}
-{"lemma":"prévoir","pos":"verb"}
-{"lemma":"prêt","pos":"adjective"}
-{"lemma":"prêter","pos":"verb"}
-{"lemma":"publier","pos":"verb"}
-{"lemma":"puis","pos":"adverb"}
-{"lemma":"pull","pos":"noun","article":"le","plural":"pulls"}
-{"lemma":"pyramide","pos":"noun","article":"la","plural":"pyramides"}
-{"lemma":"pâte","pos":"noun","article":"la","plural":"pâtes"}
-{"lemma":"pâté","pos":"noun","article":"le","plural":"pâtés"}
-{"lemma":"père","pos":"noun","article":"le","plural":"pères"}
-{"lemma":"qu'","pos":"adverb"}
-{"lemma":"quai","pos":"noun","article":"le","plural":"quais"}
-{"lemma":"qualité","pos":"noun","article":"la","plural":"qualités"}
-{"lemma":"quand","pos":"adverb","posOptions":["adverb","conjunction"]}
-{"lemma":"quart","pos":"noun","article":"le","plural":"quarts"}
-{"lemma":"quartier","pos":"noun","article":"le","plural":"quartiers"}
-{"lemma":"que","pos":"pronoun","posOptions":["pronoun","conjunction"]}
-{"lemma":"quel","pos":"pronoun"}
-{"lemma":"quelqu'un","pos":"pronoun"}
-{"lemma":"quelque","pos":"pronoun"}
-{"lemma":"quelquefois","pos":"adverb"}
-{"lemma":"question","pos":"noun","article":"la","plural":"questions"}
-{"lemma":"qui","pos":"pronoun"}
-{"lemma":"quitter","pos":"verb"}
-{"lemma":"quoi","pos":"pronoun"}
-{"lemma":"raconter","pos":"verb"}
-{"lemma":"raison","pos":"noun","article":"la","plural":"raisons"}
-{"lemma":"ranger","pos":"verb"}
-{"lemma":"rapide","pos":"adjective"}
-{"lemma":"rapidement","pos":"adverb"}
-{"lemma":"rappeler","pos":"verb"}
-{"lemma":"recevoir","pos":"verb"}
-{"lemma":"recherche","pos":"noun","article":"la","plural":"recherches"}
-{"lemma":"rechercher","pos":"verb"}
-{"lemma":"recommencer","pos":"verb"}
-{"lemma":"reconnaître","pos":"verb"}
-{"lemma":"refuser","pos":"verb"}
-{"lemma":"regarder","pos":"verb"}
-{"lemma":"regretter","pos":"verb"}
-{"lemma":"reine","pos":"noun","article":"la","plural":"reines"}
-{"lemma":"remarquer","pos":"verb"}
-{"lemma":"remercier","pos":"verb"}
-{"lemma":"remonter","pos":"verb"}
-{"lemma":"remplacer","pos":"verb"}
-{"lemma":"rencontre","pos":"noun","article":"la","plural":"rencontres"}
-{"lemma":"rencontrer","pos":"verb"}
-{"lemma":"rendez-vous","pos":"noun","article":"le"}
-{"lemma":"rendre","pos":"verb"}
-{"lemma":"rentrer","pos":"verb"}
-{"lemma":"repartir","pos":"verb"}
-{"lemma":"repas","pos":"noun","article":"le"}
-{"lemma":"reposer","pos":"verb"}
-{"lemma":"reprendre","pos":"verb"}
-{"lemma":"représenter","pos":"verb"}
-{"lemma":"respecter","pos":"verb"}
-{"lemma":"responsable","pos":"adjective"}
-{"lemma":"ressembler","pos":"verb"}
-{"lemma":"restaurant","pos":"noun","article":"le","plural":"restaurants"}
-{"lemma":"reste","pos":"noun","article":"le","plural":"restes"}
-{"lemma":"rester","pos":"verb"}
-{"lemma":"retard","pos":"noun","article":"le","plural":"retards"}
-{"lemma":"retirer","pos":"verb"}
-{"lemma":"retour","pos":"noun","article":"le","plural":"retours"}
-{"lemma":"retourner","pos":"verb"}
-{"lemma":"retrouver","pos":"verb"}
-{"lemma":"revenir","pos":"verb"}
-{"lemma":"revoir","pos":"verb"}
-{"lemma":"riche","pos":"adjective"}
-{"lemma":"rien","pos":"noun","article":"le","plural":"riens","posOptions":["noun","adverb"]}
-{"lemma":"rire","pos":"verb"}
-{"lemma":"rivière","pos":"noun","article":"la","plural":"rivières"}
-{"lemma":"riz","pos":"noun","article":"le"}
-{"lemma":"rock","pos":"noun","article":"le","plural":"rocks"}
-{"lemma":"roi","pos":"noun","article":"le","plural":"rois"}
-{"lemma":"roman","pos":"noun","article":"le","plural":"romans"}
-{"lemma":"romantique","pos":"adjective"}
-{"lemma":"roue","pos":"noun","article":"la","plural":"roues"}
-{"lemma":"rouge","pos":"adjective"}
-{"lemma":"rouler","pos":"verb"}
-{"lemma":"route","pos":"noun","article":"la","plural":"routes"}
-{"lemma":"rue","pos":"noun","article":"la"}
-{"lemma":"réaliser","pos":"verb"}
-{"lemma":"réalité","pos":"noun","article":"la","plural":"réalités"}
-{"lemma":"réfléchir","pos":"verb"}
-{"lemma":"région","pos":"noun","article":"la","plural":"régions"}
-{"lemma":"régler","pos":"verb"}
-{"lemma":"répondre","pos":"verb"}
-{"lemma":"réponse","pos":"noun","article":"la","plural":"réponses"}
-{"lemma":"république","pos":"noun","article":"la","plural":"républiques"}
-{"lemma":"répéter","pos":"verb"}
-{"lemma":"réserver","pos":"verb"}
-{"lemma":"réunion","pos":"noun","article":"la","plural":"réunions"}
-{"lemma":"réunir","pos":"verb"}
-{"lemma":"réussir","pos":"verb"}
-{"lemma":"réveiller","pos":"verb"}
-{"lemma":"réveillon","pos":"noun","article":"le","plural":"réveillons"}
-{"lemma":"rêve","pos":"noun","article":"le","plural":"rêves"}
-{"lemma":"rêver","pos":"verb"}
-{"lemma":"rôle","pos":"noun","article":"le","plural":"rôles"}
-{"lemma":"sac","pos":"noun","article":"le","plural":"sacs"}
-{"lemma":"salade","pos":"noun","article":"la","plural":"salades"}
-{"lemma":"sale","pos":"adjective"}
-{"lemma":"salle","pos":"noun","article":"la","plural":"salles"}
-{"lemma":"salon","pos":"noun","article":"le","plural":"salons"}
-{"lemma":"saluer","pos":"verb"}
-{"lemma":"salut","pos":"noun","article":"le","plural":"saluts"}
-{"lemma":"samedi","pos":"noun","article":"le","plural":"samedis"}
-{"lemma":"sans","pos":"preposition"}
-{"lemma":"santé","pos":"noun","article":"la","plural":"santés"}
-{"lemma":"sapin","pos":"noun","article":"le","plural":"sapins"}
-{"lemma":"sauver","pos":"verb"}
-{"lemma":"savoir","pos":"verb"}
-{"lemma":"science","pos":"noun","article":"la","plural":"sciences"}
-{"lemma":"scientifique","pos":"adjective"}
-{"lemma":"scolaire","pos":"adjective"}
-{"lemma":"se","pos":"pronoun"}
-{"lemma":"sec","pos":"adjective"}
-{"lemma":"secret","pos":"noun","article":"le","plural":"secrets"}
-{"lemma":"secrétaire","pos":"noun","plural":"secrétaires"}
-{"lemma":"selon","pos":"preposition"}
-{"lemma":"semaine","pos":"noun","article":"la","plural":"semaines"}
-{"lemma":"sembler","pos":"verb"}
-{"lemma":"sentir","pos":"verb"}
-{"lemma":"septembre","pos":"noun","article":"le"}
-{"lemma":"serpent","pos":"noun","article":"le","plural":"serpents"}
-{"lemma":"serveur","pos":"noun","article":"le","plural":"serveurs"}
-{"lemma":"service","pos":"noun","article":"le","plural":"services"}
-{"lemma":"servir","pos":"verb"}
-{"lemma":"seul","pos":"adjective"}
-{"lemma":"seulement","pos":"adverb"}
-{"lemma":"si","pos":"adverb","posOptions":["conjunction","adverb"]}
-{"lemma":"silence","pos":"noun","article":"le","plural":"silences"}
-{"lemma":"simple","pos":"adjective"}
-{"lemma":"sinon","pos":"conjunction"}
-{"lemma":"site","pos":"noun","article":"le","plural":"sites"}
-{"lemma":"situation","pos":"noun","article":"la","plural":"situations"}
-{"lemma":"situer","pos":"verb"}
-{"lemma":"siècle","pos":"noun","article":"le","plural":"siècles"}
-{"lemma":"ski","pos":"noun","article":"le","plural":"skis"}
-{"lemma":"société","pos":"noun","article":"la","plural":"sociétés"}
-{"lemma":"soir","pos":"noun","article":"le","plural":"soirs"}
-{"lemma":"soirée","pos":"noun","article":"la","plural":"soirées"}
-{"lemma":"soit","pos":"conjunction"}
-{"lemma":"solde","pos":"noun","plural":"soldes"}
-{"lemma":"soleil","pos":"noun","article":"le","plural":"soleils"}
-{"lemma":"solution","pos":"noun","article":"la","plural":"solutions"}
-{"lemma":"sommet","pos":"noun","article":"le","plural":"sommets"}
-{"lemma":"son","pos":"noun","article":"le","plural":"sons","posOptions":["noun","determiner"]}
-{"lemma":"sonner","pos":"verb"}
-{"lemma":"sort","pos":"noun","article":"le","plural":"sorts"}
-{"lemma":"sortie","pos":"noun","article":"la","plural":"sorties"}
-{"lemma":"sortir","pos":"verb"}
-{"lemma":"soudain","pos":"adverb"}
-{"lemma":"souffler","pos":"verb"}
-{"lemma":"souhaiter","pos":"verb"}
-{"lemma":"soupe","pos":"noun","article":"la","plural":"soupes"}
-{"lemma":"sourire","pos":"verb","posOptions":["verb","noun"],"articleIfNoun":"le","pluralIfNoun":"sourires"}
-{"lemma":"sous","pos":"preposition"}
-{"lemma":"souvenir","pos":"verb","posOptions":["verb","noun"],"articleIfNoun":"le","pluralIfNoun":"souvenirs"}
-{"lemma":"souvent","pos":"adverb"}
-{"lemma":"spectacle","pos":"noun","article":"le","plural":"spectacles"}
-{"lemma":"sport","pos":"noun","article":"le","plural":"sports"}
-{"lemma":"sportif","pos":"noun","article":"le","plural":"sportifs","posOptions":["noun","adjective"]}
-{"lemma":"spécial","pos":"adjective"}
-{"lemma":"spécialité","pos":"noun","article":"la","plural":"spécialités"}
-{"lemma":"station","pos":"noun","article":"la","plural":"stations"}
-{"lemma":"studio","pos":"noun","article":"le","plural":"studios"}
-{"lemma":"succès","pos":"noun","article":"le"}
-{"lemma":"sucre","pos":"noun","article":"le","plural":"sucres"}
-{"lemma":"sud","pos":"noun","article":"le"}
-{"lemma":"suite","pos":"noun","article":"la","plural":"suites"}
-{"lemma":"suivre","pos":"verb"}
-{"lemma":"super","pos":"adjective"}
-{"lemma":"superbe","pos":"adjective"}
-{"lemma":"supermarché","pos":"noun","article":"le","plural":"supermarchés"}
-{"lemma":"supérieur","pos":"adjective"}
-{"lemma":"sur","pos":"preposition"}
-{"lemma":"surprendre","pos":"verb"}
-{"lemma":"surprise","pos":"noun","article":"la","plural":"surprises"}
-{"lemma":"surtout","pos":"adverb"}
-{"lemma":"sympa","pos":"adjective"}
-{"lemma":"sympathique","pos":"adjective"}
-{"lemma":"soeur","pos":"noun","article":"la","plural":"soeurs"}
-{"lemma":"séjour","pos":"noun","article":"le","plural":"séjours"}
-{"lemma":"sérieux","pos":"adjective"}
-{"lemma":"sûr","pos":"adjective"}
-{"lemma":"sûrement","pos":"adverb"}
-{"lemma":"table","pos":"noun","article":"la","plural":"tables"}
-{"lemma":"tableau","pos":"noun","article":"le","plural":"tableaux"}
-{"lemma":"taille","pos":"noun","article":"la","plural":"tailles"}
-{"lemma":"tant","pos":"adverb"}
-{"lemma":"tante","pos":"noun","article":"la","plural":"tantes"}
-{"lemma":"tard","pos":"adverb"}
-{"lemma":"tartine","pos":"noun","article":"la","plural":"tartines"}
-{"lemma":"taxi","pos":"noun","article":"le","plural":"taxis"}
-{"lemma":"te","pos":"pronoun"}
-{"lemma":"technologie","pos":"noun","article":"la","plural":"technologies"}
-{"lemma":"tellement","pos":"adverb"}
-{"lemma":"temps","pos":"noun","article":"le"}
-{"lemma":"température","pos":"noun","article":"la","plural":"températures"}
-{"lemma":"tenir","pos":"verb"}
-{"lemma":"tennis","pos":"noun","article":"le"}
-{"lemma":"tente","pos":"noun","article":"la","plural":"tentes"}
-{"lemma":"terminer","pos":"verb"}
-{"lemma":"terrasse","pos":"noun","article":"la","plural":"terrasses"}
-{"lemma":"terre","pos":"noun","article":"la","plural":"terres"}
-{"lemma":"terrible","pos":"adjective"}
-{"lemma":"texte","pos":"noun","article":"le","plural":"textes"}
-{"lemma":"thé","pos":"noun","article":"le","plural":"thés"}
-{"lemma":"théâtre","pos":"noun","article":"le","plural":"théâtres"}
-{"lemma":"tiens","pos":"interjection"}
-{"lemma":"timide","pos":"adjective"}
-{"lemma":"tirer","pos":"verb"}
-{"lemma":"tiroir","pos":"noun","article":"le","plural":"tiroirs"}
-{"lemma":"toi","pos":"pronoun"}
-{"lemma":"toilette","pos":"noun","article":"la","plural":"toilettes"}
-{"lemma":"toit","pos":"noun","article":"le","plural":"toits"}
-{"lemma":"tomate","pos":"noun","article":"la","plural":"tomates"}
-{"lemma":"tomber","pos":"verb"}
-{"lemma":"tommy","pos":"noun","article":"le"}
-{"lemma":"ton","pos":"determiner"}
-{"lemma":"toucher","pos":"verb"}
-{"lemma":"toujours","pos":"adverb"}
-{"lemma":"tour","pos":"noun","plural":"tours"}
-{"lemma":"tourisme","pos":"noun","article":"le"}
-{"lemma":"touriste","pos":"noun","plural":"touristes"}
-{"lemma":"tourner","pos":"verb"}
-{"lemma":"tout","pos":"noun","article":"le","plural":"touts","posOptions":["pronoun","noun","adverb"]}
-{"lemma":"tradition","pos":"noun","article":"la","plural":"traditions"}
-{"lemma":"train","pos":"noun","article":"le","plural":"trains"}
-{"lemma":"tranquille","pos":"adjective"}
-{"lemma":"transformer","pos":"verb"}
-{"lemma":"travail","pos":"noun","article":"le","plural":"travaux"}
-{"lemma":"travailler","pos":"verb"}
-{"lemma":"traverser","pos":"verb"}
-{"lemma":"triste","pos":"adjective"}
-{"lemma":"tromper","pos":"verb"}
-{"lemma":"trop","pos":"adverb"}
-{"lemma":"trouver","pos":"verb"}
-{"lemma":"très","pos":"adverb"}
-{"lemma":"tu","pos":"pronoun"}
-{"lemma":"type","pos":"noun","article":"le","plural":"types"}
-{"lemma":"télé","pos":"noun","article":"la","plural":"télés"}
-{"lemma":"téléphone","pos":"noun","article":"le","plural":"téléphones"}
-{"lemma":"téléphoner","pos":"verb"}
-{"lemma":"télévision","pos":"noun","article":"la","plural":"télévisions"}
-{"lemma":"tête","pos":"noun","article":"la","plural":"têtes"}
-{"lemma":"tôt","pos":"adverb"}
-{"lemma":"un","pos":"noun","posOptions":["article","noun"]}
-{"lemma":"université","pos":"noun","article":"la","plural":"universités"}
-{"lemma":"usine","pos":"noun","article":"la","plural":"usines"}
-{"lemma":"utiliser","pos":"verb"}
-{"lemma":"vacance","pos":"noun","article":"la","plural":"vacances"}
-{"lemma":"vallée","pos":"noun","article":"la","plural":"vallées"}
-{"lemma":"varier","pos":"verb"}
-{"lemma":"vendre","pos":"verb"}
-{"lemma":"vendredi","pos":"noun","article":"le","plural":"vendredis"}
-{"lemma":"venir","pos":"verb"}
-{"lemma":"vent","pos":"noun","article":"le","plural":"vents"}
-{"lemma":"verre","pos":"noun","article":"le","plural":"verres"}
-{"lemma":"vers","pos":"preposition"}
-{"lemma":"vert","pos":"adjective"}
-{"lemma":"viande","pos":"noun","article":"la","plural":"viandes"}
-{"lemma":"vide","pos":"adjective"}
-{"lemma":"vie","pos":"noun","article":"la","plural":"vies"}
-{"lemma":"vieux","pos":"noun","article":"le","posOptions":["noun","adjective"]}
-{"lemma":"village","pos":"noun","article":"le","plural":"villages"}
-{"lemma":"ville","pos":"noun","article":"la","plural":"villes"}
-{"lemma":"vin","pos":"noun","article":"le","plural":"vins"}
-{"lemma":"visage","pos":"noun","article":"le","plural":"visages"}
-{"lemma":"visite","pos":"noun","article":"la","plural":"visites"}
-{"lemma":"visiter","pos":"verb"}
-{"lemma":"vite","pos":"adverb"}
-{"lemma":"vivre","pos":"verb"}
-{"lemma":"voici","pos":"adverb"}
-{"lemma":"voile","pos":"noun","plural":"voiles"}
-{"lemma":"voilà","pos":"adverb"}
-{"lemma":"voir","pos":"verb"}
-{"lemma":"voisin","pos":"noun","article":"le","plural":"voisins","posOptions":["noun","adjective"]}
-{"lemma":"voiture","pos":"noun","article":"la","plural":"voitures"}
-{"lemma":"voix","pos":"noun","article":"la"}
-{"lemma":"vol","pos":"noun","article":"le","plural":"vols"}
-{"lemma":"voler","pos":"verb"}
-{"lemma":"votre","pos":"determiner"}
-{"lemma":"vouloir","pos":"verb"}
-{"lemma":"vous","pos":"pronoun"}
-{"lemma":"voyage","pos":"noun","article":"le","plural":"voyages"}
-{"lemma":"voyager","pos":"verb"}
-{"lemma":"vrai","pos":"adjective"}
-{"lemma":"vraiment","pos":"adverb"}
-{"lemma":"vue","pos":"noun","article":"la","plural":"vues"}
-{"lemma":"vélo","pos":"noun","article":"le","plural":"vélos"}
-{"lemma":"véritable","pos":"adjective"}
-{"lemma":"vérité","pos":"noun","article":"la","plural":"vérités"}
-{"lemma":"vêtement","pos":"noun","article":"le","plural":"vêtements"}
-{"lemma":"week-end","pos":"noun","article":"le","plural":"week-ends"}
-{"lemma":"y","pos":"pronoun"}
-{"lemma":"zone","pos":"noun","article":"la","plural":"zones"}
-{"lemma":"zoé","pos":"noun"}
-{"lemma":"oeil","pos":"noun","article":"le","plural":"oeils"}
-{"lemma":"oeuf","pos":"noun","article":"le","plural":"oeufs"}
-{"lemma":"oeuvre","pos":"noun","plural":"oeuvres"}
-{"lemma":"à","pos":"preposition"}
-{"lemma":"âge","pos":"noun","article":"le","plural":"âges"}
-{"lemma":"âgé","pos":"adjective"}
-{"lemma":"âne","pos":"noun","article":"le","plural":"ânes"}
-{"lemma":"échanger","pos":"verb"}
-{"lemma":"école","pos":"noun","article":"la","plural":"écoles"}
-{"lemma":"écoute","pos":"noun","article":"la","plural":"écoutes"}
-{"lemma":"écouter","pos":"verb"}
-{"lemma":"écran","pos":"noun","article":"le","plural":"écrans"}
-{"lemma":"écrire","pos":"verb"}
-{"lemma":"écrivain","pos":"noun","article":"le","plural":"écrivains"}
-{"lemma":"également","pos":"adverb"}
-{"lemma":"église","pos":"noun","article":"la","plural":"églises"}
-{"lemma":"électricité","pos":"noun","article":"la"}
-{"lemma":"élève","pos":"noun","plural":"élèves"}
-{"lemma":"émotion","pos":"noun","article":"la","plural":"émotions"}
-{"lemma":"énorme","pos":"adjective"}
-{"lemma":"époque","pos":"noun","article":"la","plural":"époques"}
-{"lemma":"épouser","pos":"verb"}
-{"lemma":"étage","pos":"noun","article":"le","plural":"étages"}
-{"lemma":"éteindre","pos":"verb"}
-{"lemma":"étoile","pos":"noun","article":"la","plural":"étoiles"}
-{"lemma":"étranger","pos":"noun","article":"le","plural":"étrangers","posOptions":["adjective","noun"]}
-{"lemma":"étude","pos":"noun","article":"la","plural":"études"}
-{"lemma":"étudiant","pos":"noun","article":"le","plural":"étudiants","posOptions":["noun","adjective"]}
-{"lemma":"étudier","pos":"verb"}
-{"lemma":"été","pos":"noun","article":"le","plural":"étés"}
-{"lemma":"évidemment","pos":"adverb"}
-{"lemma":"être","pos":"verb"}
-{"lemma":"île","pos":"noun","article":"la","plural":"îles"}
+{"lemma":"accent","pos":"noun","article":"le","plural":"accents","ja":"アクセント、なまり","en":"accent"}
+{"lemma":"accepter","pos":"verb","ja":"受け入れる、承諾する","en":"to accept"}
+{"lemma":"accident","pos":"noun","article":"le","plural":"accidents","ja":"事故","en":"accident"}
+{"lemma":"accompagner","pos":"verb","ja":"一緒に行く、付き添う","en":"to accompany"}
+{"lemma":"accueil","pos":"noun","article":"le","plural":"accueils","ja":"受付、歓迎","en":"reception, welcome"}
+{"lemma":"accueillir","pos":"verb","ja":"迎える、歓迎する","en":"to welcome, to greet"}
+{"lemma":"acheter","pos":"verb","ja":"買う","en":"to buy"}
+{"lemma":"activité","pos":"noun","article":"la","plural":"activités","ja":"活動","en":"activity"}
+{"lemma":"admirer","pos":"verb","ja":"感心する、称賛する","en":"to admire"}
+{"lemma":"adorable","pos":"adjective","ja":"とてもかわいい、愛らしい","en":"adorable"}
+{"lemma":"adorer","pos":"verb","ja":"大好きだ","en":"to love, to adore"}
+{"lemma":"adresse","pos":"noun","article":"la","plural":"adresses","ja":"住所","en":"address"}
+{"lemma":"adulte","pos":"noun","article":"le","plural":"adultes","ja":"大人","en":"adult","note":"épicène — le/la selon la personne"}
+{"lemma":"affaire","pos":"noun","article":"la","plural":"affaires","ja":"こと、用事、（複）持ち物・商売","en":"matter, business; (pl.) things"}
+{"lemma":"africain","pos":"adjective","ja":"アフリカの","en":"African"}
+{"lemma":"agence","pos":"noun","article":"la","plural":"agences","ja":"代理店、事務所","en":"agency"}
+{"lemma":"agriculture","pos":"noun","article":"la","ja":"農業","en":"agriculture"}
+{"lemma":"agréable","pos":"adjective","ja":"心地よい、快い","en":"pleasant, nice"}
+{"lemma":"ah","pos":"interjection","ja":"ああ、あっ","en":"ah, oh"}
+{"lemma":"aide","pos":"noun","article":"la","plural":"aides","ja":"助け、援助","en":"help, assistance","note":"la = 助け（un aide は「助手」）"}
+{"lemma":"aider","pos":"verb","ja":"手伝う、助ける","en":"to help"}
+{"lemma":"aile","pos":"noun","article":"la","plural":"ailes","ja":"翼、羽","en":"wing"}
+{"lemma":"aimer","pos":"verb","ja":"好きだ、愛する","en":"to like, to love"}
+{"lemma":"ainsi","pos":"adverb","ja":"このように、そうして","en":"thus, in this way"}
+{"lemma":"air","pos":"noun","article":"le","plural":"airs","ja":"空気、様子、メロディー","en":"air; look; tune"}
+{"lemma":"ajouter","pos":"verb","ja":"加える、付け足す","en":"to add"}
+{"lemma":"allemand","pos":"adjective","ja":"ドイツの、ドイツ語の","en":"German"}
+{"lemma":"aller","pos":"verb","ja":"行く","en":"to go"}
+{"lemma":"allumer","pos":"verb","ja":"（明かりを）つける、点火する","en":"to turn on, to light"}
+{"lemma":"allô","pos":"interjection","ja":"もしもし","en":"hello (on the phone)"}
+{"lemma":"alors","pos":"adverb","ja":"その時、それでは","en":"then, so"}
+{"lemma":"ami","pos":"noun","article":"le","plural":"amis","ja":"友達、親しい","en":"friend; friendly","meanings":[{"ja":"友達","en":"friend"},{"ja":"親しい、友好的な","en":"friendly"}]}
+{"lemma":"amour","pos":"noun","article":"le","ja":"愛、恋","en":"love"}
+{"lemma":"amoureux","pos":"adjective","ja":"恋している、恋人","en":"in love; lover","meanings":[{"ja":"恋している","en":"in love"},{"ja":"恋人","en":"lover"}]}
+{"lemma":"amusant","pos":"adjective","ja":"面白い、楽しい","en":"funny, amusing"}
+{"lemma":"amuser","pos":"verb","ja":"楽しませる（s'amuser＝楽しむ）","en":"to amuse; (s'amuser) to have fun"}
+{"lemma":"an","pos":"noun","article":"le","plural":"ans","ja":"年、歳","en":"year"}
+{"lemma":"analyser","pos":"verb","ja":"分析する","en":"to analyse"}
+{"lemma":"ancien","pos":"adjective","ja":"古い、昔の、元〜","en":"old, ancient; former"}
+{"lemma":"anglais","pos":"adjective","ja":"イギリスの、英語の","en":"English"}
+{"lemma":"animal","pos":"noun","article":"le","plural":"animaux","ja":"動物","en":"animal"}
+{"lemma":"animateur","pos":"noun","article":"le","plural":"animateurs","ja":"司会者、レクリエーション指導員","en":"host, activity leader"}
+{"lemma":"anniversaire","pos":"noun","article":"le","plural":"anniversaires","ja":"誕生日、記念日","en":"birthday, anniversary"}
+{"lemma":"annoncer","pos":"verb","ja":"知らせる、告げる","en":"to announce"}
+{"lemma":"année","pos":"noun","article":"la","plural":"années","ja":"年、一年間","en":"year"}
+{"lemma":"antiquité","pos":"noun","article":"la","plural":"antiquités","ja":"古代、（複）骨董品","en":"antiquity; (pl.) antiques"}
+{"lemma":"août","pos":"noun","article":"le","ja":"8月","en":"August"}
+{"lemma":"apercevoir","pos":"verb","ja":"見かける、気づく","en":"to catch sight of, to notice"}
+{"lemma":"apparaître","pos":"verb","ja":"現れる","en":"to appear"}
+{"lemma":"appareil","pos":"noun","article":"le","plural":"appareils","ja":"器具、機器（appareil photo＝カメラ）","en":"device, appliance"}
+{"lemma":"appartement","pos":"noun","article":"le","plural":"appartements","ja":"アパルトマン、住居","en":"flat, apartment"}
+{"lemma":"appeler","pos":"verb","ja":"呼ぶ、電話する（s'appeler＝という名前だ）","en":"to call; (s'appeler) to be called"}
+{"lemma":"apporter","pos":"verb","ja":"持ってくる","en":"to bring"}
+{"lemma":"apprendre","pos":"verb","ja":"学ぶ、覚える、教える","en":"to learn; to teach"}
+{"lemma":"approcher","pos":"verb","ja":"近づく、近づける","en":"to approach"}
+{"lemma":"après","pos":"preposition","ja":"〜の後に、その後で","en":"after; afterwards","meanings":[{"ja":"〜の後に","en":"after"},{"ja":"その後で","en":"afterwards"}]}
+{"lemma":"après-midi","pos":"noun","article":"le","ja":"午後","en":"afternoon","note":"le が一般的（la も可）／複数不変"}
+{"lemma":"apéritif","pos":"noun","article":"le","plural":"apéritifs","ja":"食前酒、アペリティフ","en":"aperitif, pre-dinner drink"}
+{"lemma":"arbre","pos":"noun","article":"le","plural":"arbres","ja":"木","en":"tree"}
+{"lemma":"argent","pos":"noun","article":"le","plural":"argents","ja":"お金、銀","en":"money; silver"}
+{"lemma":"arme","pos":"noun","article":"la","plural":"armes","ja":"武器","en":"weapon"}
+{"lemma":"arriver","pos":"verb","ja":"着く、到着する、起こる","en":"to arrive; to happen"}
+{"lemma":"arrondissement","pos":"noun","article":"le","plural":"arrondissements","ja":"（パリなどの）区","en":"district (of a city)"}
+{"lemma":"arrêter","pos":"verb","ja":"止める、やめる（s'arrêter＝止まる）","en":"to stop"}
+{"lemma":"art","pos":"noun","article":"le","plural":"arts","ja":"芸術、技術","en":"art"}
+{"lemma":"ascenseur","pos":"noun","article":"le","plural":"ascenseurs","ja":"エレベーター","en":"lift, elevator"}
+{"lemma":"asseoir","pos":"verb","ja":"座らせる（s'asseoir＝座る）","en":"to seat; (s'asseoir) to sit down"}
+{"lemma":"assez","pos":"adverb","ja":"十分に、かなり","en":"enough; quite"}
+{"lemma":"assister","pos":"verb","ja":"出席する、立ち会う","en":"to attend"}
+{"lemma":"association","pos":"noun","article":"la","plural":"associations","ja":"協会、団体","en":"association"}
+{"lemma":"assurance","pos":"noun","article":"la","plural":"assurances","ja":"保険、自信","en":"insurance; confidence"}
+{"lemma":"atelier","pos":"noun","article":"le","plural":"ateliers","ja":"工房、アトリエ、ワークショップ","en":"workshop, studio"}
+{"lemma":"attacher","pos":"verb","ja":"結ぶ、留める","en":"to tie, to fasten"}
+{"lemma":"attendre","pos":"verb","ja":"待つ","en":"to wait for"}
+{"lemma":"attention","pos":"noun","article":"la","plural":"attentions","ja":"注意、気をつけること","en":"attention, care"}
+{"lemma":"au","pos":"preposition","ja":"〜に、〜へ（à + le の縮約）","en":"to the, at the (à + le)"}
+{"lemma":"au-dessus","pos":"adverb","ja":"上に、上方に","en":"above, over"}
+{"lemma":"aucun","pos":"pronoun","ja":"どれも〜ない、少しも〜ない","en":"none, not any"}
+{"lemma":"aujourd'hui","pos":"adverb","ja":"今日","en":"today"}
+{"lemma":"auprès","pos":"adverb","ja":"近くに、そばに","en":"near, close by"}
+{"lemma":"aussi","pos":"adverb","ja":"〜も、また、同じくらい","en":"also, too; as"}
+{"lemma":"aussitôt","pos":"adverb","ja":"すぐに、ただちに","en":"immediately"}
+{"lemma":"automne","pos":"noun","article":"le","plural":"automnes","ja":"秋","en":"autumn, fall"}
+{"lemma":"autour","pos":"adverb","ja":"周りに","en":"around"}
+{"lemma":"autre","pos":"adjective","ja":"他の、別の","en":"other, another"}
+{"lemma":"avancer","pos":"verb","ja":"進む、前に出す","en":"to move forward, to advance"}
+{"lemma":"avant","pos":"preposition","ja":"〜の前に","en":"before"}
+{"lemma":"avec","pos":"preposition","ja":"〜と一緒に、〜で","en":"with"}
+{"lemma":"aventure","pos":"noun","article":"la","plural":"aventures","ja":"冒険","en":"adventure"}
+{"lemma":"avenue","pos":"noun","article":"la","plural":"avenues","ja":"大通り","en":"avenue"}
+{"lemma":"avion","pos":"noun","article":"le","plural":"avions","ja":"飛行機","en":"plane"}
+{"lemma":"avis","pos":"noun","article":"le","ja":"意見、通知","en":"opinion; notice"}
+{"lemma":"avoir","pos":"verb","ja":"持っている、ある","en":"to have"}
+{"lemma":"avril","pos":"noun","article":"le","ja":"4月","en":"April"}
+{"lemma":"aéroport","pos":"noun","article":"le","plural":"aéroports","ja":"空港","en":"airport"}
+{"lemma":"baigner","pos":"verb","ja":"浸す（se baigner＝水浴びする）","en":"to bathe; (se baigner) to swim, to bathe"}
+{"lemma":"bain","pos":"noun","article":"le","plural":"bains","ja":"入浴、風呂","en":"bath"}
+{"lemma":"balade","pos":"noun","article":"la","plural":"balades","ja":"散歩","en":"walk, stroll"}
+{"lemma":"bande","pos":"noun","article":"la","plural":"bandes","ja":"帯、テープ、一団（bande dessinée＝漫画）","en":"strip, band; group"}
+{"lemma":"banlieue","pos":"noun","article":"la","plural":"banlieues","ja":"郊外","en":"suburbs"}
+{"lemma":"banque","pos":"noun","article":"la","plural":"banques","ja":"銀行","en":"bank"}
+{"lemma":"bar","pos":"noun","article":"le","plural":"bars","ja":"バー","en":"bar"}
+{"lemma":"bas","pos":"adjective","ja":"低い、低く","en":"low; (adv.) low, down","meanings":[{"ja":"低い","en":"low"},{"ja":"低く、下に（en bas＝下に）","en":"low, down"}]}
+{"lemma":"bateau","pos":"noun","article":"le","plural":"bateaux","ja":"船","en":"boat, ship"}
+{"lemma":"battre","pos":"verb","ja":"打つ、たたく、負かす","en":"to beat, to hit"}
+{"lemma":"beau","pos":"adjective","ja":"美しい、きれいな、（天気が）よい","en":"beautiful, handsome; fine"}
+{"lemma":"beaucoup","pos":"adverb","ja":"たくさん、とても","en":"a lot, much, many"}
+{"lemma":"belge","pos":"adjective","ja":"ベルギーの","en":"Belgian"}
+{"lemma":"ben","pos":"adverb","ja":"えーと、まあ（口語）","en":"well, uh (colloquial)"}
+{"lemma":"besoin","pos":"noun","article":"le","plural":"besoins","ja":"必要（avoir besoin de＝〜が必要だ）","en":"need"}
+{"lemma":"beurre","pos":"noun","article":"le","plural":"beurres","ja":"バター","en":"butter"}
+{"lemma":"bicyclette","pos":"noun","article":"la","plural":"bicyclettes","ja":"自転車","en":"bicycle"}
+{"lemma":"bien","pos":"adverb","ja":"よく、上手に、とても","en":"well; very","meanings":[{"ja":"よく、上手に、とても","en":"well; very"},{"ja":"良い、結構な","en":"good, fine"}]}
+{"lemma":"bientôt","pos":"adverb","ja":"もうすぐ（à bientôt＝またね）","en":"soon"}
+{"lemma":"bienvenir","pos":"verb","ja":"歓迎される（être bienvenu の形で使う）","en":"to be welcome","conf":"low"}
+{"lemma":"billet","pos":"noun","article":"le","plural":"billets","ja":"切符、チケット、紙幣","en":"ticket; banknote"}
+{"lemma":"bis","pos":"adjective","ja":"アンコール、（番地の）枝番","en":"encore; (in addresses) bis","conf":"low"}
+{"lemma":"bise","pos":"noun","article":"la","plural":"bises","ja":"ほおへのキス","en":"kiss on the cheek"}
+{"lemma":"bizarre","pos":"adjective","ja":"変な、奇妙な","en":"strange, odd"}
+{"lemma":"bière","pos":"noun","article":"la","plural":"bières","ja":"ビール","en":"beer"}
+{"lemma":"blague","pos":"noun","article":"la","plural":"blagues","ja":"冗談","en":"joke"}
+{"lemma":"blanc","pos":"adjective","ja":"白い","en":"white"}
+{"lemma":"bleu","pos":"adjective","ja":"青い","en":"blue"}
+{"lemma":"blond","pos":"adjective","ja":"金髪の、ブロンドの","en":"blond, fair"}
+{"lemma":"blouson","pos":"noun","article":"le","plural":"blousons","ja":"ブルゾン、ジャンパー","en":"jacket, bomber jacket"}
+{"lemma":"boire","pos":"verb","ja":"飲む","en":"to drink"}
+{"lemma":"bois","pos":"noun","article":"le","ja":"木材、森","en":"wood; woods"}
+{"lemma":"boisson","pos":"noun","article":"la","plural":"boissons","ja":"飲み物","en":"drink"}
+{"lemma":"bon","pos":"adjective","ja":"良い、おいしい","en":"good; tasty"}
+{"lemma":"bonheur","pos":"noun","article":"le","plural":"bonheurs","ja":"幸せ","en":"happiness"}
+{"lemma":"bonjour","pos":"noun","article":"le","plural":"bonjours","ja":"こんにちは、おはよう","en":"hello, good morning"}
+{"lemma":"bonsoir","pos":"noun","article":"le","plural":"bonsoirs","ja":"こんばんは","en":"good evening"}
+{"lemma":"bord","pos":"noun","article":"le","plural":"bords","ja":"端、ふち、岸（au bord de＝〜のほとりに）","en":"edge, side; shore"}
+{"lemma":"boulanger","pos":"noun","article":"le","plural":"boulangers","ja":"パン屋（人）","en":"baker","note":"pos was adjective"}
+{"lemma":"boule","pos":"noun","article":"la","plural":"boules","ja":"玉、ボール","en":"ball"}
+{"lemma":"boulevard","pos":"noun","article":"le","plural":"boulevards","ja":"大通り","en":"boulevard"}
+{"lemma":"bout","pos":"noun","article":"le","plural":"bouts","ja":"端、先、切れ端","en":"end, tip; piece"}
+{"lemma":"bouteille","pos":"noun","article":"la","plural":"bouteilles","ja":"瓶、ボトル","en":"bottle"}
+{"lemma":"boutique","pos":"noun","article":"la","plural":"boutiques","ja":"店、ブティック","en":"shop"}
+{"lemma":"boîte","pos":"noun","article":"la","plural":"boîtes","ja":"箱、ケース（boîte aux lettres＝郵便受け）","en":"box"}
+{"lemma":"bras","pos":"noun","article":"le","ja":"腕","en":"arm"}
+{"lemma":"bravo","pos":"interjection","ja":"ブラボー、よくやった","en":"bravo, well done"}
+{"lemma":"briller","pos":"verb","ja":"輝く、光る","en":"to shine"}
+{"lemma":"bruit","pos":"noun","article":"le","plural":"bruits","ja":"音、騒音","en":"noise, sound"}
+{"lemma":"brun","pos":"adjective","ja":"茶色の、髪が茶色の","en":"brown; dark-haired"}
+{"lemma":"buffet","pos":"noun","article":"le","plural":"buffets","ja":"ビュッフェ、食器棚","en":"buffet; sideboard"}
+{"lemma":"bureau","pos":"noun","article":"le","plural":"bureaux","ja":"机、オフィス","en":"desk; office"}
+{"lemma":"bus","pos":"noun","article":"le","ja":"バス","en":"bus"}
+{"lemma":"boeuf","pos":"noun","article":"le","plural":"boeufs","ja":"牛、牛肉","en":"ox; beef"}
+{"lemma":"bâtiment","pos":"noun","article":"le","plural":"bâtiments","ja":"建物","en":"building"}
+{"lemma":"bébé","pos":"noun","article":"le","plural":"bébés","ja":"赤ちゃん","en":"baby"}
+{"lemma":"cacher","pos":"verb","ja":"隠す（se cacher＝隠れる）","en":"to hide"}
+{"lemma":"cadeau","pos":"noun","article":"le","plural":"cadeaux","ja":"プレゼント、贈り物","en":"present, gift"}
+{"lemma":"café","pos":"noun","article":"le","plural":"cafés","ja":"コーヒー、カフェ","en":"coffee; café"}
+{"lemma":"caisse","pos":"noun","article":"la","plural":"caisses","ja":"レジ、箱","en":"cash desk, till; crate"}
+{"lemma":"calme","pos":"adjective","ja":"静かな、落ち着いた","en":"calm, quiet"}
+{"lemma":"campagne","pos":"noun","article":"la","plural":"campagnes","ja":"田舎、キャンペーン","en":"countryside; campaign"}
+{"lemma":"camping","pos":"noun","article":"le","plural":"campings","ja":"キャンプ、キャンプ場","en":"camping; campsite"}
+{"lemma":"cantine","pos":"noun","article":"la","plural":"cantines","ja":"（学校・職場の）食堂","en":"canteen, cafeteria"}
+{"lemma":"capitale","pos":"noun","article":"la","plural":"capitales","ja":"首都、大文字","en":"capital city; capital letter"}
+{"lemma":"car","pos":"conjunction","ja":"というのは、なぜなら","en":"because, for"}
+{"lemma":"carte","pos":"noun","article":"la","plural":"cartes","ja":"カード、地図、メニュー","en":"card; map; menu"}
+{"lemma":"cas","pos":"noun","article":"le","ja":"場合、ケース","en":"case"}
+{"lemma":"cathédrale","pos":"noun","article":"la","plural":"cathédrales","ja":"大聖堂","en":"cathedral"}
+{"lemma":"cause","pos":"noun","article":"la","plural":"causes","ja":"原因、理由（à cause de＝〜のせいで）","en":"cause, reason"}
+{"lemma":"ce","pos":"pronoun","ja":"これ、それ（c'est …＝これは〜だ）","en":"this, that, it"}
+{"lemma":"cela","pos":"pronoun","ja":"それ、あれ","en":"that"}
+{"lemma":"celui","pos":"pronoun","ja":"その人、それ（celui de …）","en":"the one"}
+{"lemma":"centre","pos":"noun","article":"le","plural":"centres","ja":"中心、センター","en":"centre, center"}
+{"lemma":"certain","pos":"adjective","ja":"確かな、ある〜","en":"certain, sure; some","meanings":[{"ja":"確かな、確信している","en":"certain, sure"},{"ja":"ある〜、一部の人（certains）","en":"certain, some"}]}
+{"lemma":"certainement","pos":"adverb","ja":"確かに、もちろん","en":"certainly, of course"}
+{"lemma":"chacun","pos":"pronoun","ja":"それぞれ、各人","en":"each one, everyone"}
+{"lemma":"chambre","pos":"noun","article":"la","plural":"chambres","ja":"部屋、寝室","en":"room, bedroom"}
+{"lemma":"champagne","pos":"noun","article":"le","plural":"champagnes","ja":"シャンパン","en":"champagne"}
+{"lemma":"chance","pos":"noun","article":"la","plural":"chances","ja":"運、幸運、可能性","en":"luck; chance"}
+{"lemma":"changer","pos":"verb","ja":"変える、変わる、乗り換える","en":"to change"}
+{"lemma":"chanson","pos":"noun","article":"la","plural":"chansons","ja":"歌","en":"song"}
+{"lemma":"chanter","pos":"verb","ja":"歌う","en":"to sing"}
+{"lemma":"chanteur","pos":"noun","article":"le","plural":"chanteurs","ja":"歌手","en":"singer"}
+{"lemma":"chaque","pos":"determiner","ja":"それぞれの、各〜","en":"each, every","note":"pos was pronoun"}
+{"lemma":"charmant","pos":"adjective","ja":"魅力的な、感じのいい","en":"charming, lovely"}
+{"lemma":"chat","pos":"noun","article":"le","plural":"chats","ja":"猫","en":"cat"}
+{"lemma":"chaud","pos":"adjective","ja":"暑い、熱い、温かい","en":"hot, warm"}
+{"lemma":"chaussure","pos":"noun","article":"la","plural":"chaussures","ja":"靴","en":"shoe"}
+{"lemma":"chemin","pos":"noun","article":"le","plural":"chemins","ja":"道、道のり","en":"way, path"}
+{"lemma":"cheminée","pos":"noun","article":"la","plural":"cheminées","ja":"暖炉、煙突","en":"fireplace; chimney"}
+{"lemma":"cher","pos":"adjective","ja":"（値段が）高い、親愛な","en":"expensive; dear","meanings":[{"ja":"（値段が）高い、親愛な","en":"expensive; dear"},{"ja":"高く（coûter cher＝高くつく）","en":"a lot (to cost a lot)"}]}
+{"lemma":"chercher","pos":"verb","ja":"探す、迎えに行く","en":"to look for; to fetch"}
+{"lemma":"cheval","pos":"noun","article":"le","plural":"chevaux","ja":"馬","en":"horse"}
+{"lemma":"chevalier","pos":"noun","article":"le","plural":"chevaliers","ja":"騎士","en":"knight"}
+{"lemma":"cheveu","pos":"noun","article":"le","plural":"cheveux","ja":"髪の毛","en":"hair"}
+{"lemma":"chez","pos":"preposition","ja":"〜の家に、〜のところで","en":"at (someone's) home, at"}
+{"lemma":"chien","pos":"noun","article":"le","plural":"chiens","ja":"犬","en":"dog"}
+{"lemma":"chinois","pos":"adjective","ja":"中国の、中国語の","en":"Chinese"}
+{"lemma":"chocolat","pos":"noun","article":"le","plural":"chocolats","ja":"チョコレート、ココア","en":"chocolate"}
+{"lemma":"choisir","pos":"verb","ja":"選ぶ","en":"to choose"}
+{"lemma":"choix","pos":"noun","article":"le","ja":"選択、選ぶこと","en":"choice"}
+{"lemma":"chose","pos":"noun","article":"la","plural":"choses","ja":"もの、こと","en":"thing"}
+{"lemma":"château","pos":"noun","article":"le","plural":"châteaux","ja":"城","en":"castle"}
+{"lemma":"chèque","pos":"noun","article":"le","plural":"chèques","ja":"小切手","en":"cheque"}
+{"lemma":"chère","pos":"adjective","ja":"（値段が）高い、親愛な（cher の女性形）","en":"expensive; dear (feminine of cher)","note":"pos was noun"}
+{"lemma":"chômage","pos":"noun","article":"le","ja":"失業","en":"unemployment"}
+{"lemma":"ciel","pos":"noun","article":"le","plural":"ciels","ja":"空","en":"sky"}
+{"lemma":"cimetière","pos":"noun","article":"le","plural":"cimetières","ja":"墓地","en":"cemetery"}
+{"lemma":"cinéma","pos":"noun","article":"le","plural":"cinémas","ja":"映画館、映画","en":"cinema; film"}
+{"lemma":"cité","pos":"noun","article":"la","plural":"cités","ja":"都市、団地","en":"city; housing estate"}
+{"lemma":"clair","pos":"adjective","ja":"明るい、明らかな、薄い色の","en":"light, bright; clear"}
+{"lemma":"classe","pos":"noun","article":"la","plural":"classes","ja":"クラス、教室、等級","en":"class; classroom"}
+{"lemma":"client","pos":"noun","article":"le","plural":"clients","ja":"客、顧客","en":"customer, client"}
+{"lemma":"climat","pos":"noun","article":"le","plural":"climats","ja":"気候","en":"climate"}
+{"lemma":"club","pos":"noun","article":"le","plural":"clubs","ja":"クラブ","en":"club"}
+{"lemma":"clé","pos":"noun","article":"la","plural":"clés","ja":"鍵","en":"key"}
+{"lemma":"coin","pos":"noun","article":"le","plural":"coins","ja":"角、隅","en":"corner"}
+{"lemma":"collection","pos":"noun","article":"la","plural":"collections","ja":"コレクション、収集","en":"collection"}
+{"lemma":"collège","pos":"noun","article":"le","plural":"collèges","ja":"中学校","en":"secondary school (collège)"}
+{"lemma":"collègue","pos":"noun","article":"le","plural":"collègues","ja":"同僚","en":"colleague","note":"épicène — le/la selon la personne"}
+{"lemma":"colère","pos":"noun","article":"la","plural":"colères","ja":"怒り（en colère＝怒っている）","en":"anger"}
+{"lemma":"combien","pos":"adverb","ja":"いくつ、いくら","en":"how much, how many"}
+{"lemma":"commander","pos":"verb","ja":"注文する、命じる","en":"to order"}
+{"lemma":"comme","pos":"conjunction","ja":"〜のように、〜として","en":"like, as","meanings":[{"ja":"〜のように、〜として","en":"like, as"},{"ja":"なんて〜（Comme c'est beau !）","en":"how (in exclamations)"}]}
+{"lemma":"commencer","pos":"verb","ja":"始める、始まる","en":"to begin, to start"}
+{"lemma":"comment","pos":"adverb","ja":"どのように、どうやって","en":"how"}
+{"lemma":"commerce","pos":"noun","article":"le","plural":"commerces","ja":"商業、商店","en":"trade, business; shop"}
+{"lemma":"commercial","pos":"adjective","ja":"商業の、商売の","en":"commercial"}
+{"lemma":"commun","pos":"adjective","ja":"共通の、共同の","en":"common, shared"}
+{"lemma":"communication","pos":"noun","article":"la","plural":"communications","ja":"コミュニケーション、連絡","en":"communication"}
+{"lemma":"compagnie","pos":"noun","article":"la","plural":"compagnies","ja":"会社、同伴","en":"company"}
+{"lemma":"complet","pos":"adjective","ja":"完全な、満員の","en":"complete; full"}
+{"lemma":"compliquer","pos":"verb","ja":"複雑にする","en":"to complicate"}
+{"lemma":"composer","pos":"verb","ja":"組み立てる、作曲する、（番号を）押す","en":"to compose; to dial"}
+{"lemma":"comprendre","pos":"verb","ja":"理解する、含む","en":"to understand; to include"}
+{"lemma":"compter","pos":"verb","ja":"数える、〜するつもりだ","en":"to count; to intend"}
+{"lemma":"concert","pos":"noun","article":"le","plural":"concerts","ja":"コンサート","en":"concert"}
+{"lemma":"conduire","pos":"verb","ja":"運転する、導く","en":"to drive; to lead"}
+{"lemma":"confiance","pos":"noun","article":"la","plural":"confiances","ja":"信頼、信用","en":"trust, confidence"}
+{"lemma":"confiture","pos":"noun","article":"la","plural":"confitures","ja":"ジャム","en":"jam"}
+{"lemma":"connaissance","pos":"noun","article":"la","plural":"connaissances","ja":"知り合い、知識","en":"acquaintance; knowledge"}
+{"lemma":"connaître","pos":"verb","ja":"知っている","en":"to know"}
+{"lemma":"conseil","pos":"noun","article":"le","plural":"conseils","ja":"助言、アドバイス","en":"advice; council"}
+{"lemma":"considérer","pos":"verb","ja":"みなす、考慮する","en":"to consider"}
+{"lemma":"construire","pos":"verb","ja":"建てる、作る","en":"to build"}
+{"lemma":"content","pos":"adjective","ja":"満足した、うれしい","en":"happy, pleased"}
+{"lemma":"continent","pos":"noun","article":"le","plural":"continents","ja":"大陸","en":"continent"}
+{"lemma":"continu","pos":"adjective","ja":"連続した、途切れない","en":"continuous"}
+{"lemma":"continuer","pos":"verb","ja":"続ける、続く","en":"to continue"}
+{"lemma":"contre","pos":"preposition","ja":"〜に反対して、〜に対して","en":"against"}
+{"lemma":"contrôle","pos":"noun","article":"le","plural":"contrôles","ja":"検査、点検、テスト","en":"check, inspection; test"}
+{"lemma":"coopération","pos":"noun","article":"la","ja":"協力","en":"cooperation"}
+{"lemma":"copain","pos":"noun","article":"le","plural":"copains","ja":"友達、彼氏","en":"friend, mate; boyfriend"}
+{"lemma":"copine","pos":"noun","article":"la","plural":"copines","ja":"女友達、彼女","en":"friend (female); girlfriend"}
+{"lemma":"corde","pos":"noun","article":"la","plural":"cordes","ja":"ロープ、ひも、弦","en":"rope, string"}
+{"lemma":"coucher","pos":"verb","ja":"寝かせる（se coucher＝寝る）","en":"to put to bed; (se coucher) to go to bed"}
+{"lemma":"couleur","pos":"noun","article":"la","plural":"couleurs","ja":"色","en":"colour"}
+{"lemma":"couloir","pos":"noun","article":"le","plural":"couloirs","ja":"廊下","en":"corridor"}
+{"lemma":"coup","pos":"noun","article":"le","plural":"coups","ja":"一撃、打つこと、回（tout à coup＝突然）","en":"blow, knock; go"}
+{"lemma":"couper","pos":"verb","ja":"切る","en":"to cut"}
+{"lemma":"couple","pos":"noun","article":"le","plural":"couples","ja":"カップル、夫婦","en":"couple"}
+{"lemma":"cour","pos":"noun","article":"la","plural":"cours","ja":"中庭、校庭","en":"courtyard, playground"}
+{"lemma":"courage","pos":"noun","article":"le","plural":"courages","ja":"勇気","en":"courage"}
+{"lemma":"courageux","pos":"adjective","ja":"勇敢な","en":"brave, courageous"}
+{"lemma":"courir","pos":"verb","ja":"走る","en":"to run"}
+{"lemma":"course","pos":"noun","article":"la","plural":"courses","ja":"競走、レース、（複）買い物","en":"race; (pl.) shopping"}
+{"lemma":"court","pos":"adjective","ja":"短い","en":"short"}
+{"lemma":"cousin","pos":"noun","article":"le","plural":"cousins","ja":"いとこ","en":"cousin"}
+{"lemma":"couvrir","pos":"verb","ja":"覆う、かぶせる","en":"to cover"}
+{"lemma":"coûter","pos":"verb","ja":"値段が〜である、費用がかかる","en":"to cost"}
+{"lemma":"cri","pos":"noun","article":"le","plural":"cris","ja":"叫び声","en":"shout, cry"}
+{"lemma":"crier","pos":"verb","ja":"叫ぶ、大声を出す","en":"to shout"}
+{"lemma":"croire","pos":"verb","ja":"信じる、思う","en":"to believe, to think"}
+{"lemma":"créer","pos":"verb","ja":"作り出す、創造する","en":"to create"}
+{"lemma":"crêpe","pos":"noun","article":"la","plural":"crêpes","ja":"クレープ","en":"crêpe, pancake","note":"la = クレープ（le crêpe は布地）"}
+{"lemma":"cuisine","pos":"noun","article":"la","plural":"cuisines","ja":"台所、料理","en":"kitchen; cooking"}
+{"lemma":"culture","pos":"noun","article":"la","plural":"cultures","ja":"文化、栽培","en":"culture"}
+{"lemma":"culturel","pos":"adjective","ja":"文化の、文化的な","en":"cultural"}
+{"lemma":"curieux","pos":"adjective","ja":"好奇心の強い、奇妙な","en":"curious; strange"}
+{"lemma":"coeur","pos":"noun","article":"le","plural":"coeurs","ja":"心、心臓","en":"heart"}
+{"lemma":"célèbre","pos":"adjective","ja":"有名な","en":"famous"}
+{"lemma":"côte","pos":"noun","article":"la","plural":"côtes","ja":"海岸、あばら骨、坂","en":"coast; rib"}
+{"lemma":"côté","pos":"noun","article":"le","plural":"côtés","ja":"側、横（à côté de＝〜のそばに）","en":"side"}
+{"lemma":"d'abord","pos":"adverb","ja":"まず、最初に","en":"first, at first"}
+{"lemma":"d'accord","pos":"adverb","ja":"わかった、賛成（être d'accord＝同意する）","en":"OK, agreed"}
+{"lemma":"dame","pos":"noun","article":"la","plural":"dames","ja":"女性、婦人","en":"lady"}
+{"lemma":"dangereux","pos":"adjective","ja":"危険な","en":"dangerous"}
+{"lemma":"dans","pos":"preposition","ja":"〜の中に、〜後に","en":"in, inside; in (time)"}
+{"lemma":"danse","pos":"noun","article":"la","plural":"danses","ja":"ダンス、踊り","en":"dance"}
+{"lemma":"danser","pos":"verb","ja":"踊る","en":"to dance"}
+{"lemma":"date","pos":"noun","article":"la","plural":"dates","ja":"日付","en":"date"}
+{"lemma":"de","pos":"preposition","ja":"〜の、〜から","en":"of; from"}
+{"lemma":"demain","pos":"adverb","ja":"明日","en":"tomorrow","meanings":[{"ja":"明日","en":"tomorrow"},{"ja":"明日という日、未来","en":"tomorrow, the future"}]}
+{"lemma":"demande","pos":"noun","article":"la","plural":"demandes","ja":"要求、依頼、申し込み","en":"request, application"}
+{"lemma":"demander","pos":"verb","ja":"尋ねる、頼む","en":"to ask (for)"}
+{"lemma":"demi","pos":"noun","article":"le","plural":"demis","ja":"半分、（ビールの）小グラス","en":"half; small glass of beer"}
+{"lemma":"demi-heure","pos":"noun","article":"la","plural":"demi-heures","ja":"30分、半時間","en":"half an hour"}
+{"lemma":"dent","pos":"noun","article":"la","plural":"dents","ja":"歯","en":"tooth"}
+{"lemma":"depuis","pos":"preposition","ja":"〜以来、〜から","en":"since, for"}
+{"lemma":"dernier","pos":"adjective","ja":"最後の、この前の","en":"last"}
+{"lemma":"derrière","pos":"preposition","ja":"〜の後ろに","en":"behind"}
+{"lemma":"descendre","pos":"verb","ja":"降りる、下がる、下ろす","en":"to go down, to get off"}
+{"lemma":"dessert","pos":"noun","article":"le","plural":"desserts","ja":"デザート","en":"dessert"}
+{"lemma":"dessin","pos":"noun","article":"le","plural":"dessins","ja":"絵、デッサン（dessin animé＝アニメ）","en":"drawing"}
+{"lemma":"dessiner","pos":"verb","ja":"描く","en":"to draw"}
+{"lemma":"destination","pos":"noun","article":"la","plural":"destinations","ja":"目的地、行き先","en":"destination"}
+{"lemma":"devant","pos":"preposition","ja":"〜の前に","en":"in front of","meanings":[{"ja":"〜の前に","en":"in front of"},{"ja":"前に、先に","en":"in front, ahead"}]}
+{"lemma":"devenir","pos":"verb","ja":"〜になる","en":"to become"}
+{"lemma":"devoir","pos":"verb","ja":"〜しなければならない、宿題","en":"must, to have to; homework","meanings":[{"ja":"〜しなければならない","en":"must, to have to"},{"ja":"宿題、義務","en":"homework, duty"}]}
+{"lemma":"dieu","pos":"noun","article":"le","plural":"dieux","ja":"神","en":"god"}
+{"lemma":"difficile","pos":"adjective","ja":"難しい","en":"difficult"}
+{"lemma":"différence","pos":"noun","article":"la","plural":"différences","ja":"違い","en":"difference"}
+{"lemma":"différent","pos":"adjective","ja":"違う、異なる","en":"different"}
+{"lemma":"dimanche","pos":"noun","article":"le","plural":"dimanches","ja":"日曜日","en":"Sunday"}
+{"lemma":"dire","pos":"verb","ja":"言う","en":"to say, to tell"}
+{"lemma":"direct","pos":"adjective","ja":"直接の、（放送が）生の","en":"direct; live"}
+{"lemma":"directement","pos":"adverb","ja":"直接に、まっすぐに","en":"directly, straight"}
+{"lemma":"directeur","pos":"noun","article":"le","plural":"directeurs","ja":"部長、校長、経営者","en":"director, manager, headmaster"}
+{"lemma":"direction","pos":"noun","article":"la","plural":"directions","ja":"方向、経営陣","en":"direction; management"}
+{"lemma":"diriger","pos":"verb","ja":"導く、管理する","en":"to lead, to manage"}
+{"lemma":"discuter","pos":"verb","ja":"話し合う、議論する","en":"to discuss, to talk"}
+{"lemma":"disparaître","pos":"verb","ja":"消える、いなくなる","en":"to disappear"}
+{"lemma":"disque","pos":"noun","article":"le","plural":"disques","ja":"レコード、ディスク","en":"record, disc"}
+{"lemma":"divorcer","pos":"verb","ja":"離婚する","en":"to get divorced"}
+{"lemma":"document","pos":"noun","article":"le","plural":"documents","ja":"書類、資料","en":"document"}
+{"lemma":"domaine","pos":"noun","article":"le","plural":"domaines","ja":"分野、領域","en":"field, domain"}
+{"lemma":"donc","pos":"adverb","ja":"だから、それで","en":"so, therefore"}
+{"lemma":"donner","pos":"verb","ja":"与える、渡す","en":"to give"}
+{"lemma":"dormir","pos":"verb","ja":"眠る","en":"to sleep"}
+{"lemma":"dos","pos":"noun","article":"le","ja":"背中","en":"back"}
+{"lemma":"doucement","pos":"adverb","ja":"ゆっくり、そっと","en":"slowly, gently"}
+{"lemma":"doux","pos":"adjective","ja":"やわらかい、甘い、優しい","en":"soft, sweet, gentle"}
+{"lemma":"droit","pos":"adjective","ja":"まっすぐな、右の、権利","en":"straight, right; right (entitlement)","meanings":[{"ja":"まっすぐな、右の","en":"straight; right"},{"ja":"権利、法律","en":"right, law"}],"note":"tout droit = まっすぐに"}
+{"lemma":"drôle","pos":"adjective","ja":"おかしい、面白い","en":"funny","note":"pos was noun"}
+{"lemma":"du","pos":"preposition","ja":"〜の、いくらかの（de + le の縮約）","en":"of the; some (partitive)"}
+{"lemma":"dur","pos":"adjective","ja":"硬い、厳しい、難しい","en":"hard, tough"}
+{"lemma":"durer","pos":"verb","ja":"続く","en":"to last"}
+{"lemma":"dynamique","pos":"adjective","ja":"活動的な、精力的な","en":"dynamic, energetic"}
+{"lemma":"début","pos":"noun","article":"le","plural":"débuts","ja":"始まり、初め","en":"beginning, start"}
+{"lemma":"décembre","pos":"noun","article":"le","plural":"décembres","ja":"12月","en":"December"}
+{"lemma":"décider","pos":"verb","ja":"決める","en":"to decide"}
+{"lemma":"décoration","pos":"noun","article":"la","plural":"décorations","ja":"装飾、飾り","en":"decoration"}
+{"lemma":"décorer","pos":"verb","ja":"飾る","en":"to decorate"}
+{"lemma":"découverte","pos":"noun","article":"la","plural":"découvertes","ja":"発見","en":"discovery"}
+{"lemma":"découvrir","pos":"verb","ja":"発見する、見つける","en":"to discover"}
+{"lemma":"défendre","pos":"verb","ja":"守る、禁じる","en":"to defend; to forbid"}
+{"lemma":"déjeuner","pos":"noun","article":"le","plural":"déjeuners","ja":"昼食、昼食をとる","en":"lunch; to have lunch","meanings":[{"ja":"昼食","en":"lunch"},{"ja":"昼食をとる","en":"to have lunch"}]}
+{"lemma":"déjà","pos":"adverb","ja":"すでに、もう","en":"already"}
+{"lemma":"délicieux","pos":"adjective","ja":"とてもおいしい","en":"delicious"}
+{"lemma":"départ","pos":"noun","article":"le","plural":"départs","ja":"出発","en":"departure"}
+{"lemma":"département","pos":"noun","article":"le","plural":"départements","ja":"県、部門","en":"department (French administrative area)"}
+{"lemma":"dépêcher","pos":"verb","ja":"急がせる、（se dépêcher で）急ぐ","en":"to hurry (se dépêcher)"}
+{"lemma":"déranger","pos":"verb","ja":"邪魔する、迷惑をかける","en":"to disturb, to bother"}
+{"lemma":"désirer","pos":"verb","ja":"望む、欲しがる","en":"to want, to desire"}
+{"lemma":"désoler","pos":"verb","ja":"残念がらせる、（être désolé で）すまなく思う","en":"to be sorry (être désolé)"}
+{"lemma":"détail","pos":"noun","article":"le","plural":"détails","ja":"詳細、細部","en":"detail"}
+{"lemma":"détester","pos":"verb","ja":"嫌う、大嫌いだ","en":"to hate"}
+{"lemma":"dîner","pos":"noun","article":"le","plural":"dîners","ja":"夕食、夕食をとる","en":"dinner; to have dinner","meanings":[{"ja":"夕食","en":"dinner"},{"ja":"夕食をとる","en":"to have dinner"}]}
+{"lemma":"eau","pos":"noun","article":"la","plural":"eaux","ja":"水","en":"water"}
+{"lemma":"effet","pos":"noun","article":"le","plural":"effets","ja":"効果、影響","en":"effect"}
+{"lemma":"eh","pos":"interjection","ja":"ねえ、ええ","en":"hey, well"}
+{"lemma":"elle","pos":"pronoun","ja":"彼女は、それは","en":"she, it"}
+{"lemma":"embrasser","pos":"verb","ja":"キスする、抱きしめる","en":"to kiss, to hug"}
+{"lemma":"emmener","pos":"verb","ja":"連れて行く","en":"to take (someone) along"}
+{"lemma":"en","pos":"preposition","ja":"〜に、〜で、それを（代名詞）","en":"in, to, by; of it (pronoun)","meanings":[{"ja":"〜に、〜で（場所・手段・時期）","en":"in, to, by"},{"ja":"それを、そのうちの（代名詞）","en":"of it, some (pronoun)"}]}
+{"lemma":"encore","pos":"adverb","ja":"まだ、もう一度","en":"still, again"}
+{"lemma":"endormir","pos":"verb","ja":"寝かせる、（s'endormir で）眠りにつく","en":"to put to sleep; to fall asleep (s'endormir)"}
+{"lemma":"endroit","pos":"noun","article":"le","plural":"endroits","ja":"場所","en":"place, spot"}
+{"lemma":"enfance","pos":"noun","article":"la","plural":"enfances","ja":"子供時代","en":"childhood"}
+{"lemma":"enfant","pos":"noun","article":"le","plural":"enfants","ja":"子供","en":"child"}
+{"lemma":"enfin","pos":"adverb","ja":"ついに、要するに","en":"finally, at last"}
+{"lemma":"ennuyer","pos":"verb","ja":"退屈させる、（s'ennuyer で）退屈する","en":"to bore; to be bored (s'ennuyer)"}
+{"lemma":"ensemble","pos":"adverb","ja":"一緒に","en":"together","meanings":[{"ja":"一緒に","en":"together"},{"ja":"全体、まとまり","en":"whole, set"}]}
+{"lemma":"ensuite","pos":"adverb","ja":"その次に、それから","en":"then, next"}
+{"lemma":"entendre","pos":"verb","ja":"聞こえる、聞く","en":"to hear"}
+{"lemma":"entre","pos":"preposition","ja":"〜の間に","en":"between, among"}
+{"lemma":"entreprise","pos":"noun","article":"la","plural":"entreprises","ja":"会社、企業","en":"company, firm"}
+{"lemma":"entrer","pos":"verb","ja":"入る","en":"to enter, to go in"}
+{"lemma":"entrée","pos":"noun","article":"la","plural":"entrées","ja":"入口、前菜","en":"entrance; starter (dish)"}
+{"lemma":"envie","pos":"noun","article":"la","plural":"envies","ja":"欲求、（avoir envie de で）〜したい","en":"desire, wish (avoir envie de = to feel like)"}
+{"lemma":"environ","pos":"preposition","ja":"およそ、約","en":"about, approximately"}
+{"lemma":"environnement","pos":"noun","article":"le","plural":"environnements","ja":"環境","en":"environment"}
+{"lemma":"envoyer","pos":"verb","ja":"送る","en":"to send"}
+{"lemma":"erreur","pos":"noun","article":"la","plural":"erreurs","ja":"間違い、誤り","en":"mistake, error"}
+{"lemma":"espace","pos":"noun","article":"le","plural":"espaces","ja":"空間、スペース、宇宙","en":"space"}
+{"lemma":"espagnol","pos":"adjective","ja":"スペインの、スペイン語","en":"Spanish","meanings":[{"ja":"スペインの","en":"Spanish"},{"ja":"スペイン語、スペイン人","en":"Spanish (language), Spaniard"}]}
+{"lemma":"espérer","pos":"verb","ja":"望む、期待する","en":"to hope"}
+{"lemma":"essayer","pos":"verb","ja":"試す、やってみる","en":"to try"}
+{"lemma":"est","pos":"noun","article":"le","ja":"東","en":"east","note":"point cardinal ; ne pas confondre avec est (être)"}
+{"lemma":"et","pos":"conjunction","ja":"そして、と","en":"and"}
+{"lemma":"euh","pos":"interjection","ja":"えーと","en":"er, um"}
+{"lemma":"euro","pos":"noun","article":"le","plural":"euros","ja":"ユーロ","en":"euro"}
+{"lemma":"européen","pos":"adjective","ja":"ヨーロッパの","en":"European"}
+{"lemma":"eux","pos":"pronoun","ja":"彼ら（強勢形）","en":"them (stressed form)"}
+{"lemma":"exactement","pos":"adverb","ja":"正確に、まさに","en":"exactly"}
+{"lemma":"examen","pos":"noun","article":"le","plural":"examens","ja":"試験、検査","en":"exam, test"}
+{"lemma":"excellent","pos":"adjective","ja":"素晴らしい、とても良い","en":"excellent"}
+{"lemma":"excuser","pos":"verb","ja":"許す、（excusez-moi で）すみません","en":"to excuse (excusez-moi = excuse me)"}
+{"lemma":"exemple","pos":"noun","article":"le","plural":"exemples","ja":"例","en":"example"}
+{"lemma":"exercice","pos":"noun","article":"le","plural":"exercices","ja":"練習問題、運動","en":"exercise"}
+{"lemma":"exister","pos":"verb","ja":"存在する","en":"to exist"}
+{"lemma":"explication","pos":"noun","article":"la","plural":"explications","ja":"説明","en":"explanation"}
+{"lemma":"expliquer","pos":"verb","ja":"説明する","en":"to explain"}
+{"lemma":"exposition","pos":"noun","article":"la","plural":"expositions","ja":"展覧会","en":"exhibition"}
+{"lemma":"extraordinaire","pos":"adjective","ja":"並外れた、素晴らしい","en":"extraordinary"}
+{"lemma":"fabriquer","pos":"verb","ja":"作る、製造する","en":"to make, to manufacture"}
+{"lemma":"face","pos":"noun","article":"la","plural":"faces","ja":"顔、面、（en face de で）〜の向かいに","en":"face, side (en face de = opposite)"}
+{"lemma":"facile","pos":"adjective","ja":"簡単な","en":"easy"}
+{"lemma":"facilement","pos":"adverb","ja":"簡単に","en":"easily"}
+{"lemma":"faim","pos":"noun","article":"la","plural":"faims","ja":"空腹、（avoir faim で）お腹がすいた","en":"hunger (avoir faim = to be hungry)"}
+{"lemma":"faire","pos":"verb","ja":"する、作る","en":"to do, to make"}
+{"lemma":"fait","pos":"noun","article":"le","plural":"faits","ja":"事実、出来事","en":"fact"}
+{"lemma":"falaise","pos":"noun","article":"la","plural":"falaises","ja":"崖","en":"cliff"}
+{"lemma":"falloir","pos":"verb","ja":"必要である（il faut で）","en":"to be necessary (il faut = one must)"}
+{"lemma":"famille","pos":"noun","article":"la","plural":"familles","ja":"家族","en":"family"}
+{"lemma":"fantastique","pos":"adjective","ja":"素晴らしい、幻想的な","en":"fantastic"}
+{"lemma":"farine","pos":"noun","article":"la","plural":"farines","ja":"小麦粉","en":"flour"}
+{"lemma":"fatiguer","pos":"verb","ja":"疲れさせる、（se fatiguer で）疲れる","en":"to tire; to get tired (se fatiguer)"}
+{"lemma":"faux","pos":"adjective","ja":"間違った、偽の","en":"false, wrong"}
+{"lemma":"façon","pos":"noun","article":"la","plural":"façons","ja":"やり方、方法","en":"way, manner"}
+{"lemma":"femme","pos":"noun","article":"la","plural":"femmes","ja":"女性、妻","en":"woman, wife"}
+{"lemma":"fenêtre","pos":"noun","article":"la","plural":"fenêtres","ja":"窓","en":"window"}
+{"lemma":"fermer","pos":"verb","ja":"閉める、閉じる","en":"to close, to shut"}
+{"lemma":"feu","pos":"noun","article":"le","plural":"feux","ja":"火、信号","en":"fire; traffic light"}
+{"lemma":"feuille","pos":"noun","article":"la","plural":"feuilles","ja":"葉、（紙の）一枚","en":"leaf; sheet of paper"}
+{"lemma":"fille","pos":"noun","article":"la","plural":"filles","ja":"女の子、娘","en":"girl, daughter"}
+{"lemma":"film","pos":"noun","article":"le","plural":"films","ja":"映画","en":"film, movie"}
+{"lemma":"fin","pos":"noun","article":"la","plural":"fins","ja":"終わり","en":"end","meanings":[{"ja":"終わり、最後","en":"end"},{"ja":"細い、繊細な","en":"fine, thin"}]}
+{"lemma":"finalement","pos":"adverb","ja":"最終的に、結局","en":"finally, in the end"}
+{"lemma":"finir","pos":"verb","ja":"終える、終わる","en":"to finish"}
+{"lemma":"fleur","pos":"noun","article":"la","plural":"fleurs","ja":"花","en":"flower"}
+{"lemma":"fleuve","pos":"noun","article":"le","plural":"fleuves","ja":"（海に注ぐ）大河","en":"river (flowing into the sea)"}
+{"lemma":"fonction","pos":"noun","article":"la","plural":"fonctions","ja":"機能、職務","en":"function, role"}
+{"lemma":"foot","pos":"noun","article":"le","ja":"サッカー","en":"football, soccer"}
+{"lemma":"forme","pos":"noun","article":"la","plural":"formes","ja":"形、（en forme で）体調が良い","en":"shape, form (en forme = in good shape)"}
+{"lemma":"former","pos":"verb","ja":"形作る、育成する","en":"to form; to train"}
+{"lemma":"formidable","pos":"adjective","ja":"素晴らしい","en":"great, terrific"}
+{"lemma":"fort","pos":"adjective","ja":"強い、（音が）大きい","en":"strong; loud"}
+{"lemma":"forêt","pos":"noun","article":"la","plural":"forêts","ja":"森","en":"forest"}
+{"lemma":"fou","pos":"adjective","ja":"気が狂った、ものすごい","en":"crazy, mad","meanings":[{"ja":"気が狂った、ものすごい","en":"crazy, mad"},{"ja":"狂人","en":"madman"}]}
+{"lemma":"frais","pos":"adjective","ja":"新鮮な、涼しい","en":"fresh; cool"}
+{"lemma":"francophone","pos":"adjective","ja":"フランス語圏の、フランス語を話す","en":"French-speaking"}
+{"lemma":"français","pos":"adjective","ja":"フランスの、フランス語","en":"French"}
+{"lemma":"frapper","pos":"verb","ja":"たたく、ノックする","en":"to hit, to knock"}
+{"lemma":"froid","pos":"adjective","ja":"寒い、冷たい","en":"cold"}
+{"lemma":"fromage","pos":"noun","article":"le","plural":"fromages","ja":"チーズ","en":"cheese"}
+{"lemma":"fruit","pos":"noun","article":"le","plural":"fruits","ja":"果物","en":"fruit"}
+{"lemma":"frère","pos":"noun","article":"le","plural":"frères","ja":"兄、弟","en":"brother"}
+{"lemma":"fumer","pos":"verb","ja":"タバコを吸う","en":"to smoke"}
+{"lemma":"futur","pos":"adjective","ja":"将来の、未来の","en":"future"}
+{"lemma":"félicitation","pos":"noun","article":"la","plural":"félicitations","ja":"お祝いの言葉、おめでとう","en":"congratulation(s)"}
+{"lemma":"féliciter","pos":"verb","ja":"祝う、お祝いを言う","en":"to congratulate"}
+{"lemma":"février","pos":"noun","article":"le","ja":"2月","en":"February"}
+{"lemma":"fête","pos":"noun","article":"la","plural":"fêtes","ja":"祭り、パーティー","en":"party, festival"}
+{"lemma":"fêter","pos":"verb","ja":"祝う","en":"to celebrate"}
+{"lemma":"gagner","pos":"verb","ja":"勝つ、稼ぐ","en":"to win; to earn"}
+{"lemma":"garder","pos":"verb","ja":"とっておく、見守る","en":"to keep; to look after"}
+{"lemma":"gare","pos":"noun","article":"la","plural":"gares","ja":"駅","en":"train station"}
+{"lemma":"garçon","pos":"noun","article":"le","plural":"garçons","ja":"男の子","en":"boy"}
+{"lemma":"gauche","pos":"adjective","ja":"左の、左（à gauche で左に）","en":"left","meanings":[{"ja":"左の","en":"left"},{"ja":"左側（à gauche = 左に）","en":"the left (side)"}],"note":"pos was noun"}
+{"lemma":"genou","pos":"noun","article":"le","plural":"genoux","ja":"膝","en":"knee"}
+{"lemma":"gens","pos":"noun","article":"le","ja":"人々","en":"people","note":"toujours au pluriel : les gens"}
+{"lemma":"gentil","pos":"adjective","ja":"親切な、優しい","en":"kind, nice"}
+{"lemma":"glace","pos":"noun","article":"la","plural":"glaces","ja":"アイスクリーム、氷","en":"ice cream; ice"}
+{"lemma":"goût","pos":"noun","article":"le","plural":"goûts","ja":"味、好み","en":"taste"}
+{"lemma":"goûter","pos":"verb","ja":"味わう、味見する","en":"to taste"}
+{"lemma":"grand","pos":"adjective","ja":"大きい、背が高い","en":"big, tall"}
+{"lemma":"grand-mère","pos":"noun","article":"la","plural":"grand-mères","ja":"祖母","en":"grandmother"}
+{"lemma":"grand-père","pos":"noun","article":"le","plural":"grands-pères","ja":"祖父","en":"grandfather"}
+{"lemma":"grands-parents","pos":"noun","article":"le","ja":"祖父母","en":"grandparents","note":"toujours au pluriel"}
+{"lemma":"gras","pos":"adjective","ja":"脂っこい、太った","en":"fatty, greasy"}
+{"lemma":"gratuit","pos":"adjective","ja":"無料の","en":"free (of charge)"}
+{"lemma":"grave","pos":"adjective","ja":"深刻な、重大な","en":"serious, grave"}
+{"lemma":"gris","pos":"adjective","ja":"灰色の","en":"grey"}
+{"lemma":"gros","pos":"adjective","ja":"太い、大きい","en":"big, fat"}
+{"lemma":"grotte","pos":"noun","article":"la","plural":"grottes","ja":"洞窟","en":"cave"}
+{"lemma":"groupe","pos":"noun","article":"le","plural":"groupes","ja":"グループ、集団","en":"group"}
+{"lemma":"grâce","pos":"noun","article":"la","plural":"grâces","ja":"優雅さ、恩恵（grâce à で〜のおかげで）","en":"grace (grâce à = thanks to)"}
+{"lemma":"guerre","pos":"noun","article":"la","plural":"guerres","ja":"戦争","en":"war"}
+{"lemma":"gâteau","pos":"noun","article":"le","plural":"gâteaux","ja":"ケーキ、菓子","en":"cake"}
+{"lemma":"génial","pos":"adjective","ja":"素晴らしい、最高の","en":"great, awesome"}
+{"lemma":"général","pos":"adjective","ja":"全体の、一般的な","en":"general"}
+{"lemma":"génération","pos":"noun","article":"la","plural":"générations","ja":"世代","en":"generation"}
+{"lemma":"généreux","pos":"adjective","ja":"気前のよい、寛大な","en":"generous"}
+{"lemma":"habiller","pos":"verb","ja":"服を着せる、（s'habiller で）服を着る","en":"to dress; to get dressed (s'habiller)"}
+{"lemma":"habitant","pos":"noun","article":"le","plural":"habitants","ja":"住民","en":"inhabitant, resident"}
+{"lemma":"habiter","pos":"verb","ja":"住む","en":"to live, to reside"}
+{"lemma":"habitude","pos":"noun","article":"la","plural":"habitudes","ja":"習慣（d'habitude で普段は）","en":"habit (d'habitude = usually)"}
+{"lemma":"haut","pos":"adverb","ja":"高く、上に","en":"high, up"}
+{"lemma":"herbe","pos":"noun","article":"la","plural":"herbes","ja":"草","en":"grass"}
+{"lemma":"heure","pos":"noun","article":"la","plural":"heures","ja":"時間、〜時","en":"hour; o'clock"}
+{"lemma":"heureusement","pos":"adverb","ja":"幸いに、運よく","en":"fortunately, luckily"}
+{"lemma":"heureux","pos":"adjective","ja":"幸せな","en":"happy"}
+{"lemma":"hier","pos":"adverb","ja":"昨日","en":"yesterday"}
+{"lemma":"histoire","pos":"noun","article":"la","plural":"histoires","ja":"話、物語、歴史","en":"story; history"}
+{"lemma":"hiver","pos":"noun","article":"le","plural":"hivers","ja":"冬","en":"winter"}
+{"lemma":"homme","pos":"noun","article":"le","plural":"hommes","ja":"男性、人間","en":"man"}
+{"lemma":"honneur","pos":"noun","article":"le","plural":"honneurs","ja":"名誉、光栄","en":"honour"}
+{"lemma":"horreur","pos":"noun","article":"la","plural":"horreurs","ja":"恐怖（avoir horreur de で〜が大嫌い）","en":"horror (avoir horreur de = to hate)"}
+{"lemma":"horrible","pos":"adjective","ja":"ひどい、恐ろしい","en":"horrible, awful"}
+{"lemma":"huile","pos":"noun","article":"la","plural":"huiles","ja":"油、オイル","en":"oil"}
+{"lemma":"humain","pos":"adjective","ja":"人間の","en":"human"}
+{"lemma":"humeur","pos":"noun","article":"la","plural":"humeurs","ja":"機嫌、気分（de bonne humeur で機嫌がよい）","en":"mood"}
+{"lemma":"hôpital","pos":"noun","article":"le","plural":"hôpitaux","ja":"病院","en":"hospital"}
+{"lemma":"hôtel","pos":"noun","article":"le","plural":"hôtels","ja":"ホテル","en":"hotel"}
+{"lemma":"ici","pos":"adverb","ja":"ここに、ここで","en":"here"}
+{"lemma":"identité","pos":"noun","article":"la","plural":"identités","ja":"身分、アイデンティティー","en":"identity"}
+{"lemma":"idéal","pos":"adjective","ja":"理想的な","en":"ideal"}
+{"lemma":"idée","pos":"noun","article":"la","plural":"idées","ja":"考え、アイデア","en":"idea"}
+{"lemma":"il","pos":"pronoun","ja":"彼は、それは","en":"he, it"}
+{"lemma":"image","pos":"noun","article":"la","plural":"images","ja":"絵、画像","en":"picture, image"}
+{"lemma":"imaginer","pos":"verb","ja":"想像する","en":"to imagine"}
+{"lemma":"immeuble","pos":"noun","article":"le","plural":"immeubles","ja":"建物、集合住宅","en":"building, apartment block"}
+{"lemma":"immédiatement","pos":"adverb","ja":"すぐに","en":"immediately"}
+{"lemma":"important","pos":"adjective","ja":"重要な、大きな","en":"important"}
+{"lemma":"impossible","pos":"adjective","ja":"不可能な","en":"impossible"}
+{"lemma":"inauguration","pos":"noun","article":"la","plural":"inaugurations","ja":"落成式、開幕","en":"inauguration, opening"}
+{"lemma":"incroyable","pos":"adjective","ja":"信じられない、すごい","en":"incredible"}
+{"lemma":"indiquer","pos":"verb","ja":"示す、教える","en":"to indicate, to show"}
+{"lemma":"indépendant","pos":"adjective","ja":"独立した、自立した","en":"independent"}
+{"lemma":"informaticien","pos":"noun","article":"le","plural":"informaticiens","ja":"IT技術者","en":"computer scientist, IT specialist"}
+{"lemma":"information","pos":"noun","article":"la","plural":"informations","ja":"情報、（複数で）ニュース","en":"information; news"}
+{"lemma":"informatique","pos":"noun","article":"la","ja":"情報科学、IT","en":"computing, IT"}
+{"lemma":"informer","pos":"verb","ja":"知らせる","en":"to inform"}
+{"lemma":"inquiéter","pos":"verb","ja":"心配させる、（s'inquiéter で）心配する","en":"to worry (s'inquiéter = to be worried)"}
+{"lemma":"inscription","pos":"noun","article":"la","plural":"inscriptions","ja":"登録、申し込み","en":"registration, enrolment"}
+{"lemma":"installer","pos":"verb","ja":"設置する、（s'installer で）落ち着く","en":"to install; to settle in (s'installer)"}
+{"lemma":"intelligent","pos":"adjective","ja":"頭のよい、知的な","en":"intelligent, clever"}
+{"lemma":"interdire","pos":"verb","ja":"禁止する","en":"to forbid, to ban"}
+{"lemma":"international","pos":"adjective","ja":"国際的な","en":"international"}
+{"lemma":"internet","pos":"noun","article":"le","ja":"インターネット","en":"internet"}
+{"lemma":"interroger","pos":"verb","ja":"質問する、尋ねる","en":"to question, to ask"}
+{"lemma":"intéressant","pos":"adjective","ja":"興味深い、面白い","en":"interesting"}
+{"lemma":"intéresser","pos":"verb","ja":"興味を引く、（s'intéresser à で）〜に興味がある","en":"to interest (s'intéresser à = to be interested in)"}
+{"lemma":"intérieur","pos":"noun","article":"le","plural":"intérieurs","ja":"内部、室内（à l'intérieur で中に）","en":"inside, interior"}
+{"lemma":"inventer","pos":"verb","ja":"発明する、考え出す","en":"to invent"}
+{"lemma":"invitation","pos":"noun","article":"la","plural":"invitations","ja":"招待","en":"invitation"}
+{"lemma":"inviter","pos":"verb","ja":"招待する、誘う","en":"to invite"}
+{"lemma":"invité","pos":"noun","article":"le","plural":"invités","ja":"招待客、ゲスト","en":"guest"}
+{"lemma":"italien","pos":"adjective","ja":"イタリアの、イタリア語","en":"Italian","meanings":[{"ja":"イタリアの","en":"Italian"},{"ja":"イタリア語、イタリア人","en":"Italian (language), Italian person"}]}
+{"lemma":"jamais","pos":"adverb","ja":"決して〜ない、一度も","en":"never; ever"}
+{"lemma":"jambe","pos":"noun","article":"la","plural":"jambes","ja":"脚","en":"leg"}
+{"lemma":"janvier","pos":"noun","article":"le","ja":"1月","en":"January"}
+{"lemma":"jardin","pos":"noun","article":"le","plural":"jardins","ja":"庭、公園","en":"garden"}
+{"lemma":"jaune","pos":"adjective","ja":"黄色い","en":"yellow"}
+{"lemma":"je","pos":"pronoun","ja":"私は","en":"I"}
+{"lemma":"jean","pos":"noun","article":"le","plural":"jeans","ja":"ジーンズ","en":"jeans"}
+{"lemma":"jeter","pos":"verb","ja":"投げる、捨てる","en":"to throw, to throw away"}
+{"lemma":"jeu","pos":"noun","article":"le","plural":"jeux","ja":"遊び、ゲーム","en":"game, play"}
+{"lemma":"jeudi","pos":"noun","article":"le","plural":"jeudis","ja":"木曜日","en":"Thursday"}
+{"lemma":"jeune","pos":"adjective","ja":"若い","en":"young","meanings":[{"ja":"若い","en":"young"},{"ja":"若者","en":"young person"}],"note":"pos was noun"}
+{"lemma":"jeunesse","pos":"noun","article":"la","plural":"jeunesses","ja":"若さ、青春","en":"youth"}
+{"lemma":"joie","pos":"noun","article":"la","plural":"joies","ja":"喜び","en":"joy"}
+{"lemma":"joli","pos":"adjective","ja":"かわいい、きれいな","en":"pretty, nice"}
+{"lemma":"jouer","pos":"verb","ja":"遊ぶ、（楽器を）演奏する","en":"to play"}
+{"lemma":"jour","pos":"noun","article":"le","plural":"jours","ja":"日、一日","en":"day"}
+{"lemma":"journal","pos":"noun","article":"le","plural":"journaux","ja":"新聞","en":"newspaper"}
+{"lemma":"journaliste","pos":"noun","article":"le","plural":"journalistes","ja":"ジャーナリスト、記者","en":"journalist","note":"épicène — le/la selon la personne"}
+{"lemma":"journée","pos":"noun","article":"la","plural":"journées","ja":"一日（の間）","en":"day (daytime)"}
+{"lemma":"joyeux","pos":"adjective","ja":"楽しい、うれしい","en":"joyful, merry"}
+{"lemma":"juillet","pos":"noun","article":"le","plural":"juillets","ja":"7月","en":"July"}
+{"lemma":"juin","pos":"noun","article":"le","ja":"6月","en":"June"}
+{"lemma":"jus","pos":"noun","article":"le","ja":"ジュース、汁","en":"juice"}
+{"lemma":"jusque","pos":"preposition","ja":"〜まで","en":"until, up to"}
+{"lemma":"juste","pos":"adjective","ja":"正しい、公正な、ちょうどの","en":"right, fair; just"}
+{"lemma":"justement","pos":"adverb","ja":"まさに、ちょうど","en":"exactly, precisely"}
+{"lemma":"kilo","pos":"noun","article":"le","plural":"kilos","ja":"キロ（グラム）","en":"kilo"}
+{"lemma":"kilomètre","pos":"noun","article":"le","plural":"kilomètres","ja":"キロメートル","en":"kilometre"}
+{"lemma":"la","pos":"pronoun","ja":"彼女を、それを（目的語）","en":"her, it (object pronoun)"}
+{"lemma":"laisser","pos":"verb","ja":"置いておく、〜させておく","en":"to leave; to let"}
+{"lemma":"lait","pos":"noun","article":"le","plural":"laits","ja":"牛乳","en":"milk"}
+{"lemma":"lampe","pos":"noun","article":"la","plural":"lampes","ja":"ランプ、照明","en":"lamp"}
+{"lemma":"langue","pos":"noun","article":"la","plural":"langues","ja":"言語、舌","en":"language; tongue"}
+{"lemma":"large","pos":"adjective","ja":"幅の広い","en":"wide, broad"}
+{"lemma":"laver","pos":"verb","ja":"洗う、（se laver で）体を洗う","en":"to wash"}
+{"lemma":"le","pos":"article","ja":"その（定冠詞・男性単数）、彼を","en":"the (masc. sing.); him, it","meanings":[{"ja":"その（男性単数の定冠詞）","en":"the (masculine singular)"},{"ja":"彼を、それを（目的語代名詞）","en":"him, it (object pronoun)"}]}
+{"lemma":"lecture","pos":"noun","article":"la","plural":"lectures","ja":"読書","en":"reading"}
+{"lemma":"lendemain","pos":"noun","article":"le","plural":"lendemains","ja":"翌日","en":"the next day"}
+{"lemma":"lentement","pos":"adverb","ja":"ゆっくり","en":"slowly"}
+{"lemma":"lettre","pos":"noun","article":"la","plural":"lettres","ja":"手紙、文字","en":"letter"}
+{"lemma":"leur","pos":"determiner","ja":"彼らの","en":"their"}
+{"lemma":"lever","pos":"verb","ja":"上げる、（se lever で）起きる","en":"to raise; to get up (se lever)"}
+{"lemma":"liberté","pos":"noun","article":"la","plural":"libertés","ja":"自由","en":"freedom"}
+{"lemma":"libre","pos":"adjective","ja":"自由な、空いている","en":"free, available"}
+{"lemma":"lieu","pos":"noun","article":"le","plural":"lieux","ja":"場所","en":"place"}
+{"lemma":"lire","pos":"verb","ja":"読む","en":"to read"}
+{"lemma":"lit","pos":"noun","article":"le","plural":"lits","ja":"ベッド","en":"bed"}
+{"lemma":"litre","pos":"noun","article":"le","plural":"litres","ja":"リットル","en":"litre"}
+{"lemma":"littérature","pos":"noun","article":"la","plural":"littératures","ja":"文学","en":"literature"}
+{"lemma":"livre","pos":"noun","article":"le","plural":"livres","ja":"本","en":"book","note":"le livre = 本（la livre = ポンド）"}
+{"lemma":"local","pos":"adjective","ja":"地元の、現地の","en":"local"}
+{"lemma":"loin","pos":"adverb","ja":"遠くに","en":"far"}
+{"lemma":"loisir","pos":"noun","article":"le","plural":"loisirs","ja":"余暇、趣味","en":"leisure, hobby"}
+{"lemma":"long","pos":"adjective","ja":"長い","en":"long","meanings":[{"ja":"長い","en":"long"},{"ja":"長さ（le long de = 〜に沿って）","en":"length (le long de = along)"}]}
+{"lemma":"longtemps","pos":"adverb","ja":"長い間","en":"for a long time"}
+{"lemma":"longue","pos":"adjective","ja":"長い（long の女性形）","en":"long (feminine of long)"}
+{"lemma":"lui","pos":"pronoun","ja":"彼に、彼女に、彼（強勢形）","en":"to him/her; him (stressed)"}
+{"lemma":"lumière","pos":"noun","article":"la","plural":"lumières","ja":"光、明かり","en":"light"}
+{"lemma":"lundi","pos":"noun","article":"le","plural":"lundis","ja":"月曜日","en":"Monday"}
+{"lemma":"lycée","pos":"noun","article":"le","plural":"lycées","ja":"高校","en":"high school"}
+{"lemma":"là","pos":"adverb","ja":"そこに、ここに","en":"there"}
+{"lemma":"là-bas","pos":"adverb","ja":"あそこに","en":"over there"}
+{"lemma":"légende","pos":"noun","article":"la","plural":"légendes","ja":"伝説","en":"legend"}
+{"lemma":"légume","pos":"noun","article":"le","plural":"légumes","ja":"野菜","en":"vegetable"}
+{"lemma":"madame","pos":"noun","article":"la","plural":"mesdames","ja":"〜さん（女性への敬称）、奥様","en":"madam, Mrs"}
+{"lemma":"mademoiselle","pos":"noun","article":"la","plural":"mademoiselles","ja":"お嬢さん、〜さん（未婚女性）","en":"miss"}
+{"lemma":"magasin","pos":"noun","article":"le","plural":"magasins","ja":"店","en":"shop, store"}
+{"lemma":"magazine","pos":"noun","article":"le","plural":"magazines","ja":"雑誌","en":"magazine"}
+{"lemma":"magnifique","pos":"adjective","ja":"すばらしい、見事な","en":"magnificent, wonderful"}
+{"lemma":"mai","pos":"noun","article":"le","ja":"5月","en":"May"}
+{"lemma":"mail","pos":"noun","article":"le","plural":"mails","ja":"メール","en":"email"}
+{"lemma":"main","pos":"noun","article":"la","plural":"mains","ja":"手","en":"hand"}
+{"lemma":"maintenant","pos":"adverb","ja":"今","en":"now"}
+{"lemma":"mairie","pos":"noun","article":"la","plural":"mairies","ja":"市役所、役場","en":"town hall"}
+{"lemma":"mais","pos":"conjunction","ja":"しかし、でも","en":"but"}
+{"lemma":"maison","pos":"noun","article":"la","plural":"maisons","ja":"家","en":"house"}
+{"lemma":"mal","pos":"adverb","ja":"悪く、うまく〜ない","en":"badly","meanings":[{"ja":"悪く、うまく〜ない","en":"badly"},{"ja":"痛み（avoir mal à = 〜が痛い）","en":"pain, ache (avoir mal à = to have a sore …)"}]}
+{"lemma":"malade","pos":"adjective","ja":"病気の","en":"sick, ill"}
+{"lemma":"maman","pos":"noun","article":"la","plural":"mamans","ja":"ママ、お母さん","en":"mum, mom"}
+{"lemma":"manger","pos":"verb","ja":"食べる","en":"to eat"}
+{"lemma":"manière","pos":"noun","article":"la","plural":"manières","ja":"やり方、方法","en":"way, manner"}
+{"lemma":"manquer","pos":"verb","ja":"足りない、（人が）いなくて寂しい","en":"to miss; to be lacking"}
+{"lemma":"marche","pos":"noun","article":"la","plural":"marches","ja":"歩くこと、段","en":"walking; step"}
+{"lemma":"marcher","pos":"verb","ja":"歩く、（機械が）動く","en":"to walk; to work (function)"}
+{"lemma":"marché","pos":"noun","article":"le","plural":"marchés","ja":"市場、マルシェ","en":"market"}
+{"lemma":"mardi","pos":"noun","article":"le","plural":"mardis","ja":"火曜日","en":"Tuesday"}
+{"lemma":"mari","pos":"noun","article":"le","plural":"maris","ja":"夫","en":"husband"}
+{"lemma":"mariage","pos":"noun","article":"le","plural":"mariages","ja":"結婚、結婚式","en":"marriage, wedding"}
+{"lemma":"marier","pos":"verb","ja":"結婚させる、（se marier）結婚する","en":"to marry; (se marier) to get married"}
+{"lemma":"marquer","pos":"verb","ja":"印をつける、（点を）取る","en":"to mark; to score"}
+{"lemma":"maths","pos":"noun","article":"la","ja":"数学","en":"maths, mathematics","note":"toujours au pluriel : les maths"}
+{"lemma":"matin","pos":"noun","article":"le","plural":"matins","ja":"朝、午前","en":"morning"}
+{"lemma":"matière","pos":"noun","article":"la","plural":"matières","ja":"教科、素材","en":"subject (school); material"}
+{"lemma":"mauvais","pos":"adjective","ja":"悪い、下手な","en":"bad, poor"}
+{"lemma":"maître","pos":"noun","article":"le","plural":"maîtres","ja":"先生、主人","en":"teacher, master"}
+{"lemma":"me","pos":"pronoun","ja":"私を、私に","en":"me, to me"}
+{"lemma":"mec","pos":"noun","article":"le","plural":"mecs","ja":"男、やつ（俗語）","en":"guy, bloke (informal)"}
+{"lemma":"meilleur","pos":"adjective","ja":"より良い、最も良い","en":"better, best"}
+{"lemma":"menu","pos":"noun","article":"le","plural":"menus","ja":"メニュー、定食","en":"menu, set meal"}
+{"lemma":"mer","pos":"noun","article":"la","plural":"mers","ja":"海","en":"sea"}
+{"lemma":"merci","pos":"noun","article":"le","plural":"mercis","ja":"ありがとう、感謝","en":"thank you; thanks","note":"A1では感謝の表現 merci として使う"}
+{"lemma":"mercredi","pos":"noun","article":"le","plural":"mercredis","ja":"水曜日","en":"Wednesday"}
+{"lemma":"merveilleux","pos":"adjective","ja":"すばらしい","en":"wonderful, marvellous"}
+{"lemma":"message","pos":"noun","article":"le","plural":"messages","ja":"メッセージ、伝言","en":"message"}
+{"lemma":"messe","pos":"noun","article":"la","plural":"messes","ja":"ミサ","en":"mass (church service)"}
+{"lemma":"messieurs","pos":"noun","article":"le","plural":"messieurs","ja":"皆さん（男性への敬称の複数）","en":"gentlemen (plural of monsieur)","note":"pluriel de monsieur"}
+{"lemma":"mettre","pos":"verb","ja":"置く、入れる、（服を）着る","en":"to put, to place; to put on (clothes)"}
+{"lemma":"midi","pos":"noun","article":"le","plural":"midis","ja":"正午、昼","en":"noon, midday"}
+{"lemma":"mieux","pos":"adverb","ja":"より良く、いちばん良く","en":"better, best"}
+{"lemma":"milieu","pos":"noun","article":"le","plural":"milieux","ja":"真ん中、環境","en":"middle; environment"}
+{"lemma":"million","pos":"noun","article":"le","plural":"millions","ja":"百万","en":"million"}
+{"lemma":"mince","pos":"adjective","ja":"細い、薄い","en":"slim, thin"}
+{"lemma":"minute","pos":"noun","article":"la","plural":"minutes","ja":"分","en":"minute"}
+{"lemma":"mode","pos":"noun","article":"la","plural":"modes","ja":"ファッション、流行","en":"fashion","note":"la mode = ファッション（le mode = 方法・様式）"}
+{"lemma":"moderne","pos":"adjective","ja":"現代の、近代的な","en":"modern"}
+{"lemma":"moi","pos":"pronoun","ja":"私（強勢形）","en":"me, I (stressed form)","meanings":[{"ja":"私（強勢形）","en":"me, I (stressed form)"},{"ja":"自我、自分","en":"the self, ego"}]}
+{"lemma":"moins","pos":"adverb","ja":"より少なく、〜引く","en":"less; minus"}
+{"lemma":"moment","pos":"noun","article":"le","plural":"moments","ja":"瞬間、時","en":"moment"}
+{"lemma":"mon","pos":"determiner","ja":"私の","en":"my"}
+{"lemma":"monde","pos":"noun","article":"le","plural":"mondes","ja":"世界、人々","en":"world; people"}
+{"lemma":"mondial","pos":"adjective","ja":"世界の、世界的な","en":"world, worldwide"}
+{"lemma":"monsieur","pos":"noun","article":"le","plural":"messieurs","ja":"〜さん（男性）、旦那","en":"sir, Mr, gentleman"}
+{"lemma":"montagne","pos":"noun","article":"la","plural":"montagnes","ja":"山","en":"mountain"}
+{"lemma":"monter","pos":"verb","ja":"登る、上がる、乗る","en":"to go up, to climb; to get on"}
+{"lemma":"montrer","pos":"verb","ja":"見せる、示す","en":"to show"}
+{"lemma":"monument","pos":"noun","article":"le","plural":"monuments","ja":"記念建造物、モニュメント","en":"monument"}
+{"lemma":"morceau","pos":"noun","article":"le","plural":"morceaux","ja":"一片、一切れ、曲","en":"piece, bit"}
+{"lemma":"mort","pos":"noun","article":"la","ja":"死","en":"death","note":"la mort = 死（le mort = 死者）"}
+{"lemma":"mot","pos":"noun","article":"le","plural":"mots","ja":"単語、言葉","en":"word"}
+{"lemma":"moulin","pos":"noun","article":"le","plural":"moulins","ja":"風車、水車、製粉所","en":"mill"}
+{"lemma":"mourir","pos":"verb","ja":"死ぬ","en":"to die"}
+{"lemma":"moyen","pos":"noun","article":"le","plural":"moyens","ja":"手段、方法","en":"means, way","meanings":[{"ja":"手段、方法","en":"means, way"},{"ja":"中くらいの、平均の","en":"average, medium"}]}
+{"lemma":"moyenne","pos":"noun","article":"la","plural":"moyennes","ja":"平均","en":"average"}
+{"lemma":"mule","pos":"noun","article":"la","plural":"mules","ja":"ラバ、ミュール（履物）","en":"mule"}
+{"lemma":"mur","pos":"noun","article":"le","plural":"murs","ja":"壁","en":"wall"}
+{"lemma":"musicien","pos":"noun","article":"le","plural":"musiciens","ja":"音楽家、ミュージシャン","en":"musician"}
+{"lemma":"musique","pos":"noun","article":"la","plural":"musiques","ja":"音楽","en":"music"}
+{"lemma":"musée","pos":"noun","article":"le","plural":"musées","ja":"美術館、博物館","en":"museum"}
+{"lemma":"mère","pos":"noun","article":"la","plural":"mères","ja":"母","en":"mother"}
+{"lemma":"mètre","pos":"noun","article":"le","plural":"mètres","ja":"メートル","en":"metre"}
+{"lemma":"médecin","pos":"noun","article":"le","plural":"médecins","ja":"医者","en":"doctor"}
+{"lemma":"ménage","pos":"noun","article":"le","plural":"ménages","ja":"家事、世帯","en":"housework; household"}
+{"lemma":"métier","pos":"noun","article":"le","plural":"métiers","ja":"職業、仕事","en":"job, profession"}
+{"lemma":"métro","pos":"noun","article":"le","plural":"métros","ja":"地下鉄","en":"metro, underground"}
+{"lemma":"même","pos":"adjective","ja":"同じ","en":"same","meanings":[{"ja":"同じ","en":"same"},{"ja":"〜さえ、〜でも","en":"even"}]}
+{"lemma":"national","pos":"adjective","ja":"国の、国立の","en":"national"}
+{"lemma":"nationalité","pos":"noun","article":"la","plural":"nationalités","ja":"国籍","en":"nationality"}
+{"lemma":"nature","pos":"noun","article":"la","plural":"natures","ja":"自然、性質","en":"nature"}
+{"lemma":"naître","pos":"verb","ja":"生まれる","en":"to be born"}
+{"lemma":"ne","pos":"adverb","ja":"〜ない（否定の ne、pas とともに）","en":"not (negation particle, used with pas)"}
+{"lemma":"neige","pos":"noun","article":"la","plural":"neiges","ja":"雪","en":"snow"}
+{"lemma":"neuf","pos":"adjective","ja":"新しい、9（数）","en":"new; nine","meanings":[{"ja":"新しい、新品の","en":"new, brand-new"},{"ja":"9（数）","en":"nine"}],"note":"also the numeral 9"}
+{"lemma":"nez","pos":"noun","article":"le","ja":"鼻","en":"nose","note":"invariable au pluriel : les nez"}
+{"lemma":"ni","pos":"conjunction","ja":"〜も〜ない（ni A ni B）","en":"neither, nor"}
+{"lemma":"noir","pos":"adjective","ja":"黒い","en":"black","meanings":[{"ja":"黒い","en":"black"},{"ja":"黒（色）、暗闇","en":"black (colour); darkness"}]}
+{"lemma":"nom","pos":"noun","article":"le","plural":"noms","ja":"名前、姓","en":"name, surname"}
+{"lemma":"nombre","pos":"noun","article":"le","plural":"nombres","ja":"数","en":"number"}
+{"lemma":"nombreux","pos":"adjective","ja":"数多くの","en":"numerous, many"}
+{"lemma":"non","pos":"adverb","ja":"いいえ","en":"no"}
+{"lemma":"nord","pos":"noun","article":"le","ja":"北","en":"north"}
+{"lemma":"normal","pos":"adjective","ja":"普通の、当然の","en":"normal"}
+{"lemma":"note","pos":"noun","article":"la","plural":"notes","ja":"メモ、成績、音符","en":"note; mark, grade"}
+{"lemma":"noter","pos":"verb","ja":"書き留める、採点する","en":"to note down; to grade"}
+{"lemma":"notre","pos":"determiner","ja":"私たちの","en":"our"}
+{"lemma":"nous","pos":"pronoun","ja":"私たちは、私たちを","en":"we, us"}
+{"lemma":"nouveau","pos":"adjective","ja":"新しい","en":"new"}
+{"lemma":"nouvelle","pos":"adjective","ja":"新しい（nouveau の女性形）","en":"new (feminine of nouveau)","note":"pos was noun"}
+{"lemma":"novembre","pos":"noun","article":"le","ja":"11月","en":"November"}
+{"lemma":"nuit","pos":"noun","article":"la","plural":"nuits","ja":"夜","en":"night"}
+{"lemma":"nul","pos":"adjective","ja":"ゼロの、ひどい","en":"nil, zero; useless, rubbish"}
+{"lemma":"numéro","pos":"noun","article":"le","plural":"numéros","ja":"番号","en":"number"}
+{"lemma":"objet","pos":"noun","article":"le","plural":"objets","ja":"物、品物","en":"object, thing"}
+{"lemma":"obligatoire","pos":"adjective","ja":"義務の、必修の","en":"compulsory, obligatory"}
+{"lemma":"observer","pos":"verb","ja":"観察する、よく見る","en":"to observe, to watch"}
+{"lemma":"occuper","pos":"verb","ja":"占める、（s'occuper de）世話をする","en":"to occupy; (s'occuper de) to take care of"}
+{"lemma":"octobre","pos":"noun","article":"le","ja":"10月","en":"October"}
+{"lemma":"odeur","pos":"noun","article":"la","plural":"odeurs","ja":"におい、香り","en":"smell, odour"}
+{"lemma":"office","pos":"noun","article":"le","plural":"offices","ja":"案内所、事務所","en":"office (e.g. office de tourisme)"}
+{"lemma":"officiel","pos":"adjective","ja":"公式の","en":"official"}
+{"lemma":"offrir","pos":"verb","ja":"贈る、おごる、提供する","en":"to give (a gift), to offer"}
+{"lemma":"oh","pos":"interjection","ja":"ああ、おお","en":"oh"}
+{"lemma":"oiseau","pos":"noun","article":"le","plural":"oiseaux","ja":"鳥","en":"bird"}
+{"lemma":"ombre","pos":"noun","article":"la","plural":"ombres","ja":"影、日陰","en":"shadow, shade"}
+{"lemma":"on","pos":"pronoun","ja":"人は、私たち（口語）","en":"one, people; we (informal)"}
+{"lemma":"oncle","pos":"noun","article":"le","plural":"oncles","ja":"おじ","en":"uncle"}
+{"lemma":"opération","pos":"noun","article":"la","plural":"opérations","ja":"手術、操作、計算","en":"operation"}
+{"lemma":"orange","pos":"adjective","ja":"オレンジ色の","en":"orange (colour)"}
+{"lemma":"ordinateur","pos":"noun","article":"le","plural":"ordinateurs","ja":"コンピューター","en":"computer"}
+{"lemma":"ordre","pos":"noun","article":"le","plural":"ordres","ja":"順序、命令","en":"order"}
+{"lemma":"oreille","pos":"noun","article":"la","plural":"oreilles","ja":"耳","en":"ear"}
+{"lemma":"organisation","pos":"noun","article":"la","plural":"organisations","ja":"組織、準備","en":"organization"}
+{"lemma":"organiser","pos":"verb","ja":"準備する、企画する","en":"to organize"}
+{"lemma":"original","pos":"adjective","ja":"独創的な、元の","en":"original"}
+{"lemma":"origine","pos":"noun","article":"la","plural":"origines","ja":"起源、出身","en":"origin"}
+{"lemma":"ou","pos":"conjunction","ja":"または","en":"or"}
+{"lemma":"ouais","pos":"interjection","ja":"うん、ああ（口語）","en":"yeah (informal)"}
+{"lemma":"oublier","pos":"verb","ja":"忘れる","en":"to forget"}
+{"lemma":"oui","pos":"interjection","ja":"はい","en":"yes"}
+{"lemma":"ouverture","pos":"noun","article":"la","plural":"ouvertures","ja":"開くこと、開店時間","en":"opening"}
+{"lemma":"ouvrier","pos":"noun","article":"le","plural":"ouvriers","ja":"労働者、工員","en":"worker"}
+{"lemma":"ouvrir","pos":"verb","ja":"開ける、開く","en":"to open"}
+{"lemma":"où","pos":"adverb","ja":"どこに、どこで","en":"where","meanings":[{"ja":"どこに、どこで（疑問）","en":"where (question word)"},{"ja":"〜する（場所・時）","en":"where, when (relative)"}]}
+{"lemma":"page","pos":"noun","article":"la","plural":"pages","ja":"ページ","en":"page","note":"la page = ページ（le page = 小姓）"}
+{"lemma":"pain","pos":"noun","article":"le","plural":"pains","ja":"パン","en":"bread"}
+{"lemma":"paix","pos":"noun","article":"la","ja":"平和、静けさ","en":"peace"}
+{"lemma":"palais","pos":"noun","article":"le","ja":"宮殿","en":"palace","note":"invariable au pluriel : les palais"}
+{"lemma":"pantalon","pos":"noun","article":"le","plural":"pantalons","ja":"ズボン","en":"trousers, pants"}
+{"lemma":"papa","pos":"noun","article":"le","plural":"papas","ja":"パパ、お父さん","en":"dad"}
+{"lemma":"pape","pos":"noun","article":"le","plural":"papes","ja":"教皇","en":"pope"}
+{"lemma":"paquet","pos":"noun","article":"le","plural":"paquets","ja":"包み、箱、小包","en":"packet, parcel"}
+{"lemma":"par","pos":"preposition","ja":"〜によって、〜を通って、〜ごとに","en":"by, through, per"}
+{"lemma":"paradis","pos":"noun","article":"le","ja":"天国、楽園","en":"paradise, heaven","note":"invariable au pluriel : les paradis"}
+{"lemma":"parc","pos":"noun","article":"le","plural":"parcs","ja":"公園","en":"park"}
+{"lemma":"parce","pos":"conjunction","ja":"なぜなら（parce que）","en":"because (parce que)"}
+{"lemma":"pardon","pos":"interjection","ja":"すみません、失礼","en":"sorry, excuse me","meanings":[{"ja":"すみません、失礼","en":"sorry, excuse me"},{"ja":"許し","en":"forgiveness, pardon"}]}
+{"lemma":"parfait","pos":"adjective","ja":"完璧な、申し分ない","en":"perfect"}
+{"lemma":"parfois","pos":"adverb","ja":"ときどき","en":"sometimes"}
+{"lemma":"parfum","pos":"noun","article":"le","plural":"parfums","ja":"香水、香り","en":"perfume, scent, flavour"}
+{"lemma":"parisien","pos":"noun","article":"le","plural":"parisiens","ja":"パリの人、パリの","en":"Parisian"}
+{"lemma":"parking","pos":"noun","article":"le","plural":"parkings","ja":"駐車場","en":"car park, parking lot"}
+{"lemma":"parler","pos":"verb","ja":"話す","en":"to speak, to talk"}
+{"lemma":"part","pos":"noun","article":"la","plural":"parts","ja":"部分、分け前、一切れ","en":"part, share, slice"}
+{"lemma":"partager","pos":"verb","ja":"分ける、共有する","en":"to share, to divide"}
+{"lemma":"participer","pos":"verb","ja":"参加する","en":"to participate, to take part"}
+{"lemma":"particulier","pos":"adjective","ja":"特別な、個人の","en":"particular, private"}
+{"lemma":"partie","pos":"noun","article":"la","plural":"parties","ja":"部分、試合","en":"part; game, match"}
+{"lemma":"partir","pos":"verb","ja":"出発する、去る","en":"to leave, to go away"}
+{"lemma":"partout","pos":"adverb","ja":"どこでも、至る所に","en":"everywhere"}
+{"lemma":"pas","pos":"adverb","ja":"〜ない（ne … pas）","en":"not (negation with ne)","meanings":[{"ja":"〜ない（ne … pas）","en":"not (with ne)"},{"ja":"歩み、一歩","en":"step, pace"}]}
+{"lemma":"passage","pos":"noun","article":"le","plural":"passages","ja":"通ること、通路、一節","en":"passage, way through"}
+{"lemma":"passer","pos":"verb","ja":"通る、（時を）過ごす、渡す","en":"to pass; to spend (time)"}
+{"lemma":"passion","pos":"noun","article":"la","plural":"passions","ja":"情熱、熱中","en":"passion"}
+{"lemma":"passionner","pos":"verb","ja":"熱中させる、（se passionner pour）夢中になる","en":"to fascinate; (se passionner pour) to be passionate about"}
+{"lemma":"passé","pos":"noun","article":"le","plural":"passés","ja":"過去","en":"the past"}
+{"lemma":"pauvre","pos":"adjective","ja":"貧しい、かわいそうな","en":"poor","note":"pos was noun"}
+{"lemma":"pays","pos":"noun","article":"le","ja":"国","en":"country","note":"invariable au pluriel : les pays"}
+{"lemma":"paysage","pos":"noun","article":"le","plural":"paysages","ja":"風景、景色","en":"landscape, scenery"}
+{"lemma":"peine","pos":"noun","article":"la","plural":"peines","ja":"苦労、悲しみ","en":"trouble, difficulty; sorrow"}
+{"lemma":"peintre","pos":"noun","article":"le","plural":"peintres","ja":"画家、塗装工","en":"painter","note":"épicène — le/la selon la personne"}
+{"lemma":"peinture","pos":"noun","article":"la","plural":"peintures","ja":"絵、絵画、ペンキ","en":"painting; paint"}
+{"lemma":"pendant","pos":"preposition","ja":"〜の間","en":"during, for"}
+{"lemma":"pendre","pos":"verb","ja":"吊る、垂れ下がる","en":"to hang"}
+{"lemma":"penser","pos":"verb","ja":"考える、思う","en":"to think"}
+{"lemma":"perdre","pos":"verb","ja":"失う、負ける","en":"to lose"}
+{"lemma":"permettre","pos":"verb","ja":"許す、可能にする","en":"to allow, to permit"}
+{"lemma":"pers","pos":"adjective","ja":"青緑色の（目の色）","en":"greenish-blue (of eyes)","conf":"low"}
+{"lemma":"personnage","pos":"noun","article":"le","plural":"personnages","ja":"登場人物、人物","en":"character, figure"}
+{"lemma":"personne","pos":"noun","article":"la","plural":"personnes","ja":"人","en":"person","meanings":[{"ja":"人","en":"person"},{"ja":"誰も〜ない（ne … personne）","en":"nobody, no one (with ne)"}]}
+{"lemma":"petit","pos":"adjective","ja":"小さい、幼い","en":"small, little"}
+{"lemma":"peu","pos":"adverb","ja":"少し、あまり〜ない","en":"little, few, not much"}
+{"lemma":"peur","pos":"noun","article":"la","plural":"peurs","ja":"恐れ、怖さ（avoir peur）","en":"fear"}
+{"lemma":"peut-être","pos":"adverb","ja":"たぶん、もしかすると","en":"maybe, perhaps"}
+{"lemma":"photo","pos":"noun","article":"la","plural":"photos","ja":"写真","en":"photo"}
+{"lemma":"pied","pos":"noun","article":"le","plural":"pieds","ja":"足（à pied 歩いて）","en":"foot"}
+{"lemma":"pierre","pos":"noun","article":"la","plural":"pierres","ja":"石","en":"stone"}
+{"lemma":"pire","pos":"adjective","ja":"より悪い、最悪の","en":"worse, worst"}
+{"lemma":"piscine","pos":"noun","article":"la","plural":"piscines","ja":"プール","en":"swimming pool"}
+{"lemma":"piste","pos":"noun","article":"la","plural":"pistes","ja":"コース、ゲレンデ、手がかり","en":"track, trail, slope"}
+{"lemma":"pièce","pos":"noun","article":"la","plural":"pièces","ja":"部屋、硬貨、部品、劇","en":"room; coin; part; play"}
+{"lemma":"place","pos":"noun","article":"la","plural":"places","ja":"広場、席、場所","en":"square; seat; place"}
+{"lemma":"plage","pos":"noun","article":"la","plural":"plages","ja":"浜辺、ビーチ","en":"beach"}
+{"lemma":"plaire","pos":"verb","ja":"気に入る、好かれる（s'il vous plaît）","en":"to please, to be liked"}
+{"lemma":"plaisir","pos":"noun","article":"le","plural":"plaisirs","ja":"喜び、楽しみ","en":"pleasure"}
+{"lemma":"plan","pos":"noun","article":"le","plural":"plans","ja":"計画、地図","en":"plan; map"}
+{"lemma":"planche","pos":"noun","article":"la","plural":"planches","ja":"板、ボード","en":"board, plank"}
+{"lemma":"plante","pos":"noun","article":"la","plural":"plantes","ja":"植物","en":"plant"}
+{"lemma":"plat","pos":"noun","article":"le","plural":"plats","ja":"料理、皿","en":"dish"}
+{"lemma":"plateau","pos":"noun","article":"le","plural":"plateaux","ja":"お盆、台地","en":"tray; plateau"}
+{"lemma":"plein","pos":"adjective","ja":"いっぱいの、満ちた","en":"full"}
+{"lemma":"pleurer","pos":"verb","ja":"泣く","en":"to cry"}
+{"lemma":"pleuvoir","pos":"verb","ja":"雨が降る","en":"to rain"}
+{"lemma":"pluie","pos":"noun","article":"la","plural":"pluies","ja":"雨","en":"rain"}
+{"lemma":"plus","pos":"adverb","ja":"もっと、より多く、〜足す","en":"more; plus"}
+{"lemma":"plusieurs","pos":"pronoun","ja":"いくつも、何人も","en":"several"}
+{"lemma":"plutôt","pos":"adverb","ja":"むしろ、かなり","en":"rather"}
+{"lemma":"poisson","pos":"noun","article":"le","plural":"poissons","ja":"魚","en":"fish"}
+{"lemma":"police","pos":"noun","article":"la","plural":"polices","ja":"警察","en":"police"}
+{"lemma":"politique","pos":"adjective","ja":"政治の","en":"political"}
+{"lemma":"pomme","pos":"noun","article":"la","plural":"pommes","ja":"りんご","en":"apple"}
+{"lemma":"pont","pos":"noun","article":"le","plural":"ponts","ja":"橋","en":"bridge"}
+{"lemma":"population","pos":"noun","article":"la","plural":"populations","ja":"人口、住民","en":"population"}
+{"lemma":"port","pos":"noun","article":"le","plural":"ports","ja":"港","en":"port, harbour"}
+{"lemma":"portable","pos":"adjective","ja":"携帯の（téléphone portable）","en":"portable, mobile"}
+{"lemma":"porte","pos":"noun","article":"la","plural":"portes","ja":"ドア、扉","en":"door"}
+{"lemma":"porter","pos":"verb","ja":"運ぶ、身に着けている","en":"to carry; to wear"}
+{"lemma":"poser","pos":"verb","ja":"置く、（質問を）する","en":"to put down; to ask (a question)"}
+{"lemma":"possible","pos":"adjective","ja":"可能な、ありうる","en":"possible"}
+{"lemma":"posséder","pos":"verb","ja":"所有する、持つ","en":"to own, to possess"}
+{"lemma":"poste","pos":"noun","article":"la","plural":"postes","ja":"郵便局、郵便","en":"post office, mail","note":"la poste = 郵便局（le poste = 職・ポスト）"}
+{"lemma":"pour","pos":"preposition","ja":"〜のために、〜に向けて","en":"for","meanings":[{"ja":"〜のために、〜向けの","en":"for, intended for"},{"ja":"〜するために（pour + 不定詞）","en":"in order to (+ infinitive)"}]}
+{"lemma":"pourquoi","pos":"adverb","ja":"なぜ、どうして","en":"why"}
+{"lemma":"pourtant","pos":"adverb","ja":"それなのに、しかし","en":"however, yet"}
+{"lemma":"pouvoir","pos":"verb","ja":"〜できる、〜してもよい","en":"can, to be able to"}
+{"lemma":"pratiquer","pos":"verb","ja":"（スポーツなどを）する、練習する","en":"to practise, to do (a sport)"}
+{"lemma":"premier","pos":"adjective","ja":"最初の、1番目の","en":"first","note":"pos was noun"}
+{"lemma":"prendre","pos":"verb","ja":"取る、（乗り物に）乗る、食べる","en":"to take; to have (food)"}
+{"lemma":"presque","pos":"adverb","ja":"ほとんど","en":"almost, nearly"}
+{"lemma":"presser","pos":"verb","ja":"押す、絞る、（se presser）急ぐ","en":"to press, to squeeze; (se presser) to hurry"}
+{"lemma":"prier","pos":"verb","ja":"祈る、頼む（je vous en prie）","en":"to pray; to beg, to ask"}
+{"lemma":"prince","pos":"noun","article":"le","plural":"princes","ja":"王子、公","en":"prince"}
+{"lemma":"principal","pos":"adjective","ja":"主要な、いちばん大事な","en":"main, principal"}
+{"lemma":"printemps","pos":"noun","article":"le","ja":"春","en":"spring","note":"invariable au pluriel : les printemps"}
+{"lemma":"prison","pos":"noun","article":"la","plural":"prisons","ja":"刑務所","en":"prison"}
+{"lemma":"prix","pos":"noun","article":"le","ja":"値段、賞","en":"price; prize","note":"invariable au pluriel : les prix"}
+{"lemma":"problème","pos":"noun","article":"le","plural":"problèmes","ja":"問題","en":"problem"}
+{"lemma":"prochain","pos":"adjective","ja":"次の、来〜","en":"next"}
+{"lemma":"produire","pos":"verb","ja":"生産する、生み出す","en":"to produce"}
+{"lemma":"produit","pos":"noun","article":"le","plural":"produits","ja":"製品、産物","en":"product"}
+{"lemma":"prof","pos":"noun","article":"le","plural":"profs","ja":"先生（口語）","en":"teacher (informal)","note":"épicène — le/la selon la personne"}
+{"lemma":"professeur","pos":"noun","article":"le","plural":"professeurs","ja":"先生、教師","en":"teacher, professor","note":"le professeur / la professeure selon la personne"}
+{"lemma":"profiter","pos":"verb","ja":"利用する、楽しむ","en":"to make the most of, to enjoy"}
+{"lemma":"programme","pos":"noun","article":"le","plural":"programmes","ja":"番組、プログラム、計画","en":"programme, schedule"}
+{"lemma":"projet","pos":"noun","article":"le","plural":"projets","ja":"計画、プロジェクト","en":"project, plan"}
+{"lemma":"promenade","pos":"noun","article":"la","plural":"promenades","ja":"散歩","en":"walk, stroll"}
+{"lemma":"promener","pos":"verb","ja":"（se promener）散歩する、散歩させる","en":"to take for a walk; (se promener) to go for a walk"}
+{"lemma":"promettre","pos":"verb","ja":"約束する","en":"to promise"}
+{"lemma":"proposer","pos":"verb","ja":"提案する、勧める","en":"to propose, to offer"}
+{"lemma":"proposition","pos":"noun","article":"la","plural":"propositions","ja":"提案","en":"proposal, suggestion"}
+{"lemma":"propre","pos":"adjective","ja":"きれいな、自分自身の","en":"clean; own"}
+{"lemma":"propriétaire","pos":"noun","article":"le","plural":"propriétaires","ja":"所有者、大家","en":"owner, landlord","note":"épicène — le/la selon la personne"}
+{"lemma":"protéger","pos":"verb","ja":"守る、保護する","en":"to protect"}
+{"lemma":"province","pos":"noun","article":"la","plural":"provinces","ja":"地方、州","en":"province"}
+{"lemma":"près","pos":"adverb","ja":"近くに（près de 〜のそばに）","en":"near, close (près de)"}
+{"lemma":"préférer","pos":"verb","ja":"より好む","en":"to prefer"}
+{"lemma":"préféré","pos":"adjective","ja":"お気に入りの、いちばん好きな","en":"favourite"}
+{"lemma":"prénom","pos":"noun","article":"le","plural":"prénoms","ja":"名前（ファーストネーム）","en":"first name"}
+{"lemma":"préparer","pos":"verb","ja":"準備する、作る","en":"to prepare"}
+{"lemma":"présenter","pos":"verb","ja":"紹介する、提示する","en":"to introduce; to present"}
+{"lemma":"prévoir","pos":"verb","ja":"予定する、予想する","en":"to plan, to foresee"}
+{"lemma":"prêt","pos":"adjective","ja":"準備ができた","en":"ready"}
+{"lemma":"prêter","pos":"verb","ja":"貸す","en":"to lend"}
+{"lemma":"publier","pos":"verb","ja":"出版する、公開する","en":"to publish"}
+{"lemma":"puis","pos":"adverb","ja":"それから、次に","en":"then, next"}
+{"lemma":"pull","pos":"noun","article":"le","plural":"pulls","ja":"セーター","en":"sweater, jumper"}
+{"lemma":"pyramide","pos":"noun","article":"la","plural":"pyramides","ja":"ピラミッド","en":"pyramid"}
+{"lemma":"pâte","pos":"noun","article":"la","plural":"pâtes","ja":"生地、（複数で）パスタ","en":"dough, paste; (plural) pasta"}
+{"lemma":"pâté","pos":"noun","article":"le","plural":"pâtés","ja":"パテ（肉料理）","en":"pâté"}
+{"lemma":"père","pos":"noun","article":"le","plural":"pères","ja":"父","en":"father"}
+{"lemma":"qu'","pos":"adverb","ja":"que の縮約形（母音の前）","en":"elided form of que","conf":"low"}
+{"lemma":"quai","pos":"noun","article":"le","plural":"quais","ja":"（駅の）ホーム、河岸","en":"platform; quay"}
+{"lemma":"qualité","pos":"noun","article":"la","plural":"qualités","ja":"質、長所","en":"quality"}
+{"lemma":"quand","pos":"adverb","ja":"いつ","en":"when","meanings":[{"ja":"いつ（疑問）","en":"when (question word)"},{"ja":"〜のとき","en":"when (conjunction)"}]}
+{"lemma":"quart","pos":"noun","article":"le","plural":"quarts","ja":"4分の1、15分","en":"quarter"}
+{"lemma":"quartier","pos":"noun","article":"le","plural":"quartiers","ja":"地区、界隈","en":"neighbourhood, district"}
+{"lemma":"que","pos":"pronoun","ja":"何を（疑問・関係代名詞）","en":"what; that, which","meanings":[{"ja":"何を（疑問・関係代名詞）","en":"what; that, which (pronoun)"},{"ja":"〜ということ（接続詞）","en":"that (conjunction)"}]}
+{"lemma":"quel","pos":"pronoun","ja":"どの、どんな","en":"which, what"}
+{"lemma":"quelqu'un","pos":"pronoun","ja":"誰か","en":"someone, somebody"}
+{"lemma":"quelque","pos":"pronoun","ja":"いくつかの、何らかの","en":"some, a few"}
+{"lemma":"quelquefois","pos":"adverb","ja":"ときどき","en":"sometimes"}
+{"lemma":"question","pos":"noun","article":"la","plural":"questions","ja":"質問、問題","en":"question"}
+{"lemma":"qui","pos":"pronoun","ja":"誰、〜する（人・もの）","en":"who; that, which"}
+{"lemma":"quitter","pos":"verb","ja":"去る、離れる","en":"to leave"}
+{"lemma":"quoi","pos":"pronoun","ja":"何","en":"what"}
+{"lemma":"raconter","pos":"verb","ja":"語る、話して聞かせる","en":"to tell (a story), to recount"}
+{"lemma":"raison","pos":"noun","article":"la","plural":"raisons","ja":"理由、（avoir raison）正しい","en":"reason"}
+{"lemma":"ranger","pos":"verb","ja":"片付ける、整理する","en":"to tidy up, to put away"}
+{"lemma":"rapide","pos":"adjective","ja":"速い","en":"fast, quick"}
+{"lemma":"rapidement","pos":"adverb","ja":"速く、素早く","en":"quickly"}
+{"lemma":"rappeler","pos":"verb","ja":"思い出させる、電話をかけ直す、（se rappeler）覚えている","en":"to remind; to call back; (se rappeler) to remember"}
+{"lemma":"recevoir","pos":"verb","ja":"受け取る、迎える","en":"to receive"}
+{"lemma":"recherche","pos":"noun","article":"la","plural":"recherches","ja":"研究、探すこと","en":"research; search"}
+{"lemma":"rechercher","pos":"verb","ja":"探す、検索する","en":"to search for, to look for"}
+{"lemma":"recommencer","pos":"verb","ja":"もう一度始める、やり直す","en":"to start again"}
+{"lemma":"reconnaître","pos":"verb","ja":"見分ける、認める","en":"to recognize; to admit"}
+{"lemma":"refuser","pos":"verb","ja":"断る、拒む","en":"to refuse"}
+{"lemma":"regarder","pos":"verb","ja":"見る、眺める","en":"to look at, to watch"}
+{"lemma":"regretter","pos":"verb","ja":"後悔する、残念に思う","en":"to regret, to be sorry"}
+{"lemma":"reine","pos":"noun","article":"la","plural":"reines","ja":"女王","en":"queen"}
+{"lemma":"remarquer","pos":"verb","ja":"気づく","en":"to notice"}
+{"lemma":"remercier","pos":"verb","ja":"感謝する、礼を言う","en":"to thank"}
+{"lemma":"remonter","pos":"verb","ja":"また上がる、さかのぼる","en":"to go back up"}
+{"lemma":"remplacer","pos":"verb","ja":"取り替える、代わりをする","en":"to replace"}
+{"lemma":"rencontre","pos":"noun","article":"la","plural":"rencontres","ja":"出会い、会合","en":"meeting, encounter"}
+{"lemma":"rencontrer","pos":"verb","ja":"出会う、会う","en":"to meet"}
+{"lemma":"rendez-vous","pos":"noun","article":"le","ja":"約束、予約","en":"appointment, date","note":"invariable au pluriel : les rendez-vous"}
+{"lemma":"rendre","pos":"verb","ja":"返す、〜にする","en":"to give back; to make (+ adjective)"}
+{"lemma":"rentrer","pos":"verb","ja":"帰る、家に戻る","en":"to go home, to come back in"}
+{"lemma":"repartir","pos":"verb","ja":"また出発する","en":"to set off again"}
+{"lemma":"repas","pos":"noun","article":"le","ja":"食事","en":"meal","note":"invariable au pluriel : les repas"}
+{"lemma":"reposer","pos":"verb","ja":"（se reposer）休む、また置く","en":"to rest; (se reposer) to have a rest"}
+{"lemma":"reprendre","pos":"verb","ja":"再開する、また取る","en":"to resume; to take again"}
+{"lemma":"représenter","pos":"verb","ja":"表す、代表する","en":"to represent"}
+{"lemma":"respecter","pos":"verb","ja":"尊重する、守る","en":"to respect"}
+{"lemma":"responsable","pos":"adjective","ja":"責任のある","en":"responsible"}
+{"lemma":"ressembler","pos":"verb","ja":"似ている（ressembler à）","en":"to look like, to resemble"}
+{"lemma":"restaurant","pos":"noun","article":"le","plural":"restaurants","ja":"レストラン","en":"restaurant"}
+{"lemma":"reste","pos":"noun","article":"le","plural":"restes","ja":"残り","en":"rest, remainder"}
+{"lemma":"rester","pos":"verb","ja":"とどまる、残る","en":"to stay, to remain"}
+{"lemma":"retard","pos":"noun","article":"le","plural":"retards","ja":"遅れ（en retard 遅刻して）","en":"delay, lateness"}
+{"lemma":"retirer","pos":"verb","ja":"引き出す、取り外す","en":"to withdraw; to take off"}
+{"lemma":"retour","pos":"noun","article":"le","plural":"retours","ja":"帰り、戻り","en":"return"}
+{"lemma":"retourner","pos":"verb","ja":"戻る、帰る、裏返す","en":"to return, to go back"}
+{"lemma":"retrouver","pos":"verb","ja":"再び見つける、再会する","en":"to find again; to meet up with"}
+{"lemma":"revenir","pos":"verb","ja":"戻ってくる、帰ってくる","en":"to come back"}
+{"lemma":"revoir","pos":"verb","ja":"また会う、再会する","en":"to see again"}
+{"lemma":"riche","pos":"adjective","ja":"金持ちの、豊かな","en":"rich"}
+{"lemma":"rien","pos":"pronoun","ja":"何も（ない）","en":"nothing","meanings":[{"ja":"何も（ない）","en":"nothing, anything"},{"ja":"無、些細なこと","en":"nothing, a trifle"}],"note":"pronom indéfini ; aussi nom (le rien)"}
+{"lemma":"rire","pos":"verb","ja":"笑う","en":"to laugh"}
+{"lemma":"rivière","pos":"noun","article":"la","plural":"rivières","ja":"川","en":"river"}
+{"lemma":"riz","pos":"noun","article":"le","ja":"米、ご飯","en":"rice"}
+{"lemma":"rock","pos":"noun","article":"le","plural":"rocks","ja":"ロック（音楽）","en":"rock (music)"}
+{"lemma":"roi","pos":"noun","article":"le","plural":"rois","ja":"王","en":"king"}
+{"lemma":"roman","pos":"noun","article":"le","plural":"romans","ja":"小説","en":"novel"}
+{"lemma":"romantique","pos":"adjective","ja":"ロマンチックな","en":"romantic"}
+{"lemma":"roue","pos":"noun","article":"la","plural":"roues","ja":"車輪","en":"wheel"}
+{"lemma":"rouge","pos":"adjective","ja":"赤い","en":"red"}
+{"lemma":"rouler","pos":"verb","ja":"（車が）走る、転がる","en":"to drive, to roll"}
+{"lemma":"route","pos":"noun","article":"la","plural":"routes","ja":"道路、ルート","en":"road, route"}
+{"lemma":"rue","pos":"noun","article":"la","plural":"rues","ja":"通り","en":"street"}
+{"lemma":"réaliser","pos":"verb","ja":"実現する、気づく","en":"to achieve, to realize"}
+{"lemma":"réalité","pos":"noun","article":"la","plural":"réalités","ja":"現実","en":"reality"}
+{"lemma":"réfléchir","pos":"verb","ja":"よく考える","en":"to think, to reflect"}
+{"lemma":"région","pos":"noun","article":"la","plural":"régions","ja":"地方、地域","en":"region"}
+{"lemma":"régler","pos":"verb","ja":"支払う、調整する","en":"to settle, to adjust"}
+{"lemma":"répondre","pos":"verb","ja":"答える","en":"to answer"}
+{"lemma":"réponse","pos":"noun","article":"la","plural":"réponses","ja":"答え、返事","en":"answer, reply"}
+{"lemma":"république","pos":"noun","article":"la","plural":"républiques","ja":"共和国","en":"republic"}
+{"lemma":"répéter","pos":"verb","ja":"繰り返す","en":"to repeat"}
+{"lemma":"réserver","pos":"verb","ja":"予約する","en":"to reserve, to book"}
+{"lemma":"réunion","pos":"noun","article":"la","plural":"réunions","ja":"会議、集まり","en":"meeting"}
+{"lemma":"réunir","pos":"verb","ja":"集める、集まる","en":"to gather, to bring together"}
+{"lemma":"réussir","pos":"verb","ja":"成功する、合格する","en":"to succeed, to pass"}
+{"lemma":"réveiller","pos":"verb","ja":"起こす、（se réveiller）目が覚める","en":"to wake up"}
+{"lemma":"réveillon","pos":"noun","article":"le","plural":"réveillons","ja":"大晦日やクリスマスイブの夜の食事","en":"New Year's Eve / Christmas Eve dinner"}
+{"lemma":"rêve","pos":"noun","article":"le","plural":"rêves","ja":"夢","en":"dream"}
+{"lemma":"rêver","pos":"verb","ja":"夢を見る","en":"to dream"}
+{"lemma":"rôle","pos":"noun","article":"le","plural":"rôles","ja":"役、役割","en":"role"}
+{"lemma":"sac","pos":"noun","article":"le","plural":"sacs","ja":"かばん、袋","en":"bag"}
+{"lemma":"salade","pos":"noun","article":"la","plural":"salades","ja":"サラダ","en":"salad"}
+{"lemma":"sale","pos":"adjective","ja":"汚い","en":"dirty"}
+{"lemma":"salle","pos":"noun","article":"la","plural":"salles","ja":"部屋、ホール","en":"room, hall"}
+{"lemma":"salon","pos":"noun","article":"le","plural":"salons","ja":"居間、リビング","en":"living room"}
+{"lemma":"saluer","pos":"verb","ja":"あいさつする","en":"to greet"}
+{"lemma":"salut","pos":"noun","article":"le","plural":"saluts","ja":"やあ（あいさつ）、あいさつ","en":"hi; greeting"}
+{"lemma":"samedi","pos":"noun","article":"le","plural":"samedis","ja":"土曜日","en":"Saturday"}
+{"lemma":"sans","pos":"preposition","ja":"〜なしで","en":"without"}
+{"lemma":"santé","pos":"noun","article":"la","plural":"santés","ja":"健康","en":"health"}
+{"lemma":"sapin","pos":"noun","article":"le","plural":"sapins","ja":"モミの木、クリスマスツリー","en":"fir tree, Christmas tree"}
+{"lemma":"sauver","pos":"verb","ja":"救う、助ける","en":"to save, to rescue"}
+{"lemma":"savoir","pos":"verb","ja":"知っている、〜できる","en":"to know"}
+{"lemma":"science","pos":"noun","article":"la","plural":"sciences","ja":"科学","en":"science"}
+{"lemma":"scientifique","pos":"adjective","ja":"科学の、科学的な","en":"scientific"}
+{"lemma":"scolaire","pos":"adjective","ja":"学校の","en":"school (related)"}
+{"lemma":"se","pos":"pronoun","ja":"自分を、自分に（再帰代名詞）","en":"oneself (reflexive)"}
+{"lemma":"sec","pos":"adjective","ja":"乾いた、辛口の","en":"dry"}
+{"lemma":"secret","pos":"noun","article":"le","plural":"secrets","ja":"秘密","en":"secret"}
+{"lemma":"secrétaire","pos":"noun","article":"le","plural":"secrétaires","ja":"秘書","en":"secretary","note":"épicène — le/la selon la personne"}
+{"lemma":"selon","pos":"preposition","ja":"〜によれば、〜に応じて","en":"according to"}
+{"lemma":"semaine","pos":"noun","article":"la","plural":"semaines","ja":"週","en":"week"}
+{"lemma":"sembler","pos":"verb","ja":"〜のように見える、思われる","en":"to seem"}
+{"lemma":"sentir","pos":"verb","ja":"感じる、においがする","en":"to feel, to smell"}
+{"lemma":"septembre","pos":"noun","article":"le","ja":"9月","en":"September"}
+{"lemma":"serpent","pos":"noun","article":"le","plural":"serpents","ja":"蛇","en":"snake"}
+{"lemma":"serveur","pos":"noun","article":"le","plural":"serveurs","ja":"ウェイター、サーバー","en":"waiter; server"}
+{"lemma":"service","pos":"noun","article":"le","plural":"services","ja":"サービス、サービス料","en":"service"}
+{"lemma":"servir","pos":"verb","ja":"出す、役に立つ","en":"to serve, to be useful"}
+{"lemma":"seul","pos":"adjective","ja":"一人の、ただ一つの","en":"alone, only"}
+{"lemma":"seulement","pos":"adverb","ja":"だけ、ただ","en":"only"}
+{"lemma":"si","pos":"conjunction","ja":"もし〜なら、そんなに","en":"if; so","meanings":[{"ja":"もし〜なら","en":"if"},{"ja":"そんなに、とても","en":"so, such"}],"note":"conjonction (si…) / adverbe (si + adjectif)"}
+{"lemma":"silence","pos":"noun","article":"le","plural":"silences","ja":"沈黙、静けさ","en":"silence"}
+{"lemma":"simple","pos":"adjective","ja":"簡単な、単純な","en":"simple, easy"}
+{"lemma":"sinon","pos":"conjunction","ja":"そうでなければ","en":"otherwise, if not"}
+{"lemma":"site","pos":"noun","article":"le","plural":"sites","ja":"サイト、場所","en":"site, website"}
+{"lemma":"situation","pos":"noun","article":"la","plural":"situations","ja":"状況、立場","en":"situation"}
+{"lemma":"situer","pos":"verb","ja":"位置づける、（se〜）位置する","en":"to locate, to situate"}
+{"lemma":"siècle","pos":"noun","article":"le","plural":"siècles","ja":"世紀","en":"century"}
+{"lemma":"ski","pos":"noun","article":"le","plural":"skis","ja":"スキー","en":"ski, skiing"}
+{"lemma":"société","pos":"noun","article":"la","plural":"sociétés","ja":"社会、会社","en":"society, company"}
+{"lemma":"soir","pos":"noun","article":"le","plural":"soirs","ja":"夕方、晩","en":"evening"}
+{"lemma":"soirée","pos":"noun","article":"la","plural":"soirées","ja":"夕べ、パーティー","en":"evening, party"}
+{"lemma":"soit","pos":"conjunction","ja":"すなわち、〜か〜か","en":"either… or; that is"}
+{"lemma":"solde","pos":"noun","article":"le","plural":"soldes","ja":"バーゲン、セール","en":"sale, sales","note":"le solde (les soldes = バーゲン) ≠ la solde (給与)"}
+{"lemma":"soleil","pos":"noun","article":"le","plural":"soleils","ja":"太陽、日光","en":"sun"}
+{"lemma":"solution","pos":"noun","article":"la","plural":"solutions","ja":"解決策","en":"solution"}
+{"lemma":"sommet","pos":"noun","article":"le","plural":"sommets","ja":"頂上、サミット","en":"summit, top"}
+{"lemma":"son","pos":"determiner","ja":"彼の、彼女の","en":"his, her, its","meanings":[{"ja":"彼の、彼女の","en":"his, her, its"},{"ja":"音","en":"sound"}],"note":"déterminant possessif ; aussi nom (le son = 音)"}
+{"lemma":"sonner","pos":"verb","ja":"鳴る、鳴らす","en":"to ring"}
+{"lemma":"sort","pos":"noun","article":"le","plural":"sorts","ja":"運命、くじ","en":"fate, lot"}
+{"lemma":"sortie","pos":"noun","article":"la","plural":"sorties","ja":"出口、外出","en":"exit, outing"}
+{"lemma":"sortir","pos":"verb","ja":"出る、外出する","en":"to go out"}
+{"lemma":"soudain","pos":"adverb","ja":"突然","en":"suddenly"}
+{"lemma":"souffler","pos":"verb","ja":"（風が）吹く、息を吹く","en":"to blow"}
+{"lemma":"souhaiter","pos":"verb","ja":"願う、望む","en":"to wish"}
+{"lemma":"soupe","pos":"noun","article":"la","plural":"soupes","ja":"スープ","en":"soup"}
+{"lemma":"sourire","pos":"verb","ja":"微笑む","en":"to smile","meanings":[{"ja":"微笑む","en":"to smile"},{"ja":"笑顔、微笑み","en":"smile"}],"note":"verbe ; aussi nom (le sourire)"}
+{"lemma":"sous","pos":"preposition","ja":"〜の下に","en":"under"}
+{"lemma":"souvenir","pos":"verb","ja":"（se souvenir de）思い出す","en":"to remember","meanings":[{"ja":"（se souvenir de）思い出す","en":"to remember"},{"ja":"思い出、みやげ","en":"memory, souvenir"}],"note":"verbe pronominal ; aussi nom (le souvenir)"}
+{"lemma":"souvent","pos":"adverb","ja":"よく、しばしば","en":"often"}
+{"lemma":"spectacle","pos":"noun","article":"le","plural":"spectacles","ja":"ショー、公演","en":"show, performance"}
+{"lemma":"sport","pos":"noun","article":"le","plural":"sports","ja":"スポーツ","en":"sport"}
+{"lemma":"sportif","pos":"adjective","ja":"スポーツ好きの、運動の","en":"sporty, athletic","meanings":[{"ja":"スポーツ好きの、運動の","en":"sporty, athletic"},{"ja":"スポーツ選手","en":"athlete, sportsperson"}],"note":"adjectif ; aussi nom (un sportif)"}
+{"lemma":"spécial","pos":"adjective","ja":"特別な","en":"special"}
+{"lemma":"spécialité","pos":"noun","article":"la","plural":"spécialités","ja":"専門、名物料理","en":"speciality"}
+{"lemma":"station","pos":"noun","article":"la","plural":"stations","ja":"駅（地下鉄）、〜場","en":"station"}
+{"lemma":"studio","pos":"noun","article":"le","plural":"studios","ja":"ワンルーム、スタジオ","en":"studio (flat)"}
+{"lemma":"succès","pos":"noun","article":"le","ja":"成功","en":"success"}
+{"lemma":"sucre","pos":"noun","article":"le","plural":"sucres","ja":"砂糖","en":"sugar"}
+{"lemma":"sud","pos":"noun","article":"le","ja":"南","en":"south"}
+{"lemma":"suite","pos":"noun","article":"la","plural":"suites","ja":"続き、（tout de suite）すぐに","en":"continuation, sequel"}
+{"lemma":"suivre","pos":"verb","ja":"ついていく、追う、受講する","en":"to follow"}
+{"lemma":"super","pos":"adjective","ja":"すごい、素晴らしい","en":"great, super"}
+{"lemma":"superbe","pos":"adjective","ja":"見事な、すばらしい","en":"superb, magnificent"}
+{"lemma":"supermarché","pos":"noun","article":"le","plural":"supermarchés","ja":"スーパーマーケット","en":"supermarket"}
+{"lemma":"supérieur","pos":"adjective","ja":"上の、優れた、高等の","en":"upper, superior"}
+{"lemma":"sur","pos":"preposition","ja":"〜の上に、〜について","en":"on, about"}
+{"lemma":"surprendre","pos":"verb","ja":"驚かせる","en":"to surprise"}
+{"lemma":"surprise","pos":"noun","article":"la","plural":"surprises","ja":"驚き、サプライズ","en":"surprise"}
+{"lemma":"surtout","pos":"adverb","ja":"特に、とりわけ","en":"especially, above all"}
+{"lemma":"sympa","pos":"adjective","ja":"感じのいい、親切な","en":"nice, friendly"}
+{"lemma":"sympathique","pos":"adjective","ja":"感じのいい","en":"nice, likeable"}
+{"lemma":"soeur","pos":"noun","article":"la","plural":"soeurs","ja":"姉、妹","en":"sister"}
+{"lemma":"séjour","pos":"noun","article":"le","plural":"séjours","ja":"滞在、居間","en":"stay; living room"}
+{"lemma":"sérieux","pos":"adjective","ja":"まじめな、深刻な","en":"serious"}
+{"lemma":"sûr","pos":"adjective","ja":"確かな、安全な","en":"sure, safe"}
+{"lemma":"sûrement","pos":"adverb","ja":"確かに、きっと","en":"surely, certainly"}
+{"lemma":"table","pos":"noun","article":"la","plural":"tables","ja":"テーブル、食卓","en":"table"}
+{"lemma":"tableau","pos":"noun","article":"le","plural":"tableaux","ja":"絵、黒板","en":"painting; board"}
+{"lemma":"taille","pos":"noun","article":"la","plural":"tailles","ja":"サイズ、身長、ウエスト","en":"size, height, waist"}
+{"lemma":"tant","pos":"adverb","ja":"それほど、そんなに多く","en":"so much, so many"}
+{"lemma":"tante","pos":"noun","article":"la","plural":"tantes","ja":"おば","en":"aunt"}
+{"lemma":"tard","pos":"adverb","ja":"遅く","en":"late"}
+{"lemma":"tartine","pos":"noun","article":"la","plural":"tartines","ja":"バターやジャムを塗ったパン","en":"slice of bread with spread"}
+{"lemma":"taxi","pos":"noun","article":"le","plural":"taxis","ja":"タクシー","en":"taxi"}
+{"lemma":"te","pos":"pronoun","ja":"君を、君に","en":"you (object)"}
+{"lemma":"technologie","pos":"noun","article":"la","plural":"technologies","ja":"技術、テクノロジー","en":"technology"}
+{"lemma":"tellement","pos":"adverb","ja":"とても、そんなに","en":"so, so much"}
+{"lemma":"temps","pos":"noun","article":"le","ja":"時間、天気","en":"time; weather"}
+{"lemma":"température","pos":"noun","article":"la","plural":"températures","ja":"温度、体温","en":"temperature"}
+{"lemma":"tenir","pos":"verb","ja":"持つ、保つ","en":"to hold, to keep"}
+{"lemma":"tennis","pos":"noun","article":"le","ja":"テニス","en":"tennis"}
+{"lemma":"tente","pos":"noun","article":"la","plural":"tentes","ja":"テント","en":"tent"}
+{"lemma":"terminer","pos":"verb","ja":"終える、終わる","en":"to finish"}
+{"lemma":"terrasse","pos":"noun","article":"la","plural":"terrasses","ja":"テラス","en":"terrace"}
+{"lemma":"terre","pos":"noun","article":"la","plural":"terres","ja":"地面、土、地球","en":"earth, ground, land"}
+{"lemma":"terrible","pos":"adjective","ja":"ひどい、恐ろしい","en":"terrible, dreadful"}
+{"lemma":"texte","pos":"noun","article":"le","plural":"textes","ja":"テキスト、文章","en":"text"}
+{"lemma":"thé","pos":"noun","article":"le","plural":"thés","ja":"お茶、紅茶","en":"tea"}
+{"lemma":"théâtre","pos":"noun","article":"le","plural":"théâtres","ja":"劇場、演劇","en":"theatre"}
+{"lemma":"tiens","pos":"interjection","ja":"あら、ほら、さあ","en":"here!, well!"}
+{"lemma":"timide","pos":"adjective","ja":"内気な、恥ずかしがりの","en":"shy"}
+{"lemma":"tirer","pos":"verb","ja":"引く、引っ張る","en":"to pull"}
+{"lemma":"tiroir","pos":"noun","article":"le","plural":"tiroirs","ja":"引き出し","en":"drawer"}
+{"lemma":"toi","pos":"pronoun","ja":"君、あなた（強勢形）","en":"you"}
+{"lemma":"toilette","pos":"noun","article":"la","plural":"toilettes","ja":"トイレ、身支度","en":"toilet; washing","note":"au pluriel : les toilettes = トイレ"}
+{"lemma":"toit","pos":"noun","article":"le","plural":"toits","ja":"屋根","en":"roof"}
+{"lemma":"tomate","pos":"noun","article":"la","plural":"tomates","ja":"トマト","en":"tomato"}
+{"lemma":"tomber","pos":"verb","ja":"落ちる、倒れる","en":"to fall"}
+{"lemma":"tommy","pos":"noun","article":"le","ja":"トミー（人名）","en":"Tommy (name)","conf":"low","note":"prénom relevé dans le corpus"}
+{"lemma":"ton","pos":"determiner","ja":"君の","en":"your"}
+{"lemma":"toucher","pos":"verb","ja":"触る、触れる","en":"to touch"}
+{"lemma":"toujours","pos":"adverb","ja":"いつも、まだ","en":"always; still"}
+{"lemma":"tour","pos":"noun","article":"la","plural":"tours","ja":"塔","en":"tower","note":"la tour = 塔 / le tour = 順番・一周"}
+{"lemma":"tourisme","pos":"noun","article":"le","ja":"観光","en":"tourism"}
+{"lemma":"touriste","pos":"noun","article":"le","plural":"touristes","ja":"観光客","en":"tourist","note":"épicène — le/la selon la personne"}
+{"lemma":"tourner","pos":"verb","ja":"回る、曲がる","en":"to turn"}
+{"lemma":"tout","pos":"pronoun","ja":"すべて、全部","en":"all, everything","meanings":[{"ja":"すべて、全部","en":"all, everything"},{"ja":"まったく、とても","en":"quite, very (adverb)"},{"ja":"全体","en":"the whole (noun)"}],"note":"homographe : pronom / adverbe / nom"}
+{"lemma":"tradition","pos":"noun","article":"la","plural":"traditions","ja":"伝統","en":"tradition"}
+{"lemma":"train","pos":"noun","article":"le","plural":"trains","ja":"電車、列車","en":"train"}
+{"lemma":"tranquille","pos":"adjective","ja":"静かな、落ち着いた","en":"quiet, calm"}
+{"lemma":"transformer","pos":"verb","ja":"変える、変形させる","en":"to transform"}
+{"lemma":"travail","pos":"noun","article":"le","plural":"travaux","ja":"仕事、勉強","en":"work, job"}
+{"lemma":"travailler","pos":"verb","ja":"働く、勉強する","en":"to work"}
+{"lemma":"traverser","pos":"verb","ja":"渡る、横断する","en":"to cross"}
+{"lemma":"triste","pos":"adjective","ja":"悲しい","en":"sad"}
+{"lemma":"tromper","pos":"verb","ja":"欺く、（se tromper）間違える","en":"to deceive; (se) to be mistaken"}
+{"lemma":"trop","pos":"adverb","ja":"あまりに、〜すぎる","en":"too, too much"}
+{"lemma":"trouver","pos":"verb","ja":"見つける、〜だと思う","en":"to find; to think"}
+{"lemma":"très","pos":"adverb","ja":"とても","en":"very"}
+{"lemma":"tu","pos":"pronoun","ja":"君は、あなたは","en":"you (subject, informal)"}
+{"lemma":"type","pos":"noun","article":"le","plural":"types","ja":"タイプ、種類、やつ","en":"type, kind; guy"}
+{"lemma":"télé","pos":"noun","article":"la","plural":"télés","ja":"テレビ","en":"TV"}
+{"lemma":"téléphone","pos":"noun","article":"le","plural":"téléphones","ja":"電話","en":"telephone"}
+{"lemma":"téléphoner","pos":"verb","ja":"電話する","en":"to phone"}
+{"lemma":"télévision","pos":"noun","article":"la","plural":"télévisions","ja":"テレビ","en":"television"}
+{"lemma":"tête","pos":"noun","article":"la","plural":"têtes","ja":"頭","en":"head"}
+{"lemma":"tôt","pos":"adverb","ja":"早く","en":"early"}
+{"lemma":"un","pos":"article","ja":"一つの（不定冠詞）、1","en":"a, an; one","meanings":[{"ja":"一つの（不定冠詞 un/une）","en":"a, an"},{"ja":"1（数）","en":"one"}],"note":"article indéfini ; aussi le numéral 1"}
+{"lemma":"université","pos":"noun","article":"la","plural":"universités","ja":"大学","en":"university"}
+{"lemma":"usine","pos":"noun","article":"la","plural":"usines","ja":"工場","en":"factory"}
+{"lemma":"utiliser","pos":"verb","ja":"使う、利用する","en":"to use"}
+{"lemma":"vacance","pos":"noun","article":"la","plural":"vacances","ja":"休暇、バカンス","en":"holiday, vacation","note":"s'emploie au pluriel : les vacances"}
+{"lemma":"vallée","pos":"noun","article":"la","plural":"vallées","ja":"谷","en":"valley"}
+{"lemma":"varier","pos":"verb","ja":"変わる、変化させる","en":"to vary"}
+{"lemma":"vendre","pos":"verb","ja":"売る","en":"to sell"}
+{"lemma":"vendredi","pos":"noun","article":"le","plural":"vendredis","ja":"金曜日","en":"Friday"}
+{"lemma":"venir","pos":"verb","ja":"来る","en":"to come"}
+{"lemma":"vent","pos":"noun","article":"le","plural":"vents","ja":"風","en":"wind"}
+{"lemma":"verre","pos":"noun","article":"le","plural":"verres","ja":"グラス、ガラス","en":"glass"}
+{"lemma":"vers","pos":"preposition","ja":"〜の方へ、〜ごろ","en":"towards; around (time)"}
+{"lemma":"vert","pos":"adjective","ja":"緑の","en":"green"}
+{"lemma":"viande","pos":"noun","article":"la","plural":"viandes","ja":"肉","en":"meat"}
+{"lemma":"vide","pos":"adjective","ja":"空の","en":"empty"}
+{"lemma":"vie","pos":"noun","article":"la","plural":"vies","ja":"人生、生活、命","en":"life"}
+{"lemma":"vieux","pos":"adjective","ja":"年老いた、古い","en":"old","meanings":[{"ja":"年老いた、古い","en":"old"},{"ja":"老人","en":"old man"}],"note":"pos was noun"}
+{"lemma":"village","pos":"noun","article":"le","plural":"villages","ja":"村","en":"village"}
+{"lemma":"ville","pos":"noun","article":"la","plural":"villes","ja":"町、都市","en":"town, city"}
+{"lemma":"vin","pos":"noun","article":"le","plural":"vins","ja":"ワイン","en":"wine"}
+{"lemma":"visage","pos":"noun","article":"le","plural":"visages","ja":"顔","en":"face"}
+{"lemma":"visite","pos":"noun","article":"la","plural":"visites","ja":"訪問、見学","en":"visit"}
+{"lemma":"visiter","pos":"verb","ja":"訪れる、見学する","en":"to visit"}
+{"lemma":"vite","pos":"adverb","ja":"速く、早く","en":"quickly, fast"}
+{"lemma":"vivre","pos":"verb","ja":"生きる、暮らす","en":"to live"}
+{"lemma":"voici","pos":"adverb","ja":"ここに〜がある、これが〜だ","en":"here is, this is"}
+{"lemma":"voile","pos":"noun","article":"la","plural":"voiles","ja":"帆、ヨット（faire de la voile）","en":"sail; sailing","conf":"low","note":"la voile = 帆・ヨット / le voile = ベール"}
+{"lemma":"voilà","pos":"adverb","ja":"そこに〜がある、はいどうぞ","en":"there is; here you are"}
+{"lemma":"voir","pos":"verb","ja":"見る、会う","en":"to see"}
+{"lemma":"voisin","pos":"noun","article":"le","plural":"voisins","ja":"隣人、近所の人","en":"neighbour","meanings":[{"ja":"隣人、近所の人","en":"neighbour"},{"ja":"隣の、近くの","en":"neighbouring, nearby"}],"note":"nom ; aussi adjectif (voisin)"}
+{"lemma":"voiture","pos":"noun","article":"la","plural":"voitures","ja":"車","en":"car"}
+{"lemma":"voix","pos":"noun","article":"la","ja":"声","en":"voice"}
+{"lemma":"vol","pos":"noun","article":"le","plural":"vols","ja":"フライト、飛行、盗み","en":"flight; theft"}
+{"lemma":"voler","pos":"verb","ja":"飛ぶ、盗む","en":"to fly; to steal"}
+{"lemma":"votre","pos":"determiner","ja":"あなたの、あなたたちの","en":"your"}
+{"lemma":"vouloir","pos":"verb","ja":"〜したい、欲しい","en":"to want"}
+{"lemma":"vous","pos":"pronoun","ja":"あなた（たち）は、あなたを","en":"you (formal or plural)"}
+{"lemma":"voyage","pos":"noun","article":"le","plural":"voyages","ja":"旅行","en":"trip, journey"}
+{"lemma":"voyager","pos":"verb","ja":"旅行する","en":"to travel"}
+{"lemma":"vrai","pos":"adjective","ja":"本当の、真実の","en":"true, real"}
+{"lemma":"vraiment","pos":"adverb","ja":"本当に","en":"really"}
+{"lemma":"vue","pos":"noun","article":"la","plural":"vues","ja":"眺め、視力","en":"view; sight"}
+{"lemma":"vélo","pos":"noun","article":"le","plural":"vélos","ja":"自転車","en":"bicycle"}
+{"lemma":"véritable","pos":"adjective","ja":"本物の、真の","en":"real, genuine"}
+{"lemma":"vérité","pos":"noun","article":"la","plural":"vérités","ja":"真実","en":"truth"}
+{"lemma":"vêtement","pos":"noun","article":"le","plural":"vêtements","ja":"服、衣類","en":"garment, clothes"}
+{"lemma":"week-end","pos":"noun","article":"le","plural":"week-ends","ja":"週末","en":"weekend"}
+{"lemma":"y","pos":"pronoun","ja":"そこに、それに","en":"there; to it"}
+{"lemma":"zone","pos":"noun","article":"la","plural":"zones","ja":"地域、ゾーン","en":"zone, area"}
+{"lemma":"zoé","pos":"noun","article":"la","ja":"ゾエ（女性の名前）","en":"Zoé (female first name)","conf":"low","note":"prénom féminin relevé dans le corpus"}
+{"lemma":"oeil","pos":"noun","article":"le","plural":"yeux","ja":"目","en":"eye","note":"pluriel irrégulier : yeux"}
+{"lemma":"oeuf","pos":"noun","article":"le","plural":"oeufs","ja":"卵","en":"egg"}
+{"lemma":"oeuvre","pos":"noun","article":"la","plural":"oeuvres","ja":"作品","en":"work (of art)"}
+{"lemma":"à","pos":"preposition","ja":"〜に、〜へ","en":"to, at"}
+{"lemma":"âge","pos":"noun","article":"le","plural":"âges","ja":"年齢","en":"age"}
+{"lemma":"âgé","pos":"adjective","ja":"年をとった、高齢の","en":"old, elderly"}
+{"lemma":"âne","pos":"noun","article":"le","plural":"ânes","ja":"ロバ","en":"donkey"}
+{"lemma":"échanger","pos":"verb","ja":"交換する","en":"to exchange"}
+{"lemma":"école","pos":"noun","article":"la","plural":"écoles","ja":"学校","en":"school"}
+{"lemma":"écoute","pos":"noun","article":"la","plural":"écoutes","ja":"聞くこと、聴取","en":"listening"}
+{"lemma":"écouter","pos":"verb","ja":"聞く","en":"to listen"}
+{"lemma":"écran","pos":"noun","article":"le","plural":"écrans","ja":"画面、スクリーン","en":"screen"}
+{"lemma":"écrire","pos":"verb","ja":"書く","en":"to write"}
+{"lemma":"écrivain","pos":"noun","article":"le","plural":"écrivains","ja":"作家","en":"writer"}
+{"lemma":"également","pos":"adverb","ja":"同様に、〜も","en":"also, likewise"}
+{"lemma":"église","pos":"noun","article":"la","plural":"églises","ja":"教会","en":"church"}
+{"lemma":"électricité","pos":"noun","article":"la","ja":"電気","en":"electricity"}
+{"lemma":"élève","pos":"noun","article":"le","plural":"élèves","ja":"生徒","en":"pupil, student","note":"épicène — le/la selon la personne"}
+{"lemma":"émotion","pos":"noun","article":"la","plural":"émotions","ja":"感情、感動","en":"emotion"}
+{"lemma":"énorme","pos":"adjective","ja":"巨大な、ものすごい","en":"enormous, huge"}
+{"lemma":"époque","pos":"noun","article":"la","plural":"époques","ja":"時代、時期","en":"era, period"}
+{"lemma":"épouser","pos":"verb","ja":"結婚する","en":"to marry"}
+{"lemma":"étage","pos":"noun","article":"le","plural":"étages","ja":"階","en":"floor, storey"}
+{"lemma":"éteindre","pos":"verb","ja":"消す、（電気を）切る","en":"to turn off, to switch off"}
+{"lemma":"étoile","pos":"noun","article":"la","plural":"étoiles","ja":"星","en":"star"}
+{"lemma":"étranger","pos":"noun","article":"le","plural":"étrangers","ja":"外国人、外国","en":"foreigner; abroad","meanings":[{"ja":"外国人、外国（à l'étranger = 外国で）","en":"foreigner; abroad"},{"ja":"外国の、見知らぬ","en":"foreign, unknown"}],"note":"nom ; aussi adjectif (étranger)"}
+{"lemma":"étude","pos":"noun","article":"la","plural":"études","ja":"勉強、研究","en":"study"}
+{"lemma":"étudiant","pos":"noun","article":"le","plural":"étudiants","ja":"学生","en":"student","meanings":[{"ja":"学生","en":"student"},{"ja":"学生の","en":"student (adjective)"}],"note":"nom ; aussi adjectif (étudiant)"}
+{"lemma":"étudier","pos":"verb","ja":"勉強する","en":"to study"}
+{"lemma":"été","pos":"noun","article":"le","plural":"étés","ja":"夏","en":"summer"}
+{"lemma":"évidemment","pos":"adverb","ja":"もちろん、明らかに","en":"of course, obviously"}
+{"lemma":"être","pos":"verb","ja":"〜である、いる","en":"to be"}
+{"lemma":"île","pos":"noun","article":"la","plural":"îles","ja":"島","en":"island"}
 {"lemma":"zéro","pos":"numeral","ja":"0、ゼロ","en":"zero"}
 {"lemma":"deux","pos":"numeral","ja":"2","en":"two"}
 {"lemma":"trois","pos":"numeral","ja":"3","en":"three"}

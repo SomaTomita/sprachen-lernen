@@ -1,5 +1,5 @@
 import { readFileSync, writeFileSync } from 'node:fs';
-import { slugId } from './slug.mjs';
+import { slugId, accentSignature } from './slug.mjs';
 
 export function buildEntry(row, level) {
   const id = slugId(row.lemma, level);
@@ -16,12 +16,33 @@ export function buildEntry(row, level) {
   return e;
 }
 export function buildAll(rows, level) {
-  const byId = new Map();
+  // アクセントを落とした slug は**別語同士で衝突する**（ou/où, sur/sûr, marche/marché,
+  // côte/côté, âge/âgé, pâte/pâté, la/là）。以前はここで黙って後勝ち／先勝ちに落として
+  // **7語を無言で失っていた**。衝突した組だけアクセント署名を id に足して区別し、
+  // それでも解決しない場合は例外にする（黙って失わない）。
+  const groups = new Map();
   for (const row of rows) {
-    const e = buildEntry(row, level);
-    if (!byId.has(e.id)) byId.set(e.id, e);
+    const base = slugId(row.lemma, level);
+    if (!groups.has(base)) groups.set(base, []);
+    groups.get(base).push(row);
   }
-  return [...byId.values()];
+  const out = [];
+  const taken = new Set();
+  for (const [base, members] of groups) {
+    for (const row of members) {
+      const sig = members.length > 1 ? accentSignature(row.lemma) : '';
+      const id = sig ? `${base}-${sig}` : base;
+      if (taken.has(id)) {
+        throw new Error(
+          `id collision that the accent signature cannot resolve: "${id}" ` +
+          `(lemmas: ${members.map(m => m.lemma).join(', ')}). ` +
+          `Add an explicit disambiguation rather than dropping a word.`);
+      }
+      taken.add(id);
+      out.push({ ...buildEntry(row, level), id, lemmaAudio: `audio/lemma/${id}.mp3` });
+    }
+  }
+  return out;
 }
 if (import.meta.url === `file://${process.argv[1]}`) {
   const [, , level, src] = process.argv;
