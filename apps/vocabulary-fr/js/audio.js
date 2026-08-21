@@ -80,7 +80,7 @@ export function renderSentence(container, example) {
     container.innerHTML = '';
     const tokens = (example.timing && example.timing.length)
         ? example.timing.map(t => t.w)
-        : example.nl.split(/\s+/);
+        : example.fr.split(/\s+/);
     const spans = [];
     tokens.forEach((w, i) => {
         const s = document.createElement('span');
@@ -99,7 +99,7 @@ export function playKaraoke(level, example, spans, { rate = 1 } = {}) {
     stopCurrent();
     const timing = example.timing;
     if (!example.audio || !timing || !timing.length) {
-        return speakFallback(example.nl);
+        return speakFallback(example.fr);
     }
     const audio = new Audio(`data/${level}/${example.audio}`);
     audio.playbackRate = rate;
@@ -155,7 +155,7 @@ export function speakFallback(text) {
     if (!('speechSynthesis' in window))
         return null;
     const u = new SpeechSynthesisUtterance(text);
-    u.lang = 'nl-NL';
+    u.lang = 'fr-FR';
     u.addEventListener('end', finish);
     u.addEventListener('error', finish);
     speechSynthesis.cancel();

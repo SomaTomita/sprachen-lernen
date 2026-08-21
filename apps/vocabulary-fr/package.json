@@ -1,5 +1,5 @@
 {
-  "name": "vocabulary-nl",
+  "name": "vocabulary-fr",
   "version": "0.1.0",
   "private": true,
   "description": "オフラインのオランダ語 A1/A2 単語学習アプリ（フラッシュカード＋ネイティブ音声＋例文＋進捗）。素の HTML/CSS/JS・ビルド無し。",
