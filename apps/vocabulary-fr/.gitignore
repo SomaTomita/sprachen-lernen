@@ -40,3 +40,7 @@ tools/raw/verify/
 tools/raw/nt2_freq_parsed.json
 tools/raw/nt2_freq_missing.json
 tools/raw/numo_a1a2_new.json
+
+# --- 公式ソースのパース結果（tools/parse_flelex.mjs / parse_lexique.mjs で再生成できる） ---
+tools/raw/flelex_a1.json
+tools/raw/lexique.json
