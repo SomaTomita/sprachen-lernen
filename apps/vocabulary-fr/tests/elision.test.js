@@ -35,3 +35,9 @@ test('js/elision.js stays in sync with tools/elision.mjs', () => {
   for (const [a, l] of [['la','école'],['le','livre'],['le','héros'],['la','maison'],[null,'parler']])
     assert.equal(browserVersion(a, l), displayHeadword(a, l));
 });
+
+test('œ/æ ligatures count as vowels for elision', () => {
+  assert.equal(displayHeadword('le', 'œuf'), "l'œuf");
+  assert.equal(displayHeadword('le', 'œil'), "l'œil");
+  assert.equal(displayHeadword('le', 'œuvre'), "l'œuvre");
+});

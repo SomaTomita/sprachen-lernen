@@ -7,7 +7,7 @@ export const HARD_H = new Set([
   'homard', 'honte', 'hors', 'huit', 'huitième',
 ]);
 
-const VOWELS = /^[aeiouâàäéèêëîïôöûüù]/i;
+const VOWELS = /^[aeiouâàäéèêëîïôöûüùœæ]/i;
 
 /** 冠詞と見出し語から表示形を返す（`la`+`école` → "l'école"）。 */
 export function displayHeadword(article, lemma) {
