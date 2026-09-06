@@ -2,26 +2,19 @@
 #  単語アプリ固有の .gitignore
 #  共通パターン（秘密情報・node_modules・.venv・__pycache__・ログ・OS/エディタ等）は
 #  リポジトリ直下の /.gitignore が全階層に効くので、ここには書かない。
-#  方針: 成果物（words.json・音声mp3）とソース/スクリプトは追跡。
-#        第三者素材・中間生成物のみここで無視する。
+#  方針: アプリの成果物（words.json・音声mp3・index.html/css/js）だけを追跡する。
+#        ビルド用スクリプト・生データ・実装計画（＝「作り方」が分かるもの）は無視する。
 # ─────────────────────────────────────────────
 
-# --- ダウンロードした第三者素材（再取得可・再配布しない） ---
-# Goethe 公式 PDF。取得は tools 内の curl コマンドで再現できる。
-tools/sources/
+# --- ビルドツール・生データ・プロンプト（再構築手順は README/CLAUDE.md に記載） ---
+tools/
 
-# --- ビルド時の中間生成物（再生成可。data/<level>/words.json が正本） ---
-tools/batches/
-tools/batches_a2/
-data/A1/parts/
-data/A2/parts/
+# --- 実装計画・変更ログ ---
+docs/plans/
 
 # ─────────────────────────────────────────────
 # 意図的に「追跡する」もの（無視しない）:
 #   data/A1, data/A2 の words.json と audio/*.mp3・audio/lemma/*.mp3
 #     … アプリの成果物。オフライン再生に必須なのでコミットする（生成は edge-tts でネットワーク必須・高コスト）。
-#   index.html, css/, js/, docs/, tests/, README.md, CLAUDE.md, package.json
-#   tools/*.py, tools/*.mjs, tools/*.cjs, tools/sentence_pipeline.md, tools/a1_seed.json, tools/a2_seed.json
-# 注: tools/.venv（約157MB, edge-tts用）は root の .venv/ で無視済み。
-#     再構築: python3 -m venv tools/.venv && tools/.venv/bin/pip install edge-tts
+#   index.html, css/, js/, tests/, README.md, CLAUDE.md, package.json
 # ─────────────────────────────────────────────

@@ -51,3 +51,7 @@ Desktop.ini
 .idea/
 .vscode/
 *.code-workspace
+
+# --- 「作り方」が分かるもの（実装計画・変更ログ。公開時に外部へ見せない） ---
+# 各アプリの docs/plans/ も同様に無視（apps/<app>/.gitignore 側にも同じパターンあり）。
+/docs/plans/
