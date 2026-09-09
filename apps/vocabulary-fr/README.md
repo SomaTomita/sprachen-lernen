@@ -4,7 +4,7 @@
 
 ## 起動
 
-親フォルダ `study-deutsch/` の `./serve.sh` でまとめて配信 → **http://localhost:8000/apps/vocabulary-fr/**（詳細はルート `README.md`）。
+親フォルダ `sprachen-lernen/` の `./serve.sh` でまとめて配信 → **http://localhost:8000/apps/vocabulary-fr/**（詳細はルート `README.md`）。
 単体だけなら `apps/vocabulary-fr/` 直下で `python3 -m http.server 8000` → **http://localhost:8000/**。
 
 > `file://` で直接開くのは不可（ES Modules / fetch のためサーバ経由が必須）。

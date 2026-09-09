@@ -8,7 +8,7 @@ allowed-tools: Bash(git push *), Bash(git switch *), Bash(git pull *), Bash(git 
 # Ship PR — PR 作成から main マージまで
 
 `/work-issue` の完了条件（todo 全消化・テスト／検証通過）を満たしてから使う。
-リポジトリは `SomaTomita/study-deutsch`。
+リポジトリは `SomaTomita/sprachen-lernen`。
 
 対象 issue 番号: $ARGUMENTS（未指定なら現在のブランチ名・会話から特定する）
 

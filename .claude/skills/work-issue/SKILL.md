@@ -9,7 +9,7 @@ allowed-tools: Bash(gh issue view *), Bash(gh issue edit *), Bash(gh issue comme
 
 issue 番号を受け取ったら、このスキルの手順で実装を進める。
 **issue なしの実装は禁止**。issue がなければ先に `/issue-plan` で作る。
-リポジトリは `SomaTomita/study-deutsch`。
+リポジトリは `SomaTomita/sprachen-lernen`。
 
 対象 issue 番号: $ARGUMENTS（未指定なら会話から特定し、不明ならユーザーに確認する）
 

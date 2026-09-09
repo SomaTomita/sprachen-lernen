@@ -3,7 +3,7 @@
 オフラインのフランス語単語学習アプリ。忘却曲線(Leitner)＋ネイティブ音声(カラオケ)＋進捗トラッキング。素の HTML/CSS/JS、ビルド不要。オランダ語版 `../vocabulary-nl/` の複製で、UX は同等。**独語アプリ (`apps/vocabulary/`) と蘭語アプリ (`apps/vocabulary-nl/`) には触れない。**
 
 ## よく使うコマンド
-- 起動: ルート `study-deutsch/` の `./serve.sh` → `http://localhost:8000/apps/vocabulary-fr/`（単体は `apps/vocabulary-fr/` 直下で `python3 -m http.server 8000`）。`file://` 直開きは不可（ES Modules/fetch のためサーバ必須）。以降のコマンドは `apps/vocabulary-fr/` 直下で実行。
+- 起動: ルート `sprachen-lernen/` の `./serve.sh` → `http://localhost:8000/apps/vocabulary-fr/`（単体は `apps/vocabulary-fr/` 直下で `python3 -m http.server 8000`）。`file://` 直開きは不可（ES Modules/fetch のためサーバ必須）。以降のコマンドは `apps/vocabulary-fr/` 直下で実行。
 - テスト: `node --test`（`srs`・`stats`・`session`・`slug`・`elision`・`build_seed`・`allowlist` の純関数）。
 - データ検証: `node tools/validate_data.mjs A1`（音声生成前は `--no-audio` で audio/timing 必須を緩める）。
 - 語彙スパイラル検証: `tools/.venv/bin/python tools/check_vocab.py A1`（spaCy `fr_core_news_sm`・venv・検証時のみ）。

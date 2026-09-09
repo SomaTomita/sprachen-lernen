@@ -8,7 +8,7 @@ allowed-tools: Bash(gh issue list *), Bash(gh issue view *), Bash(gh label list 
 # Issue Plan — 要望を小さな issue に分割する
 
 機能要望やバグ報告を受け取ったら、**実装を始める前に**このスキルで issue に落とし込む。
-リポジトリは `SomaTomita/study-deutsch`。issue 操作はすべて `gh` CLI で行う。
+リポジトリは `SomaTomita/sprachen-lernen`。issue 操作はすべて `gh` CLI で行う。
 
 分割対象の要望: $ARGUMENTS（未指定なら直前の会話の要望を対象にする）
 

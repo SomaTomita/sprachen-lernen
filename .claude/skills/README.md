@@ -1,6 +1,6 @@
 # .claude/skills — 開発フロー用スキル
 
-study-deutsch の「要望 → issue → 実装 → PR → merge」を回すための 3 スキル。
+sprachen-lernen の「要望 → issue → 実装 → PR → merge」を回すための 3 スキル。
 speaking-reader から移植し、本リポジトリ（依存ゼロ・ビルド無し・`node --test`・mp3 追跡・AI 表記なし）向けに書き換えたもの。
 
 ## 流れ
