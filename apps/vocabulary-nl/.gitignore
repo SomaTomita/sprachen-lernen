@@ -12,6 +12,10 @@ tools/
 # --- 実装計画・変更ログ ---
 docs/plans/
 
+# --- ビルド時の中間生成物（再生成可。data/<level>/words.json が正本） ---
+data/A1/parts/
+data/A2/parts/
+
 # ─────────────────────────────────────────────
 # 意図的に「追跡する」もの（無視しない）:
 #   data/A1, data/A2 の words.json と audio/*.mp3・audio/lemma/*.mp3

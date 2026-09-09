@@ -1,70 +1,81 @@
-# Deutsch — ドイツ語学習アプリ集
+# Sprachen lernen — Sammlung von Sprachlern-Apps
 
-Goethe A1 / A2 向けの学習教材とアプリを 1 つのフォルダにまとめたもの。
-ビルド不要・オフライン動作の素の HTML / CSS / JS。トップに**ホーム（ランチャー）**があり、4 つのメニューを切り替えて使う。
+Eine Sammlung von Offline-Lern-Apps für Deutsch (Goethe A1/A2), Niederländisch (A1) und Französisch (A1) in einem einzigen Ordner. Kein Build, kein Framework, reines HTML/CSS/JS. Eine **Startseite (Launcher)** verlinkt zu allen Modulen.
 
-## 起動
+## Starten
 
-`deutsch/` 直下で:
-
-```
-./serve.sh 8000      # ポート省略時は 8000
-```
-
-ターミナルにリンクが表示される。**ホーム** をブラウザで開けば、そこから全メニューに移動できる:
+Im Hauptverzeichnis:
 
 ```
-  ホーム        →  http://localhost:8000/
-  ├ 基礎ドキュ  →  http://localhost:8000/#/exam-guide
-  ├ スピーキング→  http://localhost:8000/#/speaking          （アプリ化を開発中）
-  ├ 発音アプリ  →  http://localhost:8000/apps/pronunciation/
-  └ 単語アプリ  →  http://localhost:8000/apps/vocabulary/
+./serve.sh 8000      # Port optional, Standard 8000
 ```
 
-`serve.sh` は `deutsch/` 全体を `python3 -m http.server` で配信するラッパー。1 つのサーバで全メニューにアクセスできる。
-
-> `index.html` を `file://` で直接開くのは不可（ES Modules / fetch のためサーバ経由が必須）。
-> `python3 -m http.server 8000` を直接実行しても配信できるが、その場合ターミナルにリンクは出ない。
-
-## メニュー
-
-| メニュー | 種別 | 置き場所 | 内容 |
-|---|---|---|---|
-| **基礎ドキュメント** | 資料 | `content/exam-guide/` | A1 / A2 の試験概要・問題形式・公式模擬問題。ホーム内のリーダーで整形表示。 |
-| **スピーキング** | 資料（開発中） | `apps/speaking/` | A2 口述（Sprechen）の丸暗記＆音読教材。現在はホーム内のリーダーで整形表示。独立アプリ化を準備中。 |
-| **発音** | アプリ | `apps/pronunciation/` | Anna の自己紹介を全文・文・単語単位で音読。ハイライト＋発音ポイント＋カラオケ音声。 |
-| **単語** | アプリ | `apps/vocabulary/` | Goethe A1/A2 単語のフラッシュカード（Leitner）＋ネイティブ音声＋進捗トラッキング。 |
-
-- **資料**（`content/`）は Markdown。ホームの**ドキュメントリーダー**が `#/…` ルートで整形表示する（画面遷移なし・サイドバー目次つき）。
-- **アプリ**（`apps/`）はそれぞれ独立した HTML/CSS/JS アプリで、ホームから別ページへ遷移して開く。詳細は各 `README.md`。
-- **スピーキング**は今は資料（リーダー表示）だが、独立アプリへ作り変える計画のため `apps/` に置き、ホームでは「開発中」と表示している。
-
-## 構成
+Das Terminal zeigt Links zu allen Modulen an. Über die **Startseite** im Browser erreicht man alle Module:
 
 ```
-index.html              ホーム（ランチャー）＋ドキュメントリーダーのシェル
-css/styles.css          BMW デザイントークン＋ホーム/リーダーのレイアウト
-js/                      content（メニュー定義）, router, home, reader, markdown（自前レンダラ）, main
-tests/markdown.test.js   Markdown レンダラの単体テスト（node --test）
-docs/design/             デザインキットの正本（全アプリ共通）
-content/                 ホームのリーダーが表示する資料（Markdown のみ・画面遷移なし）
-  exam-guide/            A1/A2 試験ドキュメント
-apps/                    ホームから別ページへ遷移する独立アプリ
-  pronunciation/         発音アプリ（独立）
-  vocabulary/            単語アプリ（独立）
-  speaking/              A2 口述教材。今は資料（リーダー表示）、アプリ化を準備中
-serve.sh                 まとめて配信するラッパー
-CLAUDE.md                このリポジトリの作業ガイド（簡潔版）
+  Startseite          →  http://localhost:8000/
+  ├ Grundlagen        →  http://localhost:8000/#/exam-guide      (Prüfungsüberblick, Aufgabentypen)
+  ├ Grammatik         →  http://localhost:8000/#/grammar         (Grammatik-Erklärungen 01–07)
+  ├ Sprechen          →  http://localhost:8000/#/speaking        (Material, App in Arbeit)
+  ├ Aussprache        →  http://localhost:8000/apps/pronunciation/
+  ├ Wortschatz (DE)   →  http://localhost:8000/apps/vocabulary/
+  ├ Wortschatz (NL)   →  http://localhost:8000/apps/vocabulary-nl/
+  ├ Wortschatz (FR)   →  http://localhost:8000/apps/vocabulary-fr/
+  └ Grammatikübungen  →  http://localhost:8000/apps/grammar-exercises/
 ```
 
-## デザイン
+`serve.sh` startet `python3 -m http.server` für den gesamten Ordner — ein Server für alle Module.
 
-全メニューは BMW corporate-automotive デザインキットで統一。正本は **[`docs/design/bmw-corporate-automotive.md`](docs/design/bmw-corporate-automotive.md)**（白 canvas / BMW blue `#1c69d4` / 0px 矩形 / Inter 700・300 / ドロップシャドウ禁止）。各アプリの `css/styles.css` はこのトークンを共有する。
+> `index.html` direkt per `file://` zu öffnen funktioniert nicht (ES Modules / fetch benötigen einen Server).
+> `python3 -m http.server 8000` funktioniert auch direkt, zeigt dann aber keine Links im Terminal an.
 
-## テスト
+## Module
+
+| Modul | Typ | Ort | Sprache/Niveau | Inhalt |
+|---|---|---|---|---|
+| **Grundlagen** | Material | `content/exam-guide/` | Deutsch (Goethe A1/A2) | Prüfungsüberblick, Aufgabentypen, offizielle Übungsprüfungen mit Lösungen. |
+| **Grammatik** | Material | `content/grammar/` | Deutsch | Grammatik von Grund auf: Personalpronomen, Verbkonjugation, Genus, Plural, Kasus, Artikel. |
+| **Sprechen** | Material (in Arbeit) | `apps/speaking/` | Deutsch (A2) | Redemittel und Sprechtraining für den mündlichen Teil (Sprechen). Eigenständige App in Planung. |
+| **Aussprache** | App | `apps/pronunciation/` | Deutsch | Annas Selbstvorstellung — Satz- und Wortebene mit Audio und Ausspracheschwerpunkten. |
+| **Wortschatz (DE)** | App | `apps/vocabulary/` | Deutsch (A1/A2) | Karteikarten (Leitner-System) mit muttersprachlichem Audio und Fortschrittsverfolgung. |
+| **Wortschatz (NL)** | App | `apps/vocabulary-nl/` | Niederländisch (A1) | Karteikarten, Audio, Beispielsätze nach dem Spiralprinzip, Fortschrittsverfolgung. |
+| **Wortschatz (FR)** | App | `apps/vocabulary-fr/` | Französisch (A1) | Karteikarten, Audio, Beispielsätze nach dem Spiralprinzip, Fortschrittsverfolgung. |
+| **Grammatikübungen** | App | `apps/grammar-exercises/` | Deutsch | Übungen zu den Grammatik-Lektionen 01–07 mit sofortiger Auswertung. |
+
+- **Material** (`content/`) sind reine Markdown-Dateien, die der eingebaute **Reader** der Startseite unter `#/…` anzeigt (kein Seitenwechsel, mit Inhaltsverzeichnis).
+- **Apps** (`apps/`) sind jeweils eigenständige HTML/CSS/JS-Anwendungen, die von der Startseite aus als eigene Seite geöffnet werden. Details stehen in der jeweiligen `README.md`.
+- **Sprechen** ist aktuell nur Material (Reader-Ansicht), soll aber zu einer eigenen App werden — deshalb schon unter `apps/` abgelegt, mit „in Arbeit“-Badge auf der Startseite.
+
+## Struktur
 
 ```
-node --test tests/*.test.js   # ホームの Markdown レンダラ（リポジトリ直下）
+index.html              Startseite (Launcher) + Shell des Dokumenten-Readers
+css/styles.css          BMW-Design-Tokens + Layout von Startseite/Reader
+js/                      content (Modul-Definitionen), router, home, reader, markdown (eigener Renderer), main
+tests/markdown.test.js   Unit-Tests für den Markdown-Renderer (node --test)
+docs/design/             Design-Vorgabe (gilt für alle Apps)
+content/                 Material, das der Reader der Startseite anzeigt (nur Markdown, kein Seitenwechsel)
+  exam-guide/            Prüfungsunterlagen A1/A2 (Deutsch)
+  grammar/               Grammatik-Lektionen 01–07 (Deutsch)
+apps/                    Eigenständige Apps, von der Startseite aus verlinkt
+  pronunciation/         Aussprache-App (Deutsch)
+  vocabulary/            Wortschatz-App (Deutsch, A1/A2)
+  vocabulary-nl/         Wortschatz-App (Niederländisch, A1)
+  vocabulary-fr/         Wortschatz-App (Französisch, A1)
+  grammar-exercises/     Grammatikübungen (Deutsch)
+  speaking/              Sprechen-Material, App in Planung
+serve.sh                 Wrapper, der alle Module zusammen ausliefert
+CLAUDE.md                Kurzleitfaden für die Arbeit in diesem Repository
 ```
 
-各アプリのテストはそれぞれのフォルダ直下で `node --test`。
+## Design
+
+Alle Module folgen einheitlich dem BMW-corporate-automotive-Designkit. Referenz: **[`docs/design/bmw-corporate-automotive.md`](docs/design/bmw-corporate-automotive.md)** (weißer Canvas / BMW-Blau `#1c69d4` / rechteckige Formen ohne Rundung / Inter 700 & 300 / keine Drop-Shadows). Jede App teilt sich diese Tokens über ihr eigenes `css/styles.css`.
+
+## Tests
+
+```
+node --test tests/*.test.js   # Markdown-Renderer der Startseite (Repo-Wurzel)
+```
+
+Die Tests der einzelnen Apps laufen jeweils mit `node --test` im entsprechenden App-Ordner.
